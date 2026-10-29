@@ -18,8 +18,9 @@
   <meta name="twitter:description" content="{{ desc | strip | escape }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
   <style>
-    :root { --bar: #222; --bar-light: #aaa; }
-    @media (prefers-color-scheme: dark) { :root { --bar: #e6e6e6; --bar-light: #6b6b6b; } }
+    /* Paleta wykresów: kolory c1–c8 używaj po kolei (c1, c2, c3…), nie losowo. */
+    :root { --c1: #2a78d6; --c2: #eb6834; --c3: #1baf7a; --c4: #eda100; --c5: #e87ba4; --c6: #008300; --c7: #6250d6; --c8: #e34948; }
+    @media (prefers-color-scheme: dark) { :root { --c1: #3987e5; --c2: #d95926; --c3: #199e70; --c4: #c98500; --c5: #d55181; --c6: #008300; --c7: #9085e9; --c8: #e66767; } }
     body { max-width: 40rem; margin: 0 auto; padding: 1.5rem 1rem; font: 18px/1.6 Georgia, serif; color: #222; background: #fff; }
     @media (prefers-color-scheme: dark) { body { color: #ddd; background: #161616; } a { color: #8ab4f8; } }
     header, footer { font-family: system-ui, sans-serif; font-size: 0.9rem; }
@@ -39,10 +40,18 @@
     .chart .legend { margin: 0 0 0.5rem; color: #777; }
     .chart .row { display: grid; grid-template-columns: 7.5rem 1fr; gap: 0.5rem; align-items: center; margin: 2px 0; }
     .chart .track { display: flex; align-items: center; gap: 0.4rem; white-space: nowrap; }
-    .bar { display: inline-block; height: 0.9rem; min-width: 2px; background: var(--bar); }
+    .bar { display: inline-block; height: 0.9rem; min-width: 2px; background: var(--c1); border-radius: 0 4px 4px 0; }
     .legend .bar { width: 0.8rem; height: 0.8rem; vertical-align: -0.1rem; margin-right: 0.2rem; }
     .legend .item { white-space: nowrap; margin-right: 0.8rem; }
-    .bar.light { background: var(--bar-light); }
+    .legend .bar { border-radius: 2px; }
+    .bar.c1 { background: var(--c1); }
+    .bar.c2 { background: var(--c2); }
+    .bar.c3 { background: var(--c3); }
+    .bar.c4 { background: var(--c4); }
+    .bar.c5 { background: var(--c5); }
+    .bar.c6 { background: var(--c6); }
+    .bar.c7 { background: var(--c7); }
+    .bar.c8 { background: var(--c8); }
     .share { font-family: system-ui, sans-serif; font-size: 0.85rem; color: #777; margin-top: -0.5rem; }
     .source { color: #777; font-family: system-ui, sans-serif; font-size: 0.8rem; }
   </style>
