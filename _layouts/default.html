@@ -4,7 +4,18 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.title }}</title>
-  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | strip_newlines | truncate: 160 }}">
+  {% capture desc %}{{ page.description | default: page.excerpt | default: site.description | strip_html | strip_newlines | truncate: 200 }}{% endcapture %}
+  <meta name="description" content="{{ desc | strip | escape }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <meta property="og:site_name" content="{{ site.title | escape }}">
+  <meta property="og:locale" content="pl_PL">
+  <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+  <meta property="og:title" content="{{ page.title | default: site.title | escape }}">
+  <meta property="og:description" content="{{ desc | strip | escape }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ page.title | default: site.title | escape }}">
+  <meta name="twitter:description" content="{{ desc | strip | escape }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
   <style>
     :root { --bar: #222; --bar-light: #aaa; }
@@ -32,6 +43,7 @@
     .legend .bar { width: 0.8rem; height: 0.8rem; vertical-align: -0.1rem; margin-right: 0.2rem; }
     .legend .item { white-space: nowrap; margin-right: 0.8rem; }
     .bar.light { background: var(--bar-light); }
+    .share { font-family: system-ui, sans-serif; font-size: 0.85rem; color: #777; margin-top: -0.5rem; }
     .source { color: #777; font-family: system-ui, sans-serif; font-size: 0.8rem; }
   </style>
 </head>

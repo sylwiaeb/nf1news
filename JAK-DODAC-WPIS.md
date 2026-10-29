@@ -9,6 +9,8 @@
    ---
    ```
 
+   Opcjonalnie możesz dodać pod `title` linię `description: "Krótki opis"`. Będzie widoczny w podglądzie linku na Facebooku i X. Bez niej użyty zostanie pierwszy akapit wpisu.
+
 3. Pod nagłówkiem napisz treść. Pusta linia oddziela akapity. Link: `[tekst](https://adres)`. Pogrubienie: `**tekst**`.
 4. Opublikuj:
 
