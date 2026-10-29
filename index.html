@@ -1,0 +1,11 @@
+---
+layout: default
+---
+{% for post in site.posts limit: 10 %}
+<article>
+  <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+  <p class="date">{{ post.date | date: "%d.%m.%Y" }}</p>
+  {{ post.content }}
+</article>
+{% endfor %}
+{% if site.posts.size > 10 %}<p><a href="{{ '/wpisy/' | relative_url }}">Starsze wpisy →</a></p>{% endif %}

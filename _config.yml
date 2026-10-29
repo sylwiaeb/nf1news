@@ -1,0 +1,14 @@
+title: NF1 News
+description: Wiadomości o sprawie NF1 – organizacja pozarządowa i Ministerstwo Zdrowia
+lang: pl
+# Po podłączeniu domeny: url: "https://nf1news.pl"
+url: ""
+baseurl: ""
+permalink: /:year/:month/:day/:title/
+plugins:
+  - jekyll-feed
+feed:
+  path: feed.xml
+exclude:
+  - JAK-DODAC-WPIS.md
+  - Gemfile

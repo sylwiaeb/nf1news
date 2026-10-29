@@ -1,0 +1,11 @@
+---
+layout: default
+title: Wszystkie wpisy
+permalink: /wpisy/
+---
+<h1>Wszystkie wpisy</h1>
+<ul class="list">
+{% for post in site.posts %}
+  <li><span class="date">{{ post.date | date: "%d.%m.%Y" }}</span> – <a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
