@@ -12,3 +12,9 @@ feed:
 exclude:
   - JAK-DODAC-WPIS.md
   - Gemfile
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post

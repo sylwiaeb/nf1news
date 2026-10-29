@@ -19,6 +19,17 @@
     ul.list { list-style: none; padding: 0; }
     ul.list li { margin-bottom: 0.5rem; }
     footer { margin-top: 3rem; color: #777; }
+    table { display: block; overflow-x: auto; border-collapse: collapse; margin: 1rem 0; font-family: system-ui, sans-serif; font-size: 0.85rem; }
+    th, td { border-bottom: 1px solid #ccc; padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
+    th { border-bottom-width: 2px; }
+    .chart { margin: 1rem 0 1.5rem; font-family: system-ui, sans-serif; font-size: 0.8rem; }
+    .chart .legend { margin: 0 0 0.5rem; color: #777; }
+    .chart .row { display: grid; grid-template-columns: 7.5rem 1fr; gap: 0.5rem; align-items: center; margin: 2px 0; }
+    .chart .track { display: flex; align-items: center; gap: 0.4rem; white-space: nowrap; }
+    .bar { display: inline-block; height: 0.9rem; min-width: 2px; background: currentColor; }
+    .legend .bar { width: 0.9rem; vertical-align: middle; }
+    .bar.light { opacity: 0.35; }
+    .source { color: #777; font-family: system-ui, sans-serif; font-size: 0.8rem; }
   </style>
 </head>
 <body>
