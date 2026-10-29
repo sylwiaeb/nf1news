@@ -1,6 +1,7 @@
 title: NF1 News
 description: Niezależny serwis informacyjny o NF1 w Polsce
 lang: pl
+timezone: Europe/Warsaw
 author: NF1 News
 # Własna domena: nf1news.pl (plik CNAME)
 url: "https://nf1news.pl"
