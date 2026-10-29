@@ -35,13 +35,13 @@ Agencja przeanalizowała dorosłych uczestników programu w jednakowych przedzia
 | Opieka psychiatryczna i leczenie uzależnień / CZP | 815 świadczeń | 731 świadczeń | **−10%** |
 
 <div class="chart">
-  <p class="legend"><span class="bar light"></span> przed programem &nbsp; <span class="bar"></span> po wdrożeniu (po 730 dni)</p>
-  <div class="row"><span>AOS</span><span class="track"><span class="bar light" style="width:85%"></span>4 017</span></div>
-  <div class="row"><span></span><span class="track"><span class="bar" style="width:53.2%"></span>2 512</span></div>
-  <div class="row"><span>AOS-ASDK</span><span class="track"><span class="bar light" style="width:13.8%"></span>653</span></div>
-  <div class="row"><span></span><span class="track"><span class="bar" style="width:11.6%"></span>550</span></div>
-  <div class="row"><span>CZP</span><span class="track"><span class="bar light" style="width:17.2%"></span>815</span></div>
-  <div class="row"><span></span><span class="track"><span class="bar" style="width:15.5%"></span>731</span></div>
+  <p class="legend"><span class="item"><span class="bar light"></span>przed programem</span> <span class="item"><span class="bar"></span>po wdrożeniu (po 730 dni)</span></p>
+  <div class="row"><span>AOS</span><span class="track"><span class="bar light" style="width:70.0%"></span>4 017</span></div>
+  <div class="row"><span></span><span class="track"><span class="bar" style="width:43.8%"></span>2 512</span></div>
+  <div class="row"><span>AOS-ASDK</span><span class="track"><span class="bar light" style="width:11.4%"></span>653</span></div>
+  <div class="row"><span></span><span class="track"><span class="bar" style="width:9.6%"></span>550</span></div>
+  <div class="row"><span>CZP</span><span class="track"><span class="bar light" style="width:14.2%"></span>815</span></div>
+  <div class="row"><span></span><span class="track"><span class="bar" style="width:12.8%"></span>731</span></div>
 </div>
 
 <p class="source">Źródło: opracowanie własne na podstawie danych sprawozdawczo-rozliczeniowych NFZ zawartych w raporcie AOTMiT.</p>
@@ -58,8 +58,8 @@ Znaczenie koordynatora potwierdza przywołane przez AOTMiT badanie z Wielkiej Br
 
 <div class="chart">
   <p class="legend">Odsetek zadowolonych z opieki</p>
-  <div class="row"><span>z koordynatorem</span><span class="track"><span class="bar" style="width:60.4%"></span>71%</span></div>
-  <div class="row"><span>bez koordynatora</span><span class="track"><span class="bar light" style="width:21.3%"></span>25%</span></div>
+  <div class="row"><span>z koordynatorem</span><span class="track"><span class="bar" style="width:49.7%"></span>71%</span></div>
+  <div class="row"><span>bez koordynatora</span><span class="track"><span class="bar light" style="width:17.5%"></span>25%</span></div>
 </div>
 
 ## 4. Pełne poparcie ekspertów i konsultantów krajowych
@@ -100,13 +100,13 @@ Uwzględnia pełną szacowaną populację chorych na neurofibromatozy w Polsce, 
 Przy niewielkiej liczbie pacjentów stały koszt ryczałtów koordynacyjnych powoduje niewielki wzrost wydatków: ok. 328 tys. zł w 2027 r. i 156 tys. zł w 2028 r. W 2029 r. pojawia się już oszczędność.
 
 <div class="chart">
-  <p class="legend">Oszczędności NFZ: <span class="bar light"></span> wariant podstawowy &nbsp; <span class="bar"></span> wariant maksymalny</p>
-  <div class="row"><span>2027</span><span class="track"><span class="bar light" style="width:10.5%"></span>0,58 mln zł</span></div>
-  <div class="row"><span></span><span class="track"><span class="bar" style="width:40.3%"></span>2,24 mln zł</span></div>
-  <div class="row"><span>2028</span><span class="track"><span class="bar light" style="width:21.5%"></span>1,19 mln zł</span></div>
-  <div class="row"><span></span><span class="track"><span class="bar" style="width:62.8%"></span>3,48 mln zł</span></div>
-  <div class="row"><span>2029</span><span class="track"><span class="bar light" style="width:33.5%"></span>1,86 mln zł</span></div>
-  <div class="row"><span></span><span class="track"><span class="bar" style="width:85%"></span>4,72 mln zł</span></div>
+  <p class="legend">Oszczędności NFZ<br><span class="item"><span class="bar light"></span>wariant podstawowy</span> <span class="item"><span class="bar"></span>wariant maksymalny</span></p>
+  <div class="row"><span>2027</span><span class="track"><span class="bar light" style="width:8.6%"></span>0,58 mln zł</span></div>
+  <div class="row"><span></span><span class="track"><span class="bar" style="width:33.2%"></span>2,24 mln zł</span></div>
+  <div class="row"><span>2028</span><span class="track"><span class="bar light" style="width:17.7%"></span>1,19 mln zł</span></div>
+  <div class="row"><span></span><span class="track"><span class="bar" style="width:51.7%"></span>3,48 mln zł</span></div>
+  <div class="row"><span>2029</span><span class="track"><span class="bar light" style="width:27.6%"></span>1,86 mln zł</span></div>
+  <div class="row"><span></span><span class="track"><span class="bar" style="width:70.0%"></span>4,72 mln zł</span></div>
 </div>
 
 Oszczędności wynikają z tego, że koszt ryczałtu koordynacyjnego z nawiązką rekompensuje mniejsza liczba dublowanych porad AOS i powielanych badań diagnostycznych.

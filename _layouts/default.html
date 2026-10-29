@@ -7,6 +7,8 @@
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | strip_newlines | truncate: 160 }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
   <style>
+    :root { --bar: #222; --bar-light: #aaa; }
+    @media (prefers-color-scheme: dark) { :root { --bar: #e6e6e6; --bar-light: #6b6b6b; } }
     body { max-width: 40rem; margin: 0 auto; padding: 1.5rem 1rem; font: 18px/1.6 Georgia, serif; color: #222; background: #fff; }
     @media (prefers-color-scheme: dark) { body { color: #ddd; background: #161616; } a { color: #8ab4f8; } }
     header, footer { font-family: system-ui, sans-serif; font-size: 0.9rem; }
@@ -26,9 +28,10 @@
     .chart .legend { margin: 0 0 0.5rem; color: #777; }
     .chart .row { display: grid; grid-template-columns: 7.5rem 1fr; gap: 0.5rem; align-items: center; margin: 2px 0; }
     .chart .track { display: flex; align-items: center; gap: 0.4rem; white-space: nowrap; }
-    .bar { display: inline-block; height: 0.9rem; min-width: 2px; background: currentColor; }
-    .legend .bar { width: 0.9rem; vertical-align: middle; }
-    .bar.light { opacity: 0.35; }
+    .bar { display: inline-block; height: 0.9rem; min-width: 2px; background: var(--bar); }
+    .legend .bar { width: 0.8rem; height: 0.8rem; vertical-align: -0.1rem; margin-right: 0.2rem; }
+    .legend .item { white-space: nowrap; margin-right: 0.8rem; }
+    .bar.light { background: var(--bar-light); }
     .source { color: #777; font-family: system-ui, sans-serif; font-size: 0.8rem; }
   </style>
 </head>
