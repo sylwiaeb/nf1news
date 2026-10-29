@@ -1,9 +1,9 @@
 title: NF1 News
 description: Wiadomości o sprawie NF1 – organizacja pozarządowa i Ministerstwo Zdrowia
 lang: pl
-# Po podłączeniu własnej domeny: url: "https://nf1news.pl" i baseurl: ""
-url: "https://sylwiaeb.github.io"
-baseurl: "/nf1news"
+# Własna domena: nf1news.pl (plik CNAME)
+url: "https://nf1news.pl"
+baseurl: ""
 permalink: /:year/:month/:day/:title/
 plugins:
   - jekyll-feed
