@@ -37,3 +37,14 @@ Wklej do wpisu taki fragment i zmień etykiety, liczby i szerokości:
 - **Kolory:** `c1` niebieski, `c2` pomarańczowy, `c3` morski, `c4` żółty, `c5` różowy, `c6` zielony, `c7` fioletowy, `c8` czerwony. Używaj ich po kolei: pierwsza seria `c1`, druga `c2` itd. Ta sama rzecz powinna mieć ten sam kolor w każdym wykresie. Kolory same dopasowują się do jasnego i ciemnego trybu i są czytelne dla osób z zaburzeniami widzenia barw.
 - **Szerokość:** największa wartość dostaje `width:70%`, a reszta proporcjonalnie (wartość ÷ największa × 70).
 - **Wartości:** zawsze wpisuj liczbę obok słupka, a dane pokaż też w tabeli. Wtedy wykres da się odczytać bez rozróżniania kolorów.
+
+## Anonimowość przy publikowaniu
+
+Zanim pierwszy raz zrobisz `git commit` na swoim komputerze, ustaw w folderze bloga neutralny podpis:
+
+```
+git config user.name "NF1 News"
+git config user.email "TWOJ-NUMER+LOGIN@users.noreply.github.com"
+```
+
+Adres `…@users.noreply.github.com` znajdziesz na GitHubie w **Settings → Emails**, pod opcją „Keep my email address private”.
