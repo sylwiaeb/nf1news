@@ -71,7 +71,7 @@ Wynik był jednoznaczny: **100% opiniujących klinicystów** opowiedziało się 
 Eksperci wskazali następujące kluczowe argumenty:
 
 - **Precyzyjne rozpoznanie i zapobieganie błędom.** U dzieci i młodzieży prawidłowe różnicowanie poszczególnych typów rasopatii i neurofibromatoz zapobiega błędnemu szacowaniu ryzyka. Pozwala uniknąć zarówno „przediagnozowania”, jak i niedocenienia objawów.
-- **Profilaktyka onkologiczna u dorosłych.** U dorosłych z NF1 ryzyko nowotworów złośliwych, takich jak mięsaki MPNST, rak piersi u młodych kobiet, guzy GIST czy guzy chromochłonne, jest wielokrotnie wyższe niż w populacji ogólnej. Tylko systematyczny nadzór w wyspecjalizowanym ośrodku pozwala wykryć zmiany na etapie umożliwiającym skuteczne leczenie operacyjne.
+- **Profilaktyka onkologiczna u dorosłych.** U dorosłych z NF1 ryzyko nowotworów złośliwych, takich jak mięsaki MPNST, rak piersi u młodych kobiet, guzy GIST czy guzy chromochłonne, jest wielokrotnie wyższe niż w populacji ogólnej. Tylko systematyczny nadzór w wyspecjalizowanym ośrodku pozwala wykryć zmiany na etapie umożliwiającym dalsze skuteczne leczenie.
 - **Bezpieczna tranzycja.** Dedykowane świadczenia dla dorosłych zamykają tzw. lukę systemową: pacjent kończący 18 lat wypadał z dotychczasowego nadzoru pediatrycznego i zostawał bez opieki.
 - **Koordynacji nie da się zastąpić.** Eksperci wprost zaznaczyli, że pojedyncze skierowania do AOS bez finansowanego ryczałtu koordynacyjnego nie są rozwiązaniem równoważnym i prowadzą do przerwania ciągłości leczenia.
 
