@@ -13,9 +13,16 @@
   <meta property="og:title" content="{{ page.title | default: site.title | escape }}">
   <meta property="og:description" content="{{ desc | strip | escape }}">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
-  <meta name="twitter:card" content="summary">
+  <meta property="og:image" content="{{ page.image | default: '/assets/og-image.png' | absolute_url }}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="NF1 News – niezależny serwis informacyjny o NF1 w Polsce">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="{{ page.image | default: '/assets/og-image.png' | absolute_url }}">
   <meta name="twitter:title" content="{{ page.title | default: site.title | escape }}">
   <meta name="twitter:description" content="{{ desc | strip | escape }}">
+  <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="{{ '/assets/apple-touch-icon.png' | relative_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
   <style>
     /* Paleta wykresów: kolory c1–c8 używaj po kolei (c1, c2, c3…), nie losowo. */
@@ -25,7 +32,8 @@
     @media (prefers-color-scheme: dark) { body { color: #ddd; background: #161616; } a { color: #8ab4f8; } }
     header, footer { font-family: system-ui, sans-serif; font-size: 0.9rem; }
     header { margin-bottom: 2rem; }
-    header a.title { font-weight: bold; font-size: 1.2rem; text-decoration: none; color: inherit; }
+    header a.title { display: inline-flex; align-items: flex-end; gap: 0.45rem; font-weight: 700; font-size: 1.25rem; line-height: 1; text-decoration: none; color: inherit; vertical-align: -0.15rem; }
+    header a.title svg { display: block; }
     nav a { margin-left: 1rem; }
     .date { color: #777; font-family: system-ui, sans-serif; font-size: 0.85rem; }
     article { margin-bottom: 2.5rem; }
@@ -58,7 +66,7 @@
 </head>
 <body>
   <header>
-    <a class="title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <a class="title" href="{{ '/' | relative_url }}"><svg width="20" height="21" viewBox="0 0 35 37" aria-hidden="true"><rect x="0" y="16" width="9" height="21" rx="2" fill="var(--c2)"/><rect x="13" y="8" width="9" height="29" rx="2" fill="var(--c1)"/><rect x="26" y="0" width="9" height="37" rx="2" fill="currentColor"/></svg>{{ site.title }}</a>
     <nav style="display:inline"><a href="{{ '/wpisy/' | relative_url }}">Wszystkie wpisy</a><a href="{{ '/o-serwisie/' | relative_url }}">O serwisie</a><a href="{{ '/feed.xml' | relative_url }}">RSS</a></nav>
   </header>
   <main>

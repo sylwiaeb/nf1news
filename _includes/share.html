@@ -1,3 +1,5 @@
 {% assign share_url = include.post.url | absolute_url | url_encode %}
-{% assign share_text = include.post.title | url_encode %}
+{% capture teaser %}{{ include.post.description | default: include.post.excerpt | strip_html | strip_newlines | strip }}{% endcapture %}
+{% capture share_line %}{{ include.post.title }} – {{ teaser }}{% endcapture %}
+{% assign share_text = share_line | truncatewords: 30, "…" | url_encode %}
 <p class="share">Udostępnij: <a href="https://twitter.com/intent/tweet?url={{ share_url }}&amp;text={{ share_text }}" target="_blank" rel="noopener">na X</a> · <a href="https://www.facebook.com/sharer/sharer.php?u={{ share_url }}" target="_blank" rel="noopener">na Facebooku</a></p>
