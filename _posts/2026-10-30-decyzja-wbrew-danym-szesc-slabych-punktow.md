@@ -1,4 +1,5 @@
 ---
+date: 2026-10-30 14:55:00 +0100
 title: "Decyzja wbrew danym. Sześć słabych punktów zakończenia prac nad opieką koordynowaną w NF"
 description: "Ministerstwo Zdrowia zakończyło prace nad opieką koordynowaną dla pacjentów z NF, choć dane AOTMiT pokazują oszczędności, poparcie ekspertów i lepszą opiekę. Sześć punktów, które się nie bronią."
 ---
