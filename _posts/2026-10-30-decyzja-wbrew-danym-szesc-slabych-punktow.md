@@ -44,13 +44,13 @@ W piśmie z 23 października nie ma ani słowa o tym, co stało się z tą prac�
 
 W maju Ministerstwo prosiło NFZ o jak najszybsze przekazanie raportu z ewaluacji pilotażu. W październiku decyzja zapada bez żadnego odniesienia do tego raportu. **Nie wiadomo, czy Ministerstwo go otrzymało, ani co w nim jest.** Rezygnacja ze świadczenia bez pokazania ewaluacji pilotażu to decyzja podjęta po omacku.
 
-## 6. Głos ekspertów od NF przegrał z zarzutem, którego nie dało się spełnić
+## 6. Eksperci od NF byli za, Rada przeciw
 
 W ramach oceny AOTMiT zwróciła się o pisemne opinie do ekspertów medycznych, w tym do konsultant krajowej w dziedzinie genetyki klinicznej prof. Anny Latos-Bieleńskiej i konsultant krajowej w dziedzinie neurologii dziecięcej prof. Justyny Paprockiej. **100% opiniujących klinicystów opowiedziało się za włączeniem opieki koordynowanej do koszyka świadczeń gwarantowanych.**
 
-Rada Przejrzystości, w której nie zasiadają specjaliści od neurofibromatoz ani chorób rzadkich, jednogłośnie zaopiniowała świadczenie negatywnie. Jak wynika z protokołu posiedzenia, głównym argumentem był brak grupy kontrolnej.
+Rada Przejrzystości, w której nie zasiadają specjaliści od neurofibromatoz ani chorób rzadkich, jednogłośnie zaopiniowała świadczenie negatywnie. Jako główne ograniczenie danych z pilotażu wskazała brak grupy kontrolnej. Powołała się też na ryzyko dublowania finansowania z Ośrodkami Eksperckimi Chorób Rzadkich, choć sama zaznaczyła, że status OECR nie potwierdza doświadczenia w opiece nad pacjentami z NF.
 
-W chorobie rzadkiej trudno o grupę kontrolną: nie da się celowo zostawić części chorych bez opieki tylko po to, żeby mieć porównanie. Dlatego pilotaż porównał tych samych pacjentów przed i po włączeniu do programu, i to porównanie wypadło jednoznacznie korzystnie. Odrzucenie programu za brak badania, którego w tej grupie chorych praktycznie nie da się przeprowadzić, to wymóg nie do spełnienia.
+W chorobie rzadkiej trudno o grupę kontrolną: nie da się celowo zostawić części chorych bez opieki tylko po to, żeby mieć porównanie. Dlatego pilotaż porównał tych samych pacjentów przed i po włączeniu do programu, i to porównanie wypadło jednoznacznie korzystnie. Oczekiwanie grupy kontrolnej od programu dla chorych rzadkich to wymóg, którego w praktyce nie da się spełnić.
 
 Rekomendacja Prezesa AOTMiT ma przy tym charakter opiniodawczy, a ostateczna decyzja należy do Ministra Zdrowia. Minister mógł zdecydować inaczej. Wybrał zakończenie prac.
 
@@ -70,3 +70,5 @@ Najbardziej tracą dorośli. Po 18. roku życia pacjent wypada z opieki pediatry
 - [Pisma Ministerstwa Zdrowia z 12 maja i 23 października 2026 r. na stronie Stowarzyszenia Neurofibromatozy Polska](https://neurofibromatozy.pl/pacjent/ckom/)
 - [Protokół z posiedzenia Rady Przejrzystości AOTMiT nr 41/2026 ze stanowiskiem nr 145/2026](https://bip.aotm.gov.pl/assets/files/rada/protokoly/2026_RP/261005%20Protok%C3%B3%C5%82%20Rady%20BIP.pdf)
 - Raport AOTMiT nr DRiSSOZ.4100.3.2026
+
+<p class="source">Aktualizacja 31.10.2026: doprecyzowano opis stanowiska Rady Przejrzystości w punkcie 6.</p>
