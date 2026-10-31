@@ -40,6 +40,8 @@ Wniosek o udostępnienie informacji publicznej w sprawie dalszej opieki nad pacj
 **Jak wysłać wnioski do Ministerstwa Zdrowia:**
 
 - e-mailem na adres `kancelaria@mz.gov.pl` (treść wniosku wklej do wiadomości albo dołącz plik),
+- przez ePUAP, na skrytkę `/8tk37sxx6h/SkrytkaESP`,
+- przez e-Doręczenia, na adres `AE:PL-11185-96749-VHSCS-20`,
 - albo pocztą: Ministerstwo Zdrowia, ul. Miodowa 15, 00-952 Warszawa.
 
 Te same zasady co przy NFZ: podpis ani imię i nazwisko nie są wymagane, odpowiedź powinna przyjść w ciągu 14 dni (najwyżej 2 miesięcy), a odmowa wymaga decyzji, od której można się odwołać.
