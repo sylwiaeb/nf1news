@@ -1,0 +1,31 @@
+Do: Narodowy Fundusz Zdrowia – Centrala
+ul. Rakowiecka 26/30, 02-528 Warszawa
+
+Temat e-maila: Wniosek o udostępnienie informacji publicznej – program pilotażowy NF/RAS
+
+WNIOSEK O UDOSTĘPNIENIE INFORMACJI PUBLICZNEJ
+
+Na podstawie art. 2 ust. 1 oraz art. 10 ust. 1 ustawy z dnia 6 września 2001 r. o dostępie do informacji publicznej wnoszę o udostępnienie następujących informacji dotyczących programu pilotażowego w zakresie koordynowanej opieki medycznej nad chorymi z neurofibromatozami oraz pokrewnymi im rasopatiami, realizowanego na podstawie rozporządzenia Ministra Zdrowia z 2020 r. (z późniejszymi zmianami), w całym okresie jego realizacji (od 1 października 2020 r. do 30 kwietnia 2026 r.):
+
+1. Liczby unikatowych pacjentów (według numeru PESEL) objętych programem, w podziale na każdy ośrodek koordynujący (nazwa świadczeniodawcy), za każdy rok kalendarzowy oraz łącznie za cały okres programu.
+
+2. Liczby unikatowych pacjentów objętych programem w podziale na województwo zamieszkania pacjenta, za każdy rok kalendarzowy oraz łącznie.
+
+3. Liczby unikatowych pacjentów objętych programem w podziale na grupy wieku (0–17 lat, 18–30 lat, powyżej 30 lat), łącznie i w podziale na ośrodki.
+
+4. Wartości świadczeń rozliczonych w ramach programu (z wyodrębnieniem ryczałtu za koordynację), w podziale na każdy ośrodek koordynujący i każdy rok kalendarzowy.
+
+5. Liczby pacjentów, którzy w dniu zakończenia programu (30 kwietnia 2026 r.) pozostawali pod opieką poszczególnych ośrodków koordynujących.
+
+6. Kopii raportów z realizacji i ewaluacji programu pilotażowego przekazanych przez NFZ Ministrowi Zdrowia, w tym raportu obejmującego okres do 30 czerwca 2025 r. oraz raportu końcowego, wraz ze wskazaniem dat ich przekazania.
+
+7. Liczby unikatowych pacjentów z rozpoznaniem zasadniczym lub współistniejącym ICD-10 Q85.0, którym udzielono świadczeń w ambulatoryjnej opiece specjalistycznej, w podziale na województwa, za lata 2019–2025.
+
+Wnoszę o udostępnienie informacji w formie danych zagregowanych, które nie pozwalają na identyfikację osób. Jeżeli w danej komórce liczba pacjentów jest na tyle mała, że mogłaby umożliwić identyfikację, proszę o oznaczenie jej np. jako „<5” zamiast odmowy udostępnienia całości danych.
+
+Jeżeli którakolwiek z żądanych informacji nie jest w posiadaniu NFZ, proszę o udostępnienie pozostałych i o wskazanie, który podmiot ją posiada.
+
+Sposób i forma udostępnienia: w formie elektronicznej (preferowany plik arkusza kalkulacyjnego, np. XLSX lub CSV, a w przypadku raportów plik PDF), przesłanej na adres e-mail, z którego wysłano niniejszy wniosek.
+
+Z poważaniem,
+[imię i nazwisko – opcjonalnie, nie jest wymagane]
