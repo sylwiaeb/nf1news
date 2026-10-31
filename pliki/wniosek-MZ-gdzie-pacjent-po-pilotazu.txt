@@ -1,4 +1,6 @@
-Do: Minister Zdrowia Ministerstwo Zdrowia, ul. Miodowa 15, 00-952 Warszawa e-mail: kancelaria@mz.gov.pl
+Do: Minister Zdrowia
+Ministerstwo Zdrowia, ul. Miodowa 15, 00-952 Warszawa
+e-mail: kancelaria@mz.gov.pl
 
 Temat e-maila: Wniosek o udostępnienie informacji publicznej – opieka nad pacjentami po zakończeniu pilotażu NF/RAS
 
@@ -28,4 +30,5 @@ Jeżeli część informacji nie jest w posiadaniu Ministerstwa Zdrowia, proszę 
 
 Sposób i forma udostępnienia: w formie elektronicznej, przesłanej na adres e-mail, z którego wysłano niniejszy wniosek.
 
-Z poważaniem, [imię i nazwisko – opcjonalnie, nie jest wymagane]
+Z poważaniem,
+[imię i nazwisko – opcjonalnie, nie jest wymagane]

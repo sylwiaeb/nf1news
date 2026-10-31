@@ -1,4 +1,6 @@
-Do: Minister Zdrowia Ministerstwo Zdrowia, ul. Miodowa 15, 00-952 Warszawa e-mail: kancelaria@mz.gov.pl
+Do: Minister Zdrowia
+Ministerstwo Zdrowia, ul. Miodowa 15, 00-952 Warszawa
+e-mail: kancelaria@mz.gov.pl
 
 Temat e-maila: Wniosek o udostępnienie informacji publicznej – zakończenie prac nad świadczeniem opieki koordynowanej NF/RAS
 
@@ -31,4 +33,5 @@ Jeżeli któryś z dokumentów nie istnieje, proszę o wyraźną informację o t
 
 Sposób i forma udostępnienia: w formie elektronicznej (skany lub pliki PDF), przesłanej na adres e-mail, z którego wysłano niniejszy wniosek.
 
-Z poważaniem, [imię i nazwisko – opcjonalnie, nie jest wymagane]
+Z poważaniem,
+[imię i nazwisko – opcjonalnie, nie jest wymagane]
