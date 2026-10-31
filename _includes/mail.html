@@ -1,0 +1,5 @@
+{% capture body %}{% include {{ include.body }} %}{% endcapture %}
+{% assign subj = include.subject | url_encode | replace: "+", "%20" %}
+{% assign enc = body | strip | url_encode | replace: "+", "%20" %}
+<p class="mail"><a class="btn" href="mailto:{{ include.to }}?subject={{ subj }}&amp;body={{ enc }}">Napisz e-mail do {{ include.label }}</a> <button type="button" class="btn copy" data-target="{{ include.id }}">Skopiuj treść</button></p>
+<textarea id="{{ include.id }}" hidden readonly>{{ body | strip | escape }}</textarea>
