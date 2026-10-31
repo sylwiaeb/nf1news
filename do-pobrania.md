@@ -13,10 +13,13 @@ Gotowy wniosek o udostępnienie informacji publicznej do Centrali NFZ. Prosi o l
 - [Pobierz wniosek (Word, .docx)]({{ '/pliki/wniosek-NFZ-dane-pilotaz-NF.docx' | relative_url }})
 - [Pobierz wniosek (tekst, .txt)]({{ '/pliki/wniosek-NFZ-dane-pilotaz-NF.txt' | relative_url }})
 
-**Jak go wysłać:**
+**Jak go wysłać do Centrali NFZ:**
 
-- Wklej treść do e-maila i wyślij na adres kancelarii Centrali NFZ (aktualny adres znajdziesz w Biuletynie Informacji Publicznej NFZ) albo złóż wniosek przez ePUAP.
-- Wniosek może mieć dowolną formę, a e-mail wystarczy. Podpis ani imię i nazwisko nie są wymagane, wystarczy adres do odpowiedzi.
+- przez ePUAP, na skrytkę `/NFZ-Centrala/SkrytkaESP`,
+- przez e-Doręczenia, na adres `AE:PL-98754-99859-GJBJA-29`,
+- albo pocztą: Centrala NFZ, ul. Rakowiecka 26/30, 02-528 Warszawa.
+
+- Wniosek może mieć dowolną formę. Podpis ani imię i nazwisko nie są wymagane, wystarczy adres do odpowiedzi.
 - NFZ ma 14 dni na odpowiedź. Może przedłużyć ten termin do 2 miesięcy, jeśli wyjaśni dlaczego. Odmowa wymaga decyzji administracyjnej, od której można się odwołać.
 
 Im więcej osób złoży taki wniosek, tym trudniej pominąć te dane.
