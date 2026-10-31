@@ -13,6 +13,8 @@ Gotowy wniosek o udostępnienie informacji publicznej do Centrali NFZ. Prosi o l
 - [Pobierz wniosek (Word, .docx)]({{ '/pliki/wniosek-NFZ-dane-pilotaz-NF.docx' | relative_url }})
 - [Pobierz wniosek (tekst, .txt)]({{ '/pliki/wniosek-NFZ-dane-pilotaz-NF.txt' | relative_url }})
 
+{% include mail.html id="w-nfz" body="wnioski/wniosek-NFZ-dane-pilotaz-NF.txt" %}
+
 **Jak go wysłać do Centrali NFZ:**
 
 - e-mailem na adres `KancelariaElektroniczna@nfz.gov.pl` (treść wniosku wklej do wiadomości albo dołącz plik),
@@ -30,12 +32,16 @@ Wniosek o udostępnienie informacji publicznej w sprawie zakończenia prac nad �
 - [Pobierz wniosek (Word, .docx)]({{ '/pliki/wniosek-MZ-uzasadnienie-decyzji.docx' | relative_url }})
 - [Pobierz wniosek (tekst, .txt)]({{ '/pliki/wniosek-MZ-uzasadnienie-decyzji.txt' | relative_url }})
 
+{% include mail.html id="w-mz1" body="wnioski/wniosek-MZ-uzasadnienie-decyzji.txt" %}
+
 ## Wniosek do Ministerstwa Zdrowia: gdzie ma się zgłosić pacjent po pilotażu
 
 Wniosek o udostępnienie informacji publicznej w sprawie dalszej opieki nad pacjentami, którzy do 30 kwietnia 2026 r. byli w pilotażu. Prosi o listę OECR dla dzieci i dla dorosłych, zasady skierowania, wskazanie, kto koordynuje opiekę, oraz o wytyczne dla ośrodków.
 
 - [Pobierz wniosek (Word, .docx)]({{ '/pliki/wniosek-MZ-gdzie-pacjent-po-pilotazu.docx' | relative_url }})
 - [Pobierz wniosek (tekst, .txt)]({{ '/pliki/wniosek-MZ-gdzie-pacjent-po-pilotazu.txt' | relative_url }})
+
+{% include mail.html id="w-mz2" body="wnioski/wniosek-MZ-gdzie-pacjent-po-pilotazu.txt" %}
 
 **Jak wysłać wnioski do Ministerstwa Zdrowia:**
 
@@ -45,3 +51,14 @@ Wniosek o udostępnienie informacji publicznej w sprawie dalszej opieki nad pacj
 - albo pocztą: Ministerstwo Zdrowia, ul. Miodowa 15, 00-952 Warszawa.
 
 Te same zasady co przy NFZ: podpis ani imię i nazwisko nie są wymagane, odpowiedź powinna przyjść w ciągu 14 dni (najwyżej 2 miesięcy), a odmowa wymaga decyzji, od której można się odwołać.
+
+<script>
+document.querySelectorAll('button.copy').forEach(function (b) {
+  b.addEventListener('click', function () {
+    var t = document.getElementById(b.dataset.target).value;
+    var done = function () { b.textContent = 'Skopiowano'; setTimeout(function () { b.textContent = 'Skopiuj treść wniosku'; }, 2000); };
+    if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done); }
+    else { var a = document.createElement('textarea'); a.value = t; document.body.appendChild(a); a.select(); document.execCommand('copy'); a.remove(); done(); }
+  });
+});
+</script>
