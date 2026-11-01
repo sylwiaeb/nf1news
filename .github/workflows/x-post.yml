@@ -1,0 +1,41 @@
+name: Opublikuj nowe wpisy na X
+
+on:
+  push:
+    branches: [main]
+    paths: ["_posts/**"]
+  workflow_dispatch:
+    inputs:
+      post:
+        description: "Ścieżka wpisu do ręcznej publikacji, np. _posts/2026-11-05-tytul.md"
+        required: true
+
+jobs:
+  x:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests-oauthlib pyyaml
+      - name: Znajdź nowe wpisy
+        id: find
+        run: |
+          if [ -n "${{ github.event.inputs.post }}" ]; then
+            echo "${{ github.event.inputs.post }}" > nowe.txt
+          elif [ "${{ github.event.before }}" = "0000000000000000000000000000000000000000" ]; then
+            : > nowe.txt
+          else
+            git diff --name-only --diff-filter=A "${{ github.event.before }}" "${{ github.sha }}" -- '_posts/*.md' > nowe.txt
+          fi
+          cat nowe.txt
+      - name: Wyślij na X
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+        run: python .github/scripts/x_post.py nowe.txt

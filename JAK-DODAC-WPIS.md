@@ -22,6 +22,22 @@
 
 Strona zaktualizuje się po 1–2 minutach.
 
+## Automatyczny wpis na X
+
+Po opublikowaniu nowego wpisu GitHub sam wyśle go na X (gdy wpis pojawi się już na stronie). Tekst posta na X wpisz w nagłówku, w linii `tweet:`. Link do wpisu dodaje się sam na końcu, więc nie wpisuj go:
+
+```
+---
+title: "Spotkanie w Ministerstwie"
+tweet: "MZ potwierdziło na spotkaniu, że… Szczegóły i dokumenty:"
+---
+```
+
+- Bez linii `tweet:` na X pójdzie sam tytuł z linkiem.
+- `tweet: false` oznacza, że ten wpis nie trafi na X.
+- Tekst powinien mieć najwyżej ok. 250 znaków (link zajmuje 23).
+- Poprawki starego wpisu nie wysyłają niczego na X, tylko nowe pliki.
+
 ## Wykres słupkowy
 
 Wklej do wpisu taki fragment i zmień etykiety, liczby i szerokości:
