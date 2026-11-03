@@ -13,7 +13,9 @@ Senat może to jeszcze zmienić. Według opinii Biura Legislacyjnego Senatu komi
 
 1. **Koordynacja opieki jako zadanie OECR.** Dopisanie do zadań ośrodka koordynacji opieki nad pacjentem: indywidualnego planu diagnostyki, leczenia i badań kontrolnych oraz koordynatora.
 2. **Odrębne finansowanie koordynacji.** Osobny ryczałt z NFZ, niezależny od porad w AOS. Bez pieniędzy nowe zadanie zostanie na papierze.
-3. **Rozwiązanie przejściowe.** Do czasu uruchomienia OECR przywrócenie pilotażu dla pacjentów z NF w dotychczasowej formie, a potem włączenie go do OECR z zachowaniem odrębnego finansowania.
+3. **Rozwiązanie przejściowe.** Do czasu uruchomienia OECR przywrócenie pilotażu dla pacjentów z NF w dotychczasowej formie, a potem włączenie go do OECR z zachowaniem odrębnego finansowania. Do tego nie trzeba zmieniać ustawy: programy pilotażowe ustala minister zdrowia lub NFZ. Dlatego prosimy senatorów, żeby w debacie wezwali Ministra Zdrowia do takiej decyzji.
+
+Prawnicy Senatu w opinii do ustawy nie zgłosili żadnych uwag do przepisów o OECR. Jeśli żaden senator nie zgłosi poprawki, przejdą one bez zmian.
 
 ## Krok 1. Skopiuj gotowy tekst
 
@@ -37,7 +39,7 @@ Ten sam tekst wyślij do całej komisji:
 - e-mailem na adres **kz@senat.gov.pl**,
 - albo pocztą: **Komisja Zdrowia Senatu RP, Kancelaria Senatu, ul. Wiejska 6, 00-902 Warszawa** (list nie zdąży przed głosowaniem 4 listopada, więc wyślij e-mail).
 
-Dokumenty do ustawy: [opinia do ustawy z druku senackiego nr 895](https://www.senat.gov.pl/gfx/senat/pl/senatekspertyzy/8168/plik/895o.pdf) i [przebieg prac w Sejmie (druk nr 3141)](https://www.sejm.gov.pl/sejm10.nsf/PrzebiegProc.xsp?nr=3141).
+Dokumenty do ustawy: [tekst ustawy porównany z obecnymi przepisami](https://www.senat.gov.pl/download/gfx/senat/pl/senatekspertyzy/8177/plik/895m.pdf), [opinia do ustawy z druku senackiego nr 895](https://www.senat.gov.pl/gfx/senat/pl/senatekspertyzy/8168/plik/895o.pdf) i [przebieg prac w Sejmie (druk nr 3141)](https://www.sejm.gov.pl/sejm10.nsf/PrzebiegProc.xsp?nr=3141).
 
 ## Krok 4. Daj znać innym
 

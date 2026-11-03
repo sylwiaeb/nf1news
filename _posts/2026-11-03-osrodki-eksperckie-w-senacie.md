@@ -14,9 +14,9 @@ Sprawdziliśmy więc, co ustawa mówi o tych ośrodkach.
 
 ## Co ustawa mówi o OECR
 
-- OECR to komórka organizacyjna szpitala lub przychodni, wyspecjalizowana w diagnostyce lub leczeniu pacjentów z podejrzeniem lub rozpoznaniem choroby rzadkiej. Ośrodki dzielą się na genetyczne i kliniczne.
+- OECR to komórka organizacyjna szpitala lub przychodni, wyspecjalizowana w diagnostyce lub leczeniu pacjentów z podejrzeniem lub rozpoznaniem choroby rzadkiej. Ośrodki dzielą się na genetyczne i kliniczne. Kliniczne mają zapewniać „diagnostykę, leczenie i opiekę”, ale ustawa nie mówi, kto tę opiekę koordynuje i z jakich pieniędzy.
 - Status nadaje minister zdrowia decyzją administracyjną na 5 lat, z możliwością przedłużenia. Ośrodki należące do Europejskich Sieci Referencyjnych dostają go po przedstawieniu dokumentu o członkostwie.
-- Warunki dotyczą m.in. umowy z NFZ, personelu, liczby procedur i pacjentów oraz badań naukowych. Szczegóły określi rozporządzenie ministra.
+- Warunki nadania statusu dotyczą umowy z NFZ, liczby i kwalifikacji personelu, współpracy z innymi oddziałami, liczby procedur i pacjentów oraz badań naukowych. Szczegóły określi rozporządzenie ministra.
 
 Zadania ośrodka ustawa wymienia w czterech punktach. OECR:
 
@@ -27,11 +27,21 @@ Zadania ośrodka ustawa wymienia w czterech punktach. OECR:
 
 ## Czego w ustawie nie ma
 
-**Nie ma koordynacji opieki nad pacjentem.** Słowo „koordynowana” w ustawie nie pada. Wśród zadań ośrodka nie ma koordynatora, planu badań kontrolnych ani prowadzenia pacjenta przez całą ścieżkę leczenia. A to właśnie dawał pilotaż opieki koordynowanej dla pacjentów z NF i to zniknęło 30 kwietnia 2026 r.
+**Nie ma koordynacji opieki nad pacjentem.** Słowo „koordynowana” w ustawie nie pada. Wśród zadań ośrodka nie ma koordynatora, planu badań kontrolnych ani prowadzenia pacjenta przez całą ścieżkę leczenia. Koordynatora nie ma też wśród warunków, które ośrodek musi spełnić, żeby dostać status. A to właśnie dawał pilotaż opieki koordynowanej dla pacjentów z NF i to zniknęło 30 kwietnia 2026 r.
 
 **Nie ma osobnego finansowania.** Ustawa wymaga od ośrodka umowy z NFZ, ale nie przewiduje dla OECR żadnego osobnego ryczałtu ani wyceny. Brak takiego mechanizmu krytykował w konsultacjach m.in. Wojewódzki Specjalistyczny Szpital Dziecięcy w Olsztynie. Ministerstwo odpowiedziało, że finansowanie regulują inne przepisy. Dla pacjentów z NF oznacza to dziś porady w AOS, które wymieniło samo Ministerstwo: każda z osobnym skierowaniem i kolejką.
 
 Według ustawy status OECR to decyzja ministra, certyfikat i oznaczenie graficzne. Sam w sobie nie daje pacjentowi koordynatora ani zespołu, który zaplanuje i połączy jego wizyty i badania.
+
+## Prawnicy Senatu nie mają uwag do OECR
+
+Biuro Legislacyjne Senatu w opinii z 2 listopada 2026 r. nie zgłosiło żadnych uwag do przepisów o OECR. Jedyny poważny zarzut dotyczy innej części ustawy: braku zwrotu nadpłaconych składek zdrowotnych do 160 zł, co według opinii może być niezgodne z Konstytucją. Reszta to poprawki techniczne.
+
+To znaczy, że jeśli żaden senator nie zgłosi poprawki, przepisy o OECR przejdą dokładnie w tym kształcie.
+
+## Pilotaż można przywrócić bez tej ustawy
+
+Ustawa nie zmienia art. 48e ustawy o świadczeniach, który pozwala ustalać programy pilotażowe. Według przepisów może to zrobić minister zdrowia, a także NFZ. Przywrócenie pilotażu opieki koordynowanej dla pacjentów z NF do czasu, aż OECR naprawdę zaczną działać, nie wymaga więc zmiany prawa. Wymaga tylko decyzji.
 
 ## Dlaczego to ważne teraz
 
@@ -44,12 +54,14 @@ Odesłanie pacjentów do OECR nie rozwiązuje tego problemu, dopóki ośrodki ni
 - Który OECR ma prowadzić pacjentów z neurofibromatozami, w tym dorosłych?
 - Kto w OECR ma koordynować ich opiekę, skoro ustawa nie daje ośrodkom takiego zadania?
 - Z jakich pieniędzy OECR ma finansować koordynację, skoro ustawa nie przewiduje osobnego finansowania?
+- Dlaczego Ministerstwo nie przywróci pilotażu do czasu uruchomienia OECR, skoro może to zrobić bez zmiany ustawy?
 
 Każdy może napisać do senatorów i poprosić o poprawki. Gotowy tekst i instrukcję przygotowaliśmy we wpisie [Napisz do Senatu w sprawie ośrodków eksperckich]({% post_url 2026-11-03-senat-uwagi-oecr %}). Gotowe wnioski o informację publiczną są na stronie [Do pobrania]({{ '/do-pobrania/' | relative_url }}).
 
 ## Źródła
 
 - [Opinia do ustawy z druku senackiego nr 895, Kancelaria Senatu](https://www.senat.gov.pl/gfx/senat/pl/senatekspertyzy/8168/plik/895o.pdf)
+- [Materiał porównawczy do ustawy z druku senackiego nr 895, Kancelaria Senatu](https://www.senat.gov.pl/download/gfx/senat/pl/senatekspertyzy/8177/plik/895m.pdf)
 - [Przebieg prac nad ustawą w Sejmie (druk nr 3141)](https://www.sejm.gov.pl/sejm10.nsf/PrzebiegProc.xsp?nr=3141)
 - [Sprawozdanie sejmowej Komisji Zdrowia o projekcie ustawy, druk sejmowy nr 3201](https://api.sejm.gov.pl/sejm/term10/prints/3201/3201.pdf)
 - [Sejm przyjął ustawę o ośrodkach eksperckich chorób rzadkich, Medkurier.pl](https://medkurier.pl/sejm-ustawa-osrodki-eksperckie-chorob-rzadkich/)
