@@ -3,4 +3,10 @@
 {% capture share_line %}{{ include.post.title }} – {{ teaser }}{% endcapture %}
 {% assign share_text = share_line | truncatewords: 30, "…" | url_encode %}
 {% if include.post.fb %}{% assign fb_text = include.post.fb %}{% else %}{% capture fb_text %}{{ share_line | truncatewords: 45, "…" }} #NF1 #neurofibromatoza #ChorobyRzadkie{% endcapture %}{% endif %}
-<p class="share">Udostępnij: <a href="https://twitter.com/intent/tweet?url={{ share_url }}&amp;text={{ share_text }}" target="_blank" rel="noopener">na X</a> · <a class="fb-share" href="https://www.facebook.com/sharer/sharer.php?u={{ share_url }}" data-fb="{{ fb_text | strip_newlines | strip | escape }}" target="_blank" rel="noopener">na Facebooku</a><span class="fb-hint" hidden> Tekst posta jest skopiowany: wklej go w okienku Facebooka (Ctrl+V albo przytrzymaj palec i „Wklej”). Żeby oznaczyć Ministerstwo Zdrowia, wpisz @Ministerstwo Zdrowia i wybierz je z listy.</span></p>
+<p class="share">Udostępnij: <a href="https://twitter.com/intent/tweet?url={{ share_url }}&amp;text={{ share_text }}" target="_blank" rel="noopener">na X</a> · <a class="fb-share" href="https://www.facebook.com/sharer/sharer.php?u={{ share_url }}" target="_blank" rel="noopener">na Facebooku</a></p>
+<div class="fb-box" hidden>
+  <p>1. Skopiuj tekst posta: <button type="button" class="btn fb-copy">Kopiuj tekst</button> <span class="fb-done" hidden>Skopiowano ✓</span></p>
+  <textarea readonly rows="5">{{ fb_text | strip_newlines | strip | escape }}</textarea>
+  <p>2. <a class="btn" href="https://www.facebook.com/sharer/sharer.php?u={{ share_url }}" target="_blank" rel="noopener">Otwórz Facebooka</a> i wklej tekst w okienku posta.</p>
+  <p>3. Żeby oznaczyć ministerstwo, wpisz w tekście @Ministerstwo Zdrowia i wybierz stronę z listy.</p>
+</div>
