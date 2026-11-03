@@ -27,7 +27,19 @@ Na końcu wpisz swoje imię i nazwisko. Jeśli masz własne doświadczenia z opi
 
 Poprawkę do ustawy może zgłosić tylko senator, dlatego najważniejsze jest napisać bezpośrednio do nich:
 
-- **do członków senackiej Komisji Zdrowia.** Aktualny skład komisji jest na [senat.gov.pl](https://www.senat.gov.pl) w zakładce **Skład → Komisje senackie → Komisja Zdrowia**. Na stronie każdego senatora jest adres e-mail jego biura;
+- **do członków senackiej Komisji Zdrowia** (skład według [strony Senatu](https://www.senat.gov.pl/prace/komisje-senackie/sklad,221,komisja-zdrowia.html)):
+
+| Senator | Funkcja w komisji | E-mail biura senatorskiego |
+|---|---|---|
+| Beata Małecka-Libera | przewodnicząca | `biuro.maleckalibera@gmail.com` |
+| Agnieszka Gorgoń-Komor | zastępczyni przewodniczącej | `biurosenatorskie@agnieszkagorgonkomor.pl` |
+| Waldemar Kraska | zastępca przewodniczącej | adres na [stronie Senatu](https://www.senat.gov.pl/prace/komisje-senackie/sklad,221,komisja-zdrowia.html) |
+| Wojciech Konieczny | zastępca przewodniczącej | `senatorkonieczny2@gmail.com` |
+| Tomasz Grodzki | członek | `senator@grodzki.senat.pl` |
+| Andrzej Kalata | członek | `andrzejkalata.biuro@gmail.com` |
+| Ewa Matecka | członkini | `biuro@matecka.senat.pl` |
+
+  Adresy pochodzą z listy senatorów opublikowanej przez Senat w 2025 r. Jeśli któryś nie działa, aktualny adres jest na stronie senatora (kliknij nazwisko na stronie składu komisji);
 - **do senatora z Twojego okręgu wyborczego.** Listę znajdziesz w zakładce **Skład → Senatorowie**. Senatorowie częściej reagują na sprawy swoich wyborców.
 
 Wysyłając do kilku osób naraz, wpisz adresy w polu **UDW** (ukryte do wiadomości), a nie DW.
