@@ -6,6 +6,12 @@ permalink: /do-pobrania/
 
 # Do pobrania
 
+**Anonimowo czy z podpisem?**
+
+- **Wniosek o udostępnienie informacji publicznej** (wszystkie wnioski na tej stronie) można wysłać anonimowo. Ustawa o dostępie do informacji publicznej nie wymaga podawania imienia, nazwiska ani uzasadnienia. Wystarczy adres, na który ma przyjść odpowiedź, np. e-mail, także taki bez nazwiska. Wyjątek: jeśli urząd odmówi i wyda decyzję, to żeby się od niej odwołać do sądu, trzeba już podać swoje dane.
+- **Zwykły wniosek albo skarga** (np. prośba do Ministerstwa Zdrowia o przywrócenie pilotażu albo skarga do Rzecznika Praw Pacjenta) musi zawierać imię, nazwisko i adres. Pismo anonimowe zostaje pozostawione bez rozpatrzenia.
+- **Mail do senatorów lub posłów** może być bez podpisu, ale podpisany jest traktowany poważniej.
+
 ## Wniosek do NFZ o dane z pilotażu opieki koordynowanej
 
 Gotowy wniosek o udostępnienie informacji publicznej do Centrali NFZ. Prosi o liczbę pacjentów w poszczególnych ośrodkach koordynujących (CKOM), w podziale na województwa i grupy wieku, o koszty programu w poszczególnych ośrodkach i o raporty z ewaluacji pilotażu.
