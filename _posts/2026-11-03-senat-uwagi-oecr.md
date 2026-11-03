@@ -21,7 +21,7 @@ Prawnicy Senatu w opinii do ustawy nie zgłosili żadnych uwag do przepisów o O
 
 {% include mail.html id="uwagi-senat" body="wnioski/uwagi-senat-OECR.txt" %}
 
-Na końcu wpisz swoje imię i nazwisko.
+Pierwsza linia skopiowanego tekstu to **temat maila**: „Druk senacki nr 895 – prośba o poprawkę: koordynacja opieki i odrębne finansowanie w Ośrodkach Eksperckich Chorób Rzadkich”. Przenieś ją do pola „Temat” i usuń z treści. Na końcu wpisz swoje imię i nazwisko.
 
 **Czy trzeba się podpisać?** Do senatorów i Komisji Zdrowia możesz napisać bez podpisu, żaden przepis tego nie zabrania. Ale mail podpisany imieniem i nazwiskiem (najlepiej też z miejscowością) jest traktowany poważniej, a anonimowy łatwo uznać za spam. Adresu domowego podawać nie trzeba. Inaczej jest z pismem do Ministerstwa Zdrowia (krok 4): wniosek albo skarga bez imienia, nazwiska i adresu zostaje pozostawiona bez rozpatrzenia, więc tam podpis i adres są potrzebne. To nie dotyczy wniosków o udostępnienie informacji publicznej ze strony [Do pobrania]({{ '/do-pobrania/' | relative_url }}): te można wysłać bez podpisu (wyjaśnienie jest na tamtej stronie).
 
