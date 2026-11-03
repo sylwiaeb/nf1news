@@ -27,6 +27,8 @@ Na końcu wpisz swoje imię i nazwisko. Jeśli masz własne doświadczenia z opi
 2. Przy punkcie o ustawie z **druku senackiego nr 895** kliknij **„Uwagi, opinie, stanowiska, uwagi obywatelskie”**.
 3. Postępuj według instrukcji na stronie i wklej skopiowany tekst.
 
+Dokumenty do ustawy: [opinia do ustawy z druku senackiego nr 895](https://www.senat.gov.pl/gfx/senat/pl/senatekspertyzy/8168/plik/895o.pdf) i [przebieg prac w Sejmie (druk nr 3141)](https://www.sejm.gov.pl/sejm10.nsf/PrzebiegProc.xsp?nr=3141).
+
 Uwagi obywatelskie mogą zostać opublikowane na stronie Senatu.
 
 ## Krok 3. Wyślij ten sam tekst mailem do senatorów
