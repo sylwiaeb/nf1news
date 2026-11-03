@@ -37,7 +37,7 @@ Według ustawy status OECR to decyzja ministra, certyfikat i oznaczenie graficzn
 
 Eksperci, o których opinię poprosiła AOTMiT, napisali, że **pojedyncze skierowania do AOS bez finansowanego ryczałtu koordynacyjnego nie są rozwiązaniem równoważnym** dla opieki koordynowanej. Za włączeniem jej do koszyka świadczeń gwarantowanych opowiedziało się 100% opiniujących klinicystów. Szczegóły opisaliśmy we wpisie [Czarno na białym]({% post_url 2026-10-29-czarno-na-bialym-raport-aotmit %}).
 
-Odesłanie pacjentów do OECR nie rozwiązuje tego problemu, dopóki ośrodki nie mają zadania ani pieniędzy na koordynację. Ustawa jest teraz w Senacie, który może wprowadzić do niej poprawki.
+Odesłanie pacjentów do OECR nie rozwiązuje tego problemu, dopóki ośrodki nie mają zadania ani pieniędzy na koordynację. Ustawa jest teraz w Senacie, który może wprowadzić do niej poprawki. Senat ma się nią zająć na posiedzeniu 4 listopada.
 
 ## Pytania do Ministerstwa Zdrowia
 
