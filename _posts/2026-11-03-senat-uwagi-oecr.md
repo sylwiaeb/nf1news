@@ -37,7 +37,7 @@ Poprawkę do ustawy może zgłosić tylko senator, dlatego najważniejsze jest n
 | Wojciech Konieczny | zastępca przewodniczącej | `senatorkonieczny2@gmail.com` |
 | Tomasz Grodzki | członek | `senator@grodzki.senat.pl` |
 | Andrzej Kalata | członek | `andrzejkalata.biuro@gmail.com` |
-| Ewa Matecka | członkini | adres na [stronie Senatu](https://www.senat.gov.pl/prace/komisje-senackie/sklad,221,komisja-zdrowia.html) |
+| Ewa Matecka | członkini | `biuro@matecka.senat.pl` |
 
   Adresy pochodzą z listy senatorów opublikowanej przez Senat w 2025 r. Jeśli któryś nie działa, aktualny adres jest na stronie senatora (kliknij nazwisko na stronie składu komisji);
 - **do senatora z Twojego okręgu wyborczego.** Listę znajdziesz w zakładce **Skład → Senatorowie**. Senatorowie częściej reagują na sprawy swoich wyborców.
