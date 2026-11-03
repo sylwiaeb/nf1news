@@ -1,0 +1,56 @@
+---
+date: 2026-11-03 16:00:00 +0100
+title: "Ministerstwo odsyła pacjentów z NF do ośrodków eksperckich. Ustawa o tych ośrodkach nie mówi ani słowa o opiece koordynowanej"
+description: "Senat zajmuje się ustawą, która wpisuje do prawa Ośrodki Eksperckie Chorób Rzadkich. To do nich Ministerstwo Zdrowia odesłało pacjentów po pilotażu NF. W zadaniach ośrodków nie ma koordynacji opieki, a w ustawie nie ma osobnego finansowania."
+tweet: "MZ odesłało pacjentów z NF po pilotażu do Ośrodków Eksperckich Chorób Rzadkich. Ustawa o OECR jest dziś w Senacie: nie ma w niej słowa o opiece koordynowanej ani osobnego finansowania. Status to nie opieka. @MZ_GOV_PL @NFZ_GOV_PL #NF1 #ChorobyRzadkie"
+fb: "Ministerstwo Zdrowia odesłało pacjentów z neurofibromatozami po zakończeniu pilotażu do Ośrodków Eksperckich Chorób Rzadkich. Senat zajmuje się właśnie ustawą, która po raz pierwszy wpisuje te ośrodki do prawa. Sprawdziliśmy jej tekst: w zadaniach ośrodków nie ma koordynacji opieki nad pacjentem, a ustawa nie przewiduje dla nich osobnego finansowania. Pytamy minister zdrowia Jolantę Sobierańską-Grendę, kto ma koordynować opiekę nad pacjentami z NF. #NF1 #neurofibromatoza #ChorobyRzadkie"
+---
+
+3 listopada 2026 r. senacka Komisja Zdrowia rozpatruje ustawę o zmianie ustawy o świadczeniach opieki zdrowotnej finansowanych ze środków publicznych (druk senacki nr 895, druki sejmowe nr 3141 i 3201). Sejm przyjął ją 22 października, 439 głosami za.
+
+Ta ustawa po raz pierwszy wpisuje do prawa **Ośrodki Eksperckie Chorób Rzadkich (OECR)**. Dla pacjentów z neurofibromatozami to ważne, bo właśnie do OECR odesłało ich Ministerstwo Zdrowia. W piśmie z 23 października 2026 r. resort poinformował Stowarzyszenie Neurofibromatozy Polska, że zakończył prace nad świadczeniem opieki koordynowanej, a pacjenci mają szukać opieki w OECR.
+
+Sprawdziliśmy więc, co ustawa mówi o tych ośrodkach.
+
+## Co ustawa mówi o OECR
+
+- OECR to komórka organizacyjna szpitala lub przychodni, wyspecjalizowana w diagnostyce lub leczeniu pacjentów z podejrzeniem lub rozpoznaniem choroby rzadkiej. Ośrodki dzielą się na genetyczne i kliniczne.
+- Status nadaje minister zdrowia decyzją administracyjną na 5 lat, z możliwością przedłużenia. Ośrodki należące do Europejskich Sieci Referencyjnych dostają go po przedstawieniu dokumentu o członkostwie.
+- Warunki dotyczą m.in. umowy z NFZ, personelu, liczby procedur i pacjentów oraz badań naukowych. Szczegóły określi rozporządzenie ministra.
+
+Zadania ośrodka ustawa wymienia w czterech punktach. OECR:
+
+1. zapewnia możliwość konsultacji z innymi OECR i innymi świadczeniodawcami,
+2. współpracuje z innymi OECR i ze szpitalami za granicą, w tym z Europejskich Sieci Referencyjnych,
+3. współpracuje ze stowarzyszeniami i fundacjami pacjentów z chorobami rzadkimi,
+4. używa oznaczenia graficznego OECR.
+
+## Czego w ustawie nie ma
+
+**Nie ma koordynacji opieki nad pacjentem.** Słowo „koordynowana” w ustawie nie pada. Wśród zadań ośrodka nie ma koordynatora, planu badań kontrolnych ani prowadzenia pacjenta przez całą ścieżkę leczenia. A to właśnie dawał pilotaż opieki koordynowanej dla pacjentów z NF i to zniknęło 30 kwietnia 2026 r.
+
+**Nie ma osobnego finansowania.** Ustawa wymaga od ośrodka umowy z NFZ, ale nie przewiduje dla OECR żadnego osobnego ryczałtu ani wyceny. Brak takiego mechanizmu krytykował w konsultacjach m.in. Wojewódzki Specjalistyczny Szpital Dziecięcy w Olsztynie. Ministerstwo odpowiedziało, że finansowanie regulują inne przepisy. Dla pacjentów z NF oznacza to dziś porady w AOS, które wymieniło samo Ministerstwo: każda z osobnym skierowaniem i kolejką.
+
+Według ustawy status OECR to decyzja ministra, certyfikat i oznaczenie graficzne. Sam w sobie nie daje pacjentowi koordynatora ani zespołu, który zaplanuje i połączy jego wizyty i badania.
+
+## Dlaczego to ważne teraz
+
+Eksperci, o których opinię poprosiła AOTMiT, napisali, że **pojedyncze skierowania do AOS bez finansowanego ryczałtu koordynacyjnego nie są rozwiązaniem równoważnym** dla opieki koordynowanej. Za włączeniem jej do koszyka świadczeń gwarantowanych opowiedziało się 100% opiniujących klinicystów. Szczegóły opisaliśmy we wpisie [Czarno na białym]({% post_url 2026-10-29-czarno-na-bialym-raport-aotmit %}).
+
+Odesłanie pacjentów do OECR nie rozwiązuje tego problemu, dopóki ośrodki nie mają zadania ani pieniędzy na koordynację. Ustawa jest teraz w Senacie, który może wprowadzić do niej poprawki.
+
+## Pytania do Ministerstwa Zdrowia
+
+- Który OECR ma prowadzić pacjentów z neurofibromatozami, w tym dorosłych?
+- Kto w OECR ma koordynować ich opiekę, skoro ustawa nie daje ośrodkom takiego zadania?
+- Z jakich pieniędzy OECR ma finansować koordynację, skoro ustawa nie przewiduje osobnego finansowania?
+
+Na stronie Senatu, przy każdej ustawie, jest odnośnik „Uwagi, opinie, stanowiska, uwagi obywatelskie”. Każdy może tam przesłać swoje uwagi do ustawy. Gotowe wnioski o informację publiczną są na stronie [Do pobrania]({{ '/do-pobrania/' | relative_url }}).
+
+## Źródła
+
+- [Sprawozdanie sejmowej Komisji Zdrowia o projekcie ustawy, druk sejmowy nr 3201](https://api.sejm.gov.pl/sejm/term10/prints/3201/3201.pdf)
+- [Sejm przyjął ustawę o ośrodkach eksperckich chorób rzadkich, Medkurier.pl](https://medkurier.pl/sejm-ustawa-osrodki-eksperckie-chorob-rzadkich/)
+- [Co z kolejnymi Ośrodkami Eksperckimi Chorób Rzadkich? Zdecydują kryteria i finansowanie, Rynek Zdrowia, 19.05.2026](https://www.rynekzdrowia.pl/choroby-rzadkie/Co-z-kolejnymi-Osrodkami-Eksperckimi-Chorob-Rzadkich-Zdecyduja-kryteria-i-finansowanie,284518,1024.html)
+- [Pisma Ministerstwa Zdrowia z 12 maja i 23 października 2026 r. na stronie Stowarzyszenia Neurofibromatozy Polska](https://neurofibromatozy.pl/pacjent/ckom/)
+- Wpis [„Nic się nie zmieniło”? Porady w AOS to nie opieka koordynowana]({% post_url 2026-11-03-porady-to-nie-opieka-odpowiedz-mz %})
