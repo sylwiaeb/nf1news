@@ -32,11 +32,10 @@ Wysyłając do kilku osób naraz, wpisz adresy w polu **UDW** (ukryte do wiadomo
 
 ## Krok 3. Wyślij też do Komisji Zdrowia Senatu
 
-Ten sam tekst możesz wysłać do całej komisji pocztą, na adres:
+Ten sam tekst wyślij do całej komisji:
 
-**Komisja Zdrowia Senatu RP, Kancelaria Senatu, ul. Wiejska 6, 00-902 Warszawa**
-
-Pocztą pismo idzie kilka dni, a czasu jest mało, więc nie zastępuj nim maili do senatorów.
+- e-mailem na adres **kz@senat.gov.pl**,
+- albo pocztą: **Komisja Zdrowia Senatu RP, Kancelaria Senatu, ul. Wiejska 6, 00-902 Warszawa** (list idzie kilka dni, a czasu jest mało, więc lepiej e-mail).
 
 Dokumenty do ustawy: [opinia do ustawy z druku senackiego nr 895](https://www.senat.gov.pl/gfx/senat/pl/senatekspertyzy/8168/plik/895o.pdf) i [przebieg prac w Sejmie (druk nr 3141)](https://www.sejm.gov.pl/sejm10.nsf/PrzebiegProc.xsp?nr=3141).
 
