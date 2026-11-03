@@ -2,7 +2,7 @@
 date: 2026-11-03 16:00:00 +0100
 title: "Ministerstwo odsyła pacjentów z NF do ośrodków eksperckich. Ustawa o tych ośrodkach nie mówi ani słowa o opiece koordynowanej"
 description: "Senat zajmuje się ustawą, która wpisuje do prawa Ośrodki Eksperckie Chorób Rzadkich. To do nich Ministerstwo Zdrowia odesłało pacjentów po pilotażu NF. W zadaniach ośrodków nie ma koordynacji opieki, a w ustawie nie ma osobnego finansowania."
-tweet: "MZ odesłało pacjentów z NF po pilotażu do Ośrodków Eksperckich Chorób Rzadkich. Ustawa o OECR jest dziś w Senacie: nie ma w niej słowa o opiece koordynowanej ani osobnego finansowania. Status to nie opieka. @MZ_GOV_PL @NFZ_GOV_PL #NF1 #ChorobyRzadkie"
+tweet: "MZ odesłało pacjentów z NF po pilotażu do Ośrodków Eksperckich Chorób Rzadkich. Ustawa o OECR jest dziś w Senacie: ani słowa o opiece koordynowanej, brak osobnego finansowania. Status to nie opieka. @MZ_GOV_PL @NFZ_GOV_PL @DkorycinskaK #NF1"
 fb: "Ministerstwo Zdrowia odesłało pacjentów z neurofibromatozami po zakończeniu pilotażu do Ośrodków Eksperckich Chorób Rzadkich. Senat zajmuje się właśnie ustawą, która po raz pierwszy wpisuje te ośrodki do prawa. Sprawdziliśmy jej tekst: w zadaniach ośrodków nie ma koordynacji opieki nad pacjentem, a ustawa nie przewiduje dla nich osobnego finansowania. Pytamy minister zdrowia Jolantę Sobierańską-Grendę, kto ma koordynować opiekę nad pacjentami z NF. #NF1 #neurofibromatoza #ChorobyRzadkie"
 ---
 
