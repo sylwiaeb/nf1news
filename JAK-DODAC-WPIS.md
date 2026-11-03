@@ -38,6 +38,18 @@ tweet: "MZ potwierdziło na spotkaniu, że… Szczegóły i dokumenty:"
 - Tekst powinien mieć najwyżej ok. 250 znaków (link zajmuje 23).
 - Poprawki starego wpisu nie wysyłają niczego na X, tylko nowe pliki.
 
+## Udostępnianie na Facebooku
+
+Facebook nie pozwala wstawić gotowego tekstu przez link. Dlatego przycisk „na Facebooku” kopiuje zajawkę do schowka, a czytelnik wkleja ją w okienku Facebooka. Tekst zajawki wpisz w nagłówku, w linii `fb:` (bez linku, bo Facebook sam dołącza podgląd wpisu):
+
+```
+fb: "Ministerstwo Zdrowia potwierdziło, że… Minister zdrowia Jolanta Sobierańska-Grenda… #NF1 #neurofibromatoza #ChorobyRzadkie"
+```
+
+- Bez linii `fb:` skopiuje się tytuł z opisem i hashtagi #NF1 #neurofibromatoza #ChorobyRzadkie.
+- Oznaczeń (@) nie da się przenieść przez schowek: po wklejeniu trzeba wpisać @ i nazwę, np. „@Ministerstwo Zdrowia”, i wybrać stronę z listy.
+- Podgląd linku (obrazek, tytuł, opis) bierze się z `title` i `description`. Jeśli Facebook pokazuje stary opis, wklej adres wpisu na stronie developers.facebook.com/tools/debug i kliknij „Scrape Again”.
+
 ## Wykres słupkowy
 
 Wklej do wpisu taki fragment i zmień etykiety, liczby i szerokości:

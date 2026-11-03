@@ -1,6 +1,8 @@
 ---
 title: "Od „prowadzimy prace” do „zakończono dalsze prace”. Jak w pięć miesięcy zmieniło się stanowisko Ministerstwa Zdrowia"
 date: 2026-10-30 00:05:00 +0100
+description: "Maj 2026: „prowadzimy prace”. Październik 2026: „zakończono dalsze prace”. Dwa pisma Ministerstwa Zdrowia z tą samą sygnaturą pokazują, jak resort zmienił zdanie w sprawie opieki koordynowanej w NF."
+fb: "Maj 2026: Ministerstwo Zdrowia „prowadzi prace” nad opieką koordynowaną dla pacjentów z NF. Październik 2026: „zakończono dalsze prace”. Dwa pisma, ta sama sygnatura, zupełnie inne stanowisko. A 2 830 pacjentów pilotażu od 30 kwietnia zostało bez skoordynowanej opieki. Pani Minister Jolanto Sobierańska-Grenda, co się zmieniło? #NF1 #neurofibromatoza #ChorobyRzadkie"
 ---
 
 30 kwietnia 2026 r. zakończył się program pilotażowy koordynowanej opieki nad pacjentami z neurofibromatozami i pokrewnymi rasopatiami. Program obejmował dzieci i młodych dorosłych do 30. roku życia, a w ciągu sześciu lat skorzystało z niego 2 830 pacjentów. Od tego dnia jego uczestnicy nie mają zapewnionej skoordynowanej opieki. Dwa pisma Ministerstwa Zdrowia w tej samej sprawie, z tą samą sygnaturą, pokazują, jak zmieniło się podejście resortu.

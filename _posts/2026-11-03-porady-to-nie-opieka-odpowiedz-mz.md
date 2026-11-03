@@ -3,6 +3,7 @@ date: 2026-11-03 08:00:00 +0100
 title: "„Nic się nie zmieniło”? Porady w AOS to nie opieka koordynowana. Odpowiedź na stanowisko Ministerstwa Zdrowia"
 description: "Ministerstwo Zdrowia twierdzi, że dla pacjentów z neurofibromatozami nic się nie zmieniło. Zmieniło się to, co w pilotażu było najważniejsze: koordynacja. Sprawdzamy stanowisko resortu punkt po punkcie."
 tweet: "MZ: dla pacjentów z NF „nic się nie zmieniło”. Zmieniło się to, co dawał pilotaż: koordynator, stały zespół, plan badań. Porady w 10 osobnych poradniach to nie opieka koordynowana. @MZ_GOV_PL @NewsMED_pl @DkorycinskaK #NF1 #ChorobyRzadkie"
+fb: "Ministerstwo Zdrowia: dla pacjentów z neurofibromatozami „nic się nie zmieniło”. Zmieniło się to, co w pilotażu było najważniejsze: koordynator, stały zespół z doświadczeniem w NF i jeden plan badań. Porady w dziesięciu osobnych poradniach, każda z osobnym skierowaniem i kolejką, to nie jest opieka koordynowana. Odpowiadamy resortowi i minister zdrowia Jolancie Sobierańskiej-Grendzie punkt po punkcie. #NF1 #neurofibromatoza #ChorobyRzadkie"
 ---
 
 W odpowiedzi na artykuł serwisu NewsMed.pl o końcu pilotażu opieki koordynowanej Ministerstwo Zdrowia napisało na Facebooku:

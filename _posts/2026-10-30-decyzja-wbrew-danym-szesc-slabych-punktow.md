@@ -3,6 +3,7 @@ date: 2026-10-30 14:55:00 +0100
 title: "Decyzja wbrew danym. Sześć słabych punktów zakończenia prac nad opieką koordynowaną w NF"
 tweet: "Ministerstwo Zdrowia zakończyło prace nad opieką koordynowaną w NF, choć dane AOTMiT pokazują oszczędności dla NFZ i o 37% mniej wizyt w AOS u dorosłych. Sześć punktów, które się nie bronią. @MZ_GOV_PL #NF1 #neurofibromatoza #ChorobyRzadkie"
 description: "Ministerstwo Zdrowia zakończyło prace nad opieką koordynowaną dla pacjentów z NF, choć dane AOTMiT pokazują oszczędności, poparcie ekspertów i lepszą opiekę. Sześć punktów, które się nie bronią."
+fb: "Ministerstwo Zdrowia zakończyło prace nad opieką koordynowaną dla pacjentów z NF, choć dane AOTMiT pokazują oszczędności dla NFZ, o 37% mniej wizyt w AOS u dorosłych i poparcie ekspertów. Sześć punktów tej decyzji, które się nie bronią. Czekamy na odpowiedź minister zdrowia Jolanty Sobierańskiej-Grendy. #NF1 #neurofibromatoza #ChorobyRzadkie"
 ---
 
 23 października 2026 r. Ministerstwo Zdrowia poinformowało, że kończy prace nad świadczeniem opieki koordynowanej dla pacjentów z neurofibromatozami i rasopatiami. Jako uzasadnienie podało negatywną rekomendację Prezesa AOTMiT. Pacjentów odesłało do Ośrodków Eksperckich Chorób Rzadkich.
