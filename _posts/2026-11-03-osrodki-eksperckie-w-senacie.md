@@ -49,6 +49,8 @@ Na stronie Senatu, przy każdej ustawie, jest odnośnik „Uwagi, opinie, stanow
 
 ## Źródła
 
+- [Opinia do ustawy z druku senackiego nr 895, Kancelaria Senatu](https://www.senat.gov.pl/gfx/senat/pl/senatekspertyzy/8168/plik/895o.pdf)
+- [Przebieg prac nad ustawą w Sejmie (druk nr 3141)](https://www.sejm.gov.pl/sejm10.nsf/PrzebiegProc.xsp?nr=3141)
 - [Sprawozdanie sejmowej Komisji Zdrowia o projekcie ustawy, druk sejmowy nr 3201](https://api.sejm.gov.pl/sejm/term10/prints/3201/3201.pdf)
 - [Sejm przyjął ustawę o ośrodkach eksperckich chorób rzadkich, Medkurier.pl](https://medkurier.pl/sejm-ustawa-osrodki-eksperckie-chorob-rzadkich/)
 - [Co z kolejnymi Ośrodkami Eksperckimi Chorób Rzadkich? Zdecydują kryteria i finansowanie, Rynek Zdrowia, 19.05.2026](https://www.rynekzdrowia.pl/choroby-rzadkie/Co-z-kolejnymi-Osrodkami-Eksperckimi-Chorob-Rzadkich-Zdecyduja-kryteria-i-finansowanie,284518,1024.html)
