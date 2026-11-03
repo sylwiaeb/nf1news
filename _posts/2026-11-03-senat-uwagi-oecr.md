@@ -33,13 +33,13 @@ Poprawkę do ustawy może zgłosić tylko senator, dlatego najważniejsze jest n
 |---|---|---|
 | Beata Małecka-Libera | przewodnicząca | `biuro.maleckalibera@gmail.com` |
 | Agnieszka Gorgoń-Komor | zastępczyni przewodniczącej | `biurosenatorskie@agnieszkagorgonkomor.pl` |
-| Waldemar Kraska | zastępca przewodniczącej | adres na [stronie Senatu](https://www.senat.gov.pl/prace/komisje-senackie/sklad,221,komisja-zdrowia.html) |
+| Waldemar Kraska | zastępca przewodniczącej | `biuro@kraska.home.pl` |
 | Wojciech Konieczny | zastępca przewodniczącej | `senatorkonieczny2@gmail.com` |
 | Tomasz Grodzki | członek | `senator@grodzki.senat.pl` |
 | Andrzej Kalata | członek | `andrzejkalata.biuro@gmail.com` |
 | Ewa Matecka | członkini | `biuro@matecka.senat.pl` |
 
-  Adresy pochodzą z listy senatorów opublikowanej przez Senat w 2025 r. Jeśli któryś nie działa, aktualny adres jest na stronie senatora (kliknij nazwisko na stronie składu komisji);
+  Adresy pochodzą ze stron senatorów i z listy senatorów opublikowanej przez Senat w 2025 r. Jeśli któryś nie działa, aktualny adres jest na stronie senatora (kliknij nazwisko na stronie składu komisji);
 - **do senatora z Twojego okręgu wyborczego.** Listę znajdziesz w zakładce **Skład → Senatorowie**. Senatorowie częściej reagują na sprawy swoich wyborców.
 
 Wysyłając do kilku osób naraz, wpisz adresy w polu **UDW** (ukryte do wiadomości), a nie DW.
