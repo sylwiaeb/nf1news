@@ -7,7 +7,7 @@ tweet: false
 
 Senat zajmuje się ustawą, która wpisuje do prawa Ośrodki Eksperckie Chorób Rzadkich (OECR), czyli miejsca, do których Ministerstwo Zdrowia odesłało pacjentów z NF po zakończeniu pilotażu. Jak pokazaliśmy we wpisie [Ministerstwo odsyła pacjentów z NF do ośrodków eksperckich]({% post_url 2026-11-03-osrodki-eksperckie-w-senacie %}), w zadaniach tych ośrodków nie ma koordynacji opieki, a ustawa nie daje im osobnych pieniędzy.
 
-Senat może to jeszcze zmienić. Ma na to 30 dni od przekazania ustawy przez Sejm, który przyjął ją 22 października. Poprawkę może zgłosić każdy senator, dopóki trwa debata nad ustawą na posiedzeniu Senatu. **Dlatego liczy się czas: najlepiej napisać w ciągu najbliższych dni.**
+Senat może to jeszcze zmienić. Według opinii Biura Legislacyjnego Senatu komisja zajmuje się ustawą 3 listopada, a **cały Senat 4 listopada**. Poprawkę może zgłosić każdy senator, dopóki trwa debata nad ustawą na posiedzeniu Senatu. **Dlatego liczy się czas: maile trzeba wysłać od razu, najpóźniej rano 4 listopada.**
 
 ## O co prosimy senatorów
 
@@ -35,7 +35,7 @@ Wysyłając do kilku osób naraz, wpisz adresy w polu **UDW** (ukryte do wiadomo
 Ten sam tekst wyślij do całej komisji:
 
 - e-mailem na adres **kz@senat.gov.pl**,
-- albo pocztą: **Komisja Zdrowia Senatu RP, Kancelaria Senatu, ul. Wiejska 6, 00-902 Warszawa** (list idzie kilka dni, a czasu jest mało, więc lepiej e-mail).
+- albo pocztą: **Komisja Zdrowia Senatu RP, Kancelaria Senatu, ul. Wiejska 6, 00-902 Warszawa** (list nie zdąży przed głosowaniem 4 listopada, więc wyślij e-mail).
 
 Dokumenty do ustawy: [opinia do ustawy z druku senackiego nr 895](https://www.senat.gov.pl/gfx/senat/pl/senatekspertyzy/8168/plik/895o.pdf) i [przebieg prac w Sejmie (druk nr 3141)](https://www.sejm.gov.pl/sejm10.nsf/PrzebiegProc.xsp?nr=3141).
 
