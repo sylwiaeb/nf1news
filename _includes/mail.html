@@ -1,3 +1,10 @@
 {% capture body %}{% include {{ include.body }} %}{% endcapture %}
-<p class="mail"><button type="button" class="btn copy" data-target="{{ include.id }}">Skopiuj treść wniosku</button></p>
-<textarea id="{{ include.id }}" hidden readonly>{{ body | strip | escape }}</textarea>
+<div class="mail-box">
+<p class="mail">
+<button type="button" class="btn copy" data-target="{{ include.id }}">Skopiuj treść</button>
+{% if include.to %}<a class="btn mailto" href="mailto:{{ include.to }}" data-target="{{ include.id }}" data-to="{{ include.to }}" data-bcc="{{ include.bcc }}" data-subject="{{ include.subject }}">Otwórz w programie pocztowym</a>{% endif %}
+</p>
+<p class="copy-msg" role="status" aria-live="polite"></p>
+<label for="{{ include.id }}">Treść{% if include.to and include.subject == nil %} (pierwsza linia to temat maila){% endif %}. Jeśli przyciski nie działają, przytrzymaj palec w polu, wybierz „Zaznacz wszystko”, a potem „Kopiuj”.</label>
+<textarea id="{{ include.id }}" readonly rows="10">{{ body | strip | escape }}</textarea>
+</div>

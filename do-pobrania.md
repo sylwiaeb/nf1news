@@ -19,7 +19,7 @@ Gotowy wniosek o udostępnienie informacji publicznej do Centrali NFZ. Prosi o l
 - [Pobierz wniosek (Word, .docx)]({{ '/pliki/wniosek-NFZ-dane-pilotaz-NF.docx' | relative_url }})
 - [Pobierz wniosek (tekst, .txt)]({{ '/pliki/wniosek-NFZ-dane-pilotaz-NF.txt' | relative_url }})
 
-{% include mail.html id="w-nfz" body="wnioski/wniosek-NFZ-dane-pilotaz-NF.txt" %}
+{% include mail.html id="w-nfz" body="wnioski/wniosek-NFZ-dane-pilotaz-NF.txt" to="KancelariaElektroniczna@nfz.gov.pl" subject="Wniosek o udostępnienie informacji publicznej – pilotaż opieki koordynowanej NF" %}
 
 **Jak go wysłać do Centrali NFZ:**
 
@@ -38,7 +38,7 @@ Wniosek o udostępnienie informacji publicznej w sprawie zakończenia prac nad �
 - [Pobierz wniosek (Word, .docx)]({{ '/pliki/wniosek-MZ-uzasadnienie-decyzji.docx' | relative_url }})
 - [Pobierz wniosek (tekst, .txt)]({{ '/pliki/wniosek-MZ-uzasadnienie-decyzji.txt' | relative_url }})
 
-{% include mail.html id="w-mz1" body="wnioski/wniosek-MZ-uzasadnienie-decyzji.txt" %}
+{% include mail.html id="w-mz1" body="wnioski/wniosek-MZ-uzasadnienie-decyzji.txt" to="kancelaria@mz.gov.pl" subject="Wniosek o udostępnienie informacji publicznej – decyzja w sprawie opieki koordynowanej NF" %}
 
 ## Wniosek do Ministerstwa Zdrowia: gdzie ma się zgłosić pacjent po pilotażu
 
@@ -47,7 +47,7 @@ Wniosek o udostępnienie informacji publicznej w sprawie dalszej opieki nad pacj
 - [Pobierz wniosek (Word, .docx)]({{ '/pliki/wniosek-MZ-gdzie-pacjent-po-pilotazu.docx' | relative_url }})
 - [Pobierz wniosek (tekst, .txt)]({{ '/pliki/wniosek-MZ-gdzie-pacjent-po-pilotazu.txt' | relative_url }})
 
-{% include mail.html id="w-mz2" body="wnioski/wniosek-MZ-gdzie-pacjent-po-pilotazu.txt" %}
+{% include mail.html id="w-mz2" body="wnioski/wniosek-MZ-gdzie-pacjent-po-pilotazu.txt" to="kancelaria@mz.gov.pl" subject="Wniosek o udostępnienie informacji publicznej – opieka nad pacjentami z NF po pilotażu" %}
 
 **Jak wysłać wnioski do Ministerstwa Zdrowia:**
 
