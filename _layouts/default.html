@@ -61,6 +61,7 @@
     .bar.c7 { background: var(--c7); }
     .bar.c8 { background: var(--c8); }
     .share { font-family: system-ui, sans-serif; font-size: 0.85rem; color: #777; margin-top: -0.5rem; }
+    .fb-hint:not([hidden]) { display: block; margin-top: 0.3rem; }
     .btn { display: inline-block; font: 0.85rem system-ui, sans-serif; padding: 0.4rem 0.8rem; margin: 0 0.4rem 0.4rem 0; border: 1px solid currentColor; border-radius: 4px; background: none; color: inherit; text-decoration: none; cursor: pointer; }
     .source { color: #777; font-family: system-ui, sans-serif; font-size: 0.8rem; }
   </style>
@@ -73,6 +74,17 @@
   <main>
 {{ content }}
   </main>
+  <script>
+    // Facebook nie pozwala wstawić tekstu przez link, więc kopiujemy zajawkę do schowka.
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest && e.target.closest('a.fb-share');
+      if (!a || !navigator.clipboard) return;
+      navigator.clipboard.writeText(a.dataset.fb).then(function () {
+        var hint = a.parentNode.querySelector('.fb-hint');
+        if (hint) hint.hidden = false;
+      }).catch(function () {});
+    });
+  </script>
   <footer>{{ site.description }} · <a href="{{ '/prywatnosc/' | relative_url }}">Prywatność</a></footer>
 </body>
 </html>
