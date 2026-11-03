@@ -21,7 +21,9 @@ Prawnicy Senatu w opinii do ustawy nie zgłosili żadnych uwag do przepisów o O
 
 {% include mail.html id="uwagi-senat" body="wnioski/uwagi-senat-OECR.txt" %}
 
-Na końcu wpisz swoje imię i nazwisko. Jeśli masz własne doświadczenia z opieką po pilotażu (odwołana wizyta, brak terminu, brak informacji, gdzie się zgłosić), dopisz je w dwóch, trzech zdaniach przed podpisem. Jedna konkretna historia waży więcej niż ogólny apel.
+Na końcu wpisz swoje imię i nazwisko.
+
+**Czy trzeba się podpisać?** Do senatorów i Komisji Zdrowia możesz napisać bez podpisu, żaden przepis tego nie zabrania. Ale mail podpisany imieniem i nazwiskiem (najlepiej też z miejscowością) jest traktowany poważniej, a anonimowy łatwo uznać za spam. Adresu domowego podawać nie trzeba. Inaczej jest z pismem do Ministerstwa Zdrowia (krok 4): wniosek albo skarga bez imienia, nazwiska i adresu zostaje pozostawiona bez rozpatrzenia, więc tam podpis i adres są potrzebne. Jeśli masz własne doświadczenia z opieką po pilotażu (odwołana wizyta, brak terminu, brak informacji, gdzie się zgłosić), dopisz je w dwóch, trzech zdaniach przed podpisem. Jedna konkretna historia waży więcej niż ogólny apel.
 
 ## Krok 2. Wyślij mailem do senatorów
 
