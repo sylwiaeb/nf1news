@@ -64,6 +64,10 @@
     .fb-box { font-family: system-ui, sans-serif; font-size: 0.85rem; margin: 0 0 1rem; padding: 0.6rem 0.8rem; border: 1px solid #ccc; border-radius: 4px; }
     .fb-box p { margin: 0.4rem 0; }
     .fb-box textarea { width: 100%; box-sizing: border-box; font: inherit; color: inherit; background: none; border: 1px solid #ccc; border-radius: 4px; padding: 0.4rem; }
+    .mail-box { font-family: system-ui, sans-serif; font-size: 0.85rem; margin: 0 0 1rem; }
+    .mail-box summary { cursor: pointer; color: #777; }
+    .mail-box .hint { margin: 0.4rem 0; color: #777; }
+    .mail-box textarea { width: 100%; box-sizing: border-box; font: inherit; color: inherit; background: none; border: 1px solid #ccc; border-radius: 4px; padding: 0.4rem; }
     .btn { display: inline-block; font: 0.85rem system-ui, sans-serif; padding: 0.4rem 0.8rem; margin: 0 0.4rem 0.4rem 0; border: 1px solid currentColor; border-radius: 4px; background: none; color: inherit; text-decoration: none; cursor: pointer; }
     .source { color: #777; font-family: system-ui, sans-serif; font-size: 0.8rem; }
   </style>
@@ -93,21 +97,28 @@
         if (!ok && navigator.clipboard) navigator.clipboard.writeText(ta.value);
         done.hidden = false;
       } else if (t.matches && t.matches('button.copy')) {
-        // Przycisk „Skopiuj treść wniosku”: kopiuje tekst z ukrytego pola o id z data-target.
-        var src = document.getElementById(t.dataset.target);
-        if (!src) return;
-        var a = document.createElement('textarea');
-        a.value = src.value; a.setAttribute('readonly', '');
-        a.style.position = 'fixed'; a.style.top = '0'; a.style.left = '0'; a.style.opacity = '0';
-        document.body.appendChild(a);
-        a.focus(); a.select(); a.setSelectionRange(0, a.value.length);
-        var copied = false;
-        try { copied = document.execCommand('copy'); } catch (err) {}
-        a.remove();
-        if (!copied && navigator.clipboard) navigator.clipboard.writeText(src.value);
-        var label = t.textContent;
-        t.textContent = 'Skopiowano';
-        setTimeout(function () { t.textContent = label; }, 2000);
+        // „Skopiuj treść wniosku”: najpierw schowek, potem execCommand, a gdy oba zawiodą,
+        // rozwijamy pole z tekstem i zaznaczamy je do ręcznego skopiowania.
+        var box = t.closest('.mail-box'), ta = document.getElementById(t.dataset.target);
+        if (!box || !ta) return;
+        var msg = box.querySelector('.copy-msg'), det = box.querySelector('details');
+        var show = function (text) { msg.textContent = text; msg.hidden = false; };
+        var manual = function () {
+          det.open = true;
+          ta.focus(); ta.select(); ta.setSelectionRange(0, ta.value.length);
+          show('Nie udało się skopiować automatycznie. Tekst jest zaznaczony poniżej: wybierz „Kopiuj”.');
+        };
+        var legacy = function () {
+          var wasOpen = det.open, ok = false;
+          det.open = true;
+          ta.focus(); ta.select(); ta.setSelectionRange(0, ta.value.length);
+          try { ok = document.execCommand('copy'); } catch (err) {}
+          if (ok) { det.open = wasOpen; window.getSelection && window.getSelection().removeAllRanges(); show('Skopiowano. Wklej treść do maila.'); }
+          else manual();
+        };
+        if (navigator.clipboard && window.isSecureContext) {
+          navigator.clipboard.writeText(ta.value).then(function () { show('Skopiowano. Wklej treść do maila.'); }, legacy);
+        } else legacy();
       }
     });
   </script>

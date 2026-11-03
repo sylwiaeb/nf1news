@@ -1,3 +1,9 @@
 {% capture body %}{% include {{ include.body }} %}{% endcapture %}
-<p class="mail"><button type="button" class="btn copy" data-target="{{ include.id }}">Skopiuj treść wniosku</button></p>
-<textarea id="{{ include.id }}" hidden readonly>{{ body | strip | escape }}</textarea>
+<div class="mail-box">
+<p class="mail"><button type="button" class="btn copy" data-target="{{ include.id }}">Skopiuj treść wniosku</button> <span class="copy-msg" hidden></span></p>
+<details class="mail-text">
+<summary>Pokaż treść do ręcznego skopiowania</summary>
+<p class="hint">Jeśli przycisk nie działa w Twojej przeglądarce: przytrzymaj palec w polu poniżej, wybierz „Zaznacz wszystko”, a potem „Kopiuj”.</p>
+<textarea id="{{ include.id }}" readonly rows="10">{{ body | strip | escape }}</textarea>
+</details>
+</div>
