@@ -57,14 +57,3 @@ Wniosek o udostępnienie informacji publicznej w sprawie dalszej opieki nad pacj
 - albo pocztą: Ministerstwo Zdrowia, ul. Miodowa 15, 00-952 Warszawa.
 
 Te same zasady co przy NFZ: podpis ani imię i nazwisko nie są wymagane, odpowiedź powinna przyjść w ciągu 14 dni (najwyżej 2 miesięcy), a odmowa wymaga decyzji, od której można się odwołać.
-
-<script>
-document.querySelectorAll('button.copy').forEach(function (b) {
-  b.addEventListener('click', function () {
-    var t = document.getElementById(b.dataset.target).value;
-    var done = function () { b.textContent = 'Skopiowano'; setTimeout(function () { b.textContent = 'Skopiuj treść wniosku'; }, 2000); };
-    if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done); }
-    else { var a = document.createElement('textarea'); a.value = t; document.body.appendChild(a); a.select(); document.execCommand('copy'); a.remove(); done(); }
-  });
-});
-</script>

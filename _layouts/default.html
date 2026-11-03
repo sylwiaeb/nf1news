@@ -92,6 +92,22 @@
         try { ok = document.execCommand('copy'); } catch (err) {}
         if (!ok && navigator.clipboard) navigator.clipboard.writeText(ta.value);
         done.hidden = false;
+      } else if (t.matches && t.matches('button.copy')) {
+        // Przycisk „Skopiuj treść wniosku”: kopiuje tekst z ukrytego pola o id z data-target.
+        var src = document.getElementById(t.dataset.target);
+        if (!src) return;
+        var a = document.createElement('textarea');
+        a.value = src.value; a.setAttribute('readonly', '');
+        a.style.position = 'fixed'; a.style.top = '0'; a.style.left = '0'; a.style.opacity = '0';
+        document.body.appendChild(a);
+        a.focus(); a.select(); a.setSelectionRange(0, a.value.length);
+        var copied = false;
+        try { copied = document.execCommand('copy'); } catch (err) {}
+        a.remove();
+        if (!copied && navigator.clipboard) navigator.clipboard.writeText(src.value);
+        var label = t.textContent;
+        t.textContent = 'Skopiowano';
+        setTimeout(function () { t.textContent = label; }, 2000);
       }
     });
   </script>
