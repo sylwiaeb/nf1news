@@ -65,8 +65,8 @@
     .fb-box p { margin: 0.4rem 0; }
     .fb-box textarea { width: 100%; box-sizing: border-box; font: inherit; color: inherit; background: none; border: 1px solid #ccc; border-radius: 4px; padding: 0.4rem; }
     .mail-box { font-family: system-ui, sans-serif; font-size: 0.85rem; margin: 0 0 1rem; }
-    .mail-box summary { cursor: pointer; color: #777; }
-    .mail-box .hint { margin: 0.4rem 0; color: #777; }
+    .mail-box label { display: block; margin: 0.4rem 0; color: #777; }
+    .mail-box .copy-msg { margin: 0; min-height: 1.2em; font-weight: 600; }
     .mail-box textarea { width: 100%; box-sizing: border-box; font: inherit; color: inherit; background: none; border: 1px solid #ccc; border-radius: 4px; padding: 0.4rem; }
     .btn { display: inline-block; font: 0.85rem system-ui, sans-serif; padding: 0.4rem 0.8rem; margin: 0 0.4rem 0.4rem 0; border: 1px solid currentColor; border-radius: 4px; background: none; color: inherit; text-decoration: none; cursor: pointer; }
     .source { color: #777; font-family: system-ui, sans-serif; font-size: 0.8rem; }
@@ -97,29 +97,35 @@
         if (!ok && navigator.clipboard) navigator.clipboard.writeText(ta.value);
         done.hidden = false;
       } else if (t.matches && t.matches('button.copy')) {
-        // „Skopiuj treść wniosku”: najpierw schowek, potem execCommand, a gdy oba zawiodą,
-        // rozwijamy pole z tekstem i zaznaczamy je do ręcznego skopiowania.
+        // „Skopiuj treść”: najpierw schowek, potem execCommand, a gdy oba zawiodą,
+        // zaznaczamy tekst w polu, żeby można go było skopiować ręcznie.
         var box = t.closest('.mail-box'), ta = document.getElementById(t.dataset.target);
         if (!box || !ta) return;
-        var msg = box.querySelector('.copy-msg'), det = box.querySelector('details');
-        var show = function (text) { msg.textContent = text; msg.hidden = false; };
-        var manual = function () {
-          det.open = true;
-          ta.focus(); ta.select(); ta.setSelectionRange(0, ta.value.length);
-          show('Nie udało się skopiować automatycznie. Tekst jest zaznaczony poniżej: wybierz „Kopiuj”.');
-        };
+        var msg = box.querySelector('.copy-msg');
+        var show = function (text) { msg.textContent = text; };
+        var select = function () { ta.focus(); ta.select(); ta.setSelectionRange(0, ta.value.length); };
         var legacy = function () {
-          var wasOpen = det.open, ok = false;
-          det.open = true;
-          ta.focus(); ta.select(); ta.setSelectionRange(0, ta.value.length);
+          var ok = false;
+          select();
           try { ok = document.execCommand('copy'); } catch (err) {}
-          if (ok) { det.open = wasOpen; window.getSelection && window.getSelection().removeAllRanges(); show('Skopiowano. Wklej treść do maila.'); }
-          else manual();
+          show(ok ? 'Skopiowano. Wklej treść do maila.' : 'Nie udało się skopiować automatycznie. Tekst w polu poniżej jest zaznaczony: wybierz „Kopiuj”.');
         };
         if (navigator.clipboard && window.isSecureContext) {
           navigator.clipboard.writeText(ta.value).then(function () { show('Skopiowano. Wklej treść do maila.'); }, legacy);
         } else legacy();
       }
+    });
+    // „Otwórz w programie pocztowym”: adresy, temat (pierwsza linia „Temat: …”) i treść.
+    document.querySelectorAll('a.mailto').forEach(function (a) {
+      var ta = document.getElementById(a.dataset.target);
+      if (!ta) return;
+      var text = ta.value, subject = a.dataset.subject || '', m = text.match(/^Temat:\s*(.*)\n+/);
+      if (m) { subject = subject || m[1]; text = text.slice(m[0].length); }
+      var q = [];
+      if (a.dataset.bcc) q.push('bcc=' + encodeURIComponent(a.dataset.bcc));
+      if (subject) q.push('subject=' + encodeURIComponent(subject));
+      q.push('body=' + encodeURIComponent(text));
+      a.href = 'mailto:' + a.dataset.to + '?' + q.join('&');
     });
   </script>
   <footer>{{ site.description }} · <a href="{{ '/prywatnosc/' | relative_url }}">Prywatność</a></footer>
