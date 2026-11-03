@@ -21,24 +21,24 @@ Senat może to jeszcze zmienić. Ma na to 30 dni od przekazania ustawy przez Sej
 
 Na końcu wpisz swoje imię i nazwisko. Jeśli masz własne doświadczenia z opieką po pilotażu (odwołana wizyta, brak terminu, brak informacji, gdzie się zgłosić), dopisz je w dwóch, trzech zdaniach przed podpisem. Jedna konkretna historia waży więcej niż ogólny apel.
 
-## Krok 2. Wyślij jako uwagi obywatelskie na stronie Senatu
+## Krok 2. Wyślij mailem do senatorów
 
-1. Wejdź na [senat.gov.pl](https://www.senat.gov.pl) i otwórz **Prace → Komisje senackie → Komisja Zdrowia**, a tam posiedzenie z 3 listopada 2026 r.
-2. Przy punkcie o ustawie z **druku senackiego nr 895** kliknij **„Uwagi, opinie, stanowiska, uwagi obywatelskie”**.
-3. Postępuj według instrukcji na stronie i wklej skopiowany tekst.
-
-Dokumenty do ustawy: [opinia do ustawy z druku senackiego nr 895](https://www.senat.gov.pl/gfx/senat/pl/senatekspertyzy/8168/plik/895o.pdf) i [przebieg prac w Sejmie (druk nr 3141)](https://www.sejm.gov.pl/sejm10.nsf/PrzebiegProc.xsp?nr=3141).
-
-Uwagi obywatelskie mogą zostać opublikowane na stronie Senatu.
-
-## Krok 3. Wyślij ten sam tekst mailem do senatorów
-
-Uwagi obywatelskie trafiają do senatorów, ale poprawkę musi zgłosić konkretny senator. Dlatego warto napisać też bezpośrednio:
+Poprawkę do ustawy może zgłosić tylko senator, dlatego najważniejsze jest napisać bezpośrednio do nich:
 
 - **do członków senackiej Komisji Zdrowia.** Aktualny skład komisji jest na [senat.gov.pl](https://www.senat.gov.pl) w zakładce **Skład → Komisje senackie → Komisja Zdrowia**. Na stronie każdego senatora jest adres e-mail jego biura;
 - **do senatora z Twojego okręgu wyborczego.** Listę znajdziesz w zakładce **Skład → Senatorowie**. Senatorowie częściej reagują na sprawy swoich wyborców.
 
 Wysyłając do kilku osób naraz, wpisz adresy w polu **UDW** (ukryte do wiadomości), a nie DW.
+
+## Krok 3. Wyślij też do Komisji Zdrowia Senatu
+
+Ten sam tekst możesz wysłać do całej komisji pocztą, na adres:
+
+**Komisja Zdrowia Senatu RP, Kancelaria Senatu, ul. Wiejska 6, 00-902 Warszawa**
+
+Pocztą pismo idzie kilka dni, a czasu jest mało, więc nie zastępuj nim maili do senatorów.
+
+Dokumenty do ustawy: [opinia do ustawy z druku senackiego nr 895](https://www.senat.gov.pl/gfx/senat/pl/senatekspertyzy/8168/plik/895o.pdf) i [przebieg prac w Sejmie (druk nr 3141)](https://www.sejm.gov.pl/sejm10.nsf/PrzebiegProc.xsp?nr=3141).
 
 ## Krok 4. Daj znać innym
 

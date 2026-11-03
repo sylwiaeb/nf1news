@@ -45,7 +45,7 @@ Odesłanie pacjentów do OECR nie rozwiązuje tego problemu, dopóki ośrodki ni
 - Kto w OECR ma koordynować ich opiekę, skoro ustawa nie daje ośrodkom takiego zadania?
 - Z jakich pieniędzy OECR ma finansować koordynację, skoro ustawa nie przewiduje osobnego finansowania?
 
-Na stronie Senatu, przy każdej ustawie, jest odnośnik „Uwagi, opinie, stanowiska, uwagi obywatelskie”. Każdy może tam przesłać swoje uwagi do ustawy. Gotowe wnioski o informację publiczną są na stronie [Do pobrania]({{ '/do-pobrania/' | relative_url }}).
+Każdy może napisać do senatorów i poprosić o poprawki. Gotowy tekst i instrukcję przygotowaliśmy we wpisie [Napisz do Senatu w sprawie ośrodków eksperckich]({% post_url 2026-11-03-senat-uwagi-oecr %}). Gotowe wnioski o informację publiczną są na stronie [Do pobrania]({{ '/do-pobrania/' | relative_url }}).
 
 ## Źródła
 
