@@ -40,7 +40,7 @@ tweet: "MZ potwierdziło na spotkaniu, że… Szczegóły i dokumenty:"
 
 ## Udostępnianie na Facebooku
 
-Facebook nie pozwala wstawić gotowego tekstu przez link. Dlatego przycisk „na Facebooku” kopiuje zajawkę do schowka, a czytelnik wkleja ją w okienku Facebooka. Tekst zajawki wpisz w nagłówku, w linii `fb:` (bez linku, bo Facebook sam dołącza podgląd wpisu):
+Facebook nie pozwala wstawić gotowego tekstu przez link. Dlatego przycisk „na Facebooku” rozwija ramkę z zajawką, przyciskiem „Kopiuj tekst” i linkiem do Facebooka, gdzie czytelnik wkleja tekst. Tekst zajawki wpisz w nagłówku, w linii `fb:` (bez linku, bo Facebook sam dołącza podgląd wpisu):
 
 ```
 fb: "Ministerstwo Zdrowia potwierdziło, że… Minister zdrowia Jolanta Sobierańska-Grenda… #NF1 #neurofibromatoza #ChorobyRzadkie"
