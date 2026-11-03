@@ -7,7 +7,7 @@ tweet: false
 
 Senat zajmuje się ustawą, która wpisuje do prawa Ośrodki Eksperckie Chorób Rzadkich (OECR), czyli miejsca, do których Ministerstwo Zdrowia odesłało pacjentów z NF po zakończeniu pilotażu. Jak pokazaliśmy we wpisie [Ministerstwo odsyła pacjentów z NF do ośrodków eksperckich]({% post_url 2026-11-03-osrodki-eksperckie-w-senacie %}), w zadaniach tych ośrodków nie ma koordynacji opieki, a ustawa nie daje im osobnych pieniędzy.
 
-Senat może to jeszcze zmienić. Według opinii Biura Legislacyjnego Senatu komisja zajmuje się ustawą 3 listopada, a **cały Senat 4 listopada**. Poprawkę może zgłosić każdy senator, dopóki trwa debata nad ustawą na posiedzeniu Senatu. **Dlatego liczy się czas: maile trzeba wysłać od razu, najpóźniej rano 4 listopada.**
+Senat może to jeszcze zmienić. Senacka Komisja Zdrowia zajmowała się ustawą 3 listopada, a **cały Senat ma ją rozpatrzyć 4 listopada**. Na posiedzeniu Senatu każdy senator może zgłosić poprawkę, dopóki trwa debata nad ustawą. Jeśli poprawki zostaną zgłoszone, ustawa wraca na chwilę do Komisji Zdrowia, która je opiniuje przed głosowaniem. **Dlatego liczy się czas: maile trzeba wysłać od razu, najpóźniej rano 4 listopada.**
 
 ## O co prosimy senatorów
 
@@ -34,14 +34,21 @@ Wysyłając do kilku osób naraz, wpisz adresy w polu **UDW** (ukryte do wiadomo
 
 ## Krok 3. Wyślij też do Komisji Zdrowia Senatu
 
-Ten sam tekst wyślij do całej komisji:
+Komisja już raz obradowała, ale to ona opiniuje poprawki zgłoszone w debacie, więc warto, żeby jej członkowie znali sprawę. Ten sam tekst wyślij do komisji:
 
 - e-mailem na adres **kz@senat.gov.pl**,
 - albo pocztą: **Komisja Zdrowia Senatu RP, Kancelaria Senatu, ul. Wiejska 6, 00-902 Warszawa** (list nie zdąży przed głosowaniem 4 listopada, więc wyślij e-mail).
 
 Dokumenty do ustawy: [tekst ustawy porównany z obecnymi przepisami](https://www.senat.gov.pl/download/gfx/senat/pl/senatekspertyzy/8177/plik/895m.pdf), [opinia do ustawy z druku senackiego nr 895](https://www.senat.gov.pl/gfx/senat/pl/senatekspertyzy/8168/plik/895o.pdf) i [przebieg prac w Sejmie (druk nr 3141)](https://www.sejm.gov.pl/sejm10.nsf/PrzebiegProc.xsp?nr=3141).
 
-## Krok 4. Daj znać innym
+## Krok 4. Jeśli nie zdążysz przed 4 listopada
+
+Napisz do Ministerstwa Zdrowia. Przywrócenie pilotażu nie wymaga zmiany ustawy, więc decyzja i tak należy do ministra. Wystarczy ten sam tekst z jedną zmianą: zamiast prośby o poprawki poproś o przywrócenie pilotażu opieki koordynowanej dla pacjentów z neurofibromatozami i o odrębne finansowanie koordynacji w OECR.
+
+- e-mail: `kancelaria@mz.gov.pl`
+- ePUAP: `/8tk37sxx6h/SkrytkaESP`
+
+## Krok 5. Daj znać innym
 
 Udostępnij ten wpis rodzinom pacjentów z NF i rasopatiami, grupom wsparcia i znajomym. Im więcej osób napisze do senatorów, tym trudniej będzie pominąć tę sprawę.
 
