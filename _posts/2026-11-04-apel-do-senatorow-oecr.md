@@ -1,14 +1,14 @@
 ---
 date: 2026-11-04 10:10:00 +0100
-title: "Pilne: dziś Senat głosuje ustawę o ośrodkach eksperckich. Napisz do senatorów przed 11:00"
-description: "Dziś od 11:00 Senat zajmuje się ustawą o Ośrodkach Eksperckich Chorób Rzadkich (druk 895). Wczoraj na komisji nikt nie poruszył koordynacji opieki nad pacjentami z NF. Gotowe pismo i adresy wszystkich senatorów do skopiowania."
+title: "Pilne: Senat zajmuje się ustawą o ośrodkach eksperckich. Napisz do senatorów przed głosowaniem"
+description: "Senat zajmuje się na obecnym posiedzeniu ustawą o Ośrodkach Eksperckich Chorób Rzadkich (druk 895). Głosowanie może być 4 albo 5 listopada. Wczoraj na komisji nikt nie poruszył koordynacji opieki nad pacjentami z NF. Gotowe pismo i adresy wszystkich senatorów do skopiowania."
 tweet: "Dziś od 11:00 Senat zajmuje się ustawą o ośrodkach eksperckich chorób rzadkich. Wczoraj na komisji o koordynacji opieki nad pacjentami z NF nie padło ani słowo. Napisz do senatorów: gotowe pismo i adresy. @MZ_GOV_PL @DkorycinskaK #NF1 #ChorobyRzadkie"
 fb: "Dziś od 11:00 Senat zajmuje się ustawą o Ośrodkach Eksperckich Chorób Rzadkich, do których Ministerstwo Zdrowia odesłało pacjentów z neurofibromatozami po końcu pilotażu. Wczoraj na posiedzeniu komisji temat koordynacji opieki nie był omawiany. Zostało kilka godzin: napisz do senatorów. Gotowe pismo i adresy wszystkich senatorów są do skopiowania na stronie. #NF1 #neurofibromatoza #ChorobyRzadkie"
 ---
 
-**Dziś od 11:00 Senat zajmuje się ustawą o Ośrodkach Eksperckich Chorób Rzadkich (OECR), druk senacki nr 895.** To do tych ośrodków Ministerstwo Zdrowia odesłało pacjentów z neurofibromatozami po zakończeniu pilotażu. Wczoraj na posiedzeniu senackiej komisji temat koordynacji opieki nad pacjentami z NF nie był omawiany.
+**Senat zajmuje się na 68. posiedzeniu ustawą o Ośrodkach Eksperckich Chorób Rzadkich (OECR), druk senacki nr 895.** Posiedzenie rozpoczęło się 4 listopada i może potrwać do 5 listopada. Ustawa jest 12. punktem porządku obrad, więc nie wiadomo, czy głosowanie odbędzie się 4, czy 5 listopada. To do tych ośrodków Ministerstwo Zdrowia odesłało pacjentów z neurofibromatozami po zakończeniu pilotażu. Wczoraj na posiedzeniu senackiej komisji temat koordynacji opieki nad pacjentami z NF nie był omawiany.
 
-Zostało kilka godzin. Poprawkę może zgłosić każdy senator w czasie debaty, dlatego prosimy: napisz do senatorów teraz. Zajmie to pięć minut.
+Poprawkę może zgłosić każdy senator w czasie debaty nad ustawą, dlatego prosimy: napisz do senatorów teraz, zanim Senat dojdzie do tego punktu. Zajmie to pięć minut.
 
 ## Krok 1. Skopiuj pismo
 
