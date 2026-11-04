@@ -2,6 +2,8 @@
 layout: default
 title: Interpelacja poselska
 permalink: /interpelacja/
+# Ukryta na czas poprawek interpelacji. Usuń tę linię i przywróć link w menu, żeby opublikować.
+published: false
 description: "Gotowa interpelacja poselska w sprawie opieki koordynowanej nad pacjentami z NF, krótka wiadomość do posłów i adresy posłów w podziale na kluby."
 ---
 

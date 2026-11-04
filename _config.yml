@@ -14,6 +14,8 @@ feed:
 exclude:
   - JAK-DODAC-WPIS.md
   - Gemfile
+  - pliki/interpelacja-MZ-NF.docx
+  - pliki/interpelacja-MZ-NF.txt
 defaults:
   - scope:
       path: ""
