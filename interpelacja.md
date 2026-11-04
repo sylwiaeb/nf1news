@@ -3,13 +3,13 @@ layout: default
 title: Interpelacja poselska
 permalink: /interpelacja/
 description: "Gotowa interpelacja poselska w sprawie opieki koordynowanej nad pacjentami z NF, krótka wiadomość do posłów i adresy posłów w podziale na kluby."
-# Strona czeka na treść. Usuń tę linię, gdy będą plik, wiadomość i adresy.
-published: false
 ---
 
 # Interpelacja poselska
 
-[Wstęp: o co prosimy posłów i dlaczego.]
+Od 30 kwietnia 2026 r. 2 830 pacjentów z neurofibromatozami, którzy byli w pilotażu opieki koordynowanej, nie ma koordynatora ani stałego zespołu. Ministerstwo Zdrowia zakończyło prace nad stałym świadczeniem i odesłało ich do Ośrodków Eksperckich Chorób Rzadkich, choć ustawa o tych ośrodkach nie daje im ani zadania koordynacji, ani pieniędzy na nią.
+
+**Interpelacja poselska** to pisemne pytanie posła do ministra. Minister musi na nie odpowiedzieć, a odpowiedź jest publikowana na stronie Sejmu. Przygotowaliśmy gotowy projekt interpelacji do Ministra Zdrowia. Prosimy: wyślij go do posłów, najlepiej z różnych klubów, i poproś o jej złożenie. Zajmie to kilka minut.
 
 ## Krok 1. Pobierz interpelację
 
@@ -22,20 +22,9 @@ published: false
 
 ## Krok 3. Skopiuj adresy posłów
 
-Możesz napisać do posłów jednego klubu albo do wszystkich naraz.
+Możesz napisać do posłów jednego klubu, kilku klubów albo do wszystkich naraz.
 
 {% assign kluby = site.data.interpelacja.kluby %}
-{% for k in kluby %}
-### {{ k.klub }} ({{ k.adresy | size }})
-
-<div class="mail-box">
-<p class="mail"><button type="button" class="btn copy" data-target="adresy-{{ forloop.index }}">Kopiuj adresy</button></p>
-<p class="copy-msg" role="status" aria-live="polite"></p>
-<label for="adresy-{{ forloop.index }}">Adresy e-mail: {{ k.klub }}. Jeśli przycisk nie działa, przytrzymaj palec w polu, wybierz „Zaznacz wszystko”, a potem „Kopiuj”.</label>
-<textarea id="adresy-{{ forloop.index }}" readonly rows="4">{{ k.adresy | join: ", " | escape }}</textarea>
-</div>
-{% endfor %}
-
 {% if kluby.size > 1 %}
 ### Wszyscy posłowie
 
@@ -48,10 +37,24 @@ Możesz napisać do posłów jednego klubu albo do wszystkich naraz.
 </div>
 {% endif %}
 
+{% for k in kluby %}
+### {{ k.klub }} ({{ k.adresy | size }})
+
+<div class="mail-box">
+<p class="mail"><button type="button" class="btn copy" data-target="adresy-{{ forloop.index }}">Kopiuj adresy</button></p>
+<p class="copy-msg" role="status" aria-live="polite"></p>
+<label for="adresy-{{ forloop.index }}">Adresy e-mail: {{ k.klub }}. Jeśli przycisk nie działa, przytrzymaj palec w polu, wybierz „Zaznacz wszystko”, a potem „Kopiuj”.</label>
+<textarea id="adresy-{{ forloop.index }}" readonly rows="4">{{ k.adresy | join: ", " | escape }}</textarea>
+</div>
+{% endfor %}
+
+
+
 ## Krok 4. Wyślij
 
 1. Otwórz nowy e-mail w swojej poczcie.
 2. Wklej adresy w polu **UDW** (ukryte do wiadomości), a nie w polu „Do” ani „DW”. Wtedy posłowie nie widzą nawzajem swoich adresów, a Twój mail rzadziej trafia do spamu.
 3. W polu „Do” wpisz swój własny adres.
-4. Pierwszą linię wiadomości („Temat: …”) przenieś do tematu maila, a resztę wklej jako treść.
-5. Dołącz plik z interpelacją, podpisz się i wyślij.
+4. Część skrzynek pocztowych ogranicza liczbę odbiorców jednej wiadomości. Jeśli mail z wszystkimi adresami nie przejdzie, wyślij go osobno do każdego klubu.
+5. Pierwszą linię wiadomości („Temat: …”) przenieś do tematu maila, a resztę wklej jako treść.
+6. Dołącz plik z interpelacją, podpisz się i wyślij.

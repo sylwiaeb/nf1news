@@ -164,133 +164,155 @@ kluby:
       - Krystian.Luczak@sejm.pl
       - Artur.Lacki@sejm.pl
       - Lukasz.Sciebiorowski@sejm.pl
-
-  - klub: "Centrum"
+  - klub: "Prawo i Sprawiedliwość"
     adresy:
-      - Izabela.Bodnar@sejm.pl
-      - Elzbieta.Burkiewicz@sejm.pl
-      - Zaneta.Cwalina-Sliwowska@sejm.pl
-      - Paulina.Hennig-Kloska@sejm.pl
-      - Rafal.Kasprzyk@sejm.pl
-      - Rafal.Komarewicz@sejm.pl
-      - Aleksandra.Leo@sejm.pl
-      - Barbara.Okula@sejm.pl
-      - Barbara.Oliwiecka@sejm.pl
-      - Ryszard.Petru@sejm.pl
-      - Norbert.Pietrykowski@sejm.pl
-      - Marcin.Skonieczka@sejm.pl
-      - Miroslaw.Suchon@sejm.pl
-      - Ewa.Szymanowska@sejm.pl
-      - Slawomir.Cwik@sejm.pl
-  - klub: "Demokracja"
-    adresy:
-      - Jan.Ardanowski@sejm.pl
-      - Pawel.Kukiz@sejm.pl
-      - Jaroslaw.Sachajko@sejm.pl
-  - klub: "Konfederacja"
-    adresy:
-      - Konrad.Berkowicz@sejm.pl
-      - Karina.Bosak@sejm.pl
-      - Krzysztof.Bosak@sejm.pl
-      - Bronislaw.Foltyn@sejm.pl
-      - Slawomir.Mentzen@sejm.pl
-      - Krzysztof.Mulawa@sejm.pl
-      - Bartlomiej.Pejo@sejm.pl
-      - Michal.Poluboczek@sejm.pl
-      - Grzegorz.Placzek@sejm.pl
-      - Tomasz.Rzymkowski@sejm.pl
-      - Krzysztof.Szymanski@sejm.pl
-      - Krzysztof.Tuduj@sejm.pl
-      - Witold.Tumanowicz@sejm.pl
-      - Michal.Wawer@sejm.pl
-      - Ryszard.Wilk@sejm.pl
-      - Przemyslaw.Wipler@sejm.pl
-      - Andrzej.Zapalowski@sejm.pl
-  - klub: "Konfederacja Korony Polskiej"
-    adresy:
-      - Roman.Fritz@sejm.pl
-      - Wlodzimierz.Skalik@sejm.pl
-      - Slawomir.Zawislak@sejm.pl
-  - klub: "Lewica"
-    adresy:
-      - Bozena.Borowiec@sejm.pl
-      - Wlodzimierz.Czarzasty@sejm.pl
-      - Jacek.Czerniak@sejm.pl
-      - Agnieszka.Dziemianowicz-Bak@sejm.pl
-      - Krzysztof.Gawkowski@sejm.pl
-      - Daria.Gosek-Popiolek@sejm.pl
-      - Katarzyna.Kotula@sejm.pl
-      - Piotr.Kowal@sejm.pl
-      - Anita.Kucharska-Dziedzic@sejm.pl
-      - Marcin.Kulasek@sejm.pl
-      - Wanda.Nowicka@sejm.pl
-      - Dorota.Olko@sejm.pl
-      - Arkadiusz.Sikora@sejm.pl
-      - Wieslaw.Szczepanski@sejm.pl
-      - Andrzej.Szejna@sejm.pl
-      - Tadeusz.Tomaszewski@sejm.pl
-      - Tomasz.Trela@sejm.pl
-      - Katarzyna.Ueberhan@sejm.pl
-      - Joanna.Wicha@sejm.pl
-      - Dariusz.Wieczorek@sejm.pl
-      - Anna.Zukowska@sejm.pl
-  - klub: "PSL – Trzecia Droga"
-    adresy:
-      - Wladyslaw.Bartoszewski@sejm.pl
-      - Pawel.Bejda@sejm.pl
-      - Marek.Biernacki@sejm.pl
-      - Adam.Dziedzic@sejm.pl
-      - Andrzej.Grzyb@sejm.pl
-      - Henryk.Kiepura@sejm.pl
-      - Dariusz.Klimczak@sejm.pl
-      - Wladyslaw.Kosiniak-Kamysz@sejm.pl
-      - Stefan.Krajewski@sejm.pl
-      - Agnieszka.Klopotek@sejm.pl
-      - Radoslaw.Lubczyk@sejm.pl
-      - Miroslaw.Maliszewski@sejm.pl
-      - Urszula.Nowogorska@sejm.pl
-      - Miroslaw.Orlinski@sejm.pl
-      - Krzysztof.Paszyk@sejm.pl
-      - Urszula.Paslawska@sejm.pl
-      - Michal.Pyrzyk@sejm.pl
-      - Ireneusz.Ras@sejm.pl
-      - Jaroslaw.Rzepa@sejm.pl
-      - Wieslaw.Rozynski@sejm.pl
-      - Tadeusz.Samborski@sejm.pl
-      - Marek.Sawicki@sejm.pl
-      - Czeslaw.Siekierski@sejm.pl
-      - Henryk.Smolarz@sejm.pl
-      - Zbigniew.Sosnowski@sejm.pl
-      - Magdalena.Sroka@sejm.pl
-      - Jacek.Tomczak@sejm.pl
-      - Stanislaw.Tomczyszyn@sejm.pl
-      - Piotr.Zgorzelski@sejm.pl
-      - Zbigniew.Ziejewski@sejm.pl
-      - Jolanta.Zieba-Gzik@sejm.pl
-      - Bozena.Zelazowska@sejm.pl
-  - klub: "Polska 2050"
-    adresy:
-      - Agnieszka.Buczynska@sejm.pl
-      - Adam.Gomola@sejm.pl
-      - Michal.Gramatyka@sejm.pl
-      - Piotr.Gornikiewicz@sejm.pl
-      - Bozenna.Holownia@sejm.pl
-      - Szymon.Holownia@sejm.pl
-      - Adam.Lubonski@sejm.pl
-      - Maja.Nowak@sejm.pl
-      - Lukasz.Osmalak@sejm.pl
-      - Bartosz.Romowicz@sejm.pl
-      - Ewa.Schadler@sejm.pl
-      - Piotr.Strach@sejm.pl
-      - Wioleta.Tomczak@sejm.pl
-      - Kamil.Wnuk@sejm.pl
-      - Pawel.Sliz@sejm.pl
-  - klub: "Razem"
-    adresy:
-      - Maciej.Konieczny@sejm.pl
-      - Marta.Stozek@sejm.pl
-      - Adrian.Zandberg@sejm.pl
-      - Marcelina.Zawisza@sejm.pl
+      - Andrzej.Adamczyk@sejm.pl
+      - Waldemar.Andzel@sejm.pl
+      - Dorota.Arciszewska-Mielewczyk@sejm.pl
+      - Iwona.Arent@sejm.pl
+      - Marek.Ast@sejm.pl
+      - Piotr.Babinetz@sejm.pl
+      - Barbara.Bartus@sejm.pl
+      - Rafal.Bochenek@sejm.pl
+      - Jacek.Bogucki@sejm.pl
+      - Joanna.Borowiak@sejm.pl
+      - Kamil.Bortniczuk@sejm.pl
+      - Bozena.Borys-Szopa@sejm.pl
+      - Lidia.Burzynska@sejm.pl
+      - Mariusz.Blaszczak@sejm.pl
+      - Artur.Chojecki@sejm.pl
+      - Kazimierz.Choma@sejm.pl
+      - Dominika.Chorosinska@sejm.pl
+      - Tadeusz.Chrzan@sejm.pl
+      - Krzysztof.Cieciora@sejm.pl
+      - Krzysztof.Czarnecki@sejm.pl
+      - Witold.Czarnecki@sejm.pl
+      - Przemyslaw.Czarnek@sejm.pl
+      - Arkadiusz.Czartoryski@sejm.pl
+      - Lidia.Czechak@sejm.pl
+      - Anita.Czerwinska@sejm.pl
+      - Katarzyna.Czochara@sejm.pl
+      - Wladyslaw.Dajczak@sejm.pl
+      - Zbigniew.Dolata@sejm.pl
+      - Bartlomiej.Dorywalski@sejm.pl
+      - Przemyslaw.Drabek@sejm.pl
+      - Jan.Dziedziczak@sejm.pl
+      - Anna.Dabrowska-Banaszek@sejm.pl
+      - Magdalena.Filipek-Sobczak@sejm.pl
+      - Radoslaw.Fogiel@sejm.pl
+      - Andrzej.Gawron@sejm.pl
+      - Grzegorz.Gaza@sejm.pl
+      - Anna.Gembicka@sejm.pl
+      - Piotr.Glinski@sejm.pl
+      - Malgorzata.Golinska@sejm.pl
+      - Mariusz.Gosek@sejm.pl
+      - Kazimierz.Golojuch@sejm.pl
+      - Marcin.Grabowski@sejm.pl
+      - Marek.Grobarczyk@sejm.pl
+      - Kazimierz.Gwiazdowski@sejm.pl
+      - Agnieszka.Gorska@sejm.pl
+      - Czeslaw.Hoc@sejm.pl
+      - Zbigniew.Hoffmann@sejm.pl
+      - Pawel.Hreniak@sejm.pl
+      - Michal.Jach@sejm.pl
+      - Norbert.Kaczmarczyk@sejm.pl
+      - Filip.Kaczynski@sejm.pl
+      - Jaroslaw.Kaczynski@sejm.pl
+      - Piotr.Kaleta@sejm.pl
+      - Sebastian.Kaleta@sejm.pl
+      - Jan.Kanthak@sejm.pl
+      - Mariusz.Kaluzny@sejm.pl
+      - Andrzej.Kosztowniak@sejm.pl
+      - Henryk.Kowalczyk@sejm.pl
+      - Michal.Kowalski@sejm.pl
+      - Bartosz.Kownacki@sejm.pl
+      - Jaroslaw.Krajewski@sejm.pl
+      - Leonard.Krasulski@sejm.pl
+      - Anna.Krupka@sejm.pl
+      - Mariusz.Krystian@sejm.pl
+      - Piotr.Krol@sejm.pl
+      - Marek.Kuchcinski@sejm.pl
+      - Wioletta.Kulpa@sejm.pl
+      - Maria.Kurowska@sejm.pl
+      - Wladyslaw.Kurowski@sejm.pl
+      - Zbigniew.Kuzmiuk@sejm.pl
+      - Ewa.Leniart@sejm.pl
+      - Joanna.Lichocka@sejm.pl
+      - Grzegorz.Lorek@sejm.pl
+      - Antoni.Macierewicz@sejm.pl
+      - Ewa.Malik@sejm.pl
+      - Dariusz.Matecki@sejm.pl
+      - Jerzy.Materna@sejm.pl
+      - Grzegorz.Matusiak@sejm.pl
+      - Marek.Matuszewski@sejm.pl
+      - Maciej.Malecki@sejm.pl
+      - Anna.Milczanowska@sejm.pl
+      - Daniel.Milewski@sejm.pl
+      - Jan.Mosinski@sejm.pl
+      - Michal.Moskal@sejm.pl
+      - Aleksander.Mrowczynski@sejm.pl
+      - Marcin.Ociepa@sejm.pl
+      - Bogumila.Olbrys@sejm.pl
+      - Jacek.Osuch@sejm.pl
+      - Anna.Paluch@sejm.pl
+      - Teresa.Pamula@sejm.pl
+      - Boleslaw.Piecha@sejm.pl
+      - Grzegorz.Piechowiak@sejm.pl
+      - Anna.Pieczarka@sejm.pl
+      - Dariusz.Piontkowski@sejm.pl
+      - Szymon.Pogoda@sejm.pl
+      - Jerzy.Polaczek@sejm.pl
+      - Piotr.Polak@sejm.pl
+      - Marcin.Porzucek@sejm.pl
+      - Kacper.Plazynski@sejm.pl
+      - Zbigniew.Rau@sejm.pl
+      - Marcin.Romanowski@sejm.pl
+      - Rafal.Romanowski@sejm.pl
+      - Urszula.Rusecka@sejm.pl
+      - Jacek.Sasin@sejm.pl
+      - Pawel.Salek@sejm.pl
+      - Anna.Schmidt@sejm.pl
+      - Jaroslaw.Sellin@sejm.pl
+      - Edward.Siarka@sejm.pl
+      - Slawomir.Skwarek@sejm.pl
+      - Kazimierz.Smolinski@sejm.pl
+      - Krzysztof.Sobolewski@sejm.pl
+      - Agnieszka.Soin@sejm.pl
+      - Dariusz.Stefaniuk@sejm.pl
+      - Marek.Subocz@sejm.pl
+      - Marek.Suski@sejm.pl
+      - Wojciech.Szarama@sejm.pl
+      - Artur.Szalabawka@sejm.pl
+      - Jozefa.Szczurek-Zelazko@sejm.pl
+      - Pawel.Szrot@sejm.pl
+      - Stanislaw.Szwed@sejm.pl
+      - Katarzyna.Sojka@sejm.pl
+      - Krzysztof.Tchorzewski@sejm.pl
+      - Robert.Telus@sejm.pl
+      - Piotr.Uruski@sejm.pl
+      - Marcin.Warchol@sejm.pl
+      - Robert.Warwas@sejm.pl
+      - Jan.Warzecha@sejm.pl
+      - Malgorzata.Wassermann@sejm.pl
+      - Rafal.Weber@sejm.pl
+      - Marek.Wesoly@sejm.pl
+      - Patryk.Wicher@sejm.pl
+      - Jaroslaw.Wieczorek@sejm.pl
+      - Teresa.Wilk@sejm.pl
+      - Elzbieta.Witek@sejm.pl
+      - Agnieszka.WojciechowskavanHeukelom@sejm.pl
+      - Agata.Wojtyszek@sejm.pl
+      - Michal.Wos@sejm.pl
+      - Grzegorz.Wozniak@sejm.pl
+      - Tadeusz.Wozniak@sejm.pl
+      - Bartlomiej.Wroblewski@sejm.pl
+      - Michal.Wojcik@sejm.pl
+      - Jaroslaw.Zielinski@sejm.pl
+      - Tomasz.Zielinski@sejm.pl
+      - Zbigniew.Ziobro@sejm.pl
+      - Sebastian.Lukaszewicz@sejm.pl
+      - Andrzej.Sliwka@sejm.pl
+      - Jacek.Swiat@sejm.pl
   - klub: "Rozwój Plus"
     adresy:
       - Anna.Baluch@sejm.pl
@@ -333,6 +355,132 @@ kluby:
       - Wojciech.Zubowski@sejm.pl
       - Ireneusz.Zyska@sejm.pl
       - Agnieszka.Scigaj@sejm.pl
+  - klub: "PSL – Trzecia Droga"
+    adresy:
+      - Wladyslaw.Bartoszewski@sejm.pl
+      - Pawel.Bejda@sejm.pl
+      - Marek.Biernacki@sejm.pl
+      - Adam.Dziedzic@sejm.pl
+      - Andrzej.Grzyb@sejm.pl
+      - Henryk.Kiepura@sejm.pl
+      - Dariusz.Klimczak@sejm.pl
+      - Wladyslaw.Kosiniak-Kamysz@sejm.pl
+      - Stefan.Krajewski@sejm.pl
+      - Agnieszka.Klopotek@sejm.pl
+      - Radoslaw.Lubczyk@sejm.pl
+      - Miroslaw.Maliszewski@sejm.pl
+      - Urszula.Nowogorska@sejm.pl
+      - Miroslaw.Orlinski@sejm.pl
+      - Krzysztof.Paszyk@sejm.pl
+      - Urszula.Paslawska@sejm.pl
+      - Michal.Pyrzyk@sejm.pl
+      - Ireneusz.Ras@sejm.pl
+      - Jaroslaw.Rzepa@sejm.pl
+      - Wieslaw.Rozynski@sejm.pl
+      - Tadeusz.Samborski@sejm.pl
+      - Marek.Sawicki@sejm.pl
+      - Czeslaw.Siekierski@sejm.pl
+      - Henryk.Smolarz@sejm.pl
+      - Zbigniew.Sosnowski@sejm.pl
+      - Magdalena.Sroka@sejm.pl
+      - Jacek.Tomczak@sejm.pl
+      - Stanislaw.Tomczyszyn@sejm.pl
+      - Piotr.Zgorzelski@sejm.pl
+      - Zbigniew.Ziejewski@sejm.pl
+      - Jolanta.Zieba-Gzik@sejm.pl
+      - Bozena.Zelazowska@sejm.pl
+  - klub: "Lewica"
+    adresy:
+      - Bozena.Borowiec@sejm.pl
+      - Wlodzimierz.Czarzasty@sejm.pl
+      - Jacek.Czerniak@sejm.pl
+      - Agnieszka.Dziemianowicz-Bak@sejm.pl
+      - Krzysztof.Gawkowski@sejm.pl
+      - Daria.Gosek-Popiolek@sejm.pl
+      - Katarzyna.Kotula@sejm.pl
+      - Piotr.Kowal@sejm.pl
+      - Anita.Kucharska-Dziedzic@sejm.pl
+      - Marcin.Kulasek@sejm.pl
+      - Wanda.Nowicka@sejm.pl
+      - Dorota.Olko@sejm.pl
+      - Arkadiusz.Sikora@sejm.pl
+      - Wieslaw.Szczepanski@sejm.pl
+      - Andrzej.Szejna@sejm.pl
+      - Tadeusz.Tomaszewski@sejm.pl
+      - Tomasz.Trela@sejm.pl
+      - Katarzyna.Ueberhan@sejm.pl
+      - Joanna.Wicha@sejm.pl
+      - Dariusz.Wieczorek@sejm.pl
+      - Anna.Zukowska@sejm.pl
+  - klub: "Konfederacja"
+    adresy:
+      - Konrad.Berkowicz@sejm.pl
+      - Karina.Bosak@sejm.pl
+      - Krzysztof.Bosak@sejm.pl
+      - Bronislaw.Foltyn@sejm.pl
+      - Slawomir.Mentzen@sejm.pl
+      - Krzysztof.Mulawa@sejm.pl
+      - Bartlomiej.Pejo@sejm.pl
+      - Michal.Poluboczek@sejm.pl
+      - Grzegorz.Placzek@sejm.pl
+      - Tomasz.Rzymkowski@sejm.pl
+      - Krzysztof.Szymanski@sejm.pl
+      - Krzysztof.Tuduj@sejm.pl
+      - Witold.Tumanowicz@sejm.pl
+      - Michal.Wawer@sejm.pl
+      - Ryszard.Wilk@sejm.pl
+      - Przemyslaw.Wipler@sejm.pl
+      - Andrzej.Zapalowski@sejm.pl
+  - klub: "Centrum"
+    adresy:
+      - Izabela.Bodnar@sejm.pl
+      - Elzbieta.Burkiewicz@sejm.pl
+      - Zaneta.Cwalina-Sliwowska@sejm.pl
+      - Paulina.Hennig-Kloska@sejm.pl
+      - Rafal.Kasprzyk@sejm.pl
+      - Rafal.Komarewicz@sejm.pl
+      - Aleksandra.Leo@sejm.pl
+      - Barbara.Okula@sejm.pl
+      - Barbara.Oliwiecka@sejm.pl
+      - Ryszard.Petru@sejm.pl
+      - Norbert.Pietrykowski@sejm.pl
+      - Marcin.Skonieczka@sejm.pl
+      - Miroslaw.Suchon@sejm.pl
+      - Ewa.Szymanowska@sejm.pl
+      - Slawomir.Cwik@sejm.pl
+  - klub: "Polska 2050"
+    adresy:
+      - Agnieszka.Buczynska@sejm.pl
+      - Adam.Gomola@sejm.pl
+      - Michal.Gramatyka@sejm.pl
+      - Piotr.Gornikiewicz@sejm.pl
+      - Bozenna.Holownia@sejm.pl
+      - Szymon.Holownia@sejm.pl
+      - Adam.Lubonski@sejm.pl
+      - Maja.Nowak@sejm.pl
+      - Lukasz.Osmalak@sejm.pl
+      - Bartosz.Romowicz@sejm.pl
+      - Ewa.Schadler@sejm.pl
+      - Piotr.Strach@sejm.pl
+      - Wioleta.Tomczak@sejm.pl
+      - Kamil.Wnuk@sejm.pl
+      - Pawel.Sliz@sejm.pl
+  - klub: "Razem"
+    adresy:
+      - Maciej.Konieczny@sejm.pl
+      - Marta.Stozek@sejm.pl
+      - Adrian.Zandberg@sejm.pl
+      - Marcelina.Zawisza@sejm.pl
+  - klub: "Demokracja"
+    adresy:
+      - Jan.Ardanowski@sejm.pl
+      - Pawel.Kukiz@sejm.pl
+      - Jaroslaw.Sachajko@sejm.pl
+  - klub: "Konfederacja Korony Polskiej"
+    adresy:
+      - Roman.Fritz@sejm.pl
+      - Wlodzimierz.Skalik@sejm.pl
+      - Slawomir.Zawislak@sejm.pl
   - klub: "Niezrzeszeni"
     adresy:
       - Marcin.Jozefaciuk@sejm.pl
