@@ -1,0 +1,8 @@
+# Adresy e-mail posłów na stronie /interpelacja/, w podziale na kluby i koła.
+# Każdy klub: nazwa i lista adresów. Kolejność tutaj = kolejność na stronie.
+# Przykład:
+# - klub: "Klub Parlamentarny Przykład"
+#   adresy:
+#     - jan.kowalski@sejm.pl
+#     - anna.nowak@sejm.pl
+kluby: []
