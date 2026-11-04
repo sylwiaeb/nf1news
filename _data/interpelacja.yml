@@ -1,492 +1,488 @@
-# Adresy e-mail posłów na stronie /interpelacja/, w podziale na kluby i koła.
-# Każdy klub: nazwa i lista adresów. Kolejność tutaj = kolejność na stronie.
-# Przykład:
-# - klub: "Klub Parlamentarny Przykład"
-#   adresy:
-#     - jan.kowalski@sejm.pl
-#     - anna.nowak@sejm.pl
+# Posłowie X kadencji na stronie /interpelacja/, w podziale na kluby i koła.
+# Imiona, nazwiska, adresy i przynależność sprawdzone z api.sejm.gov.pl/sejm/term10/MP (4.11.2026).
+# Kolejność klubów tutaj = kolejność na stronie.
 kluby:
-  - klub: "Koalicja Obywatelska"
-    adresy:
-      - Piotr.Adamowicz@sejm.pl
-      - Urszula.Augustyn@sejm.pl
-      - Sylwia.Bielawska@sejm.pl
-      - Pawel.Blizniuk@sejm.pl
-      - Mateusz.Bochenek@sejm.pl
-      - Krzysztof.Bojarski@sejm.pl
-      - Piotr.Borys@sejm.pl
-      - Marcin.Bosacki@sejm.pl
-      - Marek.Chmielewski@sejm.pl
-      - Alicja.Chybicka@sejm.pl
-      - Janusz.Cichon@sejm.pl
-      - Zofia.Czernow@sejm.pl
-      - Barbara.Dolniak@sejm.pl
-      - Andrzej.Domanski@sejm.pl
-      - Robert.Dowhan@sejm.pl
-      - Magdalena.Filiks@sejm.pl
-      - Joanna.Frydrych@sejm.pl
-      - Konrad.Frysztak@sejm.pl
-      - Patryk.Gabriel@sejm.pl
-      - Krzysztof.Gadowski@sejm.pl
-      - Aleksandra.Gajewska@sejm.pl
-      - Kinga.Gajewska@sejm.pl
-      - Elzbieta.Gapinska@sejm.pl
-      - Zdzislaw.Gawlik@sejm.pl
-      - Elzbieta.Gelert@sejm.pl
-      - Artur.Gierada@sejm.pl
-      - Roman.Giertych@sejm.pl
-      - Wlodzislaw.Gizinski@sejm.pl
-      - Marta.Golbik@sejm.pl
-      - Stanislaw.Gorczyca@sejm.pl
-      - Krzysztof.Grabczuk@sejm.pl
-      - Jan.Grabiec@sejm.pl
-      - Malgorzata.Gromadzka@sejm.pl
-      - Barbara.Grygorcewicz@sejm.pl
-      - Marek.Gzik@sejm.pl
-      - Tomasz.Glogowski@sejm.pl
-      - Piotr.Glowski@sejm.pl
-      - Krzysztof.Habura@sejm.pl
-      - Agnieszka.Hanajczyk@sejm.pl
-      - Iwona.Hartwich@sejm.pl
-      - Marek.Hok@sejm.pl
-      - Lukasz.Horbatowski@sejm.pl
-      - Klaudia.Jachira@sejm.pl
-      - Robert.Jagla@sejm.pl
-      - Maria.Janyska@sejm.pl
-      - Michal.Jaros@sejm.pl
-      - Patryk.Jaskulski@sejm.pl
-      - Danuta.Jazlowiecka@sejm.pl
-      - Dominik.Jaskowiec@sejm.pl
-      - Piotr.Kandyba@sejm.pl
-      - Jacek.Karnowski@sejm.pl
-      - Iwona.Karolewska@sejm.pl
-      - Katarzyna.Kierzek-Koperska@sejm.pl
-      - Joanna.Kluzik-Rostkowska@sejm.pl
-      - Zbigniew.Konwinski@sejm.pl
-      - Tomasz.Kostus@sejm.pl
-      - Urszula.Koszutska@sejm.pl
-      - Aleksandra.Kot@sejm.pl
-      - Pawel.Kowal@sejm.pl
-      - Iwona.Kozlowska@sejm.pl
-      - Ewa.Kolodziej@sejm.pl
-      - Magdalena.Kolodziejczak@sejm.pl
-      - Michal.Kolodziejczak@sejm.pl
-      - Maria.Kozlakiewicz@sejm.pl
-      - Iwona.Krawczyk@sejm.pl
-      - Michal.Krawczyk@sejm.pl
-      - Robert.Kropiwnicki@sejm.pl
-      - Adam.Krzeminski@sejm.pl
-      - Henryka.Krzywonos-Strycharska@sejm.pl
-      - Marek.Krzakala@sejm.pl
-      - Wojciech.Krol@sejm.pl
-      - Katarzyna.Krolak@sejm.pl
-      - Piotr.Lachowicz@sejm.pl
-      - Stanislaw.Lamczyk@sejm.pl
-      - Maciej.Lasek@sejm.pl
-      - Gabriela.Lenartowicz@sejm.pl
-      - Izabela.Leszczyna@sejm.pl
-      - Bozena.Lisowska@sejm.pl
-      - Katarzyna.Lubnauer@sejm.pl
-      - Arkadiusz.Marchewka@sejm.pl
-      - Dorota.Marek@sejm.pl
-      - Pawel.Maselko@sejm.pl
-      - Katarzyna.Matusik-Lipiec@sejm.pl
-      - Jerzy.Meysztowicz@sejm.pl
-      - Krzysztof.Mieszkowski@sejm.pl
-      - Czeslaw.Mroczek@sejm.pl
-      - Arkadiusz.Myrcha@sejm.pl
-      - Grzegorz.Napieralski@sejm.pl
-      - Dorota.Niedziela@sejm.pl
-      - Jacek.Niedzwiedzki@sejm.pl
-      - Malgorzata.Niemczyk@sejm.pl
-      - Jolanta.Niezgodzka@sejm.pl
-      - Slawomir.Nitras@sejm.pl
-      - Barbara.Nowacka@sejm.pl
-      - Tomasz.Nowak@sejm.pl
-      - Marzena.Okla-Drewnowicz@sejm.pl
-      - Pawel.Olszewski@sejm.pl
-      - Katarzyna.Osos@sejm.pl
-      - Pawel.Papke@sejm.pl
-      - Karolina.Pawliczak@sejm.pl
-      - Katarzyna.Piekarska@sejm.pl
-      - Lucjan.Pietrzczyk@sejm.pl
-      - Krzysztof.Piatkowski@sejm.pl
-      - Kazimierz.Plocke@sejm.pl
-      - Elzbieta.Polak@sejm.pl
-      - Agnieszka.Pomaska@sejm.pl
-      - Mariusz.Popielarz@sejm.pl
-      - Malgorzata.Pepek@sejm.pl
-      - Renata.Rak@sejm.pl
-      - Magdalena.Roguska@sejm.pl
-      - Monika.Rosa@sejm.pl
-      - Jakub.Rutnicki@sejm.pl
-      - Marek.Rzasa@sejm.pl
-      - Krystyna.Sibinska@sejm.pl
-      - Rafal.Siemaszko@sejm.pl
-      - Tomasz.Siemoniak@sejm.pl
-      - Krystyna.Skowronska@sejm.pl
-      - Weronika.Smarduch@sejm.pl
-      - Anna.Sobolak@sejm.pl
-      - Marek.Sowa@sejm.pl
-      - Katarzyna.Stachowicz@sejm.pl
-      - Franciszek.Sterczewski@sejm.pl
-      - Pawel.Suski@sejm.pl
-      - Andrzej.Szewinski@sejm.pl
-      - Henryk.Szopinski@sejm.pl
-      - Krystyna.Szumilas@sejm.pl
-      - Tomasz.Szymanski@sejm.pl
-      - Adam.Szlapka@sejm.pl
-      - Waldemar.Slugocki@sejm.pl
-      - Apoloniusz.Tajner@sejm.pl
-      - Cezary.Tomczyk@sejm.pl
-      - Maciej.Tomczykiewicz@sejm.pl
-      - Malgorzata.Tracz@sejm.pl
-      - Krzysztof.Truskolaski@sejm.pl
-      - Donald.Tusk@sejm.pl
-      - Jaroslaw.Urbaniak@sejm.pl
-      - Aleksandra.Uznanska-Wisniewska@sejm.pl
-      - Robert.Wardzala@sejm.pl
-      - Jaroslaw.Walesa@sejm.pl
-      - Monika.Wielichowska@sejm.pl
-      - Adrian.Witczak@sejm.pl
-      - Mariusz.Witczak@sejm.pl
-      - Przemyslaw.Witek@sejm.pl
-      - Anna.Wojciechowska@sejm.pl
-      - Boguslaw.Woloszanski@sejm.pl
-      - Maciej.Wrobel@sejm.pl
-      - Bartosz.Zawieja@sejm.pl
-      - Witold.Zembaczynski@sejm.pl
-      - Urszula.Zielinska@sejm.pl
-      - Alicja.Lepkowska-Golas@sejm.pl
-      - Dorota.Loboda@sejm.pl
-      - Magdalena.Losko@sejm.pl
-      - Alicja.Luczak@sejm.pl
-      - Krystian.Luczak@sejm.pl
-      - Artur.Lacki@sejm.pl
-      - Lukasz.Sciebiorowski@sejm.pl
-  - klub: "Prawo i Sprawiedliwość"
-    adresy:
-      - Andrzej.Adamczyk@sejm.pl
-      - Waldemar.Andzel@sejm.pl
-      - Dorota.Arciszewska-Mielewczyk@sejm.pl
-      - Iwona.Arent@sejm.pl
-      - Marek.Ast@sejm.pl
-      - Piotr.Babinetz@sejm.pl
-      - Barbara.Bartus@sejm.pl
-      - Rafal.Bochenek@sejm.pl
-      - Jacek.Bogucki@sejm.pl
-      - Joanna.Borowiak@sejm.pl
-      - Kamil.Bortniczuk@sejm.pl
-      - Bozena.Borys-Szopa@sejm.pl
-      - Lidia.Burzynska@sejm.pl
-      - Mariusz.Blaszczak@sejm.pl
-      - Artur.Chojecki@sejm.pl
-      - Kazimierz.Choma@sejm.pl
-      - Dominika.Chorosinska@sejm.pl
-      - Tadeusz.Chrzan@sejm.pl
-      - Krzysztof.Cieciora@sejm.pl
-      - Krzysztof.Czarnecki@sejm.pl
-      - Witold.Czarnecki@sejm.pl
-      - Przemyslaw.Czarnek@sejm.pl
-      - Arkadiusz.Czartoryski@sejm.pl
-      - Lidia.Czechak@sejm.pl
-      - Anita.Czerwinska@sejm.pl
-      - Katarzyna.Czochara@sejm.pl
-      - Wladyslaw.Dajczak@sejm.pl
-      - Zbigniew.Dolata@sejm.pl
-      - Bartlomiej.Dorywalski@sejm.pl
-      - Przemyslaw.Drabek@sejm.pl
-      - Jan.Dziedziczak@sejm.pl
-      - Anna.Dabrowska-Banaszek@sejm.pl
-      - Magdalena.Filipek-Sobczak@sejm.pl
-      - Radoslaw.Fogiel@sejm.pl
-      - Andrzej.Gawron@sejm.pl
-      - Grzegorz.Gaza@sejm.pl
-      - Anna.Gembicka@sejm.pl
-      - Piotr.Glinski@sejm.pl
-      - Malgorzata.Golinska@sejm.pl
-      - Mariusz.Gosek@sejm.pl
-      - Kazimierz.Golojuch@sejm.pl
-      - Marcin.Grabowski@sejm.pl
-      - Marek.Grobarczyk@sejm.pl
-      - Kazimierz.Gwiazdowski@sejm.pl
-      - Agnieszka.Gorska@sejm.pl
-      - Czeslaw.Hoc@sejm.pl
-      - Zbigniew.Hoffmann@sejm.pl
-      - Pawel.Hreniak@sejm.pl
-      - Michal.Jach@sejm.pl
-      - Norbert.Kaczmarczyk@sejm.pl
-      - Filip.Kaczynski@sejm.pl
-      - Jaroslaw.Kaczynski@sejm.pl
-      - Piotr.Kaleta@sejm.pl
-      - Sebastian.Kaleta@sejm.pl
-      - Jan.Kanthak@sejm.pl
-      - Mariusz.Kaluzny@sejm.pl
-      - Andrzej.Kosztowniak@sejm.pl
-      - Henryk.Kowalczyk@sejm.pl
-      - Michal.Kowalski@sejm.pl
-      - Bartosz.Kownacki@sejm.pl
-      - Jaroslaw.Krajewski@sejm.pl
-      - Leonard.Krasulski@sejm.pl
-      - Anna.Krupka@sejm.pl
-      - Mariusz.Krystian@sejm.pl
-      - Piotr.Krol@sejm.pl
-      - Marek.Kuchcinski@sejm.pl
-      - Wioletta.Kulpa@sejm.pl
-      - Maria.Kurowska@sejm.pl
-      - Wladyslaw.Kurowski@sejm.pl
-      - Zbigniew.Kuzmiuk@sejm.pl
-      - Ewa.Leniart@sejm.pl
-      - Joanna.Lichocka@sejm.pl
-      - Grzegorz.Lorek@sejm.pl
-      - Antoni.Macierewicz@sejm.pl
-      - Ewa.Malik@sejm.pl
-      - Dariusz.Matecki@sejm.pl
-      - Jerzy.Materna@sejm.pl
-      - Grzegorz.Matusiak@sejm.pl
-      - Marek.Matuszewski@sejm.pl
-      - Maciej.Malecki@sejm.pl
-      - Anna.Milczanowska@sejm.pl
-      - Daniel.Milewski@sejm.pl
-      - Jan.Mosinski@sejm.pl
-      - Michal.Moskal@sejm.pl
-      - Aleksander.Mrowczynski@sejm.pl
-      - Marcin.Ociepa@sejm.pl
-      - Bogumila.Olbrys@sejm.pl
-      - Jacek.Osuch@sejm.pl
-      - Anna.Paluch@sejm.pl
-      - Teresa.Pamula@sejm.pl
-      - Boleslaw.Piecha@sejm.pl
-      - Grzegorz.Piechowiak@sejm.pl
-      - Anna.Pieczarka@sejm.pl
-      - Dariusz.Piontkowski@sejm.pl
-      - Szymon.Pogoda@sejm.pl
-      - Jerzy.Polaczek@sejm.pl
-      - Piotr.Polak@sejm.pl
-      - Marcin.Porzucek@sejm.pl
-      - Kacper.Plazynski@sejm.pl
-      - Zbigniew.Rau@sejm.pl
-      - Marcin.Romanowski@sejm.pl
-      - Rafal.Romanowski@sejm.pl
-      - Urszula.Rusecka@sejm.pl
-      - Jacek.Sasin@sejm.pl
-      - Pawel.Salek@sejm.pl
-      - Anna.Schmidt@sejm.pl
-      - Jaroslaw.Sellin@sejm.pl
-      - Edward.Siarka@sejm.pl
-      - Slawomir.Skwarek@sejm.pl
-      - Kazimierz.Smolinski@sejm.pl
-      - Krzysztof.Sobolewski@sejm.pl
-      - Agnieszka.Soin@sejm.pl
-      - Dariusz.Stefaniuk@sejm.pl
-      - Marek.Subocz@sejm.pl
-      - Marek.Suski@sejm.pl
-      - Wojciech.Szarama@sejm.pl
-      - Artur.Szalabawka@sejm.pl
-      - Jozefa.Szczurek-Zelazko@sejm.pl
-      - Pawel.Szrot@sejm.pl
-      - Stanislaw.Szwed@sejm.pl
-      - Katarzyna.Sojka@sejm.pl
-      - Krzysztof.Tchorzewski@sejm.pl
-      - Robert.Telus@sejm.pl
-      - Piotr.Uruski@sejm.pl
-      - Marcin.Warchol@sejm.pl
-      - Robert.Warwas@sejm.pl
-      - Jan.Warzecha@sejm.pl
-      - Malgorzata.Wassermann@sejm.pl
-      - Rafal.Weber@sejm.pl
-      - Marek.Wesoly@sejm.pl
-      - Patryk.Wicher@sejm.pl
-      - Jaroslaw.Wieczorek@sejm.pl
-      - Teresa.Wilk@sejm.pl
-      - Elzbieta.Witek@sejm.pl
-      - Agnieszka.WojciechowskavanHeukelom@sejm.pl
-      - Agata.Wojtyszek@sejm.pl
-      - Michal.Wos@sejm.pl
-      - Grzegorz.Wozniak@sejm.pl
-      - Tadeusz.Wozniak@sejm.pl
-      - Bartlomiej.Wroblewski@sejm.pl
-      - Michal.Wojcik@sejm.pl
-      - Jaroslaw.Zielinski@sejm.pl
-      - Tomasz.Zielinski@sejm.pl
-      - Zbigniew.Ziobro@sejm.pl
-      - Sebastian.Lukaszewicz@sejm.pl
-      - Andrzej.Sliwka@sejm.pl
-      - Jacek.Swiat@sejm.pl
-  - klub: "Rozwój Plus"
-    adresy:
-      - Anna.Baluch@sejm.pl
-      - Ryszard.Bartosik@sejm.pl
-      - Zbigniew.Chmielowiec@sejm.pl
-      - Anna.Cicholska@sejm.pl
-      - Janusz.Cieszynski@sejm.pl
-      - Michal.Cieslak@sejm.pl
-      - Elzbieta.Duda@sejm.pl
-      - Szymon.Gizynski@sejm.pl
-      - Robert.Gontarz@sejm.pl
-      - Andrzej.Gut-Mostowy@sejm.pl
-      - Marcin.Gwozdz@sejm.pl
-      - Marcin.Horala@sejm.pl
-      - Pawel.Jablonski@sejm.pl
-      - Marek.Jakubiak@sejm.pl
-      - Fryderyk.Kapinos@sejm.pl
-      - Lukasz.Kmita@sejm.pl
-      - Maria.Koc@sejm.pl
-      - Wieslaw.Krajewski@sejm.pl
-      - Andrzej.Kryj@sejm.pl
-      - Krzysztof.Kubow@sejm.pl
-      - Anna.Kwiecien@sejm.pl
-      - Krzysztof.Lipiec@sejm.pl
-      - Marzena.Machalek@sejm.pl
-      - Grzegorz.Macko@sejm.pl
-      - Mateusz.Morawiecki@sejm.pl
-      - Monika.Pawlowska@sejm.pl
-      - Grzegorz.Puda@sejm.pl
-      - Pawel.Rychlik@sejm.pl
-      - Lukasz.Schreiber@sejm.pl
-      - Olga.Semeniuk-Patkowska@sejm.pl
-      - Miroslawa.Stachowiak-Rozecka@sejm.pl
-      - Krzysztof.Szczucki@sejm.pl
-      - Szymon.SzynkowskiVelSek@sejm.pl
-      - Ryszard.Terlecki@sejm.pl
-      - Wlodzimierz.Tomaszewski@sejm.pl
-      - Sylwester.Tulajew@sejm.pl
-      - Piotr.Uscinski@sejm.pl
-      - Wojciech.Zubowski@sejm.pl
-      - Ireneusz.Zyska@sejm.pl
-      - Agnieszka.Scigaj@sejm.pl
-  - klub: "PSL – Trzecia Droga"
-    adresy:
-      - Wladyslaw.Bartoszewski@sejm.pl
-      - Pawel.Bejda@sejm.pl
-      - Marek.Biernacki@sejm.pl
-      - Adam.Dziedzic@sejm.pl
-      - Andrzej.Grzyb@sejm.pl
-      - Henryk.Kiepura@sejm.pl
-      - Dariusz.Klimczak@sejm.pl
-      - Wladyslaw.Kosiniak-Kamysz@sejm.pl
-      - Stefan.Krajewski@sejm.pl
-      - Agnieszka.Klopotek@sejm.pl
-      - Radoslaw.Lubczyk@sejm.pl
-      - Miroslaw.Maliszewski@sejm.pl
-      - Urszula.Nowogorska@sejm.pl
-      - Miroslaw.Orlinski@sejm.pl
-      - Krzysztof.Paszyk@sejm.pl
-      - Urszula.Paslawska@sejm.pl
-      - Michal.Pyrzyk@sejm.pl
-      - Ireneusz.Ras@sejm.pl
-      - Jaroslaw.Rzepa@sejm.pl
-      - Wieslaw.Rozynski@sejm.pl
-      - Tadeusz.Samborski@sejm.pl
-      - Marek.Sawicki@sejm.pl
-      - Czeslaw.Siekierski@sejm.pl
-      - Henryk.Smolarz@sejm.pl
-      - Zbigniew.Sosnowski@sejm.pl
-      - Magdalena.Sroka@sejm.pl
-      - Jacek.Tomczak@sejm.pl
-      - Stanislaw.Tomczyszyn@sejm.pl
-      - Piotr.Zgorzelski@sejm.pl
-      - Zbigniew.Ziejewski@sejm.pl
-      - Jolanta.Zieba-Gzik@sejm.pl
-      - Bozena.Zelazowska@sejm.pl
-  - klub: "Lewica"
-    adresy:
-      - Bozena.Borowiec@sejm.pl
-      - Wlodzimierz.Czarzasty@sejm.pl
-      - Jacek.Czerniak@sejm.pl
-      - Agnieszka.Dziemianowicz-Bak@sejm.pl
-      - Krzysztof.Gawkowski@sejm.pl
-      - Daria.Gosek-Popiolek@sejm.pl
-      - Katarzyna.Kotula@sejm.pl
-      - Piotr.Kowal@sejm.pl
-      - Anita.Kucharska-Dziedzic@sejm.pl
-      - Marcin.Kulasek@sejm.pl
-      - Wanda.Nowicka@sejm.pl
-      - Dorota.Olko@sejm.pl
-      - Arkadiusz.Sikora@sejm.pl
-      - Wieslaw.Szczepanski@sejm.pl
-      - Andrzej.Szejna@sejm.pl
-      - Tadeusz.Tomaszewski@sejm.pl
-      - Tomasz.Trela@sejm.pl
-      - Katarzyna.Ueberhan@sejm.pl
-      - Joanna.Wicha@sejm.pl
-      - Dariusz.Wieczorek@sejm.pl
-      - Anna.Zukowska@sejm.pl
-  - klub: "Konfederacja"
-    adresy:
-      - Konrad.Berkowicz@sejm.pl
-      - Karina.Bosak@sejm.pl
-      - Krzysztof.Bosak@sejm.pl
-      - Bronislaw.Foltyn@sejm.pl
-      - Slawomir.Mentzen@sejm.pl
-      - Krzysztof.Mulawa@sejm.pl
-      - Bartlomiej.Pejo@sejm.pl
-      - Michal.Poluboczek@sejm.pl
-      - Grzegorz.Placzek@sejm.pl
-      - Tomasz.Rzymkowski@sejm.pl
-      - Krzysztof.Szymanski@sejm.pl
-      - Krzysztof.Tuduj@sejm.pl
-      - Witold.Tumanowicz@sejm.pl
-      - Michal.Wawer@sejm.pl
-      - Ryszard.Wilk@sejm.pl
-      - Przemyslaw.Wipler@sejm.pl
-      - Andrzej.Zapalowski@sejm.pl
-  - klub: "Centrum"
-    adresy:
-      - Izabela.Bodnar@sejm.pl
-      - Elzbieta.Burkiewicz@sejm.pl
-      - Zaneta.Cwalina-Sliwowska@sejm.pl
-      - Paulina.Hennig-Kloska@sejm.pl
-      - Rafal.Kasprzyk@sejm.pl
-      - Rafal.Komarewicz@sejm.pl
-      - Aleksandra.Leo@sejm.pl
-      - Barbara.Okula@sejm.pl
-      - Barbara.Oliwiecka@sejm.pl
-      - Ryszard.Petru@sejm.pl
-      - Norbert.Pietrykowski@sejm.pl
-      - Marcin.Skonieczka@sejm.pl
-      - Miroslaw.Suchon@sejm.pl
-      - Ewa.Szymanowska@sejm.pl
-      - Slawomir.Cwik@sejm.pl
-  - klub: "Polska 2050"
-    adresy:
-      - Agnieszka.Buczynska@sejm.pl
-      - Adam.Gomola@sejm.pl
-      - Michal.Gramatyka@sejm.pl
-      - Piotr.Gornikiewicz@sejm.pl
-      - Bozenna.Holownia@sejm.pl
-      - Szymon.Holownia@sejm.pl
-      - Adam.Lubonski@sejm.pl
-      - Maja.Nowak@sejm.pl
-      - Lukasz.Osmalak@sejm.pl
-      - Bartosz.Romowicz@sejm.pl
-      - Ewa.Schadler@sejm.pl
-      - Piotr.Strach@sejm.pl
-      - Wioleta.Tomczak@sejm.pl
-      - Kamil.Wnuk@sejm.pl
-      - Pawel.Sliz@sejm.pl
-  - klub: "Razem"
-    adresy:
-      - Maciej.Konieczny@sejm.pl
-      - Marta.Stozek@sejm.pl
-      - Adrian.Zandberg@sejm.pl
-      - Marcelina.Zawisza@sejm.pl
-  - klub: "Demokracja"
-    adresy:
-      - Jan.Ardanowski@sejm.pl
-      - Pawel.Kukiz@sejm.pl
-      - Jaroslaw.Sachajko@sejm.pl
-  - klub: "Konfederacja Korony Polskiej"
-    adresy:
-      - Roman.Fritz@sejm.pl
-      - Wlodzimierz.Skalik@sejm.pl
-      - Slawomir.Zawislak@sejm.pl
-  - klub: "Niezrzeszeni"
-    adresy:
-      - Marcin.Jozefaciuk@sejm.pl
-      - Janusz.Kowalski@sejm.pl
-      - Paulina.Matysiak@sejm.pl
-      - Lukasz.Mejza@sejm.pl
-      - Joanna.Mucha@sejm.pl
-      - Pawel.Zalewski@sejm.pl
-      - Tomasz.Zimoch@sejm.pl
+  - klub: "Klub Parlamentarny Koalicja Obywatelska – Platforma Obywatelska, Nowoczesna, Inicjatywa Polska, Zieloni"
+    poslowie:
+      - { imie: "Piotr Adamowicz", email: Piotr.Adamowicz@sejm.pl }
+      - { imie: "Urszula Augustyn", email: Urszula.Augustyn@sejm.pl }
+      - { imie: "Sylwia Bielawska", email: Sylwia.Bielawska@sejm.pl }
+      - { imie: "Paweł Bliźniuk", email: Pawel.Blizniuk@sejm.pl }
+      - { imie: "Mateusz Bochenek", email: Mateusz.Bochenek@sejm.pl }
+      - { imie: "Krzysztof Bojarski", email: Krzysztof.Bojarski@sejm.pl }
+      - { imie: "Piotr Borys", email: Piotr.Borys@sejm.pl }
+      - { imie: "Marcin Bosacki", email: Marcin.Bosacki@sejm.pl }
+      - { imie: "Marek Chmielewski", email: Marek.Chmielewski@sejm.pl }
+      - { imie: "Alicja Chybicka", email: Alicja.Chybicka@sejm.pl }
+      - { imie: "Janusz Cichoń", email: Janusz.Cichon@sejm.pl }
+      - { imie: "Zofia Czernow", email: Zofia.Czernow@sejm.pl }
+      - { imie: "Barbara Dolniak", email: Barbara.Dolniak@sejm.pl }
+      - { imie: "Andrzej Domański", email: Andrzej.Domanski@sejm.pl }
+      - { imie: "Robert Dowhan", email: Robert.Dowhan@sejm.pl }
+      - { imie: "Magdalena Filiks", email: Magdalena.Filiks@sejm.pl }
+      - { imie: "Joanna Frydrych", email: Joanna.Frydrych@sejm.pl }
+      - { imie: "Konrad Frysztak", email: Konrad.Frysztak@sejm.pl }
+      - { imie: "Patryk Gabriel", email: Patryk.Gabriel@sejm.pl }
+      - { imie: "Krzysztof Gadowski", email: Krzysztof.Gadowski@sejm.pl }
+      - { imie: "Aleksandra Gajewska", email: Aleksandra.Gajewska@sejm.pl }
+      - { imie: "Kinga Gajewska", email: Kinga.Gajewska@sejm.pl }
+      - { imie: "Elżbieta Gapińska", email: Elzbieta.Gapinska@sejm.pl }
+      - { imie: "Zdzisław Gawlik", email: Zdzislaw.Gawlik@sejm.pl }
+      - { imie: "Elżbieta Gelert", email: Elzbieta.Gelert@sejm.pl }
+      - { imie: "Artur Gierada", email: Artur.Gierada@sejm.pl }
+      - { imie: "Roman Giertych", email: Roman.Giertych@sejm.pl }
+      - { imie: "Włodzisław Giziński", email: Wlodzislaw.Gizinski@sejm.pl }
+      - { imie: "Marta Golbik", email: Marta.Golbik@sejm.pl }
+      - { imie: "Stanisław Gorczyca", email: Stanislaw.Gorczyca@sejm.pl }
+      - { imie: "Krzysztof Grabczuk", email: Krzysztof.Grabczuk@sejm.pl }
+      - { imie: "Jan Grabiec", email: Jan.Grabiec@sejm.pl }
+      - { imie: "Małgorzata Gromadzka", email: Malgorzata.Gromadzka@sejm.pl }
+      - { imie: "Barbara Grygorcewicz", email: Barbara.Grygorcewicz@sejm.pl }
+      - { imie: "Marek Gzik", email: Marek.Gzik@sejm.pl }
+      - { imie: "Tomasz Głogowski", email: Tomasz.Glogowski@sejm.pl }
+      - { imie: "Piotr Głowski", email: Piotr.Glowski@sejm.pl }
+      - { imie: "Krzysztof Habura", email: Krzysztof.Habura@sejm.pl }
+      - { imie: "Agnieszka Hanajczyk", email: Agnieszka.Hanajczyk@sejm.pl }
+      - { imie: "Iwona Hartwich", email: Iwona.Hartwich@sejm.pl }
+      - { imie: "Marek Hok", email: Marek.Hok@sejm.pl }
+      - { imie: "Łukasz Horbatowski", email: Lukasz.Horbatowski@sejm.pl }
+      - { imie: "Klaudia Jachira", email: Klaudia.Jachira@sejm.pl }
+      - { imie: "Robert Jagła", email: Robert.Jagla@sejm.pl }
+      - { imie: "Maria Janyska", email: Maria.Janyska@sejm.pl }
+      - { imie: "Michał Jaros", email: Michal.Jaros@sejm.pl }
+      - { imie: "Patryk Jaskulski", email: Patryk.Jaskulski@sejm.pl }
+      - { imie: "Danuta Jazłowiecka", email: Danuta.Jazlowiecka@sejm.pl }
+      - { imie: "Dominik Jaśkowiec", email: Dominik.Jaskowiec@sejm.pl }
+      - { imie: "Piotr Kandyba", email: Piotr.Kandyba@sejm.pl }
+      - { imie: "Jacek Karnowski", email: Jacek.Karnowski@sejm.pl }
+      - { imie: "Iwona Karolewska", email: Iwona.Karolewska@sejm.pl }
+      - { imie: "Katarzyna Kierzek-Koperska", email: Katarzyna.Kierzek-Koperska@sejm.pl }
+      - { imie: "Joanna Kluzik-Rostkowska", email: Joanna.Kluzik-Rostkowska@sejm.pl }
+      - { imie: "Zbigniew Konwiński", email: Zbigniew.Konwinski@sejm.pl }
+      - { imie: "Tomasz Kostuś", email: Tomasz.Kostus@sejm.pl }
+      - { imie: "Urszula Koszutska", email: Urszula.Koszutska@sejm.pl }
+      - { imie: "Aleksandra Kot", email: Aleksandra.Kot@sejm.pl }
+      - { imie: "Paweł Kowal", email: Pawel.Kowal@sejm.pl }
+      - { imie: "Iwona Kozłowska", email: Iwona.Kozlowska@sejm.pl }
+      - { imie: "Ewa Kołodziej", email: Ewa.Kolodziej@sejm.pl }
+      - { imie: "Magdalena Kołodziejczak", email: Magdalena.Kolodziejczak@sejm.pl }
+      - { imie: "Michał Kołodziejczak", email: Michal.Kolodziejczak@sejm.pl }
+      - { imie: "Maria Koźlakiewicz", email: Maria.Kozlakiewicz@sejm.pl }
+      - { imie: "Iwona Krawczyk", email: Iwona.Krawczyk@sejm.pl }
+      - { imie: "Michał Krawczyk", email: Michal.Krawczyk@sejm.pl }
+      - { imie: "Robert Kropiwnicki", email: Robert.Kropiwnicki@sejm.pl }
+      - { imie: "Adam Krzemiński", email: Adam.Krzeminski@sejm.pl }
+      - { imie: "Henryka Krzywonos-Strycharska", email: Henryka.Krzywonos-Strycharska@sejm.pl }
+      - { imie: "Marek Krząkała", email: Marek.Krzakala@sejm.pl }
+      - { imie: "Wojciech Król", email: Wojciech.Krol@sejm.pl }
+      - { imie: "Katarzyna Królak", email: Katarzyna.Krolak@sejm.pl }
+      - { imie: "Piotr Lachowicz", email: Piotr.Lachowicz@sejm.pl }
+      - { imie: "Stanisław Lamczyk", email: Stanislaw.Lamczyk@sejm.pl }
+      - { imie: "Maciej Lasek", email: Maciej.Lasek@sejm.pl }
+      - { imie: "Gabriela Lenartowicz", email: Gabriela.Lenartowicz@sejm.pl }
+      - { imie: "Izabela Leszczyna", email: Izabela.Leszczyna@sejm.pl }
+      - { imie: "Bożena Lisowska", email: Bozena.Lisowska@sejm.pl }
+      - { imie: "Katarzyna Lubnauer", email: Katarzyna.Lubnauer@sejm.pl }
+      - { imie: "Arkadiusz Marchewka", email: Arkadiusz.Marchewka@sejm.pl }
+      - { imie: "Dorota Marek", email: Dorota.Marek@sejm.pl }
+      - { imie: "Paweł Masełko", email: Pawel.Maselko@sejm.pl }
+      - { imie: "Katarzyna Matusik-Lipiec", email: Katarzyna.Matusik-Lipiec@sejm.pl }
+      - { imie: "Jerzy Meysztowicz", email: Jerzy.Meysztowicz@sejm.pl }
+      - { imie: "Krzysztof Mieszkowski", email: Krzysztof.Mieszkowski@sejm.pl }
+      - { imie: "Czesław Mroczek", email: Czeslaw.Mroczek@sejm.pl }
+      - { imie: "Arkadiusz Myrcha", email: Arkadiusz.Myrcha@sejm.pl }
+      - { imie: "Grzegorz Napieralski", email: Grzegorz.Napieralski@sejm.pl }
+      - { imie: "Dorota Niedziela", email: Dorota.Niedziela@sejm.pl }
+      - { imie: "Jacek Niedźwiedzki", email: Jacek.Niedzwiedzki@sejm.pl }
+      - { imie: "Małgorzata Niemczyk", email: Malgorzata.Niemczyk@sejm.pl }
+      - { imie: "Jolanta Niezgodzka", email: Jolanta.Niezgodzka@sejm.pl }
+      - { imie: "Sławomir Nitras", email: Slawomir.Nitras@sejm.pl }
+      - { imie: "Barbara Nowacka", email: Barbara.Nowacka@sejm.pl }
+      - { imie: "Tomasz Nowak", email: Tomasz.Nowak@sejm.pl }
+      - { imie: "Marzena Okła-Drewnowicz", email: Marzena.Okla-Drewnowicz@sejm.pl }
+      - { imie: "Paweł Olszewski", email: Pawel.Olszewski@sejm.pl }
+      - { imie: "Katarzyna Osos", email: Katarzyna.Osos@sejm.pl }
+      - { imie: "Paweł Papke", email: Pawel.Papke@sejm.pl }
+      - { imie: "Karolina Pawliczak", email: Karolina.Pawliczak@sejm.pl }
+      - { imie: "Katarzyna Piekarska", email: Katarzyna.Piekarska@sejm.pl }
+      - { imie: "Lucjan Pietrzczyk", email: Lucjan.Pietrzczyk@sejm.pl }
+      - { imie: "Krzysztof Piątkowski", email: Krzysztof.Piatkowski@sejm.pl }
+      - { imie: "Kazimierz Plocke", email: Kazimierz.Plocke@sejm.pl }
+      - { imie: "Elżbieta Polak", email: Elzbieta.Polak@sejm.pl }
+      - { imie: "Agnieszka Pomaska", email: Agnieszka.Pomaska@sejm.pl }
+      - { imie: "Mariusz Popielarz", email: Mariusz.Popielarz@sejm.pl }
+      - { imie: "Małgorzata Pępek", email: Malgorzata.Pepek@sejm.pl }
+      - { imie: "Renata Rak", email: Renata.Rak@sejm.pl }
+      - { imie: "Magdalena Roguska", email: Magdalena.Roguska@sejm.pl }
+      - { imie: "Monika Rosa", email: Monika.Rosa@sejm.pl }
+      - { imie: "Jakub Rutnicki", email: Jakub.Rutnicki@sejm.pl }
+      - { imie: "Marek Rząsa", email: Marek.Rzasa@sejm.pl }
+      - { imie: "Krystyna Sibińska", email: Krystyna.Sibinska@sejm.pl }
+      - { imie: "Rafał Siemaszko", email: Rafal.Siemaszko@sejm.pl }
+      - { imie: "Tomasz Siemoniak", email: Tomasz.Siemoniak@sejm.pl }
+      - { imie: "Krystyna Skowrońska", email: Krystyna.Skowronska@sejm.pl }
+      - { imie: "Weronika Smarduch", email: Weronika.Smarduch@sejm.pl }
+      - { imie: "Anna Sobolak", email: Anna.Sobolak@sejm.pl }
+      - { imie: "Marek Sowa", email: Marek.Sowa@sejm.pl }
+      - { imie: "Katarzyna Stachowicz", email: Katarzyna.Stachowicz@sejm.pl }
+      - { imie: "Franciszek Sterczewski", email: Franciszek.Sterczewski@sejm.pl }
+      - { imie: "Paweł Suski", email: Pawel.Suski@sejm.pl }
+      - { imie: "Andrzej Szewiński", email: Andrzej.Szewinski@sejm.pl }
+      - { imie: "Henryk Szopiński", email: Henryk.Szopinski@sejm.pl }
+      - { imie: "Krystyna Szumilas", email: Krystyna.Szumilas@sejm.pl }
+      - { imie: "Tomasz Szymański", email: Tomasz.Szymanski@sejm.pl }
+      - { imie: "Adam Szłapka", email: Adam.Szlapka@sejm.pl }
+      - { imie: "Waldemar Sługocki", email: Waldemar.Slugocki@sejm.pl }
+      - { imie: "Apoloniusz Tajner", email: Apoloniusz.Tajner@sejm.pl }
+      - { imie: "Cezary Tomczyk", email: Cezary.Tomczyk@sejm.pl }
+      - { imie: "Maciej Tomczykiewicz", email: Maciej.Tomczykiewicz@sejm.pl }
+      - { imie: "Małgorzata Tracz", email: Malgorzata.Tracz@sejm.pl }
+      - { imie: "Krzysztof Truskolaski", email: Krzysztof.Truskolaski@sejm.pl }
+      - { imie: "Donald Tusk", email: Donald.Tusk@sejm.pl }
+      - { imie: "Jarosław Urbaniak", email: Jaroslaw.Urbaniak@sejm.pl }
+      - { imie: "Aleksandra Uznańska-Wiśniewska", email: Aleksandra.Uznanska-Wisniewska@sejm.pl }
+      - { imie: "Robert Wardzała", email: Robert.Wardzala@sejm.pl }
+      - { imie: "Jarosław Wałęsa", email: Jaroslaw.Walesa@sejm.pl }
+      - { imie: "Monika Wielichowska", email: Monika.Wielichowska@sejm.pl }
+      - { imie: "Adrian Witczak", email: Adrian.Witczak@sejm.pl }
+      - { imie: "Mariusz Witczak", email: Mariusz.Witczak@sejm.pl }
+      - { imie: "Przemysław Witek", email: Przemyslaw.Witek@sejm.pl }
+      - { imie: "Anna Wojciechowska", email: Anna.Wojciechowska@sejm.pl }
+      - { imie: "Bogusław Wołoszański", email: Boguslaw.Woloszanski@sejm.pl }
+      - { imie: "Maciej Wróbel", email: Maciej.Wrobel@sejm.pl }
+      - { imie: "Bartosz Zawieja", email: Bartosz.Zawieja@sejm.pl }
+      - { imie: "Witold Zembaczyński", email: Witold.Zembaczynski@sejm.pl }
+      - { imie: "Urszula Zielińska", email: Urszula.Zielinska@sejm.pl }
+      - { imie: "Alicja Łepkowska-Gołaś", email: Alicja.Lepkowska-Golas@sejm.pl }
+      - { imie: "Dorota Łoboda", email: Dorota.Loboda@sejm.pl }
+      - { imie: "Magdalena Łośko", email: Magdalena.Losko@sejm.pl }
+      - { imie: "Alicja Łuczak", email: Alicja.Luczak@sejm.pl }
+      - { imie: "Krystian Łuczak", email: Krystian.Luczak@sejm.pl }
+      - { imie: "Artur Łącki", email: Artur.Lacki@sejm.pl }
+      - { imie: "Łukasz Ściebiorowski", email: Lukasz.Sciebiorowski@sejm.pl }
+  - klub: "Klub Parlamentarny Prawo i Sprawiedliwość"
+    poslowie:
+      - { imie: "Andrzej Adamczyk", email: Andrzej.Adamczyk@sejm.pl }
+      - { imie: "Waldemar Andzel", email: Waldemar.Andzel@sejm.pl }
+      - { imie: "Dorota Arciszewska-Mielewczyk", email: Dorota.Arciszewska-Mielewczyk@sejm.pl }
+      - { imie: "Iwona Arent", email: Iwona.Arent@sejm.pl }
+      - { imie: "Marek Ast", email: Marek.Ast@sejm.pl }
+      - { imie: "Piotr Babinetz", email: Piotr.Babinetz@sejm.pl }
+      - { imie: "Barbara Bartuś", email: Barbara.Bartus@sejm.pl }
+      - { imie: "Rafał Bochenek", email: Rafal.Bochenek@sejm.pl }
+      - { imie: "Jacek Bogucki", email: Jacek.Bogucki@sejm.pl }
+      - { imie: "Joanna Borowiak", email: Joanna.Borowiak@sejm.pl }
+      - { imie: "Kamil Bortniczuk", email: Kamil.Bortniczuk@sejm.pl }
+      - { imie: "Bożena Borys-Szopa", email: Bozena.Borys-Szopa@sejm.pl }
+      - { imie: "Lidia Burzyńska", email: Lidia.Burzynska@sejm.pl }
+      - { imie: "Mariusz Błaszczak", email: Mariusz.Blaszczak@sejm.pl }
+      - { imie: "Artur Chojecki", email: Artur.Chojecki@sejm.pl }
+      - { imie: "Kazimierz Choma", email: Kazimierz.Choma@sejm.pl }
+      - { imie: "Dominika Chorosińska", email: Dominika.Chorosinska@sejm.pl }
+      - { imie: "Tadeusz Chrzan", email: Tadeusz.Chrzan@sejm.pl }
+      - { imie: "Krzysztof Ciecióra", email: Krzysztof.Cieciora@sejm.pl }
+      - { imie: "Krzysztof Czarnecki", email: Krzysztof.Czarnecki@sejm.pl }
+      - { imie: "Witold Czarnecki", email: Witold.Czarnecki@sejm.pl }
+      - { imie: "Przemysław Czarnek", email: Przemyslaw.Czarnek@sejm.pl }
+      - { imie: "Arkadiusz Czartoryski", email: Arkadiusz.Czartoryski@sejm.pl }
+      - { imie: "Lidia Czechak", email: Lidia.Czechak@sejm.pl }
+      - { imie: "Anita Czerwińska", email: Anita.Czerwinska@sejm.pl }
+      - { imie: "Katarzyna Czochara", email: Katarzyna.Czochara@sejm.pl }
+      - { imie: "Władysław Dajczak", email: Wladyslaw.Dajczak@sejm.pl }
+      - { imie: "Zbigniew Dolata", email: Zbigniew.Dolata@sejm.pl }
+      - { imie: "Bartłomiej Dorywalski", email: Bartlomiej.Dorywalski@sejm.pl }
+      - { imie: "Przemysław Drabek", email: Przemyslaw.Drabek@sejm.pl }
+      - { imie: "Jan Dziedziczak", email: Jan.Dziedziczak@sejm.pl }
+      - { imie: "Anna Dąbrowska-Banaszek", email: Anna.Dabrowska-Banaszek@sejm.pl }
+      - { imie: "Magdalena Filipek-Sobczak", email: Magdalena.Filipek-Sobczak@sejm.pl }
+      - { imie: "Radosław Fogiel", email: Radoslaw.Fogiel@sejm.pl }
+      - { imie: "Andrzej Gawron", email: Andrzej.Gawron@sejm.pl }
+      - { imie: "Grzegorz Gaża", email: Grzegorz.Gaza@sejm.pl }
+      - { imie: "Anna Gembicka", email: Anna.Gembicka@sejm.pl }
+      - { imie: "Piotr Gliński", email: Piotr.Glinski@sejm.pl }
+      - { imie: "Małgorzata Golińska", email: Malgorzata.Golinska@sejm.pl }
+      - { imie: "Mariusz Gosek", email: Mariusz.Gosek@sejm.pl }
+      - { imie: "Kazimierz Gołojuch", email: Kazimierz.Golojuch@sejm.pl }
+      - { imie: "Marcin Grabowski", email: Marcin.Grabowski@sejm.pl }
+      - { imie: "Marek Gróbarczyk", email: Marek.Grobarczyk@sejm.pl }
+      - { imie: "Kazimierz Gwiazdowski", email: Kazimierz.Gwiazdowski@sejm.pl }
+      - { imie: "Agnieszka Górska", email: Agnieszka.Gorska@sejm.pl }
+      - { imie: "Czesław Hoc", email: Czeslaw.Hoc@sejm.pl }
+      - { imie: "Zbigniew Hoffmann", email: Zbigniew.Hoffmann@sejm.pl }
+      - { imie: "Paweł Hreniak", email: Pawel.Hreniak@sejm.pl }
+      - { imie: "Michał Jach", email: Michal.Jach@sejm.pl }
+      - { imie: "Norbert Kaczmarczyk", email: Norbert.Kaczmarczyk@sejm.pl }
+      - { imie: "Filip Kaczyński", email: Filip.Kaczynski@sejm.pl }
+      - { imie: "Jarosław Kaczyński", email: Jaroslaw.Kaczynski@sejm.pl }
+      - { imie: "Piotr Kaleta", email: Piotr.Kaleta@sejm.pl }
+      - { imie: "Sebastian Kaleta", email: Sebastian.Kaleta@sejm.pl }
+      - { imie: "Jan Kanthak", email: Jan.Kanthak@sejm.pl }
+      - { imie: "Mariusz Kałużny", email: Mariusz.Kaluzny@sejm.pl }
+      - { imie: "Andrzej Kosztowniak", email: Andrzej.Kosztowniak@sejm.pl }
+      - { imie: "Henryk Kowalczyk", email: Henryk.Kowalczyk@sejm.pl }
+      - { imie: "Michał Kowalski", email: Michal.Kowalski@sejm.pl }
+      - { imie: "Bartosz Kownacki", email: Bartosz.Kownacki@sejm.pl }
+      - { imie: "Jarosław Krajewski", email: Jaroslaw.Krajewski@sejm.pl }
+      - { imie: "Leonard Krasulski", email: Leonard.Krasulski@sejm.pl }
+      - { imie: "Anna Krupka", email: Anna.Krupka@sejm.pl }
+      - { imie: "Mariusz Krystian", email: Mariusz.Krystian@sejm.pl }
+      - { imie: "Piotr Król", email: Piotr.Krol@sejm.pl }
+      - { imie: "Marek Kuchciński", email: Marek.Kuchcinski@sejm.pl }
+      - { imie: "Wioletta Kulpa", email: Wioletta.Kulpa@sejm.pl }
+      - { imie: "Maria Kurowska", email: Maria.Kurowska@sejm.pl }
+      - { imie: "Władysław Kurowski", email: Wladyslaw.Kurowski@sejm.pl }
+      - { imie: "Zbigniew Kuźmiuk", email: Zbigniew.Kuzmiuk@sejm.pl }
+      - { imie: "Ewa Leniart", email: Ewa.Leniart@sejm.pl }
+      - { imie: "Joanna Lichocka", email: Joanna.Lichocka@sejm.pl }
+      - { imie: "Grzegorz Lorek", email: Grzegorz.Lorek@sejm.pl }
+      - { imie: "Antoni Macierewicz", email: Antoni.Macierewicz@sejm.pl }
+      - { imie: "Ewa Malik", email: Ewa.Malik@sejm.pl }
+      - { imie: "Dariusz Matecki", email: Dariusz.Matecki@sejm.pl }
+      - { imie: "Jerzy Materna", email: Jerzy.Materna@sejm.pl }
+      - { imie: "Grzegorz Matusiak", email: Grzegorz.Matusiak@sejm.pl }
+      - { imie: "Marek Matuszewski", email: Marek.Matuszewski@sejm.pl }
+      - { imie: "Maciej Małecki", email: Maciej.Malecki@sejm.pl }
+      - { imie: "Anna Milczanowska", email: Anna.Milczanowska@sejm.pl }
+      - { imie: "Daniel Milewski", email: Daniel.Milewski@sejm.pl }
+      - { imie: "Jan Mosiński", email: Jan.Mosinski@sejm.pl }
+      - { imie: "Michał Moskal", email: Michal.Moskal@sejm.pl }
+      - { imie: "Aleksander Mrówczyński", email: Aleksander.Mrowczynski@sejm.pl }
+      - { imie: "Marcin Ociepa", email: Marcin.Ociepa@sejm.pl }
+      - { imie: "Bogumiła Olbryś", email: Bogumila.Olbrys@sejm.pl }
+      - { imie: "Jacek Osuch", email: Jacek.Osuch@sejm.pl }
+      - { imie: "Anna Paluch", email: Anna.Paluch@sejm.pl }
+      - { imie: "Teresa Pamuła", email: Teresa.Pamula@sejm.pl }
+      - { imie: "Bolesław Piecha", email: Boleslaw.Piecha@sejm.pl }
+      - { imie: "Grzegorz Piechowiak", email: Grzegorz.Piechowiak@sejm.pl }
+      - { imie: "Anna Pieczarka", email: Anna.Pieczarka@sejm.pl }
+      - { imie: "Dariusz Piontkowski", email: Dariusz.Piontkowski@sejm.pl }
+      - { imie: "Szymon Pogoda", email: Szymon.Pogoda@sejm.pl }
+      - { imie: "Jerzy Polaczek", email: Jerzy.Polaczek@sejm.pl }
+      - { imie: "Piotr Polak", email: Piotr.Polak@sejm.pl }
+      - { imie: "Marcin Porzucek", email: Marcin.Porzucek@sejm.pl }
+      - { imie: "Kacper Płażyński", email: Kacper.Plazynski@sejm.pl }
+      - { imie: "Zbigniew Rau", email: Zbigniew.Rau@sejm.pl }
+      - { imie: "Marcin Romanowski", email: Marcin.Romanowski@sejm.pl }
+      - { imie: "Rafał Romanowski", email: Rafal.Romanowski@sejm.pl }
+      - { imie: "Urszula Rusecka", email: Urszula.Rusecka@sejm.pl }
+      - { imie: "Jacek Sasin", email: Jacek.Sasin@sejm.pl }
+      - { imie: "Paweł Sałek", email: Pawel.Salek@sejm.pl }
+      - { imie: "Anna Schmidt", email: Anna.Schmidt@sejm.pl }
+      - { imie: "Jarosław Sellin", email: Jaroslaw.Sellin@sejm.pl }
+      - { imie: "Edward Siarka", email: Edward.Siarka@sejm.pl }
+      - { imie: "Sławomir Skwarek", email: Slawomir.Skwarek@sejm.pl }
+      - { imie: "Kazimierz Smoliński", email: Kazimierz.Smolinski@sejm.pl }
+      - { imie: "Krzysztof Sobolewski", email: Krzysztof.Sobolewski@sejm.pl }
+      - { imie: "Agnieszka Soin", email: Agnieszka.Soin@sejm.pl }
+      - { imie: "Dariusz Stefaniuk", email: Dariusz.Stefaniuk@sejm.pl }
+      - { imie: "Marek Subocz", email: Marek.Subocz@sejm.pl }
+      - { imie: "Marek Suski", email: Marek.Suski@sejm.pl }
+      - { imie: "Wojciech Szarama", email: Wojciech.Szarama@sejm.pl }
+      - { imie: "Artur Szałabawka", email: Artur.Szalabawka@sejm.pl }
+      - { imie: "Józefa Szczurek-Żelazko", email: Jozefa.Szczurek-Zelazko@sejm.pl }
+      - { imie: "Paweł Szrot", email: Pawel.Szrot@sejm.pl }
+      - { imie: "Stanisław Szwed", email: Stanislaw.Szwed@sejm.pl }
+      - { imie: "Katarzyna Sójka", email: Katarzyna.Sojka@sejm.pl }
+      - { imie: "Krzysztof Tchórzewski", email: Krzysztof.Tchorzewski@sejm.pl }
+      - { imie: "Robert Telus", email: Robert.Telus@sejm.pl }
+      - { imie: "Piotr Uruski", email: Piotr.Uruski@sejm.pl }
+      - { imie: "Marcin Warchoł", email: Marcin.Warchol@sejm.pl }
+      - { imie: "Robert Warwas", email: Robert.Warwas@sejm.pl }
+      - { imie: "Jan Warzecha", email: Jan.Warzecha@sejm.pl }
+      - { imie: "Małgorzata Wassermann", email: Malgorzata.Wassermann@sejm.pl }
+      - { imie: "Rafał Weber", email: Rafal.Weber@sejm.pl }
+      - { imie: "Marek Wesoły", email: Marek.Wesoly@sejm.pl }
+      - { imie: "Patryk Wicher", email: Patryk.Wicher@sejm.pl }
+      - { imie: "Jarosław Wieczorek", email: Jaroslaw.Wieczorek@sejm.pl }
+      - { imie: "Teresa Wilk", email: Teresa.Wilk@sejm.pl }
+      - { imie: "Elżbieta Witek", email: Elzbieta.Witek@sejm.pl }
+      - { imie: "Agnieszka Wojciechowska van Heukelom", email: Agnieszka.WojciechowskavanHeukelom@sejm.pl }
+      - { imie: "Agata Wojtyszek", email: Agata.Wojtyszek@sejm.pl }
+      - { imie: "Michał Woś", email: Michal.Wos@sejm.pl }
+      - { imie: "Grzegorz Woźniak", email: Grzegorz.Wozniak@sejm.pl }
+      - { imie: "Tadeusz Woźniak", email: Tadeusz.Wozniak@sejm.pl }
+      - { imie: "Bartłomiej Wróblewski", email: Bartlomiej.Wroblewski@sejm.pl }
+      - { imie: "Michał Wójcik", email: Michal.Wojcik@sejm.pl }
+      - { imie: "Jarosław Zieliński", email: Jaroslaw.Zielinski@sejm.pl }
+      - { imie: "Tomasz Zieliński", email: Tomasz.Zielinski@sejm.pl }
+      - { imie: "Zbigniew Ziobro", email: Zbigniew.Ziobro@sejm.pl }
+      - { imie: "Sebastian Łukaszewicz", email: Sebastian.Lukaszewicz@sejm.pl }
+      - { imie: "Andrzej Śliwka", email: Andrzej.Sliwka@sejm.pl }
+      - { imie: "Jacek Świat", email: Jacek.Swiat@sejm.pl }
+  - klub: "Klub Parlamentarny Rozwój Plus"
+    poslowie:
+      - { imie: "Anna Baluch", email: Anna.Baluch@sejm.pl }
+      - { imie: "Ryszard Bartosik", email: Ryszard.Bartosik@sejm.pl }
+      - { imie: "Zbigniew Chmielowiec", email: Zbigniew.Chmielowiec@sejm.pl }
+      - { imie: "Anna Cicholska", email: Anna.Cicholska@sejm.pl }
+      - { imie: "Janusz Cieszyński", email: Janusz.Cieszynski@sejm.pl }
+      - { imie: "Michał Cieślak", email: Michal.Cieslak@sejm.pl }
+      - { imie: "Elżbieta Duda", email: Elzbieta.Duda@sejm.pl }
+      - { imie: "Szymon Giżyński", email: Szymon.Gizynski@sejm.pl }
+      - { imie: "Robert Gontarz", email: Robert.Gontarz@sejm.pl }
+      - { imie: "Andrzej Gut-Mostowy", email: Andrzej.Gut-Mostowy@sejm.pl }
+      - { imie: "Marcin Gwóźdź", email: Marcin.Gwozdz@sejm.pl }
+      - { imie: "Marcin Horała", email: Marcin.Horala@sejm.pl }
+      - { imie: "Paweł Jabłoński", email: Pawel.Jablonski@sejm.pl }
+      - { imie: "Marek Jakubiak", email: Marek.Jakubiak@sejm.pl }
+      - { imie: "Fryderyk Kapinos", email: Fryderyk.Kapinos@sejm.pl }
+      - { imie: "Łukasz Kmita", email: Lukasz.Kmita@sejm.pl }
+      - { imie: "Maria Koc", email: Maria.Koc@sejm.pl }
+      - { imie: "Wiesław Krajewski", email: Wieslaw.Krajewski@sejm.pl }
+      - { imie: "Andrzej Kryj", email: Andrzej.Kryj@sejm.pl }
+      - { imie: "Krzysztof Kubów", email: Krzysztof.Kubow@sejm.pl }
+      - { imie: "Anna Kwiecień", email: Anna.Kwiecien@sejm.pl }
+      - { imie: "Krzysztof Lipiec", email: Krzysztof.Lipiec@sejm.pl }
+      - { imie: "Marzena Machałek", email: Marzena.Machalek@sejm.pl }
+      - { imie: "Grzegorz Macko", email: Grzegorz.Macko@sejm.pl }
+      - { imie: "Mateusz Morawiecki", email: Mateusz.Morawiecki@sejm.pl }
+      - { imie: "Monika Pawłowska", email: Monika.Pawlowska@sejm.pl }
+      - { imie: "Grzegorz Puda", email: Grzegorz.Puda@sejm.pl }
+      - { imie: "Paweł Rychlik", email: Pawel.Rychlik@sejm.pl }
+      - { imie: "Łukasz Schreiber", email: Lukasz.Schreiber@sejm.pl }
+      - { imie: "Olga Semeniuk-Patkowska", email: Olga.Semeniuk-Patkowska@sejm.pl }
+      - { imie: "Mirosława Stachowiak-Różecka", email: Miroslawa.Stachowiak-Rozecka@sejm.pl }
+      - { imie: "Krzysztof Szczucki", email: Krzysztof.Szczucki@sejm.pl }
+      - { imie: "Szymon Szynkowski vel Sęk", email: Szymon.SzynkowskiVelSek@sejm.pl }
+      - { imie: "Ryszard Terlecki", email: Ryszard.Terlecki@sejm.pl }
+      - { imie: "Włodzimierz Tomaszewski", email: Wlodzimierz.Tomaszewski@sejm.pl }
+      - { imie: "Sylwester Tułajew", email: Sylwester.Tulajew@sejm.pl }
+      - { imie: "Piotr Uściński", email: Piotr.Uscinski@sejm.pl }
+      - { imie: "Wojciech Zubowski", email: Wojciech.Zubowski@sejm.pl }
+      - { imie: "Ireneusz Zyska", email: Ireneusz.Zyska@sejm.pl }
+      - { imie: "Agnieszka Ścigaj", email: Agnieszka.Scigaj@sejm.pl }
+  - klub: "Klub Parlamentarny Polskie Stronnictwo Ludowe – Trzecia Droga"
+    poslowie:
+      - { imie: "Władysław Bartoszewski", email: Wladyslaw.Bartoszewski@sejm.pl }
+      - { imie: "Paweł Bejda", email: Pawel.Bejda@sejm.pl }
+      - { imie: "Marek Biernacki", email: Marek.Biernacki@sejm.pl }
+      - { imie: "Adam Dziedzic", email: Adam.Dziedzic@sejm.pl }
+      - { imie: "Andrzej Grzyb", email: Andrzej.Grzyb@sejm.pl }
+      - { imie: "Henryk Kiepura", email: Henryk.Kiepura@sejm.pl }
+      - { imie: "Dariusz Klimczak", email: Dariusz.Klimczak@sejm.pl }
+      - { imie: "Władysław Kosiniak-Kamysz", email: Wladyslaw.Kosiniak-Kamysz@sejm.pl }
+      - { imie: "Stefan Krajewski", email: Stefan.Krajewski@sejm.pl }
+      - { imie: "Agnieszka Kłopotek", email: Agnieszka.Klopotek@sejm.pl }
+      - { imie: "Radosław Lubczyk", email: Radoslaw.Lubczyk@sejm.pl }
+      - { imie: "Mirosław Maliszewski", email: Miroslaw.Maliszewski@sejm.pl }
+      - { imie: "Urszula Nowogórska", email: Urszula.Nowogorska@sejm.pl }
+      - { imie: "Mirosław Orliński", email: Miroslaw.Orlinski@sejm.pl }
+      - { imie: "Krzysztof Paszyk", email: Krzysztof.Paszyk@sejm.pl }
+      - { imie: "Urszula Pasławska", email: Urszula.Paslawska@sejm.pl }
+      - { imie: "Michał Pyrzyk", email: Michal.Pyrzyk@sejm.pl }
+      - { imie: "Ireneusz Raś", email: Ireneusz.Ras@sejm.pl }
+      - { imie: "Jarosław Rzepa", email: Jaroslaw.Rzepa@sejm.pl }
+      - { imie: "Wiesław Różyński", email: Wieslaw.Rozynski@sejm.pl }
+      - { imie: "Tadeusz Samborski", email: Tadeusz.Samborski@sejm.pl }
+      - { imie: "Marek Sawicki", email: Marek.Sawicki@sejm.pl }
+      - { imie: "Czesław Siekierski", email: Czeslaw.Siekierski@sejm.pl }
+      - { imie: "Henryk Smolarz", email: Henryk.Smolarz@sejm.pl }
+      - { imie: "Zbigniew Sosnowski", email: Zbigniew.Sosnowski@sejm.pl }
+      - { imie: "Magdalena Sroka", email: Magdalena.Sroka@sejm.pl }
+      - { imie: "Jacek Tomczak", email: Jacek.Tomczak@sejm.pl }
+      - { imie: "Stanisław Tomczyszyn", email: Stanislaw.Tomczyszyn@sejm.pl }
+      - { imie: "Piotr Zgorzelski", email: Piotr.Zgorzelski@sejm.pl }
+      - { imie: "Zbigniew Ziejewski", email: Zbigniew.Ziejewski@sejm.pl }
+      - { imie: "Jolanta Zięba-Gzik", email: Jolanta.Zieba-Gzik@sejm.pl }
+      - { imie: "Bożena Żelazowska", email: Bozena.Zelazowska@sejm.pl }
+  - klub: "Koalicyjny Klub Parlamentarny Lewicy (Nowa Lewica, PPS, Unia Pracy)"
+    poslowie:
+      - { imie: "Bożena Borowiec", email: Bozena.Borowiec@sejm.pl }
+      - { imie: "Włodzimierz Czarzasty", email: Wlodzimierz.Czarzasty@sejm.pl }
+      - { imie: "Jacek Czerniak", email: Jacek.Czerniak@sejm.pl }
+      - { imie: "Agnieszka Dziemianowicz-Bąk", email: Agnieszka.Dziemianowicz-Bak@sejm.pl }
+      - { imie: "Krzysztof Gawkowski", email: Krzysztof.Gawkowski@sejm.pl }
+      - { imie: "Daria Gosek-Popiołek", email: Daria.Gosek-Popiolek@sejm.pl }
+      - { imie: "Katarzyna Kotula", email: Katarzyna.Kotula@sejm.pl }
+      - { imie: "Piotr Kowal", email: Piotr.Kowal@sejm.pl }
+      - { imie: "Anita Kucharska-Dziedzic", email: Anita.Kucharska-Dziedzic@sejm.pl }
+      - { imie: "Marcin Kulasek", email: Marcin.Kulasek@sejm.pl }
+      - { imie: "Wanda Nowicka", email: Wanda.Nowicka@sejm.pl }
+      - { imie: "Dorota Olko", email: Dorota.Olko@sejm.pl }
+      - { imie: "Arkadiusz Sikora", email: Arkadiusz.Sikora@sejm.pl }
+      - { imie: "Wiesław Szczepański", email: Wieslaw.Szczepanski@sejm.pl }
+      - { imie: "Andrzej Szejna", email: Andrzej.Szejna@sejm.pl }
+      - { imie: "Tadeusz Tomaszewski", email: Tadeusz.Tomaszewski@sejm.pl }
+      - { imie: "Tomasz Trela", email: Tomasz.Trela@sejm.pl }
+      - { imie: "Katarzyna Ueberhan", email: Katarzyna.Ueberhan@sejm.pl }
+      - { imie: "Joanna Wicha", email: Joanna.Wicha@sejm.pl }
+      - { imie: "Dariusz Wieczorek", email: Dariusz.Wieczorek@sejm.pl }
+      - { imie: "Anna Żukowska", email: Anna.Zukowska@sejm.pl }
+  - klub: "Klub Poselski Konfederacja"
+    poslowie:
+      - { imie: "Konrad Berkowicz", email: Konrad.Berkowicz@sejm.pl }
+      - { imie: "Karina Bosak", email: Karina.Bosak@sejm.pl }
+      - { imie: "Krzysztof Bosak", email: Krzysztof.Bosak@sejm.pl }
+      - { imie: "Bronisław Foltyn", email: Bronislaw.Foltyn@sejm.pl }
+      - { imie: "Sławomir Mentzen", email: Slawomir.Mentzen@sejm.pl }
+      - { imie: "Krzysztof Mulawa", email: Krzysztof.Mulawa@sejm.pl }
+      - { imie: "Bartłomiej Pejo", email: Bartlomiej.Pejo@sejm.pl }
+      - { imie: "Michał Połuboczek", email: Michal.Poluboczek@sejm.pl }
+      - { imie: "Grzegorz Płaczek", email: Grzegorz.Placzek@sejm.pl }
+      - { imie: "Tomasz Rzymkowski", email: Tomasz.Rzymkowski@sejm.pl }
+      - { imie: "Krzysztof Szymański", email: Krzysztof.Szymanski@sejm.pl }
+      - { imie: "Krzysztof Tuduj", email: Krzysztof.Tuduj@sejm.pl }
+      - { imie: "Witold Tumanowicz", email: Witold.Tumanowicz@sejm.pl }
+      - { imie: "Michał Wawer", email: Michal.Wawer@sejm.pl }
+      - { imie: "Ryszard Wilk", email: Ryszard.Wilk@sejm.pl }
+      - { imie: "Przemysław Wipler", email: Przemyslaw.Wipler@sejm.pl }
+      - { imie: "Andrzej Zapałowski", email: Andrzej.Zapalowski@sejm.pl }
+  - klub: "Klub Parlamentarny Centrum"
+    poslowie:
+      - { imie: "Izabela Bodnar", email: Izabela.Bodnar@sejm.pl }
+      - { imie: "Elżbieta Burkiewicz", email: Elzbieta.Burkiewicz@sejm.pl }
+      - { imie: "Żaneta Cwalina-Śliwowska", email: Zaneta.Cwalina-Sliwowska@sejm.pl }
+      - { imie: "Paulina Hennig-Kloska", email: Paulina.Hennig-Kloska@sejm.pl }
+      - { imie: "Rafał Kasprzyk", email: Rafal.Kasprzyk@sejm.pl }
+      - { imie: "Rafał Komarewicz", email: Rafal.Komarewicz@sejm.pl }
+      - { imie: "Aleksandra Leo", email: Aleksandra.Leo@sejm.pl }
+      - { imie: "Barbara Okuła", email: Barbara.Okula@sejm.pl }
+      - { imie: "Barbara Oliwiecka", email: Barbara.Oliwiecka@sejm.pl }
+      - { imie: "Ryszard Petru", email: Ryszard.Petru@sejm.pl }
+      - { imie: "Norbert Pietrykowski", email: Norbert.Pietrykowski@sejm.pl }
+      - { imie: "Marcin Skonieczka", email: Marcin.Skonieczka@sejm.pl }
+      - { imie: "Mirosław Suchoń", email: Miroslaw.Suchon@sejm.pl }
+      - { imie: "Ewa Szymanowska", email: Ewa.Szymanowska@sejm.pl }
+      - { imie: "Sławomir Ćwik", email: Slawomir.Cwik@sejm.pl }
+  - klub: "Klub Parlamentarny Polska 2050"
+    poslowie:
+      - { imie: "Agnieszka Buczyńska", email: Agnieszka.Buczynska@sejm.pl }
+      - { imie: "Adam Gomoła", email: Adam.Gomola@sejm.pl }
+      - { imie: "Michał Gramatyka", email: Michal.Gramatyka@sejm.pl }
+      - { imie: "Piotr Górnikiewicz", email: Piotr.Gornikiewicz@sejm.pl }
+      - { imie: "Bożenna Hołownia", email: Bozenna.Holownia@sejm.pl }
+      - { imie: "Szymon Hołownia", email: Szymon.Holownia@sejm.pl }
+      - { imie: "Adam Luboński", email: Adam.Lubonski@sejm.pl }
+      - { imie: "Maja Nowak", email: Maja.Nowak@sejm.pl }
+      - { imie: "Łukasz Osmalak", email: Lukasz.Osmalak@sejm.pl }
+      - { imie: "Bartosz Romowicz", email: Bartosz.Romowicz@sejm.pl }
+      - { imie: "Ewa Schädler", email: Ewa.Schadler@sejm.pl }
+      - { imie: "Piotr Strach", email: Piotr.Strach@sejm.pl }
+      - { imie: "Wioleta Tomczak", email: Wioleta.Tomczak@sejm.pl }
+      - { imie: "Kamil Wnuk", email: Kamil.Wnuk@sejm.pl }
+      - { imie: "Paweł Śliz", email: Pawel.Sliz@sejm.pl }
+  - klub: "Koło Poselskie Razem"
+    poslowie:
+      - { imie: "Maciej Konieczny", email: Maciej.Konieczny@sejm.pl }
+      - { imie: "Marta Stożek", email: Marta.Stozek@sejm.pl }
+      - { imie: "Adrian Zandberg", email: Adrian.Zandberg@sejm.pl }
+      - { imie: "Marcelina Zawisza", email: Marcelina.Zawisza@sejm.pl }
+  - klub: "Koło Poselskie Demokracja Bezpośrednia"
+    poslowie:
+      - { imie: "Jan Ardanowski", email: Jan.Ardanowski@sejm.pl }
+      - { imie: "Paweł Kukiz", email: Pawel.Kukiz@sejm.pl }
+      - { imie: "Jarosław Sachajko", email: Jaroslaw.Sachajko@sejm.pl }
+  - klub: "Koło Poselskie Konfederacja Korony Polskiej"
+    poslowie:
+      - { imie: "Roman Fritz", email: Roman.Fritz@sejm.pl }
+      - { imie: "Włodzimierz Skalik", email: Wlodzimierz.Skalik@sejm.pl }
+      - { imie: "Sławomir Zawiślak", email: Slawomir.Zawislak@sejm.pl }
+  - klub: "Posłowie niezrzeszeni"
+    poslowie:
+      - { imie: "Marcin Józefaciuk", email: Marcin.Jozefaciuk@sejm.pl }
+      - { imie: "Janusz Kowalski", email: Janusz.Kowalski@sejm.pl }
+      - { imie: "Paulina Matysiak", email: Paulina.Matysiak@sejm.pl }
+      - { imie: "Łukasz Mejza", email: Lukasz.Mejza@sejm.pl }
+      - { imie: "Joanna Mucha", email: Joanna.Mucha@sejm.pl }
+      - { imie: "Paweł Zalewski", email: Pawel.Zalewski@sejm.pl }
+      - { imie: "Tomasz Zimoch", email: Tomasz.Zimoch@sejm.pl }

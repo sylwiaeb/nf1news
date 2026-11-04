@@ -22,13 +22,13 @@ Od 30 kwietnia 2026 r. 2 830 pacjentów z neurofibromatozami, którzy byli w pil
 
 ## Krok 3. Skopiuj adresy posłów
 
-Możesz napisać do posłów jednego klubu, kilku klubów albo do wszystkich naraz.
+Możesz napisać do posłów jednego klubu, kilku klubów albo do wszystkich naraz. Przy każdym adresie jest imię i nazwisko posła. Programy pocztowe rozpoznają taki zapis, więc całość możesz wkleić prosto w pole UDW. Lista pochodzi z oficjalnych danych Sejmu, stan na 4 listopada 2026 r.
 
 {% assign kluby = site.data.interpelacja.kluby %}
 {% if kluby.size > 1 %}
 ### Wszyscy posłowie
 
-{% capture wszystkie %}{% for k in kluby %}{{ k.adresy | join: ", " }}{% unless forloop.last %}, {% endunless %}{% endfor %}{% endcapture %}
+{% capture wszystkie %}{% for k in kluby %}{% for p in k.poslowie %}{{ p.imie }} <{{ p.email }}>{% unless forloop.last %}, {% endunless %}{% endfor %}{% unless forloop.last %}, {% endunless %}{% endfor %}{% endcapture %}
 <div class="mail-box">
 <p class="mail"><button type="button" class="btn copy" data-target="adresy-wszyscy">Kopiuj wszystkie adresy</button></p>
 <p class="copy-msg" role="status" aria-live="polite"></p>
@@ -38,13 +38,13 @@ Możesz napisać do posłów jednego klubu, kilku klubów albo do wszystkich nar
 {% endif %}
 
 {% for k in kluby %}
-### {{ k.klub }} ({{ k.adresy | size }})
+### {{ k.klub }} ({{ k.poslowie | size }})
 
 <div class="mail-box">
 <p class="mail"><button type="button" class="btn copy" data-target="adresy-{{ forloop.index }}">Kopiuj adresy</button></p>
 <p class="copy-msg" role="status" aria-live="polite"></p>
 <label for="adresy-{{ forloop.index }}">Adresy e-mail: {{ k.klub }}. Jeśli przycisk nie działa, przytrzymaj palec w polu, wybierz „Zaznacz wszystko”, a potem „Kopiuj”.</label>
-<textarea id="adresy-{{ forloop.index }}" readonly rows="4">{{ k.adresy | join: ", " | escape }}</textarea>
+<textarea id="adresy-{{ forloop.index }}" readonly rows="6">{% capture lista %}{% for p in k.poslowie %}{{ p.imie }} <{{ p.email }}>{% unless forloop.last %}, {% endunless %}{% endfor %}{% endcapture %}{{ lista | escape }}</textarea>
 </div>
 {% endfor %}
 
