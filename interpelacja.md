@@ -13,8 +13,8 @@ published: false
 
 ## Krok 1. Pobierz interpelację
 
-<!-- Plik wrzuć do pliki/ i popraw nazwę poniżej. -->
-- [Pobierz interpelację (Word, .docx)]({{ '/pliki/interpelacja-NF.docx' | relative_url }})
+- [Pobierz interpelację (Word, .docx)]({{ '/pliki/interpelacja-MZ-NF.docx' | relative_url }})
+- [Pobierz interpelację (tekst, .txt)]({{ '/pliki/interpelacja-MZ-NF.txt' | relative_url }})
 
 ## Krok 2. Skopiuj wiadomość
 
