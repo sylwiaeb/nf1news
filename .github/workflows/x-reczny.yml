@@ -1,0 +1,35 @@
+name: Ręczny post na X (odpowiedź / usunięcie)
+
+on:
+  workflow_dispatch:
+    inputs:
+      akcja:
+        description: "odpowiedz, usun albo post"
+        required: true
+        default: odpowiedz
+      tweet_id:
+        description: "ID posta na X (dla odpowiedz i usun)"
+        required: false
+      tekst:
+        description: "Treść (dla odpowiedz i post)"
+        required: false
+
+jobs:
+  x:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests-oauthlib
+      - name: Wyślij na X
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+          AKCJA: ${{ github.event.inputs.akcja }}
+          TWEET_ID: ${{ github.event.inputs.tweet_id }}
+          TEKST: ${{ github.event.inputs.tekst }}
+        run: python .github/scripts/x_reczny.py
