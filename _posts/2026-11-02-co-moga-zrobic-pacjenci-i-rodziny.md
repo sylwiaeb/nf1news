@@ -60,7 +60,7 @@ Decyzję podjęło Ministerstwo, a rekomendacja Prezesa AOTMiT nie jest dla nieg
 - ePUAP: `/8tk37sxx6h/SkrytkaESP`
 - poczta: Ministerstwo Zdrowia, ul. Miodowa 15, 00-952 Warszawa
 
-Adresy e-mail i telefony do sekretariatów Ministra i Departamentu Analiz i Strategii są na stronie [Do pobrania]({{ '/do-pobrania/#kontakty-do-ministerstwa-zdrowia' | relative_url }}).
+W temacie maila wpisz, do kogo jest pismo, np. „Do Minister Zdrowia Jolanty Sobierańskiej-Grendy”. Kancelaria przekaże je dalej.
 
 Krótko i rzeczowo: kim jesteś, co się zmieniło w Twojej opiece po 30 kwietnia i o co prosisz, czyli o wznowienie prac nad świadczeniem opieki koordynowanej dla dzieci i dorosłych z NF.
 
