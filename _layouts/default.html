@@ -70,6 +70,24 @@
     .mail-box .copy-msg { margin: 0; min-height: 1.2em; font-weight: 600; }
     .mail-box textarea { width: 100%; box-sizing: border-box; font: inherit; color: inherit; background: none; border: 1px solid #ccc; border-radius: 4px; padding: 0.4rem; }
     .btn { display: inline-block; font: 0.85rem system-ui, sans-serif; padding: 0.4rem 0.8rem; margin: 0 0.4rem 0.4rem 0; border: 1px solid currentColor; border-radius: 4px; background: none; color: inherit; text-decoration: none; cursor: pointer; }
+    .toc { display: block; margin: 1rem 0 2rem; padding: 0.7rem 1rem; border-left: 4px solid var(--c1); background: #f4f7fb; font-family: system-ui, sans-serif; font-size: 0.9rem; }
+    @media (prefers-color-scheme: dark) { .toc { background: #1f2329; } }
+    .toc p { margin: 0 0 0.3rem; }
+    .toc ol { margin: 0; padding-left: 1.3rem; }
+    .toc ul { margin: 0.1rem 0 0.2rem; padding-left: 1.1rem; }
+    .toc a { margin: 0; }
+    .card { margin: 0 0 1.5rem; padding: 0.2rem 1rem 0.6rem; border: 1px solid #ccc; border-radius: 6px; }
+    @media (prefers-color-scheme: dark) { .card { border-color: #444; } }
+    .card h3 { margin: 0.8rem 0 0.3rem; font-size: 1.1rem; line-height: 1.3; }
+    .card .to, .card .files { font-family: system-ui, sans-serif; font-size: 0.85rem; margin: 0.2rem 0; }
+    .card .to { color: #777; }
+    .card code { overflow-wrap: anywhere; }
+    .card dl { display: grid; grid-template-columns: max-content 1fr; gap: 0.35rem 0.8rem; margin: 0.6rem 0; font-family: system-ui, sans-serif; font-size: 0.9rem; align-items: baseline; }
+    .card dt { color: #777; }
+    .card dd { margin: 0; }
+    .card.contact p { font-size: 0.95rem; }
+    .btn.small { padding: 0.1rem 0.5rem; margin: 0 0 0 0.3rem; font-size: 0.8rem; }
+    @media (max-width: 480px) { .card dl { grid-template-columns: 1fr; gap: 0 0; } .card dd { margin-bottom: 0.4rem; } }
     mark { background: #ffe680; color: inherit; padding: 0 .15em; border-radius: 2px; }
     @media (prefers-color-scheme: dark) { mark { background: #6b5500; color: #fff; } }
     blockquote.steno { margin: 1rem 0; padding: 0 0 0 1rem; border-left: 3px solid #ccc; }
@@ -113,6 +131,19 @@
         try { ok = document.execCommand('copy'); } catch (err) {}
         if (!ok && navigator.clipboard) navigator.clipboard.writeText(ta.value);
         done.hidden = false;
+      } else if (t.matches && t.matches('button.copy-addr')) {
+        // „Kopiuj” przy adresie: kopiuje sam adres i na chwilę zmienia napis na przycisku.
+        var addr = t.dataset.copy, label = t.textContent;
+        var done = function (ok) { t.textContent = ok ? 'Skopiowano ✓' : 'Nie udało się'; setTimeout(function () { t.textContent = label; }, 2000); };
+        var fallback = function () {
+          var tmp = document.createElement('textarea'), ok = false;
+          tmp.value = addr; tmp.setAttribute('readonly', ''); tmp.style.position = 'fixed'; tmp.style.opacity = '0';
+          document.body.appendChild(tmp); tmp.select();
+          try { ok = document.execCommand('copy'); } catch (err) {}
+          document.body.removeChild(tmp); done(ok);
+        };
+        if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(addr).then(function () { done(true); }, fallback);
+        else fallback();
       } else if (t.matches && t.matches('button.copy')) {
         // „Skopiuj treść”: najpierw schowek, potem execCommand, a gdy oba zawiodą,
         // zaznaczamy tekst w polu, żeby można go było skopiować ręcznie.
