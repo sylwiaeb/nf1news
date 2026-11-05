@@ -24,7 +24,6 @@ Gotowy wniosek o udostępnienie informacji publicznej do Centrali NFZ. Prosi o l
 **Jak go wysłać do Centrali NFZ:**
 
 - e-mailem na adres `KancelariaElektroniczna@nfz.gov.pl` (treść wniosku wklej do wiadomości albo dołącz plik),
-- przez ePUAP, na skrytkę `/NFZ-Centrala/SkrytkaESP`,
 - przez e-Doręczenia, na adres `AE:PL-98754-99859-GJBJA-29`,
 - albo pocztą: Centrala NFZ, ul. Rakowiecka 26/30, 02-528 Warszawa.
 
@@ -52,9 +51,10 @@ Wniosek o udostępnienie informacji publicznej w sprawie dalszej opieki nad pacj
 **Jak wysłać wnioski do Ministerstwa Zdrowia:**
 
 - e-mailem na adres `kancelaria@mz.gov.pl` (treść wniosku wklej do wiadomości albo dołącz plik),
-- przez ePUAP, na skrytkę `/8tk37sxx6h/SkrytkaESP`,
 - przez e-Doręczenia, na adres `AE:PL-11185-96749-VHSCS-20`,
 - albo pocztą: Ministerstwo Zdrowia, ul. Miodowa 15, 00-952 Warszawa.
+
+Zwykły e-mail wystarczy do wniosku o informację publiczną. Pismo, na które chcesz dostać wiążącą odpowiedź (np. wniosek albo skargę z imieniem i nazwiskiem), Ministerstwo każe wysyłać przez e-Doręczenia albo pocztą. Od 1 stycznia 2026 r. pisma od osób prywatnych wysłane przez ePUAP mogą zostać uznane za doręczone nieskutecznie, dlatego nie podajemy już skrytek ePUAP.
 
 Jeśli pismo jest do konkretnej osoby, np. Ministra Zdrowia albo dyrektora departamentu, wpisz jej imię, nazwisko i stanowisko w temacie maila i na początku pisma. Kancelaria przekaże je dalej.
 

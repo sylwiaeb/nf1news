@@ -29,7 +29,6 @@ Rzecznik Praw Pacjenta zajmuje się sytuacjami, w których pacjent nie dostaje n
 
 - Bezpłatna infolinia (Telefoniczna Informacja Pacjenta): **800 190 590**, pon.–pt. 8.00–18.00
 - e-mail: `kancelaria@rpp.gov.pl`
-- ePUAP: `/RzPP/skrytka`
 - poczta: Biuro Rzecznika Praw Pacjenta, ul. Płocka 11/13, 01-231 Warszawa
 
 Rzecznik nie rozpatruje pism anonimowych, więc podaj imię, nazwisko i adres. Złożenie skargi nic nie kosztuje. [Więcej na stronie Rzecznika](https://www.gov.pl/web/rpp/skargi-i-petycje).
@@ -57,7 +56,7 @@ Wystarczy skopiować treść i wysłać e-mailem. Podpis ani imię i nazwisko ni
 Decyzję podjęło Ministerstwo, a rekomendacja Prezesa AOTMiT nie jest dla niego wiążąca. Ostatnie słowo należy do Ministra Zdrowia, obecnie Jolanty Sobierańskiej-Grendy.
 
 - e-mail: `kancelaria@mz.gov.pl`
-- ePUAP: `/8tk37sxx6h/SkrytkaESP`
+- e-Doręczenia (pisma, na które chcesz dostać wiążącą odpowiedź): `AE:PL-11185-96749-VHSCS-20`
 - poczta: Ministerstwo Zdrowia, ul. Miodowa 15, 00-952 Warszawa
 
 W temacie maila wpisz, do kogo jest pismo, np. „Do Minister Zdrowia Jolanty Sobierańskiej-Grendy”. Kancelaria przekaże je dalej.

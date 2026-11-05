@@ -64,7 +64,7 @@ Dokumenty do ustawy: [tekst ustawy porównany z obecnymi przepisami](https://www
 Napisz do Ministerstwa Zdrowia. Przywrócenie pilotażu nie wymaga zmiany ustawy, więc decyzja i tak należy do ministra. Wystarczy ten sam tekst z jedną zmianą: zamiast prośby o poprawki poproś o przywrócenie pilotażu opieki koordynowanej dla pacjentów z neurofibromatozami i o odrębne finansowanie koordynacji w OECR.
 
 - e-mail: `kancelaria@mz.gov.pl`
-- ePUAP: `/8tk37sxx6h/SkrytkaESP`
+- e-Doręczenia: `AE:PL-11185-96749-VHSCS-20`
 
 ## Krok 5. Daj znać innym
 
