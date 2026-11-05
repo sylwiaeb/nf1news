@@ -69,6 +69,8 @@
     .mail-box .mail-note { margin: 0.4rem 0; }
     .mail-box .copy-msg { margin: 0; min-height: 1.2em; font-weight: 600; }
     .mail-box textarea { width: 100%; box-sizing: border-box; font: inherit; color: inherit; background: none; border: 1px solid #ccc; border-radius: 4px; padding: 0.4rem; }
+    .contacts .copy-msg { font: 600 0.85rem system-ui, sans-serif; min-height: 1.2em; margin: 0 0 1rem; }
+    .contacts .btn { margin: 0 0 0 0.4rem; padding: 0.15rem 0.5rem; }
     .btn { display: inline-block; font: 0.85rem system-ui, sans-serif; padding: 0.4rem 0.8rem; margin: 0 0.4rem 0.4rem 0; border: 1px solid currentColor; border-radius: 4px; background: none; color: inherit; text-decoration: none; cursor: pointer; }
     mark { background: #ffe680; color: inherit; padding: 0 .15em; border-radius: 2px; }
     @media (prefers-color-scheme: dark) { mark { background: #6b5500; color: #fff; } }
@@ -100,6 +102,19 @@
         try { ok = document.execCommand('copy'); } catch (err) {}
         if (!ok && navigator.clipboard) navigator.clipboard.writeText(ta.value);
         done.hidden = false;
+      } else if (t.matches && t.matches('button.copy-addr')) {
+        // „Kopiuj adres”: kopiuje jeden adres e-mail z listy kontaktów.
+        var addr = t.dataset.copy, out = t.closest('.contacts') && t.closest('.contacts').querySelector('.copy-msg');
+        var said = function (ok) { if (out) out.textContent = ok ? 'Skopiowano: ' + addr : 'Nie udało się skopiować. Adres: ' + addr; if (ok) { t.textContent = 'Skopiowano ✓'; setTimeout(function () { t.textContent = 'Kopiuj adres'; }, 2000); } };
+        var fallback = function () {
+          var tmp = document.createElement('textarea'), ok = false;
+          tmp.value = addr; tmp.setAttribute('readonly', ''); tmp.style.position = 'fixed'; tmp.style.opacity = '0';
+          document.body.appendChild(tmp); tmp.select();
+          try { ok = document.execCommand('copy'); } catch (err) {}
+          document.body.removeChild(tmp); said(ok);
+        };
+        if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(addr).then(function () { said(true); }, fallback);
+        else fallback();
       } else if (t.matches && t.matches('button.copy')) {
         // „Skopiuj treść”: najpierw schowek, potem execCommand, a gdy oba zawiodą,
         // zaznaczamy tekst w polu, żeby można go było skopiować ręcznie.

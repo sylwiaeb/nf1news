@@ -57,3 +57,29 @@ Wniosek o udostępnienie informacji publicznej w sprawie dalszej opieki nad pacj
 - albo pocztą: Ministerstwo Zdrowia, ul. Miodowa 15, 00-952 Warszawa.
 
 Te same zasady co przy NFZ: podpis ani imię i nazwisko nie są wymagane, odpowiedź powinna przyjść w ciągu 14 dni (najwyżej 2 miesięcy), a odmowa wymaga decyzji, od której można się odwołać.
+
+## Kontakty do Ministerstwa Zdrowia
+
+Wnioski i pisma można wysłać na adres ogólny kancelarii, ale można też napisać albo zadzwonić bezpośrednio do sekretariatu osoby, która odpowiada za sprawę.
+
+<div class="contacts" markdown="1">
+
+**Jolanta Sobierańska-Grenda, Minister Zdrowia**
+- sekretariat: <a href="tel:+48883840987">+48 883 840 987</a>, <a href="tel:+48226349326">22 634 93 26</a>
+- e-mail: `sekretariat-jg@mz.gov.pl` <button type="button" class="btn copy-addr" data-copy="sekretariat-jg@mz.gov.pl">Kopiuj adres</button>
+
+**Tomasz Maciejewski, Podsekretarz Stanu** (nadzoruje m.in. Departament Analiz i Strategii, Departament Budżetu i Finansów, Departament e-Zdrowia i Departament Lecznictwa)
+- e-mail: `sekretariat-tm@mz.gov.pl` <button type="button" class="btn copy-addr" data-copy="sekretariat-tm@mz.gov.pl">Kopiuj adres</button>
+
+**Barbara Więckowska, Dyrektor Departamentu Analiz i Strategii**
+- sekretariat: <a href="tel:+48225300299">22 530 02 99</a>
+- e-mail: `dep-as@mz.gov.pl` <button type="button" class="btn copy-addr" data-copy="dep-as@mz.gov.pl">Kopiuj adres</button>
+
+**Ogólny adres Ministerstwa Zdrowia (kancelaria)**
+- e-mail: `kancelaria@mz.gov.pl` <button type="button" class="btn copy-addr" data-copy="kancelaria@mz.gov.pl">Kopiuj adres</button>
+
+<p class="copy-msg" role="status" aria-live="polite"></p>
+
+</div>
+
+Jeśli wysyłasz wniosek na adres kancelarii, możesz dodać sekretariat właściwej osoby jako adres w kopii (DW).
