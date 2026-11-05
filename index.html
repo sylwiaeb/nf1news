@@ -1,12 +1,25 @@
 ---
 layout: default
 ---
+{% assign wazne = site.posts | where_exp: "p", "p.wazne" | sort: "wazne" %}
+{% if wazne.size > 0 %}
+<section class="start">
+  <h2>Zacznij tutaj</h2>
+  <p>Jeśli jesteś tu pierwszy raz, te wpisy wyjaśniają sprawę najlepiej:</p>
+  <ul>
+  {% for post in wazne %}
+    <li><a href="{{ post.url | relative_url }}">{{ post.short | default: post.title }}</a></li>
+  {% endfor %}
+  </ul>
+</section>
+{% endif %}
+<h2 class="feed-head">Najnowsze wpisy</h2>
 {% for post in site.posts limit: 10 %}
-<article>
-  <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+<article class="teaser">
   <p class="date">{{ post.date | date: "%d.%m.%Y" }}</p>
-  {% include share.html post=post %}
-  {{ post.content }}
+  <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+  <p>{{ post.description | default: post.excerpt | strip_html | strip_newlines | truncatewords: 40, "…" }}</p>
+  <p class="more"><a href="{{ post.url | relative_url }}">Czytaj dalej →</a></p>
 </article>
 {% endfor %}
-{% if site.posts.size > 10 %}<p><a href="{{ '/wpisy/' | relative_url }}">Starsze wpisy →</a></p>{% endif %}
+<p><a href="{{ '/wpisy/' | relative_url }}">Wszystkie wpisy →</a></p>

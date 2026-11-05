@@ -1,4 +1,6 @@
 ---
+wazne: 1
+short: "Co pokazał pilotaż: dane z raportu AOTMiT"
 title: "Czarno na białym. Co raport AOTMiT mówi o korzyściach z koordynowanej opieki nad pacjentami z NF"
 description: "Raport AOTMiT o pilotażu opieki koordynowanej w NF: 2 830 pacjentów w 7 ośrodkach, mniej wizyt w AOS, lepsza opieka i oszczędności dla NFZ. Najważniejsze dane w jednym miejscu."
 fb: "Raport AOTMiT czarno na białym: koordynowana opieka nad pacjentami z NF to mniej wizyt w AOS, lepsza opieka i oszczędności dla NFZ. Pilotaż objął 2 830 pacjentów w 7 ośrodkach. Pytanie do Ministerstwa Zdrowia i minister zdrowia Jolanty Sobierańskiej-Grendy: dlaczego pacjenci zostali bez tej opieki? #NF1 #neurofibromatoza #ChorobyRzadkie"

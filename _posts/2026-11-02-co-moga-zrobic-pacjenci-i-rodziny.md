@@ -1,5 +1,7 @@
 ---
 date: 2026-11-02 21:25:00 +0100
+wazne: 3
+short: "Co możesz zrobić: adresy, telefony i gotowe wzory pism"
 title: "Pilotaż się skończył, sprawa nie. Co mogą teraz zrobić pacjenci z NF i ich rodziny"
 description: "Gdzie pisać, do kogo dzwonić i jakie wnioski wysłać, żeby sprawa opieki koordynowanej w NF nie zniknęła z biurek Ministerstwa Zdrowia, NFZ i posłów. Adresy i gotowe wzory."
 tweet: "MZ zamknęło sprawę opieki koordynowanej w NF. Pacjenci i rodziny nie muszą się z tym godzić. Gdzie pisać, do kogo dzwonić i jakie wnioski wysłać: adresy i gotowe wzory. @MZ_GOV_PL @NFZ_GOV_PL #NF1 #neurofibromatoza #ChorobyRzadkie"

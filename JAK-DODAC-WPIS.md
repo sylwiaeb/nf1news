@@ -76,3 +76,14 @@ git config user.email "TWOJ-NUMER+LOGIN@users.noreply.github.com"
 ```
 
 Adres `…@users.noreply.github.com` znajdziesz na GitHubie w **Settings → Emails**, pod opcją „Keep my email address private”.
+
+## Ramka „Zacznij tutaj” na stronie głównej
+
+Wpis trafia do ramki, jeśli ma w nagłówku `wazne:` z numerem (kolejność w ramce) i opcjonalnie `short:` (krótszy tytuł do ramki), np.:
+
+```
+wazne: 1
+short: "Co pokazał pilotaż: dane z raportu AOTMiT"
+```
+
+Strona główna pokazuje 10 najnowszych wpisów jako zajawki: tytuł, data, `description` i „Czytaj dalej”.
