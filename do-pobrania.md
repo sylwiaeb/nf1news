@@ -68,9 +68,6 @@ Wnioski i pisma można wysłać na adres ogólny kancelarii, ale można też nap
 - sekretariat: <a href="tel:+48883840987">+48 883 840 987</a>, <a href="tel:+48226349326">22 634 93 26</a>
 - e-mail: `sekretariat-jg@mz.gov.pl` <button type="button" class="btn copy-addr" data-copy="sekretariat-jg@mz.gov.pl">Kopiuj adres</button>
 
-**Tomasz Maciejewski, Podsekretarz Stanu** (nadzoruje m.in. Departament Analiz i Strategii, Departament Budżetu i Finansów, Departament e-Zdrowia i Departament Lecznictwa)
-- e-mail: `sekretariat-tm@mz.gov.pl` <button type="button" class="btn copy-addr" data-copy="sekretariat-tm@mz.gov.pl">Kopiuj adres</button>
-
 **Barbara Więckowska, Dyrektor Departamentu Analiz i Strategii**
 - sekretariat: <a href="tel:+48225300299">22 530 02 99</a>
 - e-mail: `dep-as@mz.gov.pl` <button type="button" class="btn copy-addr" data-copy="dep-as@mz.gov.pl">Kopiuj adres</button>
