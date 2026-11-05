@@ -45,7 +45,9 @@ Senator Krzysztof Bieńkowski zadał w Senacie konkretne pytania. Czy ustawa zap
 
 Wiceminister odpowiedział, że **„ustawa nie reguluje konkretnej choroby rzadkiej”**. **<mark>O koordynatorze, planie leczenia, finansowaniu i przepisach przejściowych nie powiedział ani słowa.</mark>** Pełny zapis tej wymiany publikujemy we wpisie [Senatorowie pytali o pacjentów z NF (stenogram)]({% post_url 2026-11-05-senat-pytania-o-nf-stenogram %}).
 
-To nie przypadek. Tych rzeczy w ustawie po prostu nie ma. Jak pokazaliśmy we wpisie [Ministerstwo odsyła pacjentów z NF do ośrodków eksperckich]({% post_url 2026-11-03-osrodki-eksperckie-w-senacie %}), wśród zadań OECR nie ma koordynacji opieki, nie ma koordynatora ani planu badań kontrolnych, a ustawa nie przewiduje dla ośrodków żadnego osobnego finansowania. **<mark>Nawet gdy OECR powstaną, pacjent z NF nie dostanie w nich na mocy tej ustawy tego, co dawał mu pilotaż.</mark>**
+To nie przypadek. Tych rzeczy w ustawie po prostu nie ma. Jak pokazaliśmy we wpisie [Ministerstwo odsyła pacjentów z NF do ośrodków eksperckich]({% post_url 2026-11-03-osrodki-eksperckie-w-senacie %}), wśród zadań OECR nie ma koordynacji opieki, nie ma koordynatora ani planu badań kontrolnych, a ustawa nie przewiduje dla ośrodków żadnego osobnego finansowania. **<mark>Nawet gdy OECR powstaną, pacjenci z NF nie otrzymają w nich na mocy tej ustawy opieki zgodnej ze standardami międzynarodowymi.</mark>**
+
+Te standardy istnieją i są opisane w [raporcie AOTMiT](https://bip.aotm.gov.pl/assets/files/zlecenia_mz/2026/145/RPT/2026%2010%2001%20Koordynowana%20opieka%20neurofibromatozy%20RAPORT_BIP_REOPTR.pdf) (rozdział 5 „Wytyczne kliniczne” i streszczenie). Agencja przeanalizowała 11 wytycznych: polskie, europejskie (pięć dokumentów Europejskiej Sieci Referencyjnej ERN GENTURIS) i amerykańskie. Według raportu wytyczne są zgodne co do konieczności zapewnienia pacjentom wielospecjalistycznej opieki w doświadczonych ośrodkach, z regularnym monitorowaniem i ciągłością opieki przy przejściu z wieku dziecięcego do dorosłego.
 
 ## Dorośli: „Dzisiaj nie odpowiem w 100%”
 
