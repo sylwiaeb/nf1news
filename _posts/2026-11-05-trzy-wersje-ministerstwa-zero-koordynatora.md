@@ -1,5 +1,5 @@
 ---
-date: 2026-11-05 12:00:00 +0100
+date: 2026-11-05 08:45:00 +0100
 title: "„Nic się nie zmieniło”, „będzie mogło”, „nie odpowiem w 100%”. Trzy wersje Ministerstwa Zdrowia i ani jednego koordynatora dla pacjentów z NF"
 description: "Na Facebooku Ministerstwo Zdrowia twierdzi, że dla pacjentów z NF nic się nie zmieniło. W piśmie odsyła ich do ośrodków eksperckich. W Senacie wiceminister mówi, że opieka w tych ośrodkach dopiero „będzie mogła” być prowadzona. Zestawiamy słowa resortu z faktami."
 tweet: "MZ na FB: dla pacjentów z NF „nic się nie zmieniło”. W Senacie wiceminister: opieka „będzie mogła” być w ośrodkach, które dopiero wystąpią o status. O dorosłych: „nie odpowiem w 100%”. @MZ_GOV_PL @ECelejewska #NF1 #ChorobyRzadkie"
