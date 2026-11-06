@@ -88,3 +88,29 @@ short: "Co pokazał pilotaż: dane z raportu AOTMiT"
 ```
 
 Strona główna pokazuje 10 najnowszych wpisów jako zajawki: tytuł, data, `description` i „Czytaj dalej”.
+
+## Artykuł na stronie Wiedza
+
+Każdy artykuł to osobny plik w folderze `_wiedza/`, np. `_wiedza/2026-10-06-leki-mek-guzy-splotowate.md`. Strona sama ustawia artykuły od najnowszego, dodaje wyszukiwarkę i przyciski tematów.
+
+```
+---
+title: "Tytuł po polsku"
+data: 2026-10-06
+zrodlo: "Nazwa serwisu (kraj)"
+autor: "Imię Nazwisko"
+jezyk: angielski
+link: "https://adres-artykulu"
+tematy: [leczenie, guzy splotowate, leki MEK]
+lead: "Jedno-dwa zdania o czym jest artykuł."
+---
+
+**Najważniejsze informacje:**
+
+- punkt 1
+- punkt 2
+```
+
+- `tematy` tworzą przyciski filtrowania. Używaj tych samych słów co w innych artykułach (np. „dorośli”, a nie „dorosły”), żeby nie mnożyć przycisków.
+- Treść pod nagłówkiem rozwija się po kliknięciu „Najważniejsze informacje”.
+- Dodanie artykułu do Wiedzy nie wysyła niczego na X.

@@ -7,6 +7,9 @@ author: NF1 News
 url: "https://nf1news.pl"
 baseurl: ""
 permalink: /:year/:month/:day/:title/
+collections:
+  wiedza:
+    output: false
 plugins:
   - jekyll-feed
   - jekyll-sitemap
