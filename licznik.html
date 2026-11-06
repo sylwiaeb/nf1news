@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Licznik
+title: "Czekamy na dialog z pacjentami"
 permalink: /licznik/
 description: "Ile dni pacjenci z NF czekają na skoordynowaną opiekę. Pilotaż skończył się 30 kwietnia 2026 r., a 23 października 2026 r. Ministerstwo Zdrowia zakończyło prace nad stałym świadczeniem."
 ---
@@ -32,12 +32,12 @@ description: "Ile dni pacjenci z NF czekają na skoordynowaną opiekę. Pilotaż
   @keyframes klapGora { to { transform: rotateX(-90deg); } }
   @keyframes klapDol { to { transform: rotateX(0); } }
   @media (prefers-reduced-motion: reduce) { .d .lgora, .d .ldol { animation: none; display: none; } }
-  .apel { font-size: 1.35rem; line-height: 1.45; text-align: center; margin: 0.5rem 0 2rem; padding: 1.2rem 1rem; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; }
-  @media (prefers-color-scheme: dark) { .apel { border-color: #333; } }
+  .apel { font-size: clamp(1.5rem, 6.5vw, 2.1rem); line-height: 1.3; text-align: center; margin: 0.5rem 0 2rem; }
+  .apel span { display: inline-block; font-weight: 400; font-size: 0.75em; margin-bottom: 0.3rem; }
   .czas-opis { font-size: 0.8rem; color: #777; margin: 0.3rem 0 0; word-spacing: 0.2em; }
 </style>
 
-<h1 style="text-align:center">Ile czekamy na decyzję Ministerstwa Zdrowia</h1>
+<h1 class="apel"><span>Pani Ministro, Panie Wiceministrze,</span><br>czekamy, aż podejmą Państwo dialog z&nbsp;pacjentami.</h1>
 
 <section class="licznik" data-od="2026-05-01T00:00:00+02:00" data-czas="tak">
   <p class="lead">Pacjenci z NF są bez skoordynowanej opieki już</p>
@@ -55,7 +55,7 @@ description: "Ile dni pacjenci z NF czekają na skoordynowaną opiekę. Pilotaż
   <p class="od">Pismo do Stowarzyszenia Neurofibromatozy Polska z 23 października 2026 r.<br>Od tego dnia nie ma odpowiedzi, kto i kiedy zapewni pacjentom koordynatora.</p>
 </section>
 
-<p class="apel">Pani Ministro, Panie Wiceministrze,<br><strong>czekamy, aż podejmą Państwo dialog z pacjentami.</strong></p>
+
 
 <p>Skąd te daty: <a href="{% post_url 2026-10-30-od-prowadzimy-prace-do-zakonczono-dalsze-prace %}">Od „prowadzimy prace” do „zakończono dalsze prace”</a>. Co możesz zrobić: <a href="{% post_url 2026-11-02-co-moga-zrobic-pacjenci-i-rodziny %}">poradnik dla pacjentów i rodzin</a>.</p>
 
