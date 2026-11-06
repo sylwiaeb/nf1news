@@ -1,4 +1,6 @@
 ---
+image: /assets/grafiki/2026-10-29-czarno-na-bialym-raport-aotmit.png
+grafika_alt: "Raport AOTMiT: 2 830 pacjentów objętych pilotażem, 37% mniej wizyt u specjalistów, 100% klinicystów za opieką w koszyku. Koordynowana opieka działa, Ministerstwo Zdrowia ją kończy."
 wazne: 1
 short: "Co pokazał pilotaż: dane z raportu AOTMiT"
 title: "Czarno na białym. Co raport AOTMiT mówi o korzyściach z koordynowanej opieki nad pacjentami z NF"

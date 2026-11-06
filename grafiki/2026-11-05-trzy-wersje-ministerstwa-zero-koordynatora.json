@@ -1,0 +1,11 @@
+{
+  "uklad": "zestawienie",
+  "motyw": "ciemny",
+  "elementy": [
+    {"etykieta": "MZ na Facebooku", "tekst": "„Nic się nie zmieniło”", "kolor": "niebieski"},
+    {"etykieta": "Wiceminister w Senacie", "tekst": "„Będzie mogło”", "kolor": "pomaranczowy"},
+    {"etykieta": "O dorosłych pacjentach", "tekst": "==„Nie odpowiem w 100%”==", "kolor": "czerwony"}
+  ],
+  "pytanie": "Trzy wersje Ministerstwa Zdrowia. Zero koordynatorów.",
+  "alt": "Trzy cytaty Ministerstwa Zdrowia: na Facebooku „Nic się nie zmieniło”, wiceminister w Senacie „Będzie mogło”, o dorosłych pacjentach „Nie odpowiem w 100%”."
+}

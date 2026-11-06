@@ -1,0 +1,13 @@
+{
+  "uklad": "liczby",
+  "etykieta": "Raport AOTMiT o pilotażu opieki nad pacjentami z NF",
+  "kolor": "niebieski",
+  "tekst": "Koordynowana opieka działa. ==Ministerstwo Zdrowia ją kończy.==",
+  "liczby": [
+    {"liczba": "2 830", "opis": "pacjentów objętych pilotażem", "kolor": "niebieski"},
+    {"liczba": "−37%", "opis": "mniej wizyt u specjalistów", "kolor": "zielony"},
+    {"liczba": "100%", "opis": "klinicystów za opieką w koszyku", "kolor": "pomaranczowy"}
+  ],
+  "pytanie": "Dlaczego pacjenci zostali bez koordynatora?",
+  "alt": "Raport AOTMiT: 2 830 pacjentów objętych pilotażem, 37% mniej wizyt u specjalistów, 100% klinicystów za opieką w koszyku. Koordynowana opieka działa, Ministerstwo Zdrowia ją kończy."
+}
