@@ -37,10 +37,10 @@ description: "Ile dni pacjenci z NF czekają na skoordynowaną opiekę. Pilotaż
   .czas-opis { font-size: 0.8rem; color: #777; margin: 0.3rem 0 0; word-spacing: 0.2em; }
 </style>
 
-<h1 class="apel"><span>Pani Ministro, Panie Wiceministrze,</span><br>czekamy, aż podejmą Państwo dialog z&nbsp;pacjentami.</h1>
+<h1 class="apel"><span>Pani Ministro Zdrowia, Panie Wiceministrze,</span><br>czekamy, aż podejmą Państwo dialog z&nbsp;pacjentami.</h1>
 
 <section class="licznik" data-od="2026-05-01T00:00:00+02:00" data-czas="tak">
-  <p class="lead">Pacjenci z NF są bez skoordynowanej opieki już</p>
+  <p class="lead">Pacjenci z NF są bez skoordynowanej opieki od</p>
   <div class="flip" data-dni aria-live="off">{{ "now" | date: "%s" | minus: 1777586400 | divided_by: 86400 }}</div>
   <span class="jedn" data-jedn>dni</span>
   <div class="flip maly" data-zegar aria-hidden="true"></div>
