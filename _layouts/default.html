@@ -105,6 +105,15 @@
     article.teaser .date { margin: 0; }
     article.teaser p { margin: 0 0 0.4rem; }
     .more { font-family: system-ui, sans-serif; font-size: 0.9rem; }
+    .pasek { display: flex; align-items: center; gap: 0.6rem; margin: -1rem 0 2rem; padding: 0.55rem 0.8rem; border-radius: 6px; background: #f4f4f4; color: inherit; text-decoration: none; font-family: system-ui, sans-serif; font-size: 0.85rem; line-height: 1.35; }
+    @media (prefers-color-scheme: dark) { .pasek { background: #222; } }
+    .pasek:hover .wiecej { text-decoration: underline; }
+    .pasek .karty { display: inline-flex; gap: 2px; flex: none; }
+    .pasek .karty span { position: relative; display: inline-block; width: 1.05rem; padding: 0.15rem 0; text-align: center; font-size: 1.1rem; font-weight: 800; color: #f4f4f4; background: #2b2b2b; border-radius: 3px; font-variant-numeric: tabular-nums; }
+    .pasek .karty span::after { content: ""; position: absolute; left: 0; right: 0; top: 50%; height: 1px; background: #f4f4f4; opacity: .8; }
+    @media (prefers-color-scheme: dark) { .pasek .karty span { box-shadow: 0 0 0 1px #3a3a3a; } .pasek .karty span::after { background: #222; } }
+    .pasek .wiecej { color: #1a5fb4; white-space: nowrap; }
+    @media (prefers-color-scheme: dark) { .pasek .wiecej { color: #8ab4f8; } }
   </style>
 </head>
 <body>
@@ -112,6 +121,10 @@
     <a class="title" href="{{ '/' | relative_url }}"><svg width="20" height="21" viewBox="0 0 35 37" aria-hidden="true"><rect x="0" y="16" width="9" height="21" rx="2" fill="var(--c2)"/><rect x="13" y="8" width="9" height="29" rx="2" fill="var(--c1)"/><rect x="26" y="0" width="9" height="37" rx="2" fill="currentColor"/></svg>{{ site.title }}</a>
     <nav style="display:inline"><a href="{{ '/wpisy/' | relative_url }}">Wszystkie wpisy</a><a href="{{ '/do-pobrania/' | relative_url }}">Do pobrania</a><a href="{{ '/wiedza/' | relative_url }}">Wiedza</a><a href="{{ '/o-serwisie/' | relative_url }}">O serwisie</a><a href="{{ '/feed.xml' | relative_url }}">RSS</a></nav>
   </header>
+  {% unless page.url == '/licznik/' %}{% assign dni_bez = "now" | date: "%s" | minus: 1777586400 | divided_by: 86400 %}
+  <a class="pasek" href="https://czekamy.nf1news.pl/"><span class="karty" data-dni-bez>{% assign cyfry = dni_bez | append: "" | split: "" %}{% for c in cyfry %}<span>{{ c }}</span>{% endfor %}</span><span><strong data-dni-bez-slowo>dni</strong> bez skoordynowanej opieki dla pacjentów z NF. <span class="wiecej">Czekamy →</span></span></a>
+  <script>(function () { var d = Math.floor((Date.now() - Date.parse('2026-05-01T00:00:00+02:00')) / 86400000), el = document.querySelector('[data-dni-bez]'); if (!el || d < 0) return; el.innerHTML = String(d).split('').map(function (c) { return '<span>' + c + '</span>'; }).join(''); })();</script>
+  {% endunless %}
   <main>
 {{ content }}
   </main>
