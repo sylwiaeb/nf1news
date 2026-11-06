@@ -32,6 +32,8 @@ description: "Ile dni pacjenci z NF czekają na skoordynowaną opiekę. Pilotaż
   @keyframes klapGora { to { transform: rotateX(-90deg); } }
   @keyframes klapDol { to { transform: rotateX(0); } }
   @media (prefers-reduced-motion: reduce) { .d .lgora, .d .ldol { animation: none; display: none; } }
+  .apel { font-size: 1.35rem; line-height: 1.45; text-align: center; margin: 0.5rem 0 2rem; padding: 1.2rem 1rem; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; }
+  @media (prefers-color-scheme: dark) { .apel { border-color: #333; } }
   .czas-opis { font-size: 0.8rem; color: #777; margin: 0.3rem 0 0; word-spacing: 0.2em; }
 </style>
 
@@ -53,13 +55,7 @@ description: "Ile dni pacjenci z NF czekają na skoordynowaną opiekę. Pilotaż
   <p class="od">Pismo do Stowarzyszenia Neurofibromatozy Polska z 23 października 2026 r.<br>Od tego dnia nie ma odpowiedzi, kto i kiedy zapewni pacjentom koordynatora.</p>
 </section>
 
-<h2>Na co czekamy</h2>
-<ul>
-  <li>Kto koordynuje dziś opiekę nad 2 830 pacjentami z pilotażu?</li>
-  <li>Co stało się z kartą świadczenia dla dorosłych, przygotowaną z udziałem konsultanta krajowego?</li>
-  <li>Gdzie mają się zgłosić pacjenci: do ośrodków z pilotażu czy do Ośrodków Eksperckich Chorób Rzadkich?</li>
-  <li>Kiedy opieka koordynowana dla dzieci i dorosłych z NF wróci?</li>
-</ul>
+<p class="apel">Pani Ministro, Panie Wiceministrze,<br><strong>czekamy, aż podejmą Państwo dialog z pacjentami.</strong></p>
 
 <p>Skąd te daty: <a href="{% post_url 2026-10-30-od-prowadzimy-prace-do-zakonczono-dalsze-prace %}">Od „prowadzimy prace” do „zakończono dalsze prace”</a>. Co możesz zrobić: <a href="{% post_url 2026-11-02-co-moga-zrobic-pacjenci-i-rodziny %}">poradnik dla pacjentów i rodzin</a>.</p>
 
