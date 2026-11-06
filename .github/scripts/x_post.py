@@ -2,7 +2,8 @@
 
 Tekst bierze z pola `tweet:` w nagłówku wpisu (pisze go Claude przy
 przygotowaniu wpisu). Bez tego pola używa samego tytułu. Link do wpisu
-jest dodawany automatycznie na końcu. Przed wysłaniem czeka, aż wpis
+trafia automatycznie do pierwszego komentarza pod postem (przy
+`link_w_komentarzu: false` jest dopisywany na końcu posta). Przed wysłaniem czeka, aż wpis
 będzie widoczny na stronie.
 """
 import os
@@ -68,7 +69,9 @@ def main():
             continue
         url = post_url(path, meta)
         text = str(meta.get("tweet") or meta.get("title", "")).strip()
-        text = f"{text}\n\n{url}"
+        link_in_reply = meta.get("link_w_komentarzu") is not False
+        if not link_in_reply:
+            text = f"{text}\n\n{url}"
         if not wait_until_live(url):
             print(f"{path}: wpis nie pojawił się pod {url}, pomijam.")
             failed = True
@@ -77,6 +80,14 @@ def main():
         print(f"{path}: {r.status_code} {r.text}")
         if r.status_code >= 300:
             failed = True
+            continue
+        if link_in_reply:
+            tweet_id = r.json()["data"]["id"]
+            r = requests.post("https://api.x.com/2/tweets", auth=auth, timeout=30, json={
+                "text": url, "reply": {"in_reply_to_tweet_id": tweet_id}})
+            print(f"{path} (link w komentarzu): {r.status_code} {r.text}")
+            if r.status_code >= 300:
+                failed = True
     sys.exit(1 if failed else 0)
 
 
