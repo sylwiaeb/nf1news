@@ -34,7 +34,7 @@
     header { margin-bottom: 2rem; }
     header a.title { display: inline-flex; align-items: flex-end; gap: 0.45rem; font-weight: 700; font-size: 1.25rem; line-height: 1; text-decoration: none; color: inherit; vertical-align: -0.15rem; }
     header a.title svg { display: block; }
-    nav a { margin-left: 1rem; }
+    nav a { margin-left: 1rem; white-space: nowrap; }
     .date { color: #777; font-family: system-ui, sans-serif; font-size: 0.85rem; }
     article { margin-bottom: 2.5rem; }
     h1, h2 { line-height: 1.25; }
@@ -110,7 +110,7 @@
 <body>
   <header>
     <a class="title" href="{{ '/' | relative_url }}"><svg width="20" height="21" viewBox="0 0 35 37" aria-hidden="true"><rect x="0" y="16" width="9" height="21" rx="2" fill="var(--c2)"/><rect x="13" y="8" width="9" height="29" rx="2" fill="var(--c1)"/><rect x="26" y="0" width="9" height="37" rx="2" fill="currentColor"/></svg>{{ site.title }}</a>
-    <nav style="display:inline"><a href="{{ '/wpisy/' | relative_url }}">Wszystkie wpisy</a><a href="{{ '/do-pobrania/' | relative_url }}">Do pobrania</a><a href="{{ '/o-serwisie/' | relative_url }}">O serwisie</a><a href="{{ '/feed.xml' | relative_url }}">RSS</a></nav>
+    <nav style="display:inline"><a href="{{ '/wpisy/' | relative_url }}">Wszystkie wpisy</a><a href="{{ '/do-pobrania/' | relative_url }}">Do pobrania</a><a href="{{ '/wiedza/' | relative_url }}">Wiedza</a><a href="{{ '/o-serwisie/' | relative_url }}">O serwisie</a><a href="{{ '/feed.xml' | relative_url }}">RSS</a></nav>
   </header>
   <main>
 {{ content }}
