@@ -1,0 +1,9 @@
+{
+  "uklad": "zestawienie",
+  "elementy": [
+    {"etykieta": "2 października 2026", "tekst": "„Ministerstwo bardzo wspiera ideę”", "podpis": "lekarz prowadzący pilotaż opieki koordynowanej NF1", "kolor": "zielony"},
+    {"etykieta": "23 października 2026", "tekst": "==„Zakończono dalsze prace”==", "podpis": "pismo Ministerstwa Zdrowia", "kolor": "czerwony"}
+  ],
+  "pytanie": "Co się stało w trzy tygodnie?",
+  "alt": "Dwa cytaty. 2 października 2026, lekarz prowadzący pilotaż: „Ministerstwo bardzo wspiera ideę”. 23 października 2026, pismo Ministerstwa Zdrowia: „Zakończono dalsze prace”. Co się stało w trzy tygodnie?"
+}
