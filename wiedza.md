@@ -2,12 +2,12 @@
 layout: default
 title: Wiedza
 permalink: /wiedza/
-description: Co nowego w leczeniu NF1. Streszczenia po polsku wybranych artykułów z zagranicznych serwisów medycznych, z linkiem do źródła.
+description: Co nowego w leczeniu NF1. Wybrane interesujące artykuły o NF1, z linkiem do źródła.
 ---
 
 # Wiedza
 
-Co nowego w leczeniu NF1 na świecie. Tu streszczamy po polsku wybrane artykuły z zagranicznych serwisów medycznych. Pełny tekst jest zawsze w źródle, pod linkiem.
+Co nowego w leczeniu NF1 na świecie. Zamieszczamy tu interesujące artykuły o NF1. Pełny tekst jest zawsze w źródle, pod linkiem.
 
 <p class="source">To nie jest porada medyczna. O leczeniu decyduje lekarz prowadzący.</p>
 
