@@ -14,7 +14,7 @@ fb: "Pacjenci z neurofibromatozami są bez skoordynowanej opieki od 30 kwietnia 
   .licznik + .licznik { padding-top: 2rem; border-top: 1px solid #ddd; }
   @media (prefers-color-scheme: dark) { .licznik + .licznik { border-color: #333; } }
 
-  .flip { display: inline-flex; gap: 0.08em; align-items: center; font-size: clamp(3.6rem, 19vw, 6.5rem); font-weight: 800; font-variant-numeric: tabular-nums; line-height: 1; perspective: 4em; }
+  .flip { display: inline-flex; gap: 0.08em; align-items: center; font-size: clamp(3.6rem, 19vw, 6.5rem); font-weight: 800; font-variant-numeric: tabular-nums; line-height: 1; }
   .flip.maly { font-size: clamp(1.7rem, 8.5vw, 2.6rem); }
   .flip.sredni { font-size: clamp(2.6rem, 13vw, 4.2rem); }
   .flip .sep { color: #777; font-size: 0.6em; padding: 0 0.05em; }
@@ -28,10 +28,13 @@ fb: "Pacjenci z neurofibromatozami są bez skoordynowanej opieki od 30 kwietnia 
   /* poziome cięcie karty */
   .d::after { content: ""; position: absolute; left: 0; right: 0; top: 50%; height: 0.025em; min-height: 1px; margin-top: -0.0125em; background: #fff; opacity: .9; z-index: 3; }
   @media (prefers-color-scheme: dark) { .d::after { background: #161616; } .d { box-shadow: 0 0 0 1px #3a3a3a; } }
-  .d .lgora { z-index: 2; transform-origin: 50% 100%; animation: klapGora .25s ease-in forwards; }
-  .d .ldol { z-index: 2; transform-origin: 50% 0; transform: rotateX(90deg); animation: klapDol .25s .25s ease-out forwards; }
-  @keyframes klapGora { to { transform: rotateX(-90deg); } }
-  @keyframes klapDol { to { transform: rotateX(0); } }
+  /* Każda karta ma własną perspektywę; górna klapka opada i ciemnieje, dolna dopada i się rozjaśnia. */
+  .d { perspective: 2.4em; }
+  .d .lgora, .d .ldol { z-index: 2; backface-visibility: hidden; -webkit-backface-visibility: hidden; will-change: transform; }
+  .d .lgora { transform-origin: 50% 100%; animation: klapGora .3s cubic-bezier(.45,0,.8,.45) forwards; }
+  .d .ldol { transform-origin: 50% 0; transform: rotateX(90deg); filter: brightness(.6); animation: klapDol .32s .3s cubic-bezier(.2,.75,.35,1) forwards; }
+  @keyframes klapGora { from { transform: rotateX(0); filter: brightness(1); } to { transform: rotateX(-90deg); filter: brightness(.55); } }
+  @keyframes klapDol { from { transform: rotateX(90deg); filter: brightness(.6); } to { transform: rotateX(0); filter: brightness(1); } }
   @media (prefers-reduced-motion: reduce) { .d .lgora, .d .ldol { animation: none; display: none; } }
   .apel { font-size: clamp(1.5rem, 6.5vw, 2.1rem); line-height: 1.3; text-align: center; margin: 0.5rem 0 2rem; }
   .apel span { display: inline-block; font-weight: 400; font-size: 0.75em; margin-bottom: 0.3rem; }
@@ -80,7 +83,7 @@ fb: "Pacjenci z neurofibromatozami są bez skoordynowanej opieki od 30 kwietnia 
       var lg = document.createElement('span'); lg.className = 'lgora'; lg.innerHTML = '<b>' + stara + '</b>';
       var ld = document.createElement('span'); ld.className = 'ldol'; ld.innerHTML = '<b>' + z + '</b>';
       d.appendChild(lg); d.appendChild(ld);
-      setTimeout(function () { if (d.dataset.z === z) { d.querySelector('.dol b').textContent = z; lg.remove(); ld.remove(); } }, 520);
+      setTimeout(function () { if (d.dataset.z === z) { d.querySelector('.dol b').textContent = z; lg.remove(); ld.remove(); } }, 680);
     }
     // Pokazuje tekst (cyfry i dwukropki) jako karty; przy zmianie długości buduje karty od nowa.
     function pokaz(el, tekst) {
