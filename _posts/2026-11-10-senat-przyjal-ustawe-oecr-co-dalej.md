@@ -1,5 +1,5 @@
 ---
-date: 2026-11-10 12:35:00 +0100
+date: 2026-11-10 12:30:00 +0100
 title: "Senat jednogłośnie za ustawą o ośrodkach eksperckich. Koordynatora dla pacjentów z NF w niej nie ma. Co się zmieniło przez tydzień"
 description: "6 listopada Senat przyjął ustawę o Ośrodkach Eksperckich Chorób Rzadkich, 96 głosami za, z poprawkami. Koordynacji opieki, koordynatora ani osobnego finansowania w ustawie nadal nie ma. Teraz Sejm może już tylko przyjąć albo odrzucić poprawki Senatu. Podsumowujemy, co się zmieniło, a co nie."
 image: /assets/grafiki/2026-11-10-senat-przyjal-ustawe-oecr-co-dalej.png
