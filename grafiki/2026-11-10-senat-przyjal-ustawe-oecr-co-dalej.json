@@ -1,0 +1,11 @@
+{
+  "uklad": "liczby",
+  "motyw": "ciemny",
+  "etykieta": "Senat, 6 listopada · ustawa o ośrodkach eksperckich",
+  "liczby": [
+    {"liczba": "96", "opis": "senatorów za ustawą, nikt przeciw", "kolor": "niebieski"},
+    {"liczba": "0", "opis": "==koordynatorów dla pacjentów z NF w ustawie==", "kolor": "czerwony"}
+  ],
+  "pytanie": "Teraz potrzebna jest decyzja Ministerstwa Zdrowia.",
+  "alt": "Senat, 6 listopada, ustawa o ośrodkach eksperckich: 96 senatorów za ustawą, nikt przeciw. 0 koordynatorów dla pacjentów z NF w ustawie. Teraz potrzebna jest decyzja Ministerstwa Zdrowia."
+}
