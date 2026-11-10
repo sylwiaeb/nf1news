@@ -17,8 +17,16 @@
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="{{ page.grafika_alt | default: "NF1 News – niezależny serwis informacyjny o NF1 w Polsce" | escape }}">
+  {%- comment -%} Gdy post na X ma już grafikę wpisu, link w komentarzu dostaje mały podgląd z logo zamiast tej samej grafiki drugi raz. Facebook dalej bierze og:image. {%- endcomment %}
+  {%- assign od_grafik_x = '2026-11-10' | date: '%s' | plus: 0 -%}
+  {%- assign data_wpisu = page.date | date: '%s' | plus: 0 -%}
+  {%- if page.image and page.grafika_x != false and data_wpisu >= od_grafik_x %}
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:image" content="{{ '/assets/apple-touch-icon.png' | absolute_url }}">
+  {%- else %}
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="{{ page.image | default: '/assets/og-image.png' | absolute_url }}">
+  {%- endif %}
   <meta name="twitter:title" content="{{ page.title | default: site.title | escape }}">
   <meta name="twitter:description" content="{{ desc | strip | escape }}">
   <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
