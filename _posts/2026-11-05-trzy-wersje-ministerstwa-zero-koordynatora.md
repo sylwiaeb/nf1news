@@ -1,4 +1,6 @@
 ---
+image: /assets/grafiki/2026-11-05-trzy-wersje-ministerstwa-zero-koordynatora.png
+grafika_alt: "Trzy cytaty Ministerstwa Zdrowia: na Facebooku „Nic się nie zmieniło”, wiceminister w Senacie „Będzie mogło”, o dorosłych pacjentach „Nie odpowiem w 100%”."
 date: 2026-11-05 08:45:00 +0100
 title: "„Nic się nie zmieniło”, „będzie mogło”, „nie odpowiem w 100%”. Trzy wersje Ministerstwa Zdrowia i ani jednego koordynatora dla pacjentów z NF"
 description: "Na Facebooku Ministerstwo Zdrowia twierdzi, że dla pacjentów z NF nic się nie zmieniło. W piśmie odsyła ich do ośrodków eksperckich. W Senacie wiceminister mówi, że opieka w tych ośrodkach dopiero „będzie mogła” być prowadzona. Zestawiamy słowa resortu z faktami."

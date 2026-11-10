@@ -1,6 +1,7 @@
 ---
 date: 2026-11-06 08:00:00 +0100
 image: /assets/og-2026-11-06-lekarze.png
+grafika_alt: "Dwa cytaty. 2 października 2026, lekarz prowadzący pilotaż: „Ministerstwo bardzo wspiera ideę”. 23 października 2026, pismo Ministerstwa Zdrowia: „Zakończono dalsze prace”. Co się stało w trzy tygodnie?"
 title: "„Ministerstwo bardzo wspiera ideę”. Co mówili lekarze trzy tygodnie przed tym, jak resort zakończył prace nad opieką dla pacjentów z NF"
 description: "2 października lekarze z pilotażu i reumatolodzy mówili, że opieka koordynowana działa, dorośli mają gdzie trafić, a rozporządzenie wyjdzie na początku roku. 23 października Ministerstwo Zdrowia zakończyło prace. Zestawiamy ich słowa z decyzją resortu."
 tweet: "2.10 lekarze: pilotaż objął niemal wszystkie dzieci z NF1, reumatolodzy są gotowi przejąć dorosłych, „ministerstwo bardzo wspiera ideę”. 23.10 MZ: „zakończono dalsze prace”. Co się stało? @MZ_GOV_PL @ECelejewska @DkorycinskaK #NF1 #ChorobyRzadkie"

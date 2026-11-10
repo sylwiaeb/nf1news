@@ -51,6 +51,41 @@ fb: "Ministerstwo Zdrowia potwierdziło, że… Minister zdrowia Jolanta Sobiera
 - Oznaczeń (@) nie da się przenieść przez schowek: po wklejeniu trzeba wpisać @ i nazwę, np. „@Ministerstwo Zdrowia”, i wybrać stronę z listy.
 - Podgląd linku (obrazek, tytuł, opis) bierze się z `title` i `description`. Jeśli Facebook pokazuje stary opis, wklej adres wpisu na stronie developers.facebook.com/tools/debug i kliknij „Scrape Again”.
 
+## Grafika do wpisu (X i Facebook)
+
+Każdy nowy wpis dostaje grafikę: krótki, mocny tekst (cytat, zestawienie cytatów albo liczby) na jasnym lub ciemnym tle, bez logo, z adresem nf1news.pl w rogu. Grafikę robi Claude przy przygotowaniu wpisu i pokazuje ją razem z tekstem na X i FB.
+
+- **1200×630** (`assets/grafiki/NAZWA-WPISU.png`) to podgląd linku na Facebooku i X. Trafia do nagłówka wpisu jako `image:`.
+- **1080×1080** (`assets/grafiki/NAZWA-WPISU-kwadrat.png`) idzie automatycznie jako zdjęcie w poście na X (zajmuje więcej miejsca na ekranie telefonu niż podgląd linku). Na Facebooku można ją dodać jako zdjęcie do posta.
+
+W nagłówku wpisu:
+
+```
+image: /assets/grafiki/2026-11-06-tytul.png
+grafika_alt: "Opis tego, co jest na grafice, dla osób niewidomych"
+```
+
+- `grafika_x: false` oznacza post na X bez grafiki, a `grafika_x: /assets/grafiki/inna.png` wysyła inną grafikę niż kwadratowa.
+- Jeśli X odrzuci grafikę, post i tak pójdzie, tylko bez niej.
+
+Jak zrobić grafikę: opis treści zapisz w pliku `grafiki/NAZWA-WPISU.json` (nazwa jak plik wpisu, bez `.md`) i uruchom:
+
+```
+node narzedzia/grafika.mjs grafiki/NAZWA-WPISU.json
+```
+
+Pola pliku `.json`:
+
+- `uklad`: `zestawienie` (2–3 cytaty jeden pod drugim, np. słowa vs. czyny), `cytat` albo `naglowek` (jeden duży tekst), `liczby` (2–3 duże liczby z podpisami).
+- `motyw`: `jasny` (domyślnie) albo `ciemny`.
+- `etykieta` (mały kolorowy napis nad tekstem, np. data albo „Pilne”), `tekst`, `podpis` (szary, pod tekstem), `kolor`: `zielony`, `czerwony`, `niebieski`, `pomaranczowy`.
+- w `zestawienie` lista `elementy`, każdy z polami `etykieta`, `tekst`, `podpis`, `kolor`; w `liczby` lista `liczby` z polami `liczba`, `opis`, `kolor`.
+- `pytanie`: pogrubione zdanie na dole, najlepiej pytanie do Ministerstwa albo wezwanie do działania.
+- `alt`: opis grafiki, ten sam co `grafika_alt` we wpisie.
+- `==tekst==` w dowolnym polu daje żółte wyróżnienie. Wyróżniaj jedno, najmocniejsze zdanie.
+
+Przykłady są w folderze `grafiki/`. Zasady: najwyżej ok. 15 słów dużym drukiem, tylko cytaty i liczby, które są we wpisie, kontrast kolorów (zielony „przed”, czerwony „po”).
+
 ## Wykres słupkowy
 
 Wklej do wpisu taki fragment i zmień etykiety, liczby i szerokości:

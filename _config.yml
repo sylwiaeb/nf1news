@@ -18,6 +18,8 @@ feed:
 exclude:
   - JAK-DODAC-WPIS.md
   - Gemfile
+  - narzedzia
+  - grafiki
   - pliki/interpelacja-MZ-NF.docx
   - pliki/interpelacja-MZ-NF.txt
 defaults:

@@ -1,4 +1,6 @@
 ---
+image: /assets/grafiki/2026-11-04-apel-do-senatorow-oecr.png
+grafika_alt: "Pilne, Senat 4–5 listopada: o koordynacji opieki nad pacjentami z NF nie padło ani słowo. Napisz do senatorów przed głosowaniem."
 date: 2026-11-04 10:10:00 +0100
 title: "Pilne: Senat zajmuje się ustawą o ośrodkach eksperckich. Napisz do senatorów przed głosowaniem"
 description: "Senat zajmuje się na obecnym posiedzeniu ustawą o Ośrodkach Eksperckich Chorób Rzadkich (druk 895). Głosowanie może być 4 albo 5 listopada. Wczoraj na komisji nikt nie poruszył koordynacji opieki nad pacjentami z NF. Gotowe pismo i adresy wszystkich senatorów do skopiowania."

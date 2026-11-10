@@ -5,6 +5,12 @@ przygotowaniu wpisu). Bez tego pola używa samego tytułu. Link do wpisu
 trafia automatycznie do pierwszego komentarza pod postem (przy
 `link_w_komentarzu: false` jest dopisywany na końcu posta). Przed wysłaniem czeka, aż wpis
 będzie widoczny na stronie.
+
+Do posta dołącza grafikę wpisu: `grafika_x:` z nagłówka, a bez niej
+kwadratową wersję obrazka z `image:` (plik `…-kwadrat.png` obok), a gdy jej
+nie ma, sam obrazek z `image:`. Opis grafiki dla niewidomych bierze z
+`grafika_alt:` (albo z tytułu). `grafika_x: false` wysyła post bez grafiki.
+Jeśli wysłanie grafiki się nie uda, post idzie bez niej.
 """
 import os
 import re
@@ -37,6 +43,45 @@ def post_url(path, meta):
         local = date.astimezone(TZ) if date.tzinfo else date
         y, mo, d = f"{local.year:04d}", f"{local.month:02d}", f"{local.day:02d}"
     return f"{SITE}/{y}/{mo}/{d}/{slug}/"
+
+
+def find_image(meta):
+    if meta.get("grafika_x") is False:
+        return None
+    candidates = []
+    if meta.get("grafika_x"):
+        candidates.append(str(meta["grafika_x"]))
+    image = meta.get("image")
+    if image:
+        root, ext = os.path.splitext(str(image))
+        candidates += [f"{root}-kwadrat{ext}", str(image)]
+    for c in candidates:
+        path = c.lstrip("/")
+        if os.path.isfile(path):
+            return path
+    return None
+
+
+def upload_image(path, alt, auth):
+    """Wysyła obrazek do X i zwraca jego media_id (albo None)."""
+    try:
+        with open(path, "rb") as f:
+            r = requests.post("https://api.x.com/2/media/upload", auth=auth, timeout=60,
+                              files={"media": (os.path.basename(path), f, "image/png")},
+                              data={"media_category": "tweet_image"})
+        print(f"grafika {path}: {r.status_code} {r.text[:300]}")
+        if r.status_code >= 300:
+            return None
+        body = r.json()
+        media_id = (body.get("data") or {}).get("id") or body.get("media_id_string")
+        if media_id and alt:
+            m = requests.post("https://api.x.com/2/media/metadata", auth=auth, timeout=30, json={
+                "id": media_id, "metadata": {"alt_text": {"text": alt[:1000]}}})
+            print(f"opis grafiki: {m.status_code} {m.text[:200]}")
+        return media_id
+    except (requests.RequestException, ValueError, OSError) as e:
+        print(f"grafika {path}: błąd {e}")
+        return None
 
 
 def wait_until_live(url, minutes=15):
@@ -76,7 +121,14 @@ def main():
             print(f"{path}: wpis nie pojawił się pod {url}, pomijam.")
             failed = True
             continue
-        r = requests.post("https://api.x.com/2/tweets", json={"text": text}, auth=auth, timeout=30)
+        payload = {"text": text}
+        image = find_image(meta)
+        if image:
+            alt = str(meta.get("grafika_alt") or meta.get("title", "")).strip()
+            media_id = upload_image(image, alt, auth)
+            if media_id:
+                payload["media"] = {"media_ids": [str(media_id)]}
+        r = requests.post("https://api.x.com/2/tweets", json=payload, auth=auth, timeout=30)
         print(f"{path}: {r.status_code} {r.text}")
         if r.status_code >= 300:
             failed = True
