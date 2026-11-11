@@ -1,0 +1,55 @@
+name: Codzienny licznik na X
+
+# Codziennie rano post na X z licznikiem dni (bez skoordynowanej opieki
+# i od pisma Ministerstwa Zdrowia), grafika z licznikiem, link do
+# czekamy.nf1news.pl w pierwszym komentarzu. 7:07 UTC = 8:07 zimą, 9:07 latem.
+# Ręcznie: Actions → „Codzienny licznik na X” → Run workflow
+# (proba = tak tylko robi grafikę i pokazuje tekst, nic nie wysyła).
+
+on:
+  schedule:
+    - cron: "7 7 * * *"
+  workflow_dispatch:
+    inputs:
+      proba:
+        description: "tak = tylko podgląd (bez wysyłania na X)"
+        required: false
+        default: "tak"
+
+concurrency:
+  group: x-licznik
+  cancel-in-progress: false
+
+jobs:
+  x:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: pip install requests-oauthlib pyyaml
+      - name: Playwright do grafiki
+        run: |
+          npm install --no-save --no-package-lock playwright
+          npx playwright install --with-deps chromium
+      - name: Licznik na X
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+        run: |
+          if [ "${{ github.event.inputs.proba }}" = "tak" ]; then
+            python .github/scripts/x_licznik.py --proba
+          else
+            python .github/scripts/x_licznik.py
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: grafika-licznika
+          path: licznik-grafiki/
