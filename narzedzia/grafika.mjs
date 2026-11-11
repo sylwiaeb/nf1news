@@ -54,6 +54,18 @@ function body() {
         <div class="liczba" style="--k:${color(l.kolor)}"><div class="l">${fmt(l.liczba)}</div><div class="podpis">${fmt(l.opis)}</div></div>`).join("")}
       </div>`;
   }
+  if (u === "licznik") {
+    // duża liczba w stylu zegara klapkowego (jak na stronie czekamy.nf1news.pl) i opcjonalnie druga, mniejsza
+    const karty = (n) => String(n).split("").map((z) => `<span class="karta">${esc(z)}</span>`).join("");
+    const d = spec.drugi;
+    return `${spec.etykieta ? `<div class="pasek" style="background:${color(spec.kolor)}">${fmt(spec.etykieta)}</div>` : ""}
+      <div class="licznik">
+        <div class="klapki">${karty(spec.liczba)}</div>
+        <div class="jedn">${fmt(spec.jednostka || "dni")}</div>
+        ${spec.opis ? `<div class="opis">${fmt(spec.opis)}</div>` : ""}
+      </div>
+      ${d ? `<div class="drugi"><div class="klapki male" style="--kb:${color(d.kolor || spec.kolor)}">${karty(d.liczba)}</div><div class="opis">${fmt(d.opis)}</div></div>` : ""}`;
+  }
   // cytat i naglowek: jeden duży tekst z kreską z boku
   return `<div class="blok" style="--k:${color(spec.kolor)}">
       ${spec.etykieta ? `<div class="etykieta">${fmt(spec.etykieta)}</div>` : ""}
@@ -78,12 +90,24 @@ function html(w, h) {
     .liczby { display: grid; gap: 0.7em; }
     .liczba { border-top: 9px solid var(--k); padding-top: 0.25em; }
     .liczba .l { font-family: "DejaVu Serif", Georgia, serif; font-weight: 700; font-size: 1.25em; line-height: 1.1; white-space: nowrap; }
+    .licznik { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 0.15em 0.3em; }
+    .pasek { align-self: flex-start; color: #fff; font-weight: 800; font-size: max(0.42em, 24px); letter-spacing: 0.05em; text-transform: uppercase; padding: 0.3em 0.6em; border-radius: 0.2em; }
+    .klapki { display: inline-flex; gap: 0.07em; font-family: "DejaVu Sans", Inter, sans-serif; font-weight: 800; font-size: 3em; line-height: 1; font-variant-numeric: tabular-nums; }
+    .klapki.male { font-size: 1.15em; }
+    .klapki.male .karta { background: var(--kb); box-shadow: none; }
+    .karta { position: relative; display: inline-block; width: 0.8em; height: 1.2em; line-height: 1.2em; text-align: center; color: #f4f4f4;
+             border-radius: 0.09em; background: linear-gradient(#262626 0 50%, #2c2c2c 50% 100%); box-shadow: 0 0 0 1px #3a3a3a, 0 0.04em 0.08em rgba(0,0,0,.35); }
+    .karta::after { content: ""; position: absolute; left: 0; right: 0; top: 50%; height: max(0.025em, 2px); margin-top: -1px; background: ${t.bg}; }
+    .licznik .jedn { font-family: "DejaVu Serif", Georgia, serif; font-weight: 700; font-size: 1.1em; padding-bottom: 0.1em; }
+    .licznik .opis { flex-basis: 100%; font-family: "DejaVu Serif", Georgia, serif; font-weight: 700; font-size: 0.62em; line-height: 1.2; margin-top: 0.15em; }
+    .drugi { display: flex; align-items: center; gap: 0.45em; border-top: 2px solid ${t.muted}55; padding-top: 0.6em; }
+    .drugi .opis { font-family: "DejaVu Serif", Georgia, serif; font-weight: 700; font-size: 0.5em; line-height: 1.2; }
     footer { display: flex; justify-content: space-between; align-items: flex-end; gap: 40px; margin-top: 36px; font-weight: 700; }
     footer .pytanie { font-size: 30px; line-height: 1.25; }
     footer .domena { font-size: 25px; white-space: nowrap; }
   </style></head><body>
     <main id="m">${body()}</main>
-    <footer><div class="pytanie">${fmt(spec.pytanie || "")}</div><div class="domena">nf1news.pl</div></footer>
+    <footer><div class="pytanie">${fmt(spec.pytanie || "")}</div><div class="domena">${esc(spec.domena || "nf1news.pl")}</div></footer>
     <script>
       // Zmniejsza czcionkę, aż wszystko się zmieści.
       const m = document.getElementById("m");

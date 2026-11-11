@@ -2,3 +2,5 @@ _site/
 .jekyll-cache/
 Gemfile.lock
 __pycache__/
+licznik-grafiki/
+node_modules/
