@@ -1,5 +1,6 @@
 """Codzienny post na X z licznikiem: ile dni pacjenci z NF są bez
-skoordynowanej opieki i ile dni minęło od pisma Ministerstwa Zdrowia.
+opieki medycznej i ile dni minęło od decyzji Ministerstwa Zdrowia
+o zakończeniu prac.
 
 Liczy tak samo jak strona czekamy.nf1news.pl (pełne dni, czas polski).
 Treść zmienia się dzień po dniu (kilka wersji po kolei), żeby X nie uznał
@@ -53,7 +54,7 @@ def miesiace_od_pilotazu(d):
 
 
 def tresc(d1, d2, dzien):
-    """Tekst posta na dany dzień. d1: dni bez opieki, d2: dni od pisma MZ."""
+    """Tekst posta na dany dzień. d1: dni bez opieki, d2: dni od decyzji MZ o zakończeniu prac."""
     t1 = f"{d1} {dni_slowo(d1)}"
     t2 = f"{d2} {dni_slowo(d2)}"
     tyg = d1 // 7
@@ -65,41 +66,41 @@ def tresc(d1, d2, dzien):
 
     if m > 0:
         tekst = (f"Dziś mija {m} {odm(m, 'miesiąc', 'miesiące', 'miesięcy')} od końca pilotażu "
-                 f"koordynowanej opieki nad pacjentami z NF. {t1} bez koordynatora.\n\n"
+                 f"koordynowanej opieki nad pacjentami z NF. {t1} bez opieki medycznej.\n\n"
                  f"{mz} od {t2} milczy w sprawie tego, kto i kiedy zapewni pacjentom opiekę.")
     elif d1 % 50 == 0:
-        tekst = (f"{d1}. dzień bez skoordynowanej opieki dla pacjentów z NF.\n\n"
+        tekst = (f"{d1}. dzień bez opieki medycznej dla pacjentów z NF.\n\n"
                  f"Od {t2} {mz} milczy. Pani Minister Zdrowia, Panie Ministrze, "
                  f"pacjenci czekają na zmianę decyzji i na dialog.")
     else:
         wersje = [
             f"Licznik NF, dzień {d1}.\n\n"
-            f"{t1} pacjenci z NF są bez skoordynowanej opieki.\n"
-            f"Od {t2} {mz} milczy w sprawie koordynatora.",
+            f"{t1} pacjenci z NF są bez opieki medycznej.\n"
+            f"Od {t2} {mz} milczy.",
 
-            f"{t1} bez koordynatora opieki. Tyle trwa to dla pacjentów z neurofibromatozą "
+            f"{t1} bez opieki medycznej. Tyle trwa to dla pacjentów z neurofibromatozą "
             f"od końca pilotażu 30 kwietnia 2026 r.\n\n"
             f"{mz} od {t2} nie mówi, kto i kiedy zapewni im opiekę.",
 
             f"Pani Minister Zdrowia, Panie Ministrze,\n"
-            f"pacjenci z NF czekają już {t1} na skoordynowaną opiekę.\n\n"
-            f"Od pisma {mz_dop} o „zakończeniu dalszych prac” minęło {t2}. Pacjenci czekają na dialog.",
+            f"pacjenci z NF czekają już {t1} na opiekę medyczną.\n\n"
+            f"Od decyzji {mz_dop} o zakończeniu prac minęło {t2}. Pacjenci czekają na dialog.",
 
-            f"Dziś {d1}. dzień, odkąd pacjenci z NF nie mają koordynatora opieki. "
+            f"Dziś {d1}. dzień, odkąd pacjenci z NF nie mają opieki medycznej. "
             f"To {tyg} {odm(tyg, 'tydzień', 'tygodnie', 'tygodni')}.\n\n"
-            f"I {t2} milczenia {mz_dop} od pisma z 23 października.",
+            f"I {t2} milczenia {mz_dop} od decyzji o zakończeniu prac.",
 
             f"Neurofibromatoza to choroba na całe życie. Opieka wymaga wielu specjalistów, "
             f"którzy działają razem.\n\n"
-            f"Od {t1} pacjenci z NF nie mają skoordynowanej opieki. "
+            f"Od {t1} pacjenci z NF nie mają opieki medycznej. "
             f"{mz} milczy od {t2}.",
 
-            f"{d2} {dni_slowo(d2)} temu {mz} napisało, że „zakończono dalsze prace”. "
+            f"{d2} {dni_slowo(d2)} temu {mz} zdecydowało o zakończeniu prac. "
             f"Od tamtej pory milczy.\n\n"
-            f"Pacjenci z NF są bez skoordynowanej opieki już {t1}.",
+            f"Pacjenci z NF są bez opieki medycznej już {t1}.",
 
             f"Pilotaż koordynowanej opieki dla 2 830 pacjentów z NF skończył się 30 kwietnia 2026 r.\n\n"
-            f"Dziś: {t1} bez opieki, {t2} milczenia {mz_dop}.",
+            f"Dziś: {t1} bez opieki medycznej, {t2} milczenia {mz_dop}.",
         ]
         tekst = wersje[d1 % len(wersje)]
 
@@ -117,9 +118,9 @@ def grafika(d1, d2, dzien, folder):
         "etykieta": f"Pacjenci z NF czekają · {dzien.day}.{dzien.month:02d}.{dzien.year}",
         "liczba": str(d1),
         "jednostka": dni_slowo(d1),
-        "opis": "==bez skoordynowanej opieki== od końca pilotażu 30.04.2026",
+        "opis": "==bez opieki medycznej== od końca pilotażu 30.04.2026",
         "drugi": {"liczba": str(d2),
-                  "opis": f"{dni_slowo(d2)} ==milczenia Ministerstwa Zdrowia==\nod pisma z 23.10.2026"},
+                  "opis": f"{dni_slowo(d2)} ==milczenia Ministerstwa Zdrowia==\nod decyzji o zakończeniu prac 23.10.2026"},
         "pytanie": "Pani Minister Zdrowia, Panie Ministrze, pacjenci czekają na dialog.",
         "domena": "czekamy.nf1news.pl",
     }
@@ -127,9 +128,9 @@ def grafika(d1, d2, dzien, folder):
     plik = os.path.join(folder, f"{nazwa}.json")
     json.dump(spec, open(plik, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     subprocess.run(["node", "narzedzia/grafika.mjs", plik, folder], check=True)
-    alt = (f"Licznik, {dzien.day}.{dzien.month:02d}.{dzien.year}: {d1} {dni_slowo(d1)} bez skoordynowanej "
-           f"opieki dla pacjentów z NF od końca pilotażu 30 kwietnia 2026 r. {d2} {dni_slowo(d2)} milczenia "
-           f"Ministerstwa Zdrowia od pisma z 23 października 2026 r. Pani Minister Zdrowia, Panie Ministrze, "
+    alt = (f"Licznik, {dzien.day}.{dzien.month:02d}.{dzien.year}: {d1} {dni_slowo(d1)} bez opieki "
+           f"medycznej dla pacjentów z NF od końca pilotażu 30 kwietnia 2026 r. {d2} {dni_slowo(d2)} milczenia "
+           f"Ministerstwa Zdrowia od decyzji o zakończeniu prac 23 października 2026 r. Pani Minister Zdrowia, Panie Ministrze, "
            f"pacjenci czekają na dialog.")
     return os.path.join(folder, f"{nazwa}-kwadrat.png"), alt
 
