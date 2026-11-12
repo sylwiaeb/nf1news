@@ -1,0 +1,11 @@
+{
+  "uklad": "zestawienie",
+  "motyw": "ciemny",
+  "etykieta": "Rekomendacje AOTMiT, 2026",
+  "elementy": [
+    {"etykieta": "Centra zdrowia psychicznego", "tekst": "brak jednoznacznych danych o efektach, ok. 3 mld zł kosztu: na tak", "kolor": "zielony"},
+    {"etykieta": "Opieka nad pacjentami z NF", "tekst": "dobre wskaźniki, ok. 3,7 mln zł oszczędności: ==na nie==", "kolor": "czerwony"}
+  ],
+  "pytanie": "Dlaczego pacjentów z NF oceniono inną miarą?",
+  "alt": "Dwie rekomendacje AOTMiT z 2026 roku. Centra zdrowia psychicznego: brak jednoznacznych danych o efektach zdrowotnych, koszt ok. 3 mld zł, rekomendacja na tak. Opieka nad pacjentami z NF: wskaźniki pilotażu dobre, ok. 3,7 mln zł oszczędności, rekomendacja na nie. Pytanie: dlaczego pacjentów z NF oceniono inną miarą?"
+}
