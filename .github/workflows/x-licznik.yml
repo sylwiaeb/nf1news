@@ -16,6 +16,9 @@ on:
         required: false
         default: "tak"
 
+permissions:
+  contents: write
+
 concurrency:
   group: x-licznik
   cancel-in-progress: false
@@ -48,6 +51,18 @@ jobs:
           else
             python .github/scripts/x_licznik.py
           fi
+      - name: Obrazek licznika na stronę (nf1news.pl/assets/licznik.png, np. do bloga stowarzyszenia)
+        if: always() && github.event.inputs.proba != 'tak'
+        run: |
+          plik=$(ls licznik-grafiki/*-kwadrat.png 2>/dev/null | head -1)
+          [ -n "$plik" ] || { echo "Brak grafiki."; exit 0; }
+          cp "$plik" assets/licznik.png
+          git config user.name "NF1 News"
+          git config user.email "nf1news@users.noreply.github.com"
+          git add assets/licznik.png
+          git diff --cached --quiet && exit 0
+          git commit -m "Licznik: obrazek na $(TZ=Europe/Warsaw date +%F)"
+          git push
       - uses: actions/upload-artifact@v4
         if: always()
         with:
