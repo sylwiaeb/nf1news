@@ -2,13 +2,20 @@ name: Codzienny licznik na X
 
 # Codziennie rano post na X z licznikiem dni (bez skoordynowanej opieki
 # i od pisma Ministerstwa Zdrowia), grafika z licznikiem, link do
-# czekamy.nf1news.pl w pierwszym komentarzu. 7:07 UTC = 8:07 zimą, 9:07 latem.
+# czekamy.nf1news.pl w pierwszym komentarzu. Zimą ok. 7:07–9:47, latem godzinę później.
 # Ręcznie: Actions → „Codzienny licznik na X” → Run workflow
 # (proba = tak tylko robi grafikę i pokazuje tekst, nic nie wysyła).
 
 on:
+  # Cron GitHuba bywa spóźniony o wiele godzin, więc jest kilka terminów rano.
+  # Wysyła ten, który ruszy pierwszy; pozostałe tego dnia się pomijają.
   schedule:
+    - cron: "7 6 * * *"
+    - cron: "37 6 * * *"
     - cron: "7 7 * * *"
+    - cron: "41 7 * * *"
+    - cron: "13 8 * * *"
+    - cron: "47 8 * * *"
   workflow_dispatch:
     inputs:
       proba:
