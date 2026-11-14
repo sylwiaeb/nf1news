@@ -1,0 +1,4411 @@
+{
+"zrodlo": "api.sejm.gov.pl, lista posłów 4.11.2026; skład Komisji Zdrowia 14.11.2026",
+"okregi": {
+"1": {
+"nazwa": "Legnica",
+"woj": "dolnośląskie"
+},
+"2": {
+"nazwa": "Wałbrzych",
+"woj": "dolnośląskie"
+},
+"3": {
+"nazwa": "Wrocław",
+"woj": "dolnośląskie"
+},
+"4": {
+"nazwa": "Bydgoszcz",
+"woj": "kujawsko-pomorskie"
+},
+"5": {
+"nazwa": "Toruń",
+"woj": "kujawsko-pomorskie"
+},
+"6": {
+"nazwa": "Lublin",
+"woj": "lubelskie"
+},
+"7": {
+"nazwa": "Chełm",
+"woj": "lubelskie"
+},
+"8": {
+"nazwa": "Zielona Góra",
+"woj": "lubuskie"
+},
+"9": {
+"nazwa": "Łódź",
+"woj": "łódzkie"
+},
+"10": {
+"nazwa": "Piotrków Trybunalski",
+"woj": "łódzkie"
+},
+"11": {
+"nazwa": "Sieradz",
+"woj": "łódzkie"
+},
+"12": {
+"nazwa": "Kraków",
+"woj": "małopolskie"
+},
+"13": {
+"nazwa": "Kraków",
+"woj": "małopolskie"
+},
+"14": {
+"nazwa": "Nowy Sącz",
+"woj": "małopolskie"
+},
+"15": {
+"nazwa": "Tarnów",
+"woj": "małopolskie"
+},
+"16": {
+"nazwa": "Płock",
+"woj": "mazowieckie"
+},
+"17": {
+"nazwa": "Radom",
+"woj": "mazowieckie"
+},
+"18": {
+"nazwa": "Siedlce",
+"woj": "mazowieckie"
+},
+"19": {
+"nazwa": "Warszawa",
+"woj": "mazowieckie"
+},
+"20": {
+"nazwa": "Warszawa",
+"woj": "mazowieckie"
+},
+"21": {
+"nazwa": "Opole",
+"woj": "opolskie"
+},
+"22": {
+"nazwa": "Krosno",
+"woj": "podkarpackie"
+},
+"23": {
+"nazwa": "Rzeszów",
+"woj": "podkarpackie"
+},
+"24": {
+"nazwa": "Białystok",
+"woj": "podlaskie"
+},
+"25": {
+"nazwa": "Gdańsk",
+"woj": "pomorskie"
+},
+"26": {
+"nazwa": "Słupsk",
+"woj": "pomorskie"
+},
+"27": {
+"nazwa": "Bielsko-Biała",
+"woj": "śląskie"
+},
+"28": {
+"nazwa": "Częstochowa",
+"woj": "śląskie"
+},
+"29": {
+"nazwa": "Katowice",
+"woj": "śląskie"
+},
+"30": {
+"nazwa": "Bielsko-Biała",
+"woj": "śląskie"
+},
+"31": {
+"nazwa": "Katowice",
+"woj": "śląskie"
+},
+"32": {
+"nazwa": "Katowice",
+"woj": "śląskie"
+},
+"33": {
+"nazwa": "Kielce",
+"woj": "świętokrzyskie"
+},
+"34": {
+"nazwa": "Elbląg",
+"woj": "warmińsko-mazurskie"
+},
+"35": {
+"nazwa": "Olsztyn",
+"woj": "warmińsko-mazurskie"
+},
+"36": {
+"nazwa": "Kalisz",
+"woj": "wielkopolskie"
+},
+"37": {
+"nazwa": "Konin",
+"woj": "wielkopolskie"
+},
+"38": {
+"nazwa": "Piła",
+"woj": "wielkopolskie"
+},
+"39": {
+"nazwa": "Poznań",
+"woj": "wielkopolskie"
+},
+"40": {
+"nazwa": "Koszalin",
+"woj": "zachodniopomorskie"
+},
+"41": {
+"nazwa": "Szczecin",
+"woj": "zachodniopomorskie"
+}
+},
+"poslowie": [
+{
+"id": 1,
+"imie": "Andrzej Adamczyk",
+"klub": "PiS",
+"email": "Andrzej.Adamczyk@sejm.pl",
+"okreg": 13,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 2,
+"imie": "Piotr Adamowicz",
+"klub": "KO",
+"email": "Piotr.Adamowicz@sejm.pl",
+"okreg": 25,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 4,
+"imie": "Waldemar Andzel",
+"klub": "PiS",
+"email": "Waldemar.Andzel@sejm.pl",
+"okreg": 32,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 5,
+"imie": "Dorota Arciszewska-Mielewczyk",
+"klub": "PiS",
+"email": "Dorota.Arciszewska-Mielewczyk@sejm.pl",
+"okreg": 26,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 6,
+"imie": "Jan Krzysztof Ardanowski",
+"klub": "Demokracja",
+"email": "Jan.Ardanowski@sejm.pl",
+"okreg": 5,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 7,
+"imie": "Iwona Ewa Arent",
+"klub": "PiS",
+"email": "Iwona.Arent@sejm.pl",
+"okreg": 35,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 9,
+"imie": "Marek Ast",
+"klub": "PiS",
+"email": "Marek.Ast@sejm.pl",
+"okreg": 8,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 10,
+"imie": "Urszula Augustyn",
+"klub": "KO",
+"email": "Urszula.Augustyn@sejm.pl",
+"okreg": 15,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 11,
+"imie": "Piotr Babinetz",
+"klub": "PiS",
+"email": "Piotr.Babinetz@sejm.pl",
+"okreg": 22,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 12,
+"imie": "Ryszard Bartosik",
+"klub": "RozwojPlus",
+"email": "Ryszard.Bartosik@sejm.pl",
+"okreg": 37,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 13,
+"imie": "Władysław Bartoszewski",
+"klub": "PSL-TD",
+"email": "Wladyslaw.Bartoszewski@sejm.pl",
+"okreg": 19,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 14,
+"imie": "Barbara Bartuś",
+"klub": "PiS",
+"email": "Barbara.Bartus@sejm.pl",
+"okreg": 14,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 15,
+"imie": "Paweł Bejda",
+"klub": "PSL-TD",
+"email": "Pawel.Bejda@sejm.pl",
+"okreg": 11,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 16,
+"imie": "Konrad Berkowicz",
+"klub": "Konfederacja",
+"email": "Konrad.Berkowicz@sejm.pl",
+"okreg": 13,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 17,
+"imie": "Sylwia Bielawska",
+"klub": "KO",
+"email": "Sylwia.Bielawska@sejm.pl",
+"okreg": 2,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 18,
+"imie": "Marek Biernacki",
+"klub": "PSL-TD",
+"email": "Marek.Biernacki@sejm.pl",
+"okreg": 26,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 19,
+"imie": "Paweł Bliźniuk",
+"klub": "KO",
+"email": "Pawel.Blizniuk@sejm.pl",
+"okreg": 9,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 20,
+"imie": "Mariusz Błaszczak",
+"klub": "PiS",
+"email": "Mariusz.Blaszczak@sejm.pl",
+"okreg": 20,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 21,
+"imie": "Mateusz Bochenek",
+"klub": "KO",
+"email": "Mateusz.Bochenek@sejm.pl",
+"okreg": 32,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 22,
+"imie": "Rafał Bochenek",
+"klub": "PiS",
+"email": "Rafal.Bochenek@sejm.pl",
+"okreg": 12,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 23,
+"imie": "Izabela Bodnar",
+"klub": "Centrum",
+"email": "Izabela.Bodnar@sejm.pl",
+"okreg": 3,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 24,
+"imie": "Jacek Bogucki",
+"klub": "PiS",
+"email": "Jacek.Bogucki@sejm.pl",
+"okreg": 24,
+"k": 0,
+"zdrowie": [
+"Komisja Zdrowia"
+]
+},
+{
+"id": 26,
+"imie": "Krzysztof Bojarski",
+"klub": "KO",
+"email": "Krzysztof.Bojarski@sejm.pl",
+"okreg": 6,
+"k": 0,
+"zdrowie": [
+"Komisja Zdrowia",
+"zawód: lekarz"
+]
+},
+{
+"id": 27,
+"imie": "Joanna Borowiak",
+"klub": "PiS",
+"email": "Joanna.Borowiak@sejm.pl",
+"okreg": 5,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 28,
+"imie": "Kamil Bortniczuk",
+"klub": "PiS",
+"email": "Kamil.Bortniczuk@sejm.pl",
+"okreg": 16,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 29,
+"imie": "Piotr Borys",
+"klub": "KO",
+"email": "Piotr.Borys@sejm.pl",
+"okreg": 1,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 30,
+"imie": "Bożena Borys-Szopa",
+"klub": "PiS",
+"email": "Bozena.Borys-Szopa@sejm.pl",
+"okreg": 29,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 31,
+"imie": "Marcin Bosacki",
+"klub": "KO",
+"email": "Marcin.Bosacki@sejm.pl",
+"okreg": 39,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 32,
+"imie": "Karina Anna Bosak",
+"klub": "Konfederacja",
+"email": "Karina.Bosak@sejm.pl",
+"okreg": 20,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 33,
+"imie": "Krzysztof Bosak",
+"klub": "Konfederacja",
+"email": "Krzysztof.Bosak@sejm.pl",
+"okreg": 24,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 36,
+"imie": "Agnieszka Buczyńska",
+"klub": "Polska2050",
+"email": "Agnieszka.Buczynska@sejm.pl",
+"okreg": 25,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 39,
+"imie": "Elżbieta Burkiewicz",
+"klub": "Centrum",
+"email": "Elzbieta.Burkiewicz@sejm.pl",
+"okreg": 23,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 40,
+"imie": "Lidia Burzyńska",
+"klub": "PiS",
+"email": "Lidia.Burzynska@sejm.pl",
+"okreg": 28,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 41,
+"imie": "Marek Jan Chmielewski",
+"klub": "KO",
+"email": "Marek.Chmielewski@sejm.pl",
+"okreg": 2,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 42,
+"imie": "Zbigniew Chmielowiec",
+"klub": "RozwojPlus",
+"email": "Zbigniew.Chmielowiec@sejm.pl",
+"okreg": 23,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 43,
+"imie": "Artur Chojecki",
+"klub": "PiS",
+"email": "Artur.Chojecki@sejm.pl",
+"okreg": 35,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 44,
+"imie": "Kazimierz Bogusław Choma",
+"klub": "PiS",
+"email": "Kazimierz.Choma@sejm.pl",
+"okreg": 6,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 45,
+"imie": "Dominika Chorosińska",
+"klub": "PiS",
+"email": "Dominika.Chorosinska@sejm.pl",
+"okreg": 20,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 46,
+"imie": "Tadeusz Chrzan",
+"klub": "PiS",
+"email": "Tadeusz.Chrzan@sejm.pl",
+"okreg": 22,
+"k": 0,
+"zdrowie": [
+"Komisja Zdrowia"
+]
+},
+{
+"id": 47,
+"imie": "Alicja Chybicka",
+"klub": "KO",
+"email": "Alicja.Chybicka@sejm.pl",
+"okreg": 3,
+"k": 1,
+"zdrowie": [
+"Komisja Zdrowia",
+"zawód: lekarz"
+]
+},
+{
+"id": 48,
+"imie": "Anna Ewa Cicholska",
+"klub": "RozwojPlus",
+"email": "Anna.Cicholska@sejm.pl",
+"okreg": 16,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 49,
+"imie": "Janusz Cichoń",
+"klub": "KO",
+"email": "Janusz.Cichon@sejm.pl",
+"okreg": 35,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 50,
+"imie": "Krzysztof Ciecióra",
+"klub": "PiS",
+"email": "Krzysztof.Cieciora@sejm.pl",
+"okreg": 10,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 51,
+"imie": "Janusz Cieszyński",
+"klub": "RozwojPlus",
+"email": "Janusz.Cieszynski@sejm.pl",
+"okreg": 35,
+"k": 0,
+"zdrowie": [
+"Komisja Zdrowia"
+]
+},
+{
+"id": 52,
+"imie": "Michał Cieślak",
+"klub": "RozwojPlus",
+"email": "Michal.Cieslak@sejm.pl",
+"okreg": 33,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 53,
+"imie": "Żaneta Cwalina-Śliwowska",
+"klub": "Centrum",
+"email": "Zaneta.Cwalina-Sliwowska@sejm.pl",
+"okreg": 18,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 54,
+"imie": "Krzysztof Czarnecki",
+"klub": "PiS",
+"email": "Krzysztof.Czarnecki@sejm.pl",
+"okreg": 38,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 55,
+"imie": "Witold Wojciech Czarnecki",
+"klub": "PiS",
+"email": "Witold.Czarnecki@sejm.pl",
+"okreg": 37,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 56,
+"imie": "Przemysław Czarnek",
+"klub": "PiS",
+"email": "Przemyslaw.Czarnek@sejm.pl",
+"okreg": 6,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 57,
+"imie": "Arkadiusz Czartoryski",
+"klub": "PiS",
+"email": "Arkadiusz.Czartoryski@sejm.pl",
+"okreg": 18,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 58,
+"imie": "Włodzimierz Czarzasty",
+"klub": "Lewica",
+"email": "Wlodzimierz.Czarzasty@sejm.pl",
+"okreg": 32,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 59,
+"imie": "Jacek Czerniak",
+"klub": "Lewica",
+"email": "Jacek.Czerniak@sejm.pl",
+"okreg": 6,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 60,
+"imie": "Zofia Czernow",
+"klub": "KO",
+"email": "Zofia.Czernow@sejm.pl",
+"okreg": 1,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 61,
+"imie": "Anita Czerwińska",
+"klub": "PiS",
+"email": "Anita.Czerwinska@sejm.pl",
+"okreg": 20,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 62,
+"imie": "Katarzyna Czochara",
+"klub": "PiS",
+"email": "Katarzyna.Czochara@sejm.pl",
+"okreg": 21,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 63,
+"imie": "Sławomir Ćwik",
+"klub": "Centrum",
+"email": "Slawomir.Cwik@sejm.pl",
+"okreg": 7,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 64,
+"imie": "Władysław Dajczak",
+"klub": "PiS",
+"email": "Wladyslaw.Dajczak@sejm.pl",
+"okreg": 8,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 65,
+"imie": "Anna Dąbrowska-Banaszek",
+"klub": "PiS",
+"email": "Anna.Dabrowska-Banaszek@sejm.pl",
+"okreg": 7,
+"k": 1,
+"zdrowie": [
+"Komisja Zdrowia",
+"zawód: lekarz"
+]
+},
+{
+"id": 66,
+"imie": "Zbigniew Dolata",
+"klub": "PiS",
+"email": "Zbigniew.Dolata@sejm.pl",
+"okreg": 37,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 67,
+"imie": "Barbara Dolniak",
+"klub": "KO",
+"email": "Barbara.Dolniak@sejm.pl",
+"okreg": 32,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 68,
+"imie": "Andrzej Domański",
+"klub": "KO",
+"email": "Andrzej.Domanski@sejm.pl",
+"okreg": 19,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 69,
+"imie": "Bartłomiej Dorywalski",
+"klub": "PiS",
+"email": "Bartlomiej.Dorywalski@sejm.pl",
+"okreg": 33,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 70,
+"imie": "Robert Dowhan",
+"klub": "KO",
+"email": "Robert.Dowhan@sejm.pl",
+"okreg": 8,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 71,
+"imie": "Przemysław Drabek",
+"klub": "PiS",
+"email": "Przemyslaw.Drabek@sejm.pl",
+"okreg": 27,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 72,
+"imie": "Elżbieta Duda",
+"klub": "RozwojPlus",
+"email": "Elzbieta.Duda@sejm.pl",
+"okreg": 13,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 74,
+"imie": "Adam Dziedzic",
+"klub": "PSL-TD",
+"email": "Adam.Dziedzic@sejm.pl",
+"okreg": 23,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 75,
+"imie": "Jan Michał Dziedziczak",
+"klub": "PiS",
+"email": "Jan.Dziedziczak@sejm.pl",
+"okreg": 36,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 76,
+"imie": "Agnieszka Dziemianowicz-Bąk",
+"klub": "Lewica",
+"email": "Agnieszka.Dziemianowicz-Bak@sejm.pl",
+"okreg": 26,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 77,
+"imie": "Magdalena Filiks",
+"klub": "KO",
+"email": "Magdalena.Filiks@sejm.pl",
+"okreg": 41,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 78,
+"imie": "Magdalena Filipek-Sobczak",
+"klub": "PiS",
+"email": "Magdalena.Filipek-Sobczak@sejm.pl",
+"okreg": 6,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 79,
+"imie": "Radosław Fogiel",
+"klub": "PiS",
+"email": "Radoslaw.Fogiel@sejm.pl",
+"okreg": 17,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 80,
+"imie": "Bronisław Foltyn",
+"klub": "Konfederacja",
+"email": "Bronislaw.Foltyn@sejm.pl",
+"okreg": 27,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 81,
+"imie": "Roman Fritz",
+"klub": "Konfederacja_KP",
+"email": "Roman.Fritz@sejm.pl",
+"okreg": 30,
+"k": 0,
+"zdrowie": [
+"Komisja Zdrowia"
+]
+},
+{
+"id": 82,
+"imie": "Joanna Frydrych",
+"klub": "KO",
+"email": "Joanna.Frydrych@sejm.pl",
+"okreg": 22,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 83,
+"imie": "Konrad Frysztak",
+"klub": "KO",
+"email": "Konrad.Frysztak@sejm.pl",
+"okreg": 17,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 84,
+"imie": "Patryk Gabriel",
+"klub": "KO",
+"email": "Patryk.Gabriel@sejm.pl",
+"okreg": 25,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 85,
+"imie": "Krzysztof Gadowski",
+"klub": "KO",
+"email": "Krzysztof.Gadowski@sejm.pl",
+"okreg": 30,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 86,
+"imie": "Aleksandra Gajewska",
+"klub": "KO",
+"email": "Aleksandra.Gajewska@sejm.pl",
+"okreg": 19,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 87,
+"imie": "Kinga Gajewska",
+"klub": "KO",
+"email": "Kinga.Gajewska@sejm.pl",
+"okreg": 20,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 88,
+"imie": "Elżbieta Gapińska",
+"klub": "KO",
+"email": "Elzbieta.Gapinska@sejm.pl",
+"okreg": 16,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 90,
+"imie": "Krzysztof Gawkowski",
+"klub": "Lewica",
+"email": "Krzysztof.Gawkowski@sejm.pl",
+"okreg": 4,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 91,
+"imie": "Zdzisław Gawlik",
+"klub": "KO",
+"email": "Zdzislaw.Gawlik@sejm.pl",
+"okreg": 23,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 92,
+"imie": "Andrzej Gawron",
+"klub": "PiS",
+"email": "Andrzej.Gawron@sejm.pl",
+"okreg": 28,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 93,
+"imie": "Grzegorz Gaża",
+"klub": "PiS",
+"email": "Grzegorz.Gaza@sejm.pl",
+"okreg": 27,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 94,
+"imie": "Elżbieta Gelert",
+"klub": "KO",
+"email": "Elzbieta.Gelert@sejm.pl",
+"okreg": 34,
+"k": 1,
+"zdrowie": [
+"Komisja Zdrowia (wiceprzewodnicząca)"
+]
+},
+{
+"id": 95,
+"imie": "Anna Gembicka",
+"klub": "PiS",
+"email": "Anna.Gembicka@sejm.pl",
+"okreg": 5,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 96,
+"imie": "Artur Daniel Gierada",
+"klub": "KO",
+"email": "Artur.Gierada@sejm.pl",
+"okreg": 33,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 97,
+"imie": "Roman Giertych",
+"klub": "KO",
+"email": "Roman.Giertych@sejm.pl",
+"okreg": 33,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 98,
+"imie": "Włodzisław Giziński",
+"klub": "KO",
+"email": "Wlodzislaw.Gizinski@sejm.pl",
+"okreg": 4,
+"k": 0,
+"zdrowie": [
+"Komisja Zdrowia",
+"zawód: lekarz"
+]
+},
+{
+"id": 99,
+"imie": "Szymon Giżyński",
+"klub": "RozwojPlus",
+"email": "Szymon.Gizynski@sejm.pl",
+"okreg": 28,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 100,
+"imie": "Piotr Gliński",
+"klub": "PiS",
+"email": "Piotr.Glinski@sejm.pl",
+"okreg": 19,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 101,
+"imie": "Tomasz Głogowski",
+"klub": "KO",
+"email": "Tomasz.Glogowski@sejm.pl",
+"okreg": 29,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 102,
+"imie": "Piotr Głowski",
+"klub": "KO",
+"email": "Piotr.Glowski@sejm.pl",
+"okreg": 38,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 103,
+"imie": "Marta Golbik",
+"klub": "KO",
+"email": "Marta.Golbik@sejm.pl",
+"okreg": 29,
+"k": 1,
+"zdrowie": [
+"Komisja Zdrowia (przewodnicząca)"
+]
+},
+{
+"id": 104,
+"imie": "Małgorzata Golińska",
+"klub": "PiS",
+"email": "Malgorzata.Golinska@sejm.pl",
+"okreg": 40,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 105,
+"imie": "Kazimierz Gołojuch",
+"klub": "PiS",
+"email": "Kazimierz.Golojuch@sejm.pl",
+"okreg": 23,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 106,
+"imie": "Adam Gomoła",
+"klub": "Polska2050",
+"email": "Adam.Gomola@sejm.pl",
+"okreg": 21,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 107,
+"imie": "Robert Gontarz",
+"klub": "RozwojPlus",
+"email": "Robert.Gontarz@sejm.pl",
+"okreg": 34,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 108,
+"imie": "Stanisław Gorczyca",
+"klub": "KO",
+"email": "Stanislaw.Gorczyca@sejm.pl",
+"okreg": 34,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 109,
+"imie": "Mariusz Gosek",
+"klub": "PiS",
+"email": "Mariusz.Gosek@sejm.pl",
+"okreg": 33,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 110,
+"imie": "Daria Gosek-Popiołek",
+"klub": "Lewica",
+"email": "Daria.Gosek-Popiolek@sejm.pl",
+"okreg": 13,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 112,
+"imie": "Piotr Górnikiewicz",
+"klub": "Polska2050",
+"email": "Piotr.Gornikiewicz@sejm.pl",
+"okreg": 15,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 113,
+"imie": "Agnieszka Górska",
+"klub": "PiS",
+"email": "Agnieszka.Gorska@sejm.pl",
+"okreg": 17,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 114,
+"imie": "Krzysztof Grabczuk",
+"klub": "KO",
+"email": "Krzysztof.Grabczuk@sejm.pl",
+"okreg": 7,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 115,
+"imie": "Jan Grabiec",
+"klub": "KO",
+"email": "Jan.Grabiec@sejm.pl",
+"okreg": 20,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 116,
+"imie": "Marcin Grabowski",
+"klub": "PiS",
+"email": "Marcin.Grabowski@sejm.pl",
+"okreg": 18,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 117,
+"imie": "Michał Gramatyka",
+"klub": "Polska2050",
+"email": "Michal.Gramatyka@sejm.pl",
+"okreg": 31,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 118,
+"imie": "Małgorzata Gromadzka",
+"klub": "KO",
+"email": "Malgorzata.Gromadzka@sejm.pl",
+"okreg": 7,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 119,
+"imie": "Marek Gróbarczyk",
+"klub": "PiS",
+"email": "Marek.Grobarczyk@sejm.pl",
+"okreg": 41,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 120,
+"imie": "Andrzej Grzyb",
+"klub": "PSL-TD",
+"email": "Andrzej.Grzyb@sejm.pl",
+"okreg": 36,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 121,
+"imie": "Andrzej Gut-Mostowy",
+"klub": "RozwojPlus",
+"email": "Andrzej.Gut-Mostowy@sejm.pl",
+"okreg": 14,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 122,
+"imie": "Kazimierz Gwiazdowski",
+"klub": "PiS",
+"email": "Kazimierz.Gwiazdowski@sejm.pl",
+"okreg": 24,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 123,
+"imie": "Marcin Gwóźdź",
+"klub": "RozwojPlus",
+"email": "Marcin.Gwozdz@sejm.pl",
+"okreg": 2,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 124,
+"imie": "Marek Gzik",
+"klub": "KO",
+"email": "Marek.Gzik@sejm.pl",
+"okreg": 29,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 125,
+"imie": "Krzysztof Habura",
+"klub": "KO",
+"email": "Krzysztof.Habura@sejm.pl",
+"okreg": 11,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 126,
+"imie": "Agnieszka Hanajczyk",
+"klub": "KO",
+"email": "Agnieszka.Hanajczyk@sejm.pl",
+"okreg": 11,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 127,
+"imie": "Iwona Hartwich",
+"klub": "KO",
+"email": "Iwona.Hartwich@sejm.pl",
+"okreg": 5,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 128,
+"imie": "Paulina Hennig-Kloska",
+"klub": "Centrum",
+"email": "Paulina.Hennig-Kloska@sejm.pl",
+"okreg": 37,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 130,
+"imie": "Czesław Hoc",
+"klub": "PiS",
+"email": "Czeslaw.Hoc@sejm.pl",
+"okreg": 40,
+"k": 0,
+"zdrowie": [
+"Komisja Zdrowia",
+"zawód: lekarz"
+]
+},
+{
+"id": 131,
+"imie": "Zbigniew Hoffmann",
+"klub": "PiS",
+"email": "Zbigniew.Hoffmann@sejm.pl",
+"okreg": 37,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 132,
+"imie": "Marek Tomasz Hok",
+"klub": "KO",
+"email": "Marek.Hok@sejm.pl",
+"okreg": 40,
+"k": 0,
+"zdrowie": [
+"Komisja Zdrowia (wiceprzewodniczący)",
+"zawód: lekarz, parlamentarzysta, urzędnik samorządowy"
+]
+},
+{
+"id": 133,
+"imie": "Szymon Hołownia",
+"klub": "Polska2050",
+"email": "Szymon.Holownia@sejm.pl",
+"okreg": 24,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 134,
+"imie": "Marcin Horała",
+"klub": "RozwojPlus",
+"email": "Marcin.Horala@sejm.pl",
+"okreg": 26,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 135,
+"imie": "Łukasz Horbatowski",
+"klub": "KO",
+"email": "Lukasz.Horbatowski@sejm.pl",
+"okreg": 1,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 136,
+"imie": "Paweł Hreniak",
+"klub": "PiS",
+"email": "Pawel.Hreniak@sejm.pl",
+"okreg": 3,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 137,
+"imie": "Paweł Jabłoński",
+"klub": "RozwojPlus",
+"email": "Pawel.Jablonski@sejm.pl",
+"okreg": 30,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 138,
+"imie": "Klaudia Jachira",
+"klub": "KO",
+"email": "Klaudia.Jachira@sejm.pl",
+"okreg": 19,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 139,
+"imie": "Marek Jakubiak",
+"klub": "RozwojPlus",
+"email": "Marek.Jakubiak@sejm.pl",
+"okreg": 19,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 140,
+"imie": "Maria Małgorzata Janyska",
+"klub": "KO",
+"email": "Maria.Janyska@sejm.pl",
+"okreg": 38,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 141,
+"imie": "Michał Jaros",
+"klub": "KO",
+"email": "Michal.Jaros@sejm.pl",
+"okreg": 3,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 142,
+"imie": "Patryk Jaskulski",
+"klub": "KO",
+"email": "Patryk.Jaskulski@sejm.pl",
+"okreg": 41,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 143,
+"imie": "Danuta Jazłowiecka",
+"klub": "KO",
+"email": "Danuta.Jazlowiecka@sejm.pl",
+"okreg": 21,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 145,
+"imie": "Marcin Józefaciuk",
+"klub": "niez.",
+"email": "Marcin.Jozefaciuk@sejm.pl",
+"okreg": 9,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 146,
+"imie": "Norbert Jakub Kaczmarczyk",
+"klub": "PiS",
+"email": "Norbert.Kaczmarczyk@sejm.pl",
+"okreg": 15,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 147,
+"imie": "Filip Kaczyński",
+"klub": "PiS",
+"email": "Filip.Kaczynski@sejm.pl",
+"okreg": 12,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 148,
+"imie": "Jarosław Kaczyński",
+"klub": "PiS",
+"email": "Jaroslaw.Kaczynski@sejm.pl",
+"okreg": 33,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 149,
+"imie": "Piotr Kaleta",
+"klub": "PiS",
+"email": "Piotr.Kaleta@sejm.pl",
+"okreg": 36,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 150,
+"imie": "Sebastian Kaleta",
+"klub": "PiS",
+"email": "Sebastian.Kaleta@sejm.pl",
+"okreg": 19,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 151,
+"imie": "Mariusz Kałużny",
+"klub": "PiS",
+"email": "Mariusz.Kaluzny@sejm.pl",
+"okreg": 5,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 153,
+"imie": "Piotr Kandyba",
+"klub": "KO",
+"email": "Piotr.Kandyba@sejm.pl",
+"okreg": 20,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 154,
+"imie": "Jan Kanthak",
+"klub": "PiS",
+"email": "Jan.Kanthak@sejm.pl",
+"okreg": 6,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 155,
+"imie": "Fryderyk Sylwester Kapinos",
+"klub": "RozwojPlus",
+"email": "Fryderyk.Kapinos@sejm.pl",
+"okreg": 23,
+"k": 0,
+"zdrowie": [
+"Komisja Zdrowia"
+]
+},
+{
+"id": 156,
+"imie": "Jacek Karnowski",
+"klub": "KO",
+"email": "Jacek.Karnowski@sejm.pl",
+"okreg": 25,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 157,
+"imie": "Iwona Karolewska",
+"klub": "KO",
+"email": "Iwona.Karolewska@sejm.pl",
+"okreg": 4,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 158,
+"imie": "Rafał Kasprzyk",
+"klub": "Centrum",
+"email": "Rafal.Kasprzyk@sejm.pl",
+"okreg": 33,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 159,
+"imie": "Henryk Kiepura",
+"klub": "PSL-TD",
+"email": "Henryk.Kiepura@sejm.pl",
+"okreg": 28,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 161,
+"imie": "Katarzyna Kierzek-Koperska",
+"klub": "KO",
+"email": "Katarzyna.Kierzek-Koperska@sejm.pl",
+"okreg": 39,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 162,
+"imie": "Dariusz Klimczak",
+"klub": "PSL-TD",
+"email": "Dariusz.Klimczak@sejm.pl",
+"okreg": 10,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 163,
+"imie": "Joanna Kluzik-Rostkowska",
+"klub": "KO",
+"email": "Joanna.Kluzik-Rostkowska@sejm.pl",
+"okreg": 17,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 164,
+"imie": "Agnieszka Maria Kłopotek",
+"klub": "PSL-TD",
+"email": "Agnieszka.Klopotek@sejm.pl",
+"okreg": 4,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 165,
+"imie": "Łukasz Kmita",
+"klub": "RozwojPlus",
+"email": "Lukasz.Kmita@sejm.pl",
+"okreg": 12,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 167,
+"imie": "Maria Koc",
+"klub": "RozwojPlus",
+"email": "Maria.Koc@sejm.pl",
+"okreg": 18,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 168,
+"imie": "Ewa Kołodziej",
+"klub": "KO",
+"email": "Ewa.Kolodziej@sejm.pl",
+"okreg": 31,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 169,
+"imie": "Magdalena Małgorzata Kołodziejczak",
+"klub": "KO",
+"email": "Magdalena.Kolodziejczak@sejm.pl",
+"okreg": 25,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 170,
+"imie": "Michał Kołodziejczak",
+"klub": "KO",
+"email": "Michal.Kolodziejczak@sejm.pl",
+"okreg": 37,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 171,
+"imie": "Rafał Komarewicz",
+"klub": "Centrum",
+"email": "Rafal.Komarewicz@sejm.pl",
+"okreg": 13,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 172,
+"imie": "Maciej Konieczny",
+"klub": "Razem",
+"email": "Maciej.Konieczny@sejm.pl",
+"okreg": 31,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 173,
+"imie": "Zbigniew Konwiński",
+"klub": "KO",
+"email": "Zbigniew.Konwinski@sejm.pl",
+"okreg": 26,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 174,
+"imie": "Władysław Kosiniak-Kamysz",
+"klub": "PSL-TD",
+"email": "Wladyslaw.Kosiniak-Kamysz@sejm.pl",
+"okreg": 15,
+"k": 0,
+"zdrowie": [
+"zawód: lekarz"
+]
+},
+{
+"id": 175,
+"imie": "Tomasz Kostuś",
+"klub": "KO",
+"email": "Tomasz.Kostus@sejm.pl",
+"okreg": 21,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 176,
+"imie": "Andrzej Kosztowniak",
+"klub": "PiS",
+"email": "Andrzej.Kosztowniak@sejm.pl",
+"okreg": 17,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 177,
+"imie": "Katarzyna Kotula",
+"klub": "Lewica",
+"email": "Katarzyna.Kotula@sejm.pl",
+"okreg": 25,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 178,
+"imie": "Paweł Kowal",
+"klub": "KO",
+"email": "Pawel.Kowal@sejm.pl",
+"okreg": 23,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 179,
+"imie": "Henryk Kowalczyk",
+"klub": "PiS",
+"email": "Henryk.Kowalczyk@sejm.pl",
+"okreg": 18,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 180,
+"imie": "Janusz Kowalski",
+"klub": "niez.",
+"email": "Janusz.Kowalski@sejm.pl",
+"okreg": 21,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 181,
+"imie": "Bartosz Józef Kownacki",
+"klub": "PiS",
+"email": "Bartosz.Kownacki@sejm.pl",
+"okreg": 4,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 182,
+"imie": "Iwona Maria Kozłowska",
+"klub": "KO",
+"email": "Iwona.Kozlowska@sejm.pl",
+"okreg": 4,
+"k": 1,
+"zdrowie": [
+"Komisja Zdrowia"
+]
+},
+{
+"id": 183,
+"imie": "Stefan Krajewski",
+"klub": "PSL-TD",
+"email": "Stefan.Krajewski@sejm.pl",
+"okreg": 24,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 184,
+"imie": "Wiesław Krajewski",
+"klub": "RozwojPlus",
+"email": "Wieslaw.Krajewski@sejm.pl",
+"okreg": 15,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 185,
+"imie": "Leonard Krasulski",
+"klub": "PiS",
+"email": "Leonard.Krasulski@sejm.pl",
+"okreg": 34,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 186,
+"imie": "Iwona Małgorzata Krawczyk",
+"klub": "KO",
+"email": "Iwona.Krawczyk@sejm.pl",
+"okreg": 1,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 187,
+"imie": "Michał Krawczyk",
+"klub": "KO",
+"email": "Michal.Krawczyk@sejm.pl",
+"okreg": 6,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 188,
+"imie": "Robert Kropiwnicki",
+"klub": "KO",
+"email": "Robert.Kropiwnicki@sejm.pl",
+"okreg": 1,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 189,
+"imie": "Piotr Król",
+"klub": "PiS",
+"email": "Piotr.Krol@sejm.pl",
+"okreg": 4,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 190,
+"imie": "Wojciech Król",
+"klub": "KO",
+"email": "Wojciech.Krol@sejm.pl",
+"okreg": 31,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 191,
+"imie": "Anna Krupka",
+"klub": "PiS",
+"email": "Anna.Krupka@sejm.pl",
+"okreg": 33,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 192,
+"imie": "Andrzej Kryj",
+"klub": "RozwojPlus",
+"email": "Andrzej.Kryj@sejm.pl",
+"okreg": 33,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 193,
+"imie": "Mariusz Krystian",
+"klub": "PiS",
+"email": "Mariusz.Krystian@sejm.pl",
+"okreg": 12,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 194,
+"imie": "Marek Krząkała",
+"klub": "KO",
+"email": "Marek.Krzakala@sejm.pl",
+"okreg": 30,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 195,
+"imie": "Adam Krzemiński",
+"klub": "KO",
+"email": "Adam.Krzeminski@sejm.pl",
+"okreg": 16,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 196,
+"imie": "Henryka Krzywonos-Strycharska",
+"klub": "KO",
+"email": "Henryka.Krzywonos-Strycharska@sejm.pl",
+"okreg": 26,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 197,
+"imie": "Krzysztof Kubów",
+"klub": "RozwojPlus",
+"email": "Krzysztof.Kubow@sejm.pl",
+"okreg": 1,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 198,
+"imie": "Anita Kucharska-Dziedzic",
+"klub": "Lewica",
+"email": "Anita.Kucharska-Dziedzic@sejm.pl",
+"okreg": 8,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 199,
+"imie": "Marek Kuchciński",
+"klub": "PiS",
+"email": "Marek.Kuchcinski@sejm.pl",
+"okreg": 22,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 200,
+"imie": "Paweł Kukiz",
+"klub": "Demokracja",
+"email": "Pawel.Kukiz@sejm.pl",
+"okreg": 21,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 201,
+"imie": "Marcin Kulasek",
+"klub": "Lewica",
+"email": "Marcin.Kulasek@sejm.pl",
+"okreg": 35,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 202,
+"imie": "Maria Kurowska",
+"klub": "PiS",
+"email": "Maria.Kurowska@sejm.pl",
+"okreg": 22,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 203,
+"imie": "Władysław Kurowski",
+"klub": "PiS",
+"email": "Wladyslaw.Kurowski@sejm.pl",
+"okreg": 12,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 204,
+"imie": "Zbigniew Krzysztof Kuźmiuk",
+"klub": "PiS",
+"email": "Zbigniew.Kuzmiuk@sejm.pl",
+"okreg": 17,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 205,
+"imie": "Anna Kwiecień",
+"klub": "RozwojPlus",
+"email": "Anna.Kwiecien@sejm.pl",
+"okreg": 17,
+"k": 1,
+"zdrowie": [
+"Komisja Zdrowia"
+]
+},
+{
+"id": 206,
+"imie": "Piotr Lachowicz",
+"klub": "KO",
+"email": "Piotr.Lachowicz@sejm.pl",
+"okreg": 14,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 207,
+"imie": "Stanisław Lamczyk",
+"klub": "KO",
+"email": "Stanislaw.Lamczyk@sejm.pl",
+"okreg": 26,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 208,
+"imie": "Maciej Lasek",
+"klub": "KO",
+"email": "Maciej.Lasek@sejm.pl",
+"okreg": 20,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 209,
+"imie": "Gabriela Lenartowicz",
+"klub": "KO",
+"email": "Gabriela.Lenartowicz@sejm.pl",
+"okreg": 30,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 210,
+"imie": "Ewa Leniart",
+"klub": "PiS",
+"email": "Ewa.Leniart@sejm.pl",
+"okreg": 23,
+"k": 1,
+"zdrowie": [
+"Komisja Zdrowia"
+]
+},
+{
+"id": 211,
+"imie": "Aleksandra Leo",
+"klub": "Centrum",
+"email": "Aleksandra.Leo@sejm.pl",
+"okreg": 2,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 212,
+"imie": "Izabela Leszczyna",
+"klub": "KO",
+"email": "Izabela.Leszczyna@sejm.pl",
+"okreg": 28,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 213,
+"imie": "Joanna Lichocka",
+"klub": "PiS",
+"email": "Joanna.Lichocka@sejm.pl",
+"okreg": 11,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 214,
+"imie": "Krzysztof Lipiec",
+"klub": "RozwojPlus",
+"email": "Krzysztof.Lipiec@sejm.pl",
+"okreg": 33,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 216,
+"imie": "Grzegorz Lorek",
+"klub": "PiS",
+"email": "Grzegorz.Lorek@sejm.pl",
+"okreg": 10,
+"k": 0,
+"zdrowie": [
+"Komisja Zdrowia"
+]
+},
+{
+"id": 217,
+"imie": "Radosław Lubczyk",
+"klub": "PSL-TD",
+"email": "Radoslaw.Lubczyk@sejm.pl",
+"okreg": 40,
+"k": 0,
+"zdrowie": [
+"Komisja Zdrowia",
+"zawód: lekarz"
+]
+},
+{
+"id": 218,
+"imie": "Katarzyna Anna Lubnauer",
+"klub": "KO",
+"email": "Katarzyna.Lubnauer@sejm.pl",
+"okreg": 19,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 219,
+"imie": "Adam Luboński",
+"klub": "Polska2050",
+"email": "Adam.Lubonski@sejm.pl",
+"okreg": 38,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 220,
+"imie": "Artur Jarosław Łącki",
+"klub": "KO",
+"email": "Artur.Lacki@sejm.pl",
+"okreg": 41,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 221,
+"imie": "Alicja Łepkowska-Gołaś",
+"klub": "KO",
+"email": "Alicja.Lepkowska-Golas@sejm.pl",
+"okreg": 24,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 222,
+"imie": "Dorota Łoboda",
+"klub": "KO",
+"email": "Dorota.Loboda@sejm.pl",
+"okreg": 19,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 223,
+"imie": "Krystian Łuczak",
+"klub": "KO",
+"email": "Krystian.Luczak@sejm.pl",
+"okreg": 5,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 224,
+"imie": "Sebastian Łukaszewicz",
+"klub": "PiS",
+"email": "Sebastian.Lukaszewicz@sejm.pl",
+"okreg": 24,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 225,
+"imie": "Marzena Anna Machałek",
+"klub": "RozwojPlus",
+"email": "Marzena.Machalek@sejm.pl",
+"okreg": 1,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 226,
+"imie": "Antoni Macierewicz",
+"klub": "PiS",
+"email": "Antoni.Macierewicz@sejm.pl",
+"okreg": 10,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 228,
+"imie": "Ewa Malik",
+"klub": "PiS",
+"email": "Ewa.Malik@sejm.pl",
+"okreg": 32,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 229,
+"imie": "Mirosław Maliszewski",
+"klub": "PSL-TD",
+"email": "Miroslaw.Maliszewski@sejm.pl",
+"okreg": 17,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 230,
+"imie": "Maciej Małecki",
+"klub": "PiS",
+"email": "Maciej.Malecki@sejm.pl",
+"okreg": 16,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 231,
+"imie": "Arkadiusz Marchewka",
+"klub": "KO",
+"email": "Arkadiusz.Marchewka@sejm.pl",
+"okreg": 41,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 233,
+"imie": "Dorota Marek",
+"klub": "KO",
+"email": "Dorota.Marek@sejm.pl",
+"okreg": 13,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 234,
+"imie": "Dariusz Matecki",
+"klub": "PiS",
+"email": "Dariusz.Matecki@sejm.pl",
+"okreg": 41,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 235,
+"imie": "Jerzy Materna",
+"klub": "PiS",
+"email": "Jerzy.Materna@sejm.pl",
+"okreg": 8,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 236,
+"imie": "Grzegorz Matusiak",
+"klub": "PiS",
+"email": "Grzegorz.Matusiak@sejm.pl",
+"okreg": 30,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 237,
+"imie": "Katarzyna Matusik-Lipiec",
+"klub": "KO",
+"email": "Katarzyna.Matusik-Lipiec@sejm.pl",
+"okreg": 13,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 238,
+"imie": "Marek Matuszewski",
+"klub": "PiS",
+"email": "Marek.Matuszewski@sejm.pl",
+"okreg": 11,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 239,
+"imie": "Paulina Matysiak",
+"klub": "niez.",
+"email": "Paulina.Matysiak@sejm.pl",
+"okreg": 11,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 240,
+"imie": "Łukasz Mejza",
+"klub": "niez.",
+"email": "Lukasz.Mejza@sejm.pl",
+"okreg": 8,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 241,
+"imie": "Sławomir Mentzen",
+"klub": "Konfederacja",
+"email": "Slawomir.Mentzen@sejm.pl",
+"okreg": 19,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 242,
+"imie": "Anna Milczanowska",
+"klub": "PiS",
+"email": "Anna.Milczanowska@sejm.pl",
+"okreg": 10,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 243,
+"imie": "Daniel Milewski",
+"klub": "PiS",
+"email": "Daniel.Milewski@sejm.pl",
+"okreg": 18,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 246,
+"imie": "Mateusz Morawiecki",
+"klub": "RozwojPlus",
+"email": "Mateusz.Morawiecki@sejm.pl",
+"okreg": 31,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 247,
+"imie": "Jan Mosiński",
+"klub": "PiS",
+"email": "Jan.Mosinski@sejm.pl",
+"okreg": 36,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 248,
+"imie": "Michał Moskal",
+"klub": "PiS",
+"email": "Michal.Moskal@sejm.pl",
+"okreg": 6,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 249,
+"imie": "Czesław Mroczek",
+"klub": "KO",
+"email": "Czeslaw.Mroczek@sejm.pl",
+"okreg": 18,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 250,
+"imie": "Aleksander Mikołaj Mrówczyński",
+"klub": "PiS",
+"email": "Aleksander.Mrowczynski@sejm.pl",
+"okreg": 26,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 252,
+"imie": "Joanna Mucha",
+"klub": "niez.",
+"email": "Joanna.Mucha@sejm.pl",
+"okreg": 6,
+"k": 1,
+"zdrowie": [
+"Komisja Zdrowia"
+]
+},
+{
+"id": 254,
+"imie": "Krzysztof Mulawa",
+"klub": "Konfederacja",
+"email": "Krzysztof.Mulawa@sejm.pl",
+"okreg": 18,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 256,
+"imie": "Arkadiusz Myrcha",
+"klub": "KO",
+"email": "Arkadiusz.Myrcha@sejm.pl",
+"okreg": 5,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 257,
+"imie": "Grzegorz Napieralski",
+"klub": "KO",
+"email": "Grzegorz.Napieralski@sejm.pl",
+"okreg": 41,
+"k": 0,
+"zdrowie": [
+"Komisja Zdrowia"
+]
+},
+{
+"id": 258,
+"imie": "Dorota Niedziela",
+"klub": "KO",
+"email": "Dorota.Niedziela@sejm.pl",
+"okreg": 12,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 259,
+"imie": "Jacek Niedźwiedzki",
+"klub": "KO",
+"email": "Jacek.Niedzwiedzki@sejm.pl",
+"okreg": 24,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 260,
+"imie": "Małgorzata Niemczyk",
+"klub": "KO",
+"email": "Malgorzata.Niemczyk@sejm.pl",
+"okreg": 9,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 261,
+"imie": "Jolanta Niezgodzka",
+"klub": "KO",
+"email": "Jolanta.Niezgodzka@sejm.pl",
+"okreg": 3,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 262,
+"imie": "Sławomir Nitras",
+"klub": "KO",
+"email": "Slawomir.Nitras@sejm.pl",
+"okreg": 41,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 263,
+"imie": "Barbara Nowacka",
+"klub": "KO",
+"email": "Barbara.Nowacka@sejm.pl",
+"okreg": 26,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 264,
+"imie": "Maja Ewa Nowak",
+"klub": "Polska2050",
+"email": "Maja.Nowak@sejm.pl",
+"okreg": 8,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 265,
+"imie": "Tomasz Piotr Nowak",
+"klub": "KO",
+"email": "Tomasz.Nowak@sejm.pl",
+"okreg": 37,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 266,
+"imie": "Wanda Nowicka",
+"klub": "Lewica",
+"email": "Wanda.Nowicka@sejm.pl",
+"okreg": 29,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 267,
+"imie": "Urszula Nowogórska",
+"klub": "PSL-TD",
+"email": "Urszula.Nowogorska@sejm.pl",
+"okreg": 14,
+"k": 1,
+"zdrowie": [
+"zawód: pielęgniarka, pracownik administracji samorządowej"
+]
+},
+{
+"id": 269,
+"imie": "Marcin Ociepa",
+"klub": "PiS",
+"email": "Marcin.Ociepa@sejm.pl",
+"okreg": 21,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 270,
+"imie": "Marzena Okła-Drewnowicz",
+"klub": "KO",
+"email": "Marzena.Okla-Drewnowicz@sejm.pl",
+"okreg": 33,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 271,
+"imie": "Barbara Okuła",
+"klub": "Centrum",
+"email": "Barbara.Okula@sejm.pl",
+"okreg": 24,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 272,
+"imie": "Barbara Oliwiecka",
+"klub": "Centrum",
+"email": "Barbara.Oliwiecka@sejm.pl",
+"okreg": 36,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 273,
+"imie": "Dorota Olko",
+"klub": "Lewica",
+"email": "Dorota.Olko@sejm.pl",
+"okreg": 19,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 274,
+"imie": "Paweł Olszewski",
+"klub": "KO",
+"email": "Pawel.Olszewski@sejm.pl",
+"okreg": 4,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 275,
+"imie": "Mirosław Adam Orliński",
+"klub": "PSL-TD",
+"email": "Miroslaw.Orlinski@sejm.pl",
+"okreg": 16,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 276,
+"imie": "Łukasz Osmalak",
+"klub": "Polska2050",
+"email": "Lukasz.Osmalak@sejm.pl",
+"okreg": 30,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 277,
+"imie": "Katarzyna Osos",
+"klub": "KO",
+"email": "Katarzyna.Osos@sejm.pl",
+"okreg": 8,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 278,
+"imie": "Jacek Osuch",
+"klub": "PiS",
+"email": "Jacek.Osuch@sejm.pl",
+"okreg": 13,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 280,
+"imie": "Teresa Pamuła",
+"klub": "PiS",
+"email": "Teresa.Pamula@sejm.pl",
+"okreg": 22,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 281,
+"imie": "Paweł Papke",
+"klub": "KO",
+"email": "Pawel.Papke@sejm.pl",
+"okreg": 35,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 282,
+"imie": "Urszula Pasławska",
+"klub": "PSL-TD",
+"email": "Urszula.Paslawska@sejm.pl",
+"okreg": 35,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 283,
+"imie": "Krzysztof Paszyk",
+"klub": "PSL-TD",
+"email": "Krzysztof.Paszyk@sejm.pl",
+"okreg": 38,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 284,
+"imie": "Karolina Pawliczak",
+"klub": "KO",
+"email": "Karolina.Pawliczak@sejm.pl",
+"okreg": 36,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 285,
+"imie": "Bartłomiej Pejo",
+"klub": "Konfederacja",
+"email": "Bartlomiej.Pejo@sejm.pl",
+"okreg": 6,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 286,
+"imie": "Ryszard Petru",
+"klub": "Centrum",
+"email": "Ryszard.Petru@sejm.pl",
+"okreg": 19,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 287,
+"imie": "Małgorzata Pępek",
+"klub": "KO",
+"email": "Malgorzata.Pepek@sejm.pl",
+"okreg": 27,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 288,
+"imie": "Bolesław Piecha",
+"klub": "PiS",
+"email": "Boleslaw.Piecha@sejm.pl",
+"okreg": 30,
+"k": 0,
+"zdrowie": [
+"Komisja Zdrowia",
+"zawód: lekarz"
+]
+},
+{
+"id": 289,
+"imie": "Grzegorz Piechowiak",
+"klub": "PiS",
+"email": "Grzegorz.Piechowiak@sejm.pl",
+"okreg": 38,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 290,
+"imie": "Anna Pieczarka",
+"klub": "PiS",
+"email": "Anna.Pieczarka@sejm.pl",
+"okreg": 15,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 291,
+"imie": "Katarzyna Maria Piekarska",
+"klub": "KO",
+"email": "Katarzyna.Piekarska@sejm.pl",
+"okreg": 19,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 292,
+"imie": "Norbert Pietrykowski",
+"klub": "Centrum",
+"email": "Norbert.Pietrykowski@sejm.pl",
+"okreg": 4,
+"k": 0,
+"zdrowie": [
+"Komisja Zdrowia",
+"zawód: analityk medyczny"
+]
+},
+{
+"id": 293,
+"imie": "Lucjan Marek Pietrzczyk",
+"klub": "KO",
+"email": "Lucjan.Pietrzczyk@sejm.pl",
+"okreg": 33,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 294,
+"imie": "Dariusz Piontkowski",
+"klub": "PiS",
+"email": "Dariusz.Piontkowski@sejm.pl",
+"okreg": 24,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 295,
+"imie": "Kazimierz Plocke",
+"klub": "KO",
+"email": "Kazimierz.Plocke@sejm.pl",
+"okreg": 26,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 296,
+"imie": "Grzegorz Płaczek",
+"klub": "Konfederacja",
+"email": "Grzegorz.Placzek@sejm.pl",
+"okreg": 31,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 297,
+"imie": "Kacper Płażyński",
+"klub": "PiS",
+"email": "Kacper.Plazynski@sejm.pl",
+"okreg": 25,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 298,
+"imie": "Szymon Pogoda",
+"klub": "PiS",
+"email": "Szymon.Pogoda@sejm.pl",
+"okreg": 1,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 299,
+"imie": "Jerzy Polaczek",
+"klub": "PiS",
+"email": "Jerzy.Polaczek@sejm.pl",
+"okreg": 31,
+"k": 0,
+"zdrowie": [
+"Komisja Zdrowia"
+]
+},
+{
+"id": 300,
+"imie": "Elżbieta Anna Polak",
+"klub": "KO",
+"email": "Elzbieta.Polak@sejm.pl",
+"okreg": 8,
+"k": 1,
+"zdrowie": [
+"Komisja Zdrowia"
+]
+},
+{
+"id": 301,
+"imie": "Piotr Polak",
+"klub": "PiS",
+"email": "Piotr.Polak@sejm.pl",
+"okreg": 11,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 302,
+"imie": "Agnieszka Pomaska",
+"klub": "KO",
+"email": "Agnieszka.Pomaska@sejm.pl",
+"okreg": 25,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 303,
+"imie": "Marcin Porzucek",
+"klub": "PiS",
+"email": "Marcin.Porzucek@sejm.pl",
+"okreg": 38,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 306,
+"imie": "Grzegorz Puda",
+"klub": "RozwojPlus",
+"email": "Grzegorz.Puda@sejm.pl",
+"okreg": 27,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 307,
+"imie": "Michał Pyrzyk",
+"klub": "PSL-TD",
+"email": "Michal.Pyrzyk@sejm.pl",
+"okreg": 37,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 308,
+"imie": "Renata Rak",
+"klub": "KO",
+"email": "Renata.Rak@sejm.pl",
+"okreg": 40,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 309,
+"imie": "Ireneusz Raś",
+"klub": "PSL-TD",
+"email": "Ireneusz.Ras@sejm.pl",
+"okreg": 13,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 310,
+"imie": "Zbigniew Rau",
+"klub": "PiS",
+"email": "Zbigniew.Rau@sejm.pl",
+"okreg": 9,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 311,
+"imie": "Marcin Romanowski",
+"klub": "PiS",
+"email": "Marcin.Romanowski@sejm.pl",
+"okreg": 7,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 312,
+"imie": "Bartosz Romowicz",
+"klub": "Polska2050",
+"email": "Bartosz.Romowicz@sejm.pl",
+"okreg": 22,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 313,
+"imie": "Monika Rosa",
+"klub": "KO",
+"email": "Monika.Rosa@sejm.pl",
+"okreg": 31,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 314,
+"imie": "Wiesław Różyński",
+"klub": "PSL-TD",
+"email": "Wieslaw.Rozynski@sejm.pl",
+"okreg": 7,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 315,
+"imie": "Urszula Rusecka",
+"klub": "PiS",
+"email": "Urszula.Rusecka@sejm.pl",
+"okreg": 15,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 317,
+"imie": "Jakub Rutnicki",
+"klub": "KO",
+"email": "Jakub.Rutnicki@sejm.pl",
+"okreg": 38,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 318,
+"imie": "Paweł Rychlik",
+"klub": "RozwojPlus",
+"email": "Pawel.Rychlik@sejm.pl",
+"okreg": 11,
+"k": 0,
+"zdrowie": [
+"Komisja Zdrowia",
+"zawód: farmaceuta"
+]
+},
+{
+"id": 319,
+"imie": "Marek Rząsa",
+"klub": "KO",
+"email": "Marek.Rzasa@sejm.pl",
+"okreg": 22,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 320,
+"imie": "Jarosław Rzepa",
+"klub": "PSL-TD",
+"email": "Jaroslaw.Rzepa@sejm.pl",
+"okreg": 41,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 321,
+"imie": "Jarosław Sachajko",
+"klub": "Demokracja",
+"email": "Jaroslaw.Sachajko@sejm.pl",
+"okreg": 7,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 322,
+"imie": "Paweł Sałek",
+"klub": "PiS",
+"email": "Pawel.Salek@sejm.pl",
+"okreg": 10,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 324,
+"imie": "Tadeusz Samborski",
+"klub": "PSL-TD",
+"email": "Tadeusz.Samborski@sejm.pl",
+"okreg": 1,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 325,
+"imie": "Jacek Sasin",
+"klub": "PiS",
+"email": "Jacek.Sasin@sejm.pl",
+"okreg": 24,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 326,
+"imie": "Marek Sawicki",
+"klub": "PSL-TD",
+"email": "Marek.Sawicki@sejm.pl",
+"okreg": 18,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 327,
+"imie": "Ewa Schädler",
+"klub": "Polska2050",
+"email": "Ewa.Schadler@sejm.pl",
+"okreg": 39,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 329,
+"imie": "Anna Schmidt",
+"klub": "PiS",
+"email": "Anna.Schmidt@sejm.pl",
+"okreg": 22,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 330,
+"imie": "Łukasz Schreiber",
+"klub": "RozwojPlus",
+"email": "Lukasz.Schreiber@sejm.pl",
+"okreg": 4,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 331,
+"imie": "Jarosław Sellin",
+"klub": "PiS",
+"email": "Jaroslaw.Sellin@sejm.pl",
+"okreg": 25,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 332,
+"imie": "Olga Ewa Semeniuk-Patkowska",
+"klub": "RozwojPlus",
+"email": "Olga.Semeniuk-Patkowska@sejm.pl",
+"okreg": 35,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 333,
+"imie": "Edward Siarka",
+"klub": "PiS",
+"email": "Edward.Siarka@sejm.pl",
+"okreg": 14,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 334,
+"imie": "Krystyna Sibińska",
+"klub": "KO",
+"email": "Krystyna.Sibinska@sejm.pl",
+"okreg": 8,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 335,
+"imie": "Czesław Siekierski",
+"klub": "PSL-TD",
+"email": "Czeslaw.Siekierski@sejm.pl",
+"okreg": 33,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 336,
+"imie": "Rafał Siemaszko",
+"klub": "KO",
+"email": "Rafal.Siemaszko@sejm.pl",
+"okreg": 26,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 337,
+"imie": "Tomasz Siemoniak",
+"klub": "KO",
+"email": "Tomasz.Siemoniak@sejm.pl",
+"okreg": 21,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 339,
+"imie": "Arkadiusz Sikora",
+"klub": "Lewica",
+"email": "Arkadiusz.Sikora@sejm.pl",
+"okreg": 1,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 340,
+"imie": "Włodzimierz Skalik",
+"klub": "Konfederacja_KP",
+"email": "Wlodzimierz.Skalik@sejm.pl",
+"okreg": 21,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 341,
+"imie": "Marcin Skonieczka",
+"klub": "Centrum",
+"email": "Marcin.Skonieczka@sejm.pl",
+"okreg": 5,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 342,
+"imie": "Krystyna Skowrońska",
+"klub": "KO",
+"email": "Krystyna.Skowronska@sejm.pl",
+"okreg": 23,
+"k": 1,
+"zdrowie": [
+"Komisja Zdrowia"
+]
+},
+{
+"id": 343,
+"imie": "Sławomir Skwarek",
+"klub": "PiS",
+"email": "Slawomir.Skwarek@sejm.pl",
+"okreg": 6,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 344,
+"imie": "Waldemar Sługocki",
+"klub": "KO",
+"email": "Waldemar.Slugocki@sejm.pl",
+"okreg": 8,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 345,
+"imie": "Weronika Smarduch",
+"klub": "KO",
+"email": "Weronika.Smarduch@sejm.pl",
+"okreg": 14,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 346,
+"imie": "Kazimierz Smoliński",
+"klub": "PiS",
+"email": "Kazimierz.Smolinski@sejm.pl",
+"okreg": 25,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 347,
+"imie": "Anna Sobolak",
+"klub": "KO",
+"email": "Anna.Sobolak@sejm.pl",
+"okreg": 3,
+"k": 1,
+"zdrowie": [
+"Komisja Zdrowia"
+]
+},
+{
+"id": 348,
+"imie": "Krzysztof Sobolewski",
+"klub": "PiS",
+"email": "Krzysztof.Sobolewski@sejm.pl",
+"okreg": 23,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 350,
+"imie": "Agnieszka Anna Soin",
+"klub": "PiS",
+"email": "Agnieszka.Soin@sejm.pl",
+"okreg": 3,
+"k": 1,
+"zdrowie": [
+"Komisja Zdrowia"
+]
+},
+{
+"id": 351,
+"imie": "Zbigniew Sosnowski",
+"klub": "PSL-TD",
+"email": "Zbigniew.Sosnowski@sejm.pl",
+"okreg": 5,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 352,
+"imie": "Marek Sowa",
+"klub": "KO",
+"email": "Marek.Sowa@sejm.pl",
+"okreg": 12,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 353,
+"imie": "Katarzyna Sójka",
+"klub": "PiS",
+"email": "Katarzyna.Sojka@sejm.pl",
+"okreg": 36,
+"k": 1,
+"zdrowie": [
+"Komisja Zdrowia (wiceprzewodnicząca)",
+"zawód: lekarz - specjalista chorób wewnętrznych"
+]
+},
+{
+"id": 354,
+"imie": "Magdalena Sroka",
+"klub": "PSL-TD",
+"email": "Magdalena.Sroka@sejm.pl",
+"okreg": 25,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 355,
+"imie": "Mirosława Stachowiak-Różecka",
+"klub": "RozwojPlus",
+"email": "Miroslawa.Stachowiak-Rozecka@sejm.pl",
+"okreg": 3,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 356,
+"imie": "Dariusz Stefaniuk",
+"klub": "PiS",
+"email": "Dariusz.Stefaniuk@sejm.pl",
+"okreg": 7,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 357,
+"imie": "Franciszek Sterczewski",
+"klub": "KO",
+"email": "Franciszek.Sterczewski@sejm.pl",
+"okreg": 39,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 358,
+"imie": "Piotr Paweł Strach",
+"klub": "Polska2050",
+"email": "Piotr.Strach@sejm.pl",
+"okreg": 29,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 359,
+"imie": "Mirosław Suchoń",
+"klub": "Centrum",
+"email": "Miroslaw.Suchon@sejm.pl",
+"okreg": 27,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 360,
+"imie": "Marek Suski",
+"klub": "PiS",
+"email": "Marek.Suski@sejm.pl",
+"okreg": 17,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 361,
+"imie": "Paweł Suski",
+"klub": "KO",
+"email": "Pawel.Suski@sejm.pl",
+"okreg": 40,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 362,
+"imie": "Artur Szałabawka",
+"klub": "PiS",
+"email": "Artur.Szalabawka@sejm.pl",
+"okreg": 41,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 363,
+"imie": "Wojciech Szarama",
+"klub": "PiS",
+"email": "Wojciech.Szarama@sejm.pl",
+"okreg": 29,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 364,
+"imie": "Wiesław Szczepański",
+"klub": "Lewica",
+"email": "Wieslaw.Szczepanski@sejm.pl",
+"okreg": 36,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 366,
+"imie": "Krzysztof Szczucki",
+"klub": "RozwojPlus",
+"email": "Krzysztof.Szczucki@sejm.pl",
+"okreg": 5,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 367,
+"imie": "Józefa Szczurek-Żelazko",
+"klub": "PiS",
+"email": "Jozefa.Szczurek-Zelazko@sejm.pl",
+"okreg": 15,
+"k": 1,
+"zdrowie": [
+"Komisja Zdrowia"
+]
+},
+{
+"id": 369,
+"imie": "Andrzej Szejna",
+"klub": "Lewica",
+"email": "Andrzej.Szejna@sejm.pl",
+"okreg": 33,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 370,
+"imie": "Andrzej Szewiński",
+"klub": "KO",
+"email": "Andrzej.Szewinski@sejm.pl",
+"okreg": 28,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 371,
+"imie": "Adam Szłapka",
+"klub": "KO",
+"email": "Adam.Szlapka@sejm.pl",
+"okreg": 39,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 372,
+"imie": "Henryk Szopiński",
+"klub": "KO",
+"email": "Henryk.Szopinski@sejm.pl",
+"okreg": 38,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 373,
+"imie": "Paweł Szrot",
+"klub": "PiS",
+"email": "Pawel.Szrot@sejm.pl",
+"okreg": 4,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 374,
+"imie": "Krystyna Szumilas",
+"klub": "KO",
+"email": "Krystyna.Szumilas@sejm.pl",
+"okreg": 29,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 375,
+"imie": "Stanisław Szwed",
+"klub": "PiS",
+"email": "Stanislaw.Szwed@sejm.pl",
+"okreg": 27,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 376,
+"imie": "Ewa Szymanowska",
+"klub": "Centrum",
+"email": "Ewa.Szymanowska@sejm.pl",
+"okreg": 9,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 377,
+"imie": "Tomasz Szymański",
+"klub": "KO",
+"email": "Tomasz.Szymanski@sejm.pl",
+"okreg": 5,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 378,
+"imie": "Szymon Szynkowski vel Sęk",
+"klub": "RozwojPlus",
+"email": "Szymon.SzynkowskiVelSek@sejm.pl",
+"okreg": 39,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 379,
+"imie": "Łukasz Ściebiorowski",
+"klub": "KO",
+"email": "Lukasz.Sciebiorowski@sejm.pl",
+"okreg": 31,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 380,
+"imie": "Agnieszka Ścigaj",
+"klub": "RozwojPlus",
+"email": "Agnieszka.Scigaj@sejm.pl",
+"okreg": 13,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 381,
+"imie": "Andrzej Śliwka",
+"klub": "PiS",
+"email": "Andrzej.Sliwka@sejm.pl",
+"okreg": 34,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 382,
+"imie": "Paweł Śliz",
+"klub": "Polska2050",
+"email": "Pawel.Sliz@sejm.pl",
+"okreg": 12,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 384,
+"imie": "Jacek Świat",
+"klub": "PiS",
+"email": "Jacek.Swiat@sejm.pl",
+"okreg": 3,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 385,
+"imie": "Apoloniusz Tajner",
+"klub": "KO",
+"email": "Apoloniusz.Tajner@sejm.pl",
+"okreg": 27,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 386,
+"imie": "Krzysztof Tchórzewski",
+"klub": "PiS",
+"email": "Krzysztof.Tchorzewski@sejm.pl",
+"okreg": 18,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 387,
+"imie": "Robert Telus",
+"klub": "PiS",
+"email": "Robert.Telus@sejm.pl",
+"okreg": 10,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 388,
+"imie": "Ryszard Terlecki",
+"klub": "RozwojPlus",
+"email": "Ryszard.Terlecki@sejm.pl",
+"okreg": 14,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 389,
+"imie": "Tadeusz Tomaszewski",
+"klub": "Lewica",
+"email": "Tadeusz.Tomaszewski@sejm.pl",
+"okreg": 37,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 390,
+"imie": "Jacek Tomczak",
+"klub": "PSL-TD",
+"email": "Jacek.Tomczak@sejm.pl",
+"okreg": 39,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 391,
+"imie": "Wioleta Tomczak",
+"klub": "Polska2050",
+"email": "Wioleta.Tomczak@sejm.pl",
+"okreg": 26,
+"k": 1,
+"zdrowie": [
+"Komisja Zdrowia (wiceprzewodnicząca)",
+"zawód: specjalista ds. zdrowia publicznego"
+]
+},
+{
+"id": 392,
+"imie": "Cezary Tomczyk",
+"klub": "KO",
+"email": "Cezary.Tomczyk@sejm.pl",
+"okreg": 11,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 393,
+"imie": "Stanisław Tomczyszyn",
+"klub": "PSL-TD",
+"email": "Stanislaw.Tomczyszyn@sejm.pl",
+"okreg": 8,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 394,
+"imie": "Małgorzata Tracz",
+"klub": "KO",
+"email": "Malgorzata.Tracz@sejm.pl",
+"okreg": 3,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 395,
+"imie": "Tomasz Trela",
+"klub": "Lewica",
+"email": "Tomasz.Trela@sejm.pl",
+"okreg": 9,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 396,
+"imie": "Krzysztof Truskolaski",
+"klub": "KO",
+"email": "Krzysztof.Truskolaski@sejm.pl",
+"okreg": 24,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 397,
+"imie": "Krzysztof Tuduj",
+"klub": "Konfederacja",
+"email": "Krzysztof.Tuduj@sejm.pl",
+"okreg": 3,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 398,
+"imie": "Sylwester Tułajew",
+"klub": "RozwojPlus",
+"email": "Sylwester.Tulajew@sejm.pl",
+"okreg": 6,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 399,
+"imie": "Witold Tumanowicz",
+"klub": "Konfederacja",
+"email": "Witold.Tumanowicz@sejm.pl",
+"okreg": 7,
+"k": 0,
+"zdrowie": [
+"Komisja Zdrowia"
+]
+},
+{
+"id": 400,
+"imie": "Donald Tusk",
+"klub": "KO",
+"email": "Donald.Tusk@sejm.pl",
+"okreg": 19,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 402,
+"imie": "Katarzyna Ueberhan",
+"klub": "Lewica",
+"email": "Katarzyna.Ueberhan@sejm.pl",
+"okreg": 39,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 403,
+"imie": "Jarosław Urbaniak",
+"klub": "KO",
+"email": "Jaroslaw.Urbaniak@sejm.pl",
+"okreg": 36,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 404,
+"imie": "Piotr Uruski",
+"klub": "PiS",
+"email": "Piotr.Uruski@sejm.pl",
+"okreg": 22,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 405,
+"imie": "Piotr Uściński",
+"klub": "RozwojPlus",
+"email": "Piotr.Uscinski@sejm.pl",
+"okreg": 20,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 406,
+"imie": "Jarosław Wałęsa",
+"klub": "KO",
+"email": "Jaroslaw.Walesa@sejm.pl",
+"okreg": 25,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 407,
+"imie": "Marcin Warchoł",
+"klub": "PiS",
+"email": "Marcin.Warchol@sejm.pl",
+"okreg": 23,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 408,
+"imie": "Robert Wardzała",
+"klub": "KO",
+"email": "Robert.Wardzala@sejm.pl",
+"okreg": 15,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 409,
+"imie": "Robert Warwas",
+"klub": "PiS",
+"email": "Robert.Warwas@sejm.pl",
+"okreg": 32,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 410,
+"imie": "Jan Warzecha",
+"klub": "PiS",
+"email": "Jan.Warzecha@sejm.pl",
+"okreg": 23,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 411,
+"imie": "Małgorzata Wassermann",
+"klub": "PiS",
+"email": "Malgorzata.Wassermann@sejm.pl",
+"okreg": 13,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 412,
+"imie": "Michał Wawer",
+"klub": "Konfederacja",
+"email": "Michal.Wawer@sejm.pl",
+"okreg": 33,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 415,
+"imie": "Rafał Weber",
+"klub": "PiS",
+"email": "Rafal.Weber@sejm.pl",
+"okreg": 23,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 416,
+"imie": "Marek Wesoły",
+"klub": "PiS",
+"email": "Marek.Wesoly@sejm.pl",
+"okreg": 31,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 417,
+"imie": "Joanna Wicha",
+"klub": "Lewica",
+"email": "Joanna.Wicha@sejm.pl",
+"okreg": 20,
+"k": 1,
+"zdrowie": [
+"Komisja Zdrowia (wiceprzewodnicząca)",
+"zawód: pielęgniarka, socjolog"
+]
+},
+{
+"id": 418,
+"imie": "Patryk Wicher",
+"klub": "PiS",
+"email": "Patryk.Wicher@sejm.pl",
+"okreg": 14,
+"k": 0,
+"zdrowie": [
+"Komisja Zdrowia"
+]
+},
+{
+"id": 419,
+"imie": "Dariusz Wieczorek",
+"klub": "Lewica",
+"email": "Dariusz.Wieczorek@sejm.pl",
+"okreg": 41,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 420,
+"imie": "Jarosław Wiesław Wieczorek",
+"klub": "PiS",
+"email": "Jaroslaw.Wieczorek@sejm.pl",
+"okreg": 29,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 421,
+"imie": "Monika Wielichowska",
+"klub": "KO",
+"email": "Monika.Wielichowska@sejm.pl",
+"okreg": 2,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 422,
+"imie": "Ryszard Wilk",
+"klub": "Konfederacja",
+"email": "Ryszard.Wilk@sejm.pl",
+"okreg": 14,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 423,
+"imie": "Teresa Wilk",
+"klub": "PiS",
+"email": "Teresa.Wilk@sejm.pl",
+"okreg": 34,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 424,
+"imie": "Przemysław Wipler",
+"klub": "Konfederacja",
+"email": "Przemyslaw.Wipler@sejm.pl",
+"okreg": 5,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 425,
+"imie": "Aleksandra Karolina Uznańska-Wiśniewska",
+"klub": "KO",
+"email": "Aleksandra.Uznanska-Wisniewska@sejm.pl",
+"okreg": 9,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 426,
+"imie": "Adrian Witczak",
+"klub": "KO",
+"email": "Adrian.Witczak@sejm.pl",
+"okreg": 10,
+"k": 0,
+"zdrowie": [
+"Komisja Zdrowia"
+]
+},
+{
+"id": 427,
+"imie": "Mariusz Witczak",
+"klub": "KO",
+"email": "Mariusz.Witczak@sejm.pl",
+"okreg": 36,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 428,
+"imie": "Elżbieta Witek",
+"klub": "PiS",
+"email": "Elzbieta.Witek@sejm.pl",
+"okreg": 1,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 429,
+"imie": "Przemysław Witek",
+"klub": "KO",
+"email": "Przemyslaw.Witek@sejm.pl",
+"okreg": 28,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 430,
+"imie": "Kamil Wnuk",
+"klub": "Polska2050",
+"email": "Kamil.Wnuk@sejm.pl",
+"okreg": 32,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 431,
+"imie": "Anna Wojciechowska",
+"klub": "KO",
+"email": "Anna.Wojciechowska@sejm.pl",
+"okreg": 35,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 432,
+"imie": "Agnieszka Wojciechowska van Heukelom",
+"klub": "PiS",
+"email": "Agnieszka.WojciechowskavanHeukelom@sejm.pl",
+"okreg": 9,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 433,
+"imie": "Agata Wojtyszek",
+"klub": "PiS",
+"email": "Agata.Wojtyszek@sejm.pl",
+"okreg": 33,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 434,
+"imie": "Bogusław Wołoszański",
+"klub": "KO",
+"email": "Boguslaw.Woloszanski@sejm.pl",
+"okreg": 10,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 435,
+"imie": "Michał Woś",
+"klub": "PiS",
+"email": "Michal.Wos@sejm.pl",
+"okreg": 30,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 436,
+"imie": "Grzegorz Woźniak",
+"klub": "PiS",
+"email": "Grzegorz.Wozniak@sejm.pl",
+"okreg": 18,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 437,
+"imie": "Tadeusz Woźniak",
+"klub": "PiS",
+"email": "Tadeusz.Wozniak@sejm.pl",
+"okreg": 11,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 438,
+"imie": "Michał Wójcik",
+"klub": "PiS",
+"email": "Michal.Wojcik@sejm.pl",
+"okreg": 31,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 439,
+"imie": "Maciej Wróbel",
+"klub": "KO",
+"email": "Maciej.Wrobel@sejm.pl",
+"okreg": 35,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 440,
+"imie": "Bartłomiej Wróblewski",
+"klub": "PiS",
+"email": "Bartlomiej.Wroblewski@sejm.pl",
+"okreg": 39,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 441,
+"imie": "Paweł Zalewski",
+"klub": "niez.",
+"email": "Pawel.Zalewski@sejm.pl",
+"okreg": 20,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 442,
+"imie": "Adrian Zandberg",
+"klub": "Razem",
+"email": "Adrian.Zandberg@sejm.pl",
+"okreg": 19,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 443,
+"imie": "Andrzej Tomasz Zapałowski",
+"klub": "Konfederacja",
+"email": "Andrzej.Zapalowski@sejm.pl",
+"okreg": 22,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 444,
+"imie": "Bartosz Zawieja",
+"klub": "KO",
+"email": "Bartosz.Zawieja@sejm.pl",
+"okreg": 39,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 445,
+"imie": "Marcelina Zawisza",
+"klub": "Razem",
+"email": "Marcelina.Zawisza@sejm.pl",
+"okreg": 21,
+"k": 1,
+"zdrowie": [
+"Komisja Zdrowia"
+]
+},
+{
+"id": 446,
+"imie": "Sławomir Zawiślak",
+"klub": "Konfederacja_KP",
+"email": "Slawomir.Zawislak@sejm.pl",
+"okreg": 7,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 448,
+"imie": "Witold Zembaczyński",
+"klub": "KO",
+"email": "Witold.Zembaczynski@sejm.pl",
+"okreg": 21,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 449,
+"imie": "Piotr Zgorzelski",
+"klub": "PSL-TD",
+"email": "Piotr.Zgorzelski@sejm.pl",
+"okreg": 16,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 450,
+"imie": "Zbigniew Ziejewski",
+"klub": "PSL-TD",
+"email": "Zbigniew.Ziejewski@sejm.pl",
+"okreg": 34,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 451,
+"imie": "Urszula Sara Zielińska",
+"klub": "KO",
+"email": "Urszula.Zielinska@sejm.pl",
+"okreg": 19,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 452,
+"imie": "Jarosław Zieliński",
+"klub": "PiS",
+"email": "Jaroslaw.Zielinski@sejm.pl",
+"okreg": 24,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 453,
+"imie": "Tomasz Zieliński",
+"klub": "PiS",
+"email": "Tomasz.Zielinski@sejm.pl",
+"okreg": 7,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 454,
+"imie": "Jolanta Zięba-Gzik",
+"klub": "PSL-TD",
+"email": "Jolanta.Zieba-Gzik@sejm.pl",
+"okreg": 11,
+"k": 1,
+"zdrowie": [
+"Komisja Zdrowia"
+]
+},
+{
+"id": 455,
+"imie": "Tomasz Zimoch",
+"klub": "niez.",
+"email": "Tomasz.Zimoch@sejm.pl",
+"okreg": 3,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 456,
+"imie": "Zbigniew Ziobro",
+"klub": "PiS",
+"email": "Zbigniew.Ziobro@sejm.pl",
+"okreg": 23,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 457,
+"imie": "Wojciech Michał Zubowski",
+"klub": "RozwojPlus",
+"email": "Wojciech.Zubowski@sejm.pl",
+"okreg": 1,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 458,
+"imie": "Ireneusz Zyska",
+"klub": "RozwojPlus",
+"email": "Ireneusz.Zyska@sejm.pl",
+"okreg": 2,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 459,
+"imie": "Bożena Żelazowska",
+"klub": "PSL-TD",
+"email": "Bozena.Zelazowska@sejm.pl",
+"okreg": 20,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 460,
+"imie": "Anna Maria Żukowska",
+"klub": "Lewica",
+"email": "Anna.Zukowska@sejm.pl",
+"okreg": 19,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 461,
+"imie": "Anna Baluch",
+"klub": "RozwojPlus",
+"email": "Anna.Baluch@sejm.pl",
+"okreg": 6,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 462,
+"imie": "Magdalena Łośko",
+"klub": "KO",
+"email": "Magdalena.Losko@sejm.pl",
+"okreg": 4,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 463,
+"imie": "Monika Pawłowska",
+"klub": "RozwojPlus",
+"email": "Monika.Pawlowska@sejm.pl",
+"okreg": 7,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 464,
+"imie": "Alicja Łuczak",
+"klub": "KO",
+"email": "Alicja.Luczak@sejm.pl",
+"okreg": 36,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 465,
+"imie": "Dominik Jaśkowiec",
+"klub": "KO",
+"email": "Dominik.Jaskowiec@sejm.pl",
+"okreg": 13,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 466,
+"imie": "Paweł Masełko",
+"klub": "KO",
+"email": "Pawel.Maselko@sejm.pl",
+"okreg": 21,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 467,
+"imie": "Katarzyna Stachowicz",
+"klub": "KO",
+"email": "Katarzyna.Stachowicz@sejm.pl",
+"okreg": 32,
+"k": 1,
+"zdrowie": [
+"Komisja Zdrowia"
+]
+},
+{
+"id": 468,
+"imie": "Lidia Czechak",
+"klub": "PiS",
+"email": "Lidia.Czechak@sejm.pl",
+"okreg": 36,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 469,
+"imie": "Barbara Grygorcewicz",
+"klub": "KO",
+"email": "Barbara.Grygorcewicz@sejm.pl",
+"okreg": 40,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 470,
+"imie": "Bożenna Hołownia",
+"klub": "Polska2050",
+"email": "Bozenna.Holownia@sejm.pl",
+"okreg": 19,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 471,
+"imie": "Urszula Koszutska",
+"klub": "KO",
+"email": "Urszula.Koszutska@sejm.pl",
+"okreg": 31,
+"k": 1,
+"zdrowie": [
+"Komisja Zdrowia",
+"zawód: menedżer, psycholog"
+]
+},
+{
+"id": 472,
+"imie": "Piotr Kowal",
+"klub": "Lewica",
+"email": "Piotr.Kowal@sejm.pl",
+"okreg": 5,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 473,
+"imie": "Michał Kowalski",
+"klub": "PiS",
+"email": "Michal.Kowalski@sejm.pl",
+"okreg": 26,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 474,
+"imie": "Maria Joanna Koźlakiewicz",
+"klub": "KO",
+"email": "Maria.Kozlakiewicz@sejm.pl",
+"okreg": 16,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 475,
+"imie": "Katarzyna Królak",
+"klub": "KO",
+"email": "Katarzyna.Krolak@sejm.pl",
+"okreg": 34,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 476,
+"imie": "Wioletta Maria Kulpa",
+"klub": "PiS",
+"email": "Wioletta.Kulpa@sejm.pl",
+"okreg": 16,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 477,
+"imie": "Grzegorz Macko",
+"klub": "RozwojPlus",
+"email": "Grzegorz.Macko@sejm.pl",
+"okreg": 2,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 478,
+"imie": "Jerzy Meysztowicz",
+"klub": "KO",
+"email": "Jerzy.Meysztowicz@sejm.pl",
+"okreg": 13,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 479,
+"imie": "Krzysztof Mieszkowski",
+"klub": "KO",
+"email": "Krzysztof.Mieszkowski@sejm.pl",
+"okreg": 3,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 480,
+"imie": "Anna Paluch",
+"klub": "PiS",
+"email": "Anna.Paluch@sejm.pl",
+"okreg": 14,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 481,
+"imie": "Krzysztof Piątkowski",
+"klub": "KO",
+"email": "Krzysztof.Piatkowski@sejm.pl",
+"okreg": 9,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 482,
+"imie": "Mariusz Popielarz",
+"klub": "KO",
+"email": "Mariusz.Popielarz@sejm.pl",
+"okreg": 18,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 483,
+"imie": "Magdalena Roguska",
+"klub": "KO",
+"email": "Magdalena.Roguska@sejm.pl",
+"okreg": 19,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 484,
+"imie": "Marta Stożek",
+"klub": "Razem",
+"email": "Marta.Stozek@sejm.pl",
+"okreg": 3,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 485,
+"imie": "Krzysztof Szymański",
+"klub": "Konfederacja",
+"email": "Krzysztof.Szymanski@sejm.pl",
+"okreg": 26,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 486,
+"imie": "Włodzimierz Tomaszewski",
+"klub": "RozwojPlus",
+"email": "Wlodzimierz.Tomaszewski@sejm.pl",
+"okreg": 9,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 487,
+"imie": "Maciej Tomczykiewicz",
+"klub": "KO",
+"email": "Maciej.Tomczykiewicz@sejm.pl",
+"okreg": 27,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 488,
+"imie": "Jarosław Krajewski",
+"klub": "PiS",
+"email": "Jaroslaw.Krajewski@sejm.pl",
+"okreg": 19,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 489,
+"imie": "Bożena Lisowska",
+"klub": "KO",
+"email": "Bozena.Lisowska@sejm.pl",
+"okreg": 6,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 490,
+"imie": "Michał Połuboczek",
+"klub": "Konfederacja",
+"email": "Michal.Poluboczek@sejm.pl",
+"okreg": 23,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 491,
+"imie": "Aleksandra Kot",
+"klub": "KO",
+"email": "Aleksandra.Kot@sejm.pl",
+"okreg": 13,
+"k": 1,
+"zdrowie": []
+},
+{
+"id": 492,
+"imie": "Rafał Romanowski",
+"klub": "PiS",
+"email": "Rafal.Romanowski@sejm.pl",
+"okreg": 16,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 493,
+"imie": "Henryk Smolarz",
+"klub": "PSL-TD",
+"email": "Henryk.Smolarz@sejm.pl",
+"okreg": 6,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 494,
+"imie": "Robert Jagła",
+"klub": "KO",
+"email": "Robert.Jagla@sejm.pl",
+"okreg": 2,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 495,
+"imie": "Michał Jach",
+"klub": "PiS",
+"email": "Michal.Jach@sejm.pl",
+"okreg": 41,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 496,
+"imie": "Bogumiła Olbryś",
+"klub": "PiS",
+"email": "Bogumila.Olbrys@sejm.pl",
+"okreg": 24,
+"k": 1,
+"zdrowie": [
+"zawód: pielęgniarka, pedadog, nauczyciel"
+]
+},
+{
+"id": 497,
+"imie": "Tomasz Rzymkowski",
+"klub": "Konfederacja",
+"email": "Tomasz.Rzymkowski@sejm.pl",
+"okreg": 11,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 498,
+"imie": "Marek Subocz",
+"klub": "PiS",
+"email": "Marek.Subocz@sejm.pl",
+"okreg": 40,
+"k": 0,
+"zdrowie": []
+},
+{
+"id": 499,
+"imie": "Bożena Borowiec",
+"klub": "Lewica",
+"email": "Bozena.Borowiec@sejm.pl",
+"okreg": 32,
+"k": 1,
+"zdrowie": [
+"Komisja Zdrowia"
+]
+}
+]
+}

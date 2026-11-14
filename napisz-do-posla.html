@@ -1,0 +1,251 @@
+---
+layout: default
+title: Napisz do posła ze swojego okręgu
+permalink: /napisz-do-posla/
+# Bez linku w menu i poza wyszukiwarkami: dostępna tylko dla osób z linkiem.
+sitemap: false
+noindex: true
+description: "Lista posłów w podziale na 41 okręgi wyborcze, z gotową treścią listu z prośbą o pomoc dla pacjentów z neurofibromatozami. Jeden list do jednego posła."
+---
+<style>
+  .pos { font-family: system-ui, sans-serif; font-size: 0.9rem; }
+  .pos .krok { margin: 1.5rem 0 0.6rem; font-size: 1.1rem; }
+  .pos .ust { display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: 0.6rem 1rem; margin: 0 0 1rem; }
+  .pos label { display: flex; flex-direction: column; gap: 0.2rem; color: #666; font-size: 0.85rem; }
+  .pos label.chk { flex-direction: row; align-items: center; gap: 0.4rem; color: inherit; font-size: 0.9rem; }
+  .pos input[type=text], .pos input[type=search], .pos select { font: inherit; color: inherit; background: none; border: 1px solid #bbb; border-radius: 4px; padding: 0.35rem 0.5rem; min-width: 0; }
+  .pos .filtry { display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; align-items: center; margin: 0 0 0.8rem; }
+  .pos .stan { color: #666; font-size: 0.85rem; margin: 0 0 0.8rem; }
+  .pos details { border: 1px solid #ccc; border-radius: 6px; margin: 0 0 0.5rem; }
+  .pos summary { cursor: pointer; padding: 0.55rem 0.8rem; }
+  .pos summary .okr { font-weight: 700; }
+  .pos summary .meta { color: #666; font-size: 0.8rem; margin-left: 0.3rem; }
+  .pos summary .moj { font-size: 0.75rem; padding: 0.05rem 0.45rem; border-radius: 99px; background: var(--c1); color: #fff; margin-left: 0.3rem; white-space: nowrap; }
+  .pos .posel { padding: 0.6rem 0.8rem; border-top: 1px solid #ddd; display: flex; flex-direction: column; gap: 0.3rem; }
+  .pos .posel.zdr { background: #fff6d0; box-shadow: inset 4px 0 0 #e0b400; }
+  .pos .posel.wys { background: #e8f5ec; }
+  .pos .posel.wys .imie, .pos .posel.wys .mail { text-decoration: line-through; opacity: 0.7; }
+  .pos .imie { font-weight: 700; }
+  .pos .klub { color: #666; font-weight: 400; }
+  .pos .why { color: #7a5c00; font-size: 0.8rem; }
+  .pos .mail { font-family: ui-monospace, Menlo, monospace; font-size: 0.85rem; overflow-wrap: anywhere; }
+  .pos .rzad { display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: center; }
+  .pos .btn { margin: 0; }
+  .pos .ok { color: #1d7a46; font-weight: 600; font-size: 0.85rem; }
+  .pos pre.list { white-space: pre-wrap; font: 0.9rem/1.5 Georgia, serif; border: 1px solid #ccc; border-radius: 4px; padding: 0.6rem; margin: 0.3rem 0 0; }
+  .pos .legenda span { display: inline-block; width: 0.8rem; height: 0.8rem; border-radius: 2px; vertical-align: -0.1rem; margin-right: 0.3rem; }
+  .pos .toast { position: fixed; left: 50%; bottom: 1rem; transform: translateX(-50%); background: #222; color: #fff; padding: 0.45rem 0.9rem; border-radius: 6px; white-space: nowrap; opacity: 0; transition: opacity .2s; pointer-events: none; }
+  .pos .toast.on { opacity: 1; }
+  @media (prefers-color-scheme: dark) {
+    .pos label, .pos .stan, .pos summary .meta, .pos .klub { color: #aaa; }
+    .pos details { border-color: #444; }
+    .pos .posel { border-color: #333; }
+    .pos .posel.zdr { background: #3a3110; box-shadow: inset 4px 0 0 #c9a227; }
+    .pos .why { color: #f3d97a; }
+    .pos .posel.wys { background: #12301f; }
+    .pos .ok { color: #7fd6a2; }
+    .pos pre.list { border-color: #444; }
+    .pos .toast { background: #eee; color: #111; }
+  }
+  @media (prefers-reduced-motion: reduce) { .pos .toast { transition: none; } }
+</style>
+
+<h1>Napisz do posła ze swojego okręgu</h1>
+
+<p>Od 30 kwietnia 2026 r. pacjenci, którzy byli w pilotażu koordynowanej opieki nad chorymi z neurofibromatozami, nie mają koordynatora. Ta strona pomaga rodzicom i pacjentom napisać list do posła z prośbą o zainteresowanie się sprawą.</p>
+
+<p><strong>Zasada: jeden list do jednego posła.</strong> Wybierz jedną posłankę lub jednego posła ze swojego okręgu, do których nikt jeszcze nie napisał. Wyślij list ze swojej skrzynki, a potem zaznacz „Wysłane”, żeby inni wybrali kogoś innego.</p>
+
+<div class="pos" id="pos">
+  <h2 class="krok">1. Kim jesteś i gdzie głosujesz</h2>
+  <div class="ust">
+    <label for="kto">Piszę jako
+      <select id="kto">
+        <option value="mama">mama</option>
+        <option value="tata">tata</option>
+        <option value="pacjentka">pacjentka</option>
+        <option value="pacjent">pacjent</option>
+        <option value="babcia">babcia</option>
+        <option value="dziadek">dziadek</option>
+        <option value="opiekunka">opiekunka</option>
+        <option value="opiekun">opiekun</option>
+      </select></label>
+    <label for="okreg">Mój okręg wyborczy do Sejmu
+      <select id="okreg"><option value="">wybierz miasto okręgu</option></select></label>
+    <label for="podpis">Imię i nazwisko (do podpisu)
+      <input type="text" id="podpis" autocomplete="name" placeholder="[imię i nazwisko]"></label>
+    <label for="kontakt">Kontakt pod podpisem
+      <input type="text" id="kontakt" placeholder="[telefon lub e-mail]"></label>
+  </div>
+  <p class="stan">Imię, nazwisko i kontakt zostają tylko w Twojej przeglądarce. Nie wysyłamy ich nigdzie. Nie wiesz, który to okręg? Okręgi mają nazwy od największego miasta, np. cała Warszawa to okręg nr 19, a powiat warszawski zachodni to okręg nr 20 (Warszawa II).</p>
+
+  <h2 class="krok">2. Wybierz posła i skopiuj list</h2>
+  <p class="stan">Temat maila: <strong id="temat">Prośba o pomoc w sprawie pacjentów z neurofibromatozami</strong> <button type="button" class="btn small" data-akcja="temat">Kopiuj temat</button></p>
+  <div class="filtry">
+    <label class="chk" for="tylkoWolni"><input type="checkbox" id="tylkoWolni" checked> Pokaż tylko posłów, do których nikt nie napisał</label>
+    <label class="chk" for="tylkoZdr"><input type="checkbox" id="tylkoZdr"> Tylko Komisja Zdrowia i zawody medyczne</label>
+    <input type="search" id="szukaj" placeholder="Szukaj posła lub miasta" aria-label="Szukaj posła lub miasta">
+  </div>
+  <p class="stan legenda"><span style="background:#e0b400"></span>Komisja Zdrowia Sejmu lub zawód medyczny · <span style="background:#1d7a46"></span>list wysłany · <strong id="licznik"></strong></p>
+  <p class="stan" id="zapis"></p>
+  <p class="stan"><button type="button" class="btn small" data-akcja="wolni">Kopiuj adresy posłów, do których nikt nie napisał</button></p>
+  <div id="okregi"></div>
+  <p class="stan">Źródło: lista posłów z api.sejm.gov.pl (stan na 4 listopada 2026 r.), skład sejmowej Komisji Zdrowia z api.sejm.gov.pl (14 listopada 2026 r.). „Zawód medyczny” to zawód podany w danych Sejmu.</p>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</div>
+
+<script>
+(function () {
+  // Adres wspólnego zapisu „wysłane” (Cloudflare Worker, kod w narzedzia/wyslane-worker.js).
+  // Pusty = zaznaczenia zapisują się tylko w tej przeglądarce.
+  var ZAPIS = '';
+  var DANE = {{ site.data.poslowie_okregi | jsonify }};
+  var TEMAT = 'Prośba o pomoc w sprawie pacjentów z neurofibromatozami';
+  var $ = function (s) { return document.querySelector(s); };
+  var ls = {
+    get: function (k, d) { try { var v = localStorage.getItem(k); return v === null ? d : v; } catch (e) { return d; } },
+    set: function (k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
+  };
+  var wyslane = {}, moje = {}, otwarte = {}, pokazane = {};
+  try { moje = JSON.parse(ls.get('posel-moje', '{}')) || {}; } catch (e) {}
+  if (!ZAPIS) wyslane = Object.assign({}, moje);
+
+  var KTO = {
+    mama: ['mama dziecka chorującego na neurofibromatozę', 1],
+    tata: ['tata dziecka chorującego na neurofibromatozę', 0],
+    pacjentka: ['osoba chorująca na neurofibromatozę', 1],
+    pacjent: ['osoba chorująca na neurofibromatozę', 0],
+    babcia: ['babcia dziecka chorującego na neurofibromatozę', 1],
+    dziadek: ['dziadek dziecka chorującego na neurofibromatozę', 0],
+    opiekunka: ['opiekunka osoby chorującej na neurofibromatozę', 1],
+    opiekun: ['opiekun osoby chorującej na neurofibromatozę', 0]
+  };
+
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  function toast(t) { var el = $('#toast'); el.textContent = t; el.classList.add('on'); clearTimeout(toast.t); toast.t = setTimeout(function () { el.classList.remove('on'); }, 1800); }
+  function kopiuj(tekst, msg) {
+    var awaryjnie = function () {
+      var ta = document.createElement('textarea'), ok = false;
+      ta.value = tekst; ta.setAttribute('readonly', ''); ta.style.position = 'fixed'; ta.style.opacity = '0';
+      document.body.appendChild(ta); ta.select();
+      try { ok = document.execCommand('copy'); } catch (e) {}
+      document.body.removeChild(ta);
+      toast(ok ? msg : 'Nie udało się skopiować. Rozwiń list i zaznacz tekst ręcznie.');
+    };
+    if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(tekst).then(function () { toast(msg); }, awaryjnie);
+    else awaryjnie();
+  }
+
+  function list(p) {
+    var f = p.k === 1, kto = KTO[$('#kto').value] || KTO.mama, ja = kto[1] === 1;
+    var Pani = f ? 'Pani' : 'Pan', Pani_d = f ? 'Pani' : 'Pana';
+    var zw = f ? 'Szanowna Pani Posłanko,' : 'Szanowny Panie Pośle,';
+    var mieszk = ja ? 'mieszkanka' : 'mieszkaniec';
+    var wybr = f ? 'została Pani wybrana' : 'został Pan wybrany';
+    var okr = String(p.okreg) === $('#okreg').value ? ' Piszę do ' + Pani_d + ' jako ' + mieszk + ' okręgu, z którego ' + wybr + ' do Sejmu.' : '';
+    var zechc = f ? 'zechciała Pani' : 'zechciał Pan';
+    var bylabym = ja ? 'Byłabym bardzo wdzięczna' : 'Byłbym bardzo wdzięczny';
+    var podpis = $('#podpis').value.trim() || '[imię i nazwisko]';
+    var kontakt = $('#kontakt').value.trim() || '[telefon lub e-mail]';
+    return zw + '\n\n' +
+      'piszę prywatnie, jako ' + kto[0] + ', z prośbą o pomoc.' + okr + ' Wiem, jak wiele spraw trafia do ' + Pani_d + ' biura, dlatego z góry dziękuję za poświęcenie czasu na przeczytanie tego listu.\n\n' +
+      'Neurofibromatozy to rzadkie choroby genetyczne, które mogą dotyczyć wielu narządów jednocześnie. Pacjenci potrzebują stałej opieki kilku specjalistów i regularnych badań kontrolnych, a u dorosłych z NF1 ryzyko nowotworów złośliwych jest wyższe niż w populacji ogólnej.\n\n' +
+      'Od 2020 r. do 30 kwietnia 2026 r. działał w Polsce program pilotażowy koordynowanej opieki nad pacjentami z neurofibromatozami. Według sprawozdania NFZ objął on 2 830 dzieci i młodych dorosłych w siedmiu ośrodkach. Każdy pacjent miał koordynatora, stały zespół lekarzy i plan badań.\n\n' +
+      'W raporcie AOTMiT, opartym na danych NFZ, podano, że u dorosłych uczestników programu liczba wizyt w poradniach specjalistycznych zmniejszyła się o 37%. Agencja zaznaczyła przy tym ograniczenia tych danych. Wszyscy eksperci, których opinię zebrała Agencja, wskazali na zasadność włączenia opieki koordynowanej do świadczeń gwarantowanych. W rekomendacji nr 151/2026 Prezes AOTMiT nie zalecił wprowadzenia odrębnego świadczenia i wskazał, że taka opieka powinna być zapewniona w Ośrodkach Eksperckich Chorób Rzadkich.\n\n' +
+      'W piśmie z 23 października 2026 r. Ministerstwo Zdrowia poinformowało, że zakończyło prace nad stałym świadczeniem, a pacjenci mają szukać opieki w Ośrodkach Eksperckich Chorób Rzadkich. Ustawa dotycząca tych ośrodków jest obecnie w trakcie prac parlamentarnych.\n\n' +
+      'Od zakończenia programu rodziny same umawiają wizyty u poszczególnych specjalistów, na podstawie osobnych skierowań. Wiele z nich, także moja, nie wie, gdzie dziś szukać opieki koordynowanej i kto ma czuwać nad całością leczenia.\n\n' +
+      'Nie mam doświadczenia w sprawach publicznych i to ' + Pani + ' najlepiej wie, jakie działania są w takiej sytuacji możliwe. ' + bylabym + ', gdyby ' + zechc + ' przyjrzeć się tej sprawie i, jeśli uzna to ' + Pani + ' za stosowne, wesprzeć pacjentów w sposób, który uzna ' + Pani + ' za właściwy. Dla rodzin bardzo cenna byłaby choćby informacja od Ministerstwa Zdrowia, gdzie i w jakiej formie pacjenci mogą dziś otrzymać koordynowaną opiekę.\n\n' +
+      'Chętnie przekażę dokumenty, na które się powołuję (raport i rekomendację AOTMiT, pisma Ministerstwa Zdrowia), i odpowiem na wszystkie pytania.\n\n' +
+      'Z wyrazami szacunku\n' + podpis + '\n' + kontakt;
+  }
+
+  var poId = {};
+  DANE.poslowie.forEach(function (p) { poId[p.id] = p; });
+  var numery = Object.keys(DANE.okregi).map(Number).sort(function (a, b) { return a - b; });
+  numery.forEach(function (n) {
+    var o = document.createElement('option'); o.value = n; o.textContent = 'nr ' + n + ' · ' + DANE.okregi[n].nazwa + ' (' + DANE.okregi[n].woj + ')';
+    $('#okreg').appendChild(o);
+  });
+
+  function render() {
+    var moj = $('#okreg').value, wolni = $('#tylkoWolni').checked, zdr = $('#tylkoZdr').checked, q = $('#szukaj').value.trim().toLowerCase();
+    var kol = numery.slice().sort(function (a, b) { return (String(a) === moj ? -1 : String(b) === moj ? 1 : a - b); });
+    var html = '', razem = 0, wys = 0;
+    kol.forEach(function (n) {
+      var o = DANE.okregi[n];
+      var ps = DANE.poslowie.filter(function (p) { return p.okreg === n; });
+      var w = ps.filter(function (p) { return wyslane[p.id]; }).length;
+      razem += ps.length; wys += w;
+      var okrPasuje = q && (o.nazwa.toLowerCase().indexOf(q) > -1 || o.woj.toLowerCase().indexOf(q) > -1);
+      if (q && !okrPasuje) ps = ps.filter(function (p) { return p.imie.toLowerCase().indexOf(q) > -1; });
+      if (wolni) ps = ps.filter(function (p) { return !wyslane[p.id] || moje[p.id]; });
+      if (zdr) ps = ps.filter(function (p) { return p.zdrowie.length; });
+      if (!ps.length) return;
+      ps.sort(function (a, b) { return (b.zdrowie.length > 0) - (a.zdrowie.length > 0) || a.imie.split(' ').pop().localeCompare(b.imie.split(' ').pop(), 'pl'); });
+      var otw = otwarte[n] !== undefined ? otwarte[n] : (String(n) === moj || (q && !okrPasuje));
+      html += '<details data-n="' + n + '"' + (otw ? ' open' : '') + '><summary><span class="okr">Okręg nr ' + n + ' · ' + esc(o.nazwa) + '</span>' + (String(n) === moj ? '<span class="moj">mój okręg</span>' : '') +
+        '<span class="meta">' + esc(o.woj) + ' · wysłano ' + w + ' z ' + DANE.poslowie.filter(function (p) { return p.okreg === n; }).length + '</span></summary>';
+      ps.forEach(function (p) {
+        var s = wyslane[p.id], zw = p.k === 1 ? 'Szanowna Pani Posłanko' : 'Szanowny Panie Pośle';
+        html += '<div class="posel' + (p.zdrowie.length ? ' zdr' : '') + (s ? ' wys' : '') + '">' +
+          '<div><span class="imie">' + esc(p.imie) + '</span> <span class="klub">' + esc(p.klub) + '</span></div>' +
+          p.zdrowie.map(function (z) { return '<div class="why">' + esc(z) + '</div>'; }).join('') +
+          '<div class="rzad"><span class="mail">' + esc(p.email) + '</span>' + (s ? '' : '<button type="button" class="btn small" data-akcja="mail" data-id="' + p.id + '">Kopiuj adres</button>') + '</div>';
+        if (s && !moje[p.id]) {
+          html += '<div class="ok">List już wysłany. Wybierz inną osobę.</div>';
+        } else {
+          html += (s ? '<div class="ok">Wysłano. Dziękujemy!</div>' : '<div class="rzad"><button type="button" class="btn" data-akcja="list" data-id="' + p.id + '">Kopiuj treść listu</button><button type="button" class="btn" data-akcja="pokaz" data-id="' + p.id + '" aria-expanded="' + !!pokazane[p.id] + '">' + (pokazane[p.id] ? 'Zwiń list' : 'Pokaż list') + '</button></div>' + (pokazane[p.id] ? '<pre class="list">' + esc(list(p)) + '</pre>' : '')) +
+            '<label class="chk" for="w' + p.id + '"><input type="checkbox" id="w' + p.id + '" data-akcja="wyslane" data-id="' + p.id + '"' + (s ? ' checked' : '') + '> Wysłane</label>';
+        }
+        html += '</div>';
+      });
+      html += '</details>';
+    });
+    $('#okregi').innerHTML = html || '<p class="stan">Nic nie pasuje. Zmień wyszukiwanie albo odznacz filtry.</p>';
+    $('#licznik').textContent = 'Wysłano ' + wys + ' z ' + razem + ' listów';
+  }
+
+  function zapiszMoje() { ls.set('posel-moje', JSON.stringify(moje)); }
+  function wczytaj() {
+    if (!ZAPIS) { $('#zapis').textContent = ''; return; }
+    fetch(ZAPIS + '/wyslane').then(function (r) { return r.json(); }).then(function (d) {
+      wyslane = d || {}; render();
+    }).catch(function () { $('#zapis').textContent = 'Nie udało się sprawdzić, do kogo już wysłano. Odśwież stronę za chwilę.'; });
+  }
+
+  $('#okregi').addEventListener('toggle', function (e) { var d = e.target; if (d.tagName === 'DETAILS') otwarte[d.dataset.n] = d.open; }, true);
+  document.getElementById('pos').addEventListener('click', function (e) {
+    var b = e.target.closest('button[data-akcja]'); if (!b) return;
+    var p = poId[b.dataset.id];
+    if (b.dataset.akcja === 'wolni') { kopiuj(DANE.poslowie.filter(function (x) { return !wyslane[x.id]; }).map(function (x) { return x.email; }).join(', '), 'Skopiowano adresy'); return; }
+    if (b.dataset.akcja === 'temat') kopiuj(TEMAT, 'Skopiowano temat');
+    if (b.dataset.akcja === 'mail') kopiuj(p.email, 'Skopiowano adres');
+    if (b.dataset.akcja === 'list') kopiuj(list(p), 'Skopiowano treść listu');
+    if (b.dataset.akcja === 'pokaz') { pokazane[p.id] = !pokazane[p.id]; render(); }
+  });
+  $('#okregi').addEventListener('change', function (e) {
+    var c = e.target.closest('input[data-akcja="wyslane"]'); if (!c) return;
+    var id = c.dataset.id;
+    if (c.checked) { moje[id] = wyslane[id] = new Date().toISOString().slice(0, 10); }
+    else { delete moje[id]; delete wyslane[id]; }
+    zapiszMoje(); delete pokazane[id]; render();
+    toast(c.checked ? 'Dziękujemy! Zaznaczono jako wysłane.' : 'Cofnięto zaznaczenie');
+    if (!ZAPIS) return;
+    var token = ls.get('posel-token-' + id, '');
+    fetch(ZAPIS + '/wyslane/' + id, { method: c.checked ? 'POST' : 'DELETE', headers: { 'X-Token': token } })
+      .then(function (r) { if (!r.ok) throw r; return r.json(); })
+      .then(function (j) { if (j && j.token) ls.set('posel-token-' + id, j.token); })
+      .catch(function () { toast('Nie udało się zapisać. Odśwież stronę i spróbuj ponownie.'); wczytaj(); });
+  });
+  ['kto', 'okreg', 'podpis', 'kontakt'].forEach(function (id) {
+    var el = $('#' + id); el.value = ls.get('posel-' + id, el.value) || el.value;
+    el.addEventListener(el.tagName === 'SELECT' ? 'change' : 'input', function () {
+      ls.set('posel-' + id, el.value);
+      if (id === 'okreg') otwarte = {};
+      render();
+    });
+  });
+  ['tylkoWolni', 'tylkoZdr', 'szukaj'].forEach(function (id) { $('#' + id).addEventListener('input', render); });
+  render(); wczytaj();
+})();
+</script>

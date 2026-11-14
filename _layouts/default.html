@@ -6,6 +6,7 @@
   <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.title }}</title>
   {% capture desc %}{{ page.description | default: page.excerpt | default: site.description | strip_html | strip_newlines | truncate: 200 }}{% endcapture %}
   <meta name="description" content="{{ desc | strip | escape }}">
+  {% if page.noindex %}<meta name="robots" content="noindex">{% endif %}
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   <meta property="og:site_name" content="{{ site.title | escape }}">
   <meta property="og:locale" content="pl_PL">
