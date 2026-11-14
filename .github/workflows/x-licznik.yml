@@ -79,7 +79,11 @@ jobs:
             fi
           fi
           if [ "$wyslij" = "tak" ]; then
-            python .github/scripts/x_licznik.py && git commit --allow-empty -q -m "Licznik: X na $dzis"
+            if python .github/scripts/x_licznik.py; then
+              git commit --allow-empty -q -m "Licznik: X na $dzis"
+            else
+              blad=1
+            fi
           else
             python .github/scripts/x_licznik.py --proba
           fi
@@ -91,6 +95,7 @@ jobs:
             git diff --cached --quiet || git commit -q -m "Licznik: obrazek na $dzis"
           fi
           git push
+          exit ${blad:-0}
       - uses: actions/upload-artifact@v4
         if: always()
         with:
