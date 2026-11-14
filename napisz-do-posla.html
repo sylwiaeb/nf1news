@@ -12,7 +12,8 @@ description: "Lista posłów w podziale na 41 okręgi wyborcze, z gotową treśc
   .pos .krok { margin: 1.5rem 0 0.6rem; font-size: 1.1rem; }
   .pos .ust { display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: 0.6rem 1rem; margin: 0 0 1rem; }
   .pos label { display: flex; flex-direction: column; gap: 0.2rem; color: #666; font-size: 0.85rem; }
-  .pos label.chk { flex-direction: row; align-items: center; gap: 0.4rem; color: inherit; font-size: 0.9rem; }
+  .pos label.chk { flex-direction: row; align-items: center; gap: 0.6rem; color: inherit; font-size: 1rem; cursor: pointer; padding: 0.2rem 0; }
+  .pos label.chk input[type=checkbox] { width: 1.5rem; height: 1.5rem; margin: 0; flex: none; accent-color: var(--c1); cursor: pointer; }
   .pos input[type=text], .pos input[type=search], .pos select { font: inherit; color: inherit; background: none; border: 1px solid #bbb; border-radius: 4px; padding: 0.35rem 0.5rem; min-width: 0; }
   .pos .filtry { display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; align-items: center; margin: 0 0 0.8rem; }
   .pos .stan { color: #666; font-size: 0.85rem; margin: 0 0 0.8rem; }
