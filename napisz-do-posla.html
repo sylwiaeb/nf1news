@@ -98,7 +98,7 @@ description: "Lista posłów w podziale na 41 okręgi wyborcze, z gotową treśc
 (function () {
   // Adres wspólnego zapisu „wysłane” (Cloudflare Worker, kod w narzedzia/wyslane-worker.js).
   // Pusty = zaznaczenia zapisują się tylko w tej przeglądarce.
-  var ZAPIS = '';
+  var ZAPIS = 'https://wyslane.wild-hill-302d.workers.dev';
   var DANE = {{ site.data.poslowie_okregi | jsonify }};
   var TEMAT = 'Prośba o pomoc w sprawie pacjentów z neurofibromatozami';
   var $ = function (s) { return document.querySelector(s); };
