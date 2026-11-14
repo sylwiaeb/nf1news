@@ -1,14 +1,15 @@
 name: Codzienny licznik na X
 
-# Codziennie rano post na X z licznikiem dni (bez skoordynowanej opieki
-# i od pisma Ministerstwa Zdrowia), grafika z licznikiem, link do
-# czekamy.nf1news.pl w pierwszym komentarzu. Zimą ok. 7:07–9:47, latem godzinę później.
+# Licznik dni (bez opieki medycznej i od decyzji MZ o zakończeniu prac):
+# obrazek nf1news.pl/assets/licznik.png i post na X z grafiką, link do
+# czekamy.nf1news.pl w pierwszym komentarzu.
+# Uruchamia go zaplanowane zadanie Claude: o 2:17 tryb=obrazek, ok. 8:30 tryb=x.
+# Cron GitHuba niżej to tylko zapas (zwykle spóźnia się o wiele godzin).
 # Ręcznie: Actions → „Codzienny licznik na X” → Run workflow
 # (proba = tak tylko robi grafikę i pokazuje tekst, nic nie wysyła).
 
 on:
-  # Cron GitHuba bywa spóźniony o wiele godzin, więc jest kilka terminów rano.
-  # Wysyła ten, który ruszy pierwszy; pozostałe tego dnia się pomijają.
+  # Zapas: jeśli zaplanowane zadanie nie ruszy. Post idzie raz dziennie, kolejne przebiegi go pomijają.
   schedule:
     - cron: "7 6 * * *"
     - cron: "37 6 * * *"
@@ -22,6 +23,10 @@ on:
         description: "tak = tylko podgląd (bez wysyłania na X)"
         required: false
         default: "tak"
+      tryb:
+        description: "oba, obrazek (tylko obrazek na stronę) albo x (tylko post na X)"
+        required: false
+        default: "oba"
 
 permissions:
   contents: write
@@ -48,34 +53,43 @@ jobs:
         run: |
           npm install --no-save --no-package-lock playwright
           npx playwright install --with-deps chromium
-      - name: Licznik na X
+      - name: Licznik (grafika, post na X, obrazek na stronę)
         env:
           X_API_KEY: ${{ secrets.X_API_KEY }}
           X_API_SECRET: ${{ secrets.X_API_SECRET }}
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+          PROBA: ${{ github.event.inputs.proba }}
+          TRYB: ${{ github.event.inputs.tryb || 'oba' }}
         run: |
-          # Jeśli dziś licznik już poszedł (np. ręcznie, a cron się spóźnił), nie wysyła drugi raz.
-          if [ "${{ github.event.inputs.proba }}" != "tak" ] && git log --oneline --grep "Licznik: obrazek na $(TZ=Europe/Warsaw date +%F)" | grep -q .; then
-            echo "Dzisiejszy licznik już wysłany, pomijam."
-            exit 0
-          fi
-          if [ "${{ github.event.inputs.proba }}" = "tak" ]; then
-            python .github/scripts/x_licznik.py --proba
-          else
-            python .github/scripts/x_licznik.py
-          fi
-      - name: Obrazek licznika na stronę (nf1news.pl/assets/licznik.png, np. do bloga stowarzyszenia)
-        if: always() && github.event.inputs.proba != 'tak'
-        run: |
-          plik=$(ls licznik-grafiki/*-kwadrat.png 2>/dev/null | head -1)
-          [ -n "$plik" ] || { echo "Brak grafiki."; exit 0; }
-          cp "$plik" assets/licznik.png
+          dzis=$(TZ=Europe/Warsaw date +%F)
           git config user.name "NF1 News"
           git config user.email "nf1news@users.noreply.github.com"
-          git add assets/licznik.png
-          git diff --cached --quiet && exit 0
-          git commit -m "Licznik: obrazek na $(TZ=Europe/Warsaw date +%F)"
+          if [ "$PROBA" = "tak" ]; then
+            python .github/scripts/x_licznik.py --proba
+            exit 0
+          fi
+          # Post na X: tylko raz dziennie (znacznik: pusty commit „Licznik: X na DATA”).
+          wyslij=nie
+          if [ "$TRYB" != "obrazek" ]; then
+            if git log --oneline --grep "Licznik: X na $dzis" | grep -q .; then
+              echo "Dzisiejszy post na X już poszedł, pomijam."
+            else
+              wyslij=tak
+            fi
+          fi
+          if [ "$wyslij" = "tak" ]; then
+            python .github/scripts/x_licznik.py && git commit --allow-empty -q -m "Licznik: X na $dzis"
+          else
+            python .github/scripts/x_licznik.py --proba
+          fi
+          # Obrazek na stronę (nf1news.pl/assets/licznik.png, np. do bloga stowarzyszenia).
+          if [ "$TRYB" != "x" ]; then
+            plik=$(ls licznik-grafiki/*-kwadrat.png | head -1)
+            cp "$plik" assets/licznik.png
+            git add assets/licznik.png
+            git diff --cached --quiet || git commit -q -m "Licznik: obrazek na $dzis"
+          fi
           git push
       - uses: actions/upload-artifact@v4
         if: always()
