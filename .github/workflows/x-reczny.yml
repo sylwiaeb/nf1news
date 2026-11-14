@@ -13,6 +13,12 @@ on:
       tekst:
         description: "Treść (dla odpowiedz i post)"
         required: false
+      obraz:
+        description: "Grafika do posta: ścieżka do PNG w repo (opcjonalnie, tylko dla post)"
+        required: false
+      alt:
+        description: "Opis grafiki dla niewidomych (opcjonalnie)"
+        required: false
 
 jobs:
   x:
@@ -22,7 +28,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install requests-oauthlib
+      - run: pip install requests-oauthlib pyyaml
       - name: Wyślij na X
         env:
           X_API_KEY: ${{ secrets.X_API_KEY }}
@@ -32,4 +38,6 @@ jobs:
           AKCJA: ${{ github.event.inputs.akcja }}
           TWEET_ID: ${{ github.event.inputs.tweet_id }}
           TEKST: ${{ github.event.inputs.tekst }}
+          OBRAZ: ${{ github.event.inputs.obraz }}
+          ALT: ${{ github.event.inputs.alt }}
         run: python .github/scripts/x_reczny.py
