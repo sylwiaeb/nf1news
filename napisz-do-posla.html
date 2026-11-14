@@ -33,10 +33,13 @@ description: "Lista posłów w podziale na 41 okręgi wyborcze, z gotową treśc
   .pos .btn { margin: 0; }
   .pos .ok { color: #1d7a46; font-weight: 600; font-size: 0.85rem; }
   .pos pre.list { white-space: pre-wrap; font: 0.9rem/1.5 Georgia, serif; border: 1px solid #ccc; border-radius: 4px; padding: 0.6rem; margin: 0.3rem 0 0; }
-  .pos .legenda span { display: inline-block; width: 0.8rem; height: 0.8rem; border-radius: 2px; vertical-align: -0.1rem; margin-right: 0.3rem; }
+  .pos .legenda { display: flex; flex-direction: column; gap: 0.4rem; margin: 0 0 0.8rem; }
+  .pos .legenda .posel { border: 1px solid #ccc; border-radius: 6px; padding: 0.45rem 0.8rem; font-size: 0.9rem; }
+  .pos .licznik { font-size: 1rem; margin: 0 0 0.8rem; }
   .pos .toast { position: fixed; left: 50%; bottom: 1rem; transform: translateX(-50%); background: #222; color: #fff; padding: 0.45rem 0.9rem; border-radius: 6px; white-space: nowrap; opacity: 0; transition: opacity .2s; pointer-events: none; }
   .pos .toast.on { opacity: 1; }
   @media (prefers-color-scheme: dark) {
+    .pos .legenda .posel { border-color: #444; }
     .pos label, .pos .stan, .pos summary .meta, .pos .klub { color: #aaa; }
     .pos details { border-color: #444; }
     .pos .posel { border-color: #333; }
@@ -86,7 +89,11 @@ description: "Lista posłów w podziale na 41 okręgi wyborcze, z gotową treśc
     <label class="chk" for="tylkoZdr"><input type="checkbox" id="tylkoZdr"> Tylko Komisja Zdrowia i zawody medyczne</label>
     <input type="search" id="szukaj" placeholder="Szukaj posła lub miasta" aria-label="Szukaj posła lub miasta">
   </div>
-  <p class="stan legenda"><span style="background:#e0b400"></span>Komisja Zdrowia Sejmu lub zawód medyczny · <span style="background:#1d7a46"></span>list wysłany · <strong id="licznik"></strong></p>
+  <div class="legenda" aria-label="Oznaczenia na liście">
+    <div class="posel zdr"><strong>Żółte tło:</strong> poseł z sejmowej Komisji Zdrowia albo z zawodem medycznym</div>
+    <div class="posel wys"><strong>Zielone tło i <span class="imie">przekreślenie</span>:</strong> list do tego posła jest już wysłany</div>
+  </div>
+  <p class="licznik"><strong id="licznik"></strong></p>
   <p class="stan" id="zapis"></p>
   <p class="stan"><button type="button" class="btn small" data-akcja="wolni">Kopiuj adresy posłów, do których nikt nie napisał</button></p>
   <div id="okregi"></div>
