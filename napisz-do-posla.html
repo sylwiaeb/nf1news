@@ -84,7 +84,7 @@ description: "Lista posłów w podziale na 41 okręgi wyborcze, z gotową treśc
   <p class="stan">Imię, nazwisko i kontakt zostają tylko w Twojej przeglądarce. Nie wysyłamy ich nigdzie. Nie wiesz, który to okręg? Okręgi mają nazwy od największego miasta, np. miasto Warszawa to okręg nr 19, a powiaty wokół Warszawy (m.in. piaseczyński, pruszkowski, warszawski zachodni) to okręg nr 20.</p>
 
   <h2 class="krok">2. Wybierz posła i skopiuj list</h2>
-  <p class="stan">Temat maila: <strong id="temat">Prośba o pomoc w sprawie pacjentów z neurofibromatozami</strong> <button type="button" class="btn small" data-akcja="temat">Kopiuj temat</button></p>
+  <p class="stan">Temat maila: <strong id="temat">Prośba o pomoc w sprawie odebranej przez resort zdrowia opieki medycznej dla pacjentów z NF</strong> <button type="button" class="btn small" data-akcja="temat">Kopiuj temat</button></p>
   <div class="filtry">
     <label class="chk" for="tylkoWolni"><input type="checkbox" id="tylkoWolni" checked> Pokaż tylko posłów, do których nikt nie napisał</label>
     <label class="chk" for="tylkoZdr"><input type="checkbox" id="tylkoZdr"> Tylko Komisja Zdrowia i zawody medyczne</label>
@@ -108,7 +108,7 @@ description: "Lista posłów w podziale na 41 okręgi wyborcze, z gotową treśc
   // Pusty = zaznaczenia zapisują się tylko w tej przeglądarce.
   var ZAPIS = 'https://wyslane.wild-hill-302d.workers.dev';
   var DANE = {{ site.data.poslowie_okregi | jsonify }};
-  var TEMAT = 'Prośba o pomoc w sprawie pacjentów z neurofibromatozami';
+  var TEMAT = 'Prośba o pomoc w sprawie odebranej przez resort zdrowia opieki medycznej dla pacjentów z NF';
   var $ = function (s) { return document.querySelector(s); };
   var ls = {
     get: function (k, d) { try { var v = localStorage.getItem(k); return v === null ? d : v; } catch (e) { return d; } },
