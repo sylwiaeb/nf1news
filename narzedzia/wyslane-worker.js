@@ -41,7 +41,9 @@ export default {
       if (istnieje) return json({ juz: true }, 409);
       const ip = req.headers.get('CF-Connecting-IP') || '?';
       const dzis = new Date().toISOString().slice(0, 10);
-      const limKey = 'ip:' + dzis + ':' + ip;
+      // Adres IP nie jest zapisywany: tylko jego skrót, kasowany po 2 dniach.
+      const skrot = [...new Uint8Array(await crypto.subtle.digest('SHA-256', new TextEncoder().encode(dzis + ip)))].slice(0, 8).map(b => b.toString(16).padStart(2, '0')).join('');
+      const limKey = 'ip:' + dzis + ':' + skrot;
       const ile = Number(await env.WYSLANE.get(limKey)) || 0;
       if (!admin && ile >= LIMIT_IP_DZIEN) return json({ blad: 'limit' }, 429);
       await env.WYSLANE.put(limKey, String(ile + 1), { expirationTtl: 172800 });
