@@ -9,19 +9,25 @@ description: "Lista posłów w podziale na 41 okręgi wyborcze, z gotową treśc
 ---
 <style>
   .pos { font-family: system-ui, sans-serif; font-size: 0.9rem; }
+  .pos .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
   .pos .krok { margin: 1.5rem 0 0.6rem; font-size: 1.1rem; }
   .pos .ust { display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: 0.6rem 1rem; margin: 0 0 1rem; }
-  .pos label { display: flex; flex-direction: column; gap: 0.2rem; color: #666; font-size: 0.85rem; }
-  .pos label.chk { flex-direction: row; align-items: center; gap: 0.6rem; color: inherit; font-size: 1rem; cursor: pointer; padding: 0.2rem 0; }
+  .pos label { display: flex; flex-direction: column; gap: 0.35rem; color: #333; font-size: 0.95rem; font-weight: 600; }
+  .pos label.chk { flex-direction: row; align-items: center; gap: 0.6rem; color: inherit; font-size: 1rem; font-weight: 400; cursor: pointer; padding: 0.3rem 0; min-height: 2.75rem; }
   .pos label.chk input[type=checkbox] { width: 1.5rem; height: 1.5rem; margin: 0; flex: none; accent-color: var(--c1); cursor: pointer; }
-  .pos input[type=text], .pos input[type=search], .pos select { font: inherit; color: inherit; background: none; border: 1px solid #bbb; border-radius: 4px; padding: 0.35rem 0.5rem; min-width: 0; }
+  .pos input[type=text], .pos input[type=search], .pos select { font: 400 1rem/1.3 system-ui, sans-serif; color: #111; background-color: #fff; border: 2px solid #8a8a8a; border-radius: 6px; padding: 0.6rem 0.75rem; min-height: 2.9rem; min-width: 0; width: 100%; box-sizing: border-box; }
+  .pos input::placeholder { color: #767676; opacity: 1; }
+  .pos input:focus, .pos select:focus { outline: 3px solid var(--c1); outline-offset: 1px; border-color: var(--c1); }
+  .pos #szukaj { flex: 1 1 14rem; width: auto; }
+  .pos .btn { min-height: 2.5rem; font-size: 0.95rem; }
+  .pos .btn.small { min-height: 2.25rem; padding: 0.3rem 0.7rem; font-size: 0.9rem; }
   .pos .filtry { display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; align-items: center; margin: 0 0 0.8rem; }
   .pos .stan { color: #666; font-size: 0.85rem; margin: 0 0 0.8rem; }
   .pos details { border: 1px solid #ccc; border-radius: 6px; margin: 0 0 0.5rem; }
   .pos summary { cursor: pointer; padding: 0.55rem 0.8rem; }
   .pos summary .okr { font-weight: 700; }
   .pos summary .meta { color: #666; font-size: 0.8rem; margin-left: 0.3rem; }
-  .pos summary .moj { font-size: 0.75rem; padding: 0.05rem 0.45rem; border-radius: 99px; background: var(--c1); color: #fff; margin-left: 0.3rem; white-space: nowrap; }
+  .pos summary .moj { font-size: 0.75rem; padding: 0.05rem 0.45rem; border-radius: 99px; background: #1a5fb4; color: #fff; margin-left: 0.3rem; white-space: nowrap; }
   .pos .posel { padding: 0.6rem 0.8rem; border-top: 1px solid #ddd; display: flex; flex-direction: column; gap: 0.3rem; }
   .pos .posel.zdr { background: #fff6d0; box-shadow: inset 4px 0 0 #e0b400; }
   .pos .posel.wys { background: #e8f5ec; }
@@ -41,7 +47,10 @@ description: "Lista posłów w podziale na 41 okręgi wyborcze, z gotową treśc
   .pos .toast.on { opacity: 1; }
   @media (prefers-color-scheme: dark) {
     .pos .legenda .posel { border-color: #444; }
-    .pos label, .pos .stan, .pos summary .meta, .pos .klub { color: #aaa; }
+    .pos .stan, .pos summary .meta, .pos .klub { color: #aaa; }
+    .pos label { color: #e6e6e6; }
+    .pos input[type=text], .pos input[type=search], .pos select { color: #f2f2f2; background-color: #222; border-color: #888; }
+    .pos input::placeholder { color: #9a9a9a; }
     .pos details { border-color: #444; }
     .pos .posel { border-color: #333; }
     .pos .posel.zdr { background: #3a3110; box-shadow: inset 4px 0 0 #c9a227; }
@@ -51,6 +60,7 @@ description: "Lista posłów w podziale na 41 okręgi wyborcze, z gotową treśc
     .pos pre.list { border-color: #444; }
     .pos .toast { background: #eee; color: #111; }
   }
+  @media (max-width: 480px) { .pos .ust { grid-template-columns: 1fr; } .pos #szukaj { flex-basis: 100%; } }
   @media (prefers-reduced-motion: reduce) { .pos .toast { transition: none; } }
 </style>
 
@@ -176,6 +186,11 @@ description: "Lista posłów w podziale na 41 okręgi wyborcze, z gotową treśc
   });
 
   function render() {
+    var a = document.activeElement, fk = a && a.dataset && a.dataset.akcja ? '[data-akcja="' + a.dataset.akcja + '"][data-id="' + a.dataset.id + '"]' : null;
+    rysuj();
+    if (fk) { var n = document.querySelector(fk); if (n) n.focus(); }
+  }
+  function rysuj() {
     var moj = $('#okreg').value, wolni = $('#tylkoWolni').checked, zdr = $('#tylkoZdr').checked, q = $('#szukaj').value.trim().toLowerCase();
     var kol = numery.slice().sort(function (a, b) { return (String(a) === moj ? -1 : String(b) === moj ? 1 : a - b); });
     var html = '', razem = 0, wys = 0;
@@ -196,14 +211,14 @@ description: "Lista posłów w podziale na 41 okręgi wyborcze, z gotową treśc
       ps.forEach(function (p) {
         var s = wyslane[p.id], zw = p.k === 1 ? 'Szanowna Pani Posłanko' : 'Szanowny Panie Pośle';
         html += '<div class="posel' + (p.zdrowie.length ? ' zdr' : '') + (s ? ' wys' : '') + '">' +
-          '<div><span class="imie">' + esc(p.imie) + '</span> <span class="klub">' + esc(p.klub) + '</span></div>' +
+          '<div><span class="imie">' + esc(p.imie) + '</span>' + (s ? '<span class="sr"> (list wysłany)</span>' : '') + ' <span class="klub">' + esc(p.klub) + '</span></div>' +
           p.zdrowie.map(function (z) { return '<div class="why">' + esc(z) + '</div>'; }).join('') +
-          '<div class="rzad"><span class="mail">' + esc(p.email) + '</span>' + (s ? '' : '<button type="button" class="btn small" data-akcja="mail" data-id="' + p.id + '">Kopiuj adres</button>') + '</div>';
+          '<div class="rzad"><span class="mail">' + esc(p.email) + '</span>' + (s ? '' : '<button type="button" class="btn small" data-akcja="mail" data-id="' + p.id + '">Kopiuj adres<span class="sr"> ' + esc(p.imie) + '</span></button>') + '</div>';
         if (s && !moje[p.id]) {
           html += '<div class="ok">List już wysłany. Wybierz inną osobę.</div>';
         } else {
-          html += (s ? '<div class="ok">Wysłano. Dziękujemy!</div>' : '<div class="rzad"><button type="button" class="btn" data-akcja="list" data-id="' + p.id + '">Kopiuj treść listu</button><button type="button" class="btn" data-akcja="pokaz" data-id="' + p.id + '" aria-expanded="' + !!pokazane[p.id] + '">' + (pokazane[p.id] ? 'Zwiń list' : 'Pokaż list') + '</button></div>' + (pokazane[p.id] ? '<pre class="list">' + esc(list(p)) + '</pre>' : '')) +
-            '<label class="chk" for="w' + p.id + '"><input type="checkbox" id="w' + p.id + '" data-akcja="wyslane" data-id="' + p.id + '"' + (s ? ' checked' : '') + '> Wysłane</label>';
+          html += (s ? '<div class="ok">Wysłano. Dziękujemy!</div>' : '<div class="rzad"><button type="button" class="btn" data-akcja="list" data-id="' + p.id + '">Kopiuj treść listu<span class="sr"> do ' + esc(p.imie) + '</span></button><button type="button" class="btn" data-akcja="pokaz" data-id="' + p.id + '" aria-expanded="' + !!pokazane[p.id] + '">' + (pokazane[p.id] ? 'Zwiń list' : 'Pokaż list') + '<span class="sr"> do ' + esc(p.imie) + '</span></button></div>' + (pokazane[p.id] ? '<pre class="list">' + esc(list(p)) + '</pre>' : '')) +
+            '<label class="chk" for="w' + p.id + '"><input type="checkbox" id="w' + p.id + '" data-akcja="wyslane" data-id="' + p.id + '"' + (s ? ' checked' : '') + '> Wysłane<span class="sr"> list do ' + esc(p.imie) + '</span></label>';
         }
         html += '</div>';
       });
