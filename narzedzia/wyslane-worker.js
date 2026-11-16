@@ -3,7 +3,7 @@
 // Wymaga: KV namespace podpiętego jako WYSLANE, zmienna ADMIN_TOKEN (sekret).
 const ORIGIN = 'https://nf1news.pl';
 const MAX_ID = 1000;          // id posłów z api.sejm.gov.pl są mniejsze
-const LIMIT_IP_DZIEN = 10;    // ile zaznaczeń dziennie z jednego adresu IP
+const LIMIT_IP_DZIEN = 60;    // ile zaznaczeń dziennie z jednego adresu IP (szkoła, firma, sieć komórkowa mają jeden adres dla wielu osób)
 
 const cors = {
   'Access-Control-Allow-Origin': ORIGIN,

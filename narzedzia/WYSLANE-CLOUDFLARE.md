@@ -12,3 +12,7 @@ Ze wspólnym zapisem każdy widzi, do kogo już wysłano.
 
 Cofnięcie zaznaczenia (admin): `curl -X DELETE -H "X-Token: <ADMIN_TOKEN>" https://wyslane.<konto>.workers.dev/wyslane/<id posła>`
 Lista wszystkich zaznaczeń: otwórz https://wyslane.<konto>.workers.dev/wyslane
+
+## Tryb administratora na stronie
+Otwórz https://nf1news.pl/napisz-do-posla/#admin i wpisz ADMIN_TOKEN w polu „Hasło administratora”.
+Hasło zostaje tylko w tej przeglądarce. W tym trybie nie ma dziennego limitu i można odznaczyć każdego posła.

@@ -127,6 +127,18 @@ description: "Lista posłów w podziale na 41 okręgów wyborczych, z gotową tr
     set: function (k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
   };
   var wyslane = {}, moje = {}, otwarte = {}, pokazane = {};
+  // Tryb administratora: nf1news.pl/napisz-do-posla/#admin, hasło = ADMIN_TOKEN z Cloudflare.
+  // Bez limitu zaznaczeń i z możliwością odznaczenia każdego posła. Hasło zostaje tylko w tej przeglądarce.
+  var ADMIN = ls.get('posel-admin', '');
+  window.addEventListener('hashchange', function () { if (location.hash === '#admin') location.reload(); });
+  if (location.hash === '#admin') {
+    var box = document.createElement('div');
+    box.className = 'ust';
+    box.innerHTML = '<label for="adminHaslo">Hasło administratora<input type="text" id="adminHaslo" autocomplete="off"></label>';
+    document.getElementById('pos').insertBefore(box, document.getElementById('pos').firstChild);
+    var ah = document.getElementById('adminHaslo'); ah.value = ADMIN;
+    ah.addEventListener('input', function () { ADMIN = ah.value.trim(); ls.set('posel-admin', ADMIN); render(); });
+  }
   try { moje = JSON.parse(ls.get('posel-moje', '{}')) || {}; } catch (e) {}
   if (!ZAPIS) wyslane = Object.assign({}, moje);
 
@@ -203,7 +215,7 @@ description: "Lista posłów w podziale na 41 okręgów wyborczych, z gotową tr
       razem += ps.length; wys += w;
       var okrPasuje = q && (o.nazwa.toLowerCase().indexOf(q) > -1 || o.woj.toLowerCase().indexOf(q) > -1);
       if (q && !okrPasuje) ps = ps.filter(function (p) { return p.imie.toLowerCase().indexOf(q) > -1; });
-      if (wolni) ps = ps.filter(function (p) { return !wyslane[p.id] || moje[p.id]; });
+      if (wolni) ps = ps.filter(function (p) { return !wyslane[p.id] || moje[p.id] || ADMIN; });
       if (zdr) ps = ps.filter(function (p) { return p.zdrowie.length; });
       if (!ps.length) return;
       ps.sort(function (a, b) { return (b.zdrowie.length > 0) - (a.zdrowie.length > 0) || a.imie.split(' ').pop().localeCompare(b.imie.split(' ').pop(), 'pl'); });
@@ -216,7 +228,7 @@ description: "Lista posłów w podziale na 41 okręgów wyborczych, z gotową tr
           '<div><span class="imie">' + esc(p.imie) + '</span>' + (s ? '<span class="sr"> (list wysłany)</span>' : '') + ' <span class="klub">' + esc(p.klub) + '</span></div>' +
           p.zdrowie.map(function (z) { return '<div class="why">' + esc(z) + '</div>'; }).join('') +
           '<div class="rzad"><span class="mail">' + esc(p.email) + '</span>' + (s ? '' : '<button type="button" class="btn small" data-akcja="mail" data-id="' + p.id + '">Kopiuj adres<span class="sr"> ' + esc(p.imie) + '</span></button>') + '</div>';
-        if (s && !moje[p.id]) {
+        if (s && !moje[p.id] && !ADMIN) {
           html += '<div class="ok">List już wysłany. Wybierz inną osobę.</div>';
         } else {
           html += (s ? '<div class="ok">Wysłano. Dziękujemy!</div>' : '<div class="rzad"><button type="button" class="btn" data-akcja="list" data-id="' + p.id + '">Kopiuj treść listu<span class="sr"> do ' + esc(p.imie) + '</span></button><button type="button" class="btn" data-akcja="pokaz" data-id="' + p.id + '" aria-expanded="' + !!pokazane[p.id] + '">' + (pokazane[p.id] ? 'Zwiń list' : 'Pokaż list') + '<span class="sr"> do ' + esc(p.imie) + '</span></button></div>' + (pokazane[p.id] ? '<pre class="list">' + esc(list(p)) + '</pre>' : '')) +
@@ -256,11 +268,17 @@ description: "Lista posłów w podziale na 41 okręgów wyborczych, z gotową tr
     zapiszMoje(); delete pokazane[id]; render();
     toast(c.checked ? 'Dziękujemy! Zaznaczono jako wysłane.' : 'Cofnięto zaznaczenie');
     if (!ZAPIS) return;
-    var token = ls.get('posel-token-' + id, '');
-    fetch(ZAPIS + '/wyslane/' + id, { method: c.checked ? 'POST' : 'DELETE', headers: { 'X-Token': token } })
-      .then(function (r) { if (!r.ok) throw r; return r.json(); })
+    var zaznacz = c.checked, token = ADMIN || ls.get('posel-token-' + id, '');
+    fetch(ZAPIS + '/wyslane/' + id, { method: zaznacz ? 'POST' : 'DELETE', headers: { 'X-Token': token } })
+      .then(function (r) { if (!r.ok) throw r.status; return r.json(); })
       .then(function (j) { if (j && j.token) ls.set('posel-token-' + id, j.token); })
-      .catch(function () { toast('Nie udało się zapisać. Odśwież stronę i spróbuj ponownie.'); wczytaj(); });
+      .catch(function (kod) {
+        if (zaznacz) { delete moje[id]; delete wyslane[id]; zapiszMoje(); render(); }
+        toast(kod === 429 ? 'Z tego połączenia zaznaczono dziś już bardzo dużo listów. Spróbuj jutro.'
+          : kod === 409 ? 'Ktoś właśnie zaznaczył tego posła. Wybierz inną osobę.'
+          : 'Nie udało się zapisać. Odśwież stronę i spróbuj ponownie.');
+        wczytaj();
+      });
   });
   ['kto', 'okreg', 'podpis', 'kontakt'].forEach(function (id) {
     var el = $('#' + id); el.value = ls.get('posel-' + id, el.value) || el.value;
