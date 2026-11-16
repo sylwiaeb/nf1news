@@ -1,14 +1,14 @@
 ---
 date: 2026-11-17 08:00:00 +0100
-title: "Ośrodki eksperckie: ministerstwo podało trzy terminy, żaden nie został dotrzymany. Pacjenci z NF czekają"
+title: "Ośrodki eksperckie: ministerstwo podało trzy terminy. Dwa minęły, trzeci jest zagrożony. Pacjenci z NF czekają"
 description: "Do Ośrodków Eksperckich Chorób Rzadkich Ministerstwo Zdrowia odesłało pacjentów z neurofibromatozami po końcu pilotażu. Zestawiamy terminy, które ministerstwo podawało dla ustawy i rozporządzenia o tych ośrodkach, z tym, co się stało. Sprawdzamy też, co w ustawie jest, czego w niej nie ma i co w Senacie odpowiedział wiceminister zdrowia."
 image: /assets/grafiki/2026-11-17-osrodki-eksperckie-terminy-mz.png
 grafika_alt: "Trzy zapowiedzi Ministerstwa Zdrowia o ośrodkach eksperckich. 26 marca 2026: projekt ustawy w Radzie Ministrów „w połowie kwietnia”, do Sejmu trafił 23 września. 26 marca 2026: rozporządzenie „III kwartał 2026”, nie zostało wydane. 15 kwietnia 2026: wejście ustawy w życie „II półrocze 2026”, ustawa wciąż w parlamencie. Pacjenci z NF są bez opieki koordynowanej od 30 kwietnia."
-tweet: "MZ o ośrodkach eksperckich: projekt w Radzie Ministrów „w połowie kwietnia”, rozporządzenie „w III kwartale”, ustawa w życiu „w II półroczu”. Żaden nie został dotrzymany. Pacjenci z NF bez opieki koordynowanej od 30.04. @MZ_GOV_PL @PremierRP @Puls_Medycyny #NF1 #ChorobyRzadkie"
+tweet: "MZ o ośrodkach eksperckich: projekt w Radzie Ministrów „w połowie kwietnia”, rozporządzenie „w III kwartale”, ustawa w życiu „w II półroczu”. Dwa minęły, trzeci zagrożony. Pacjenci z NF bez opieki koordynowanej od 30.04. @MZ_GOV_PL @PremierRP @Puls_Medycyny #NF1 #ChorobyRzadkie"
 fb: "Po zakończeniu pilotażu 30 kwietnia Ministerstwo Zdrowia odesłało pacjentów z neurofibromatozami do Ośrodków Eksperckich Chorób Rzadkich. W marcu ministerstwo zapowiadało, że projekt ustawy o tych ośrodkach trafi do Rady Ministrów w połowie kwietnia, a rozporządzenie powstanie w III kwartale. W kwietniu: że ustawa wejdzie w życie w II półroczu 2026 r. Projekt trafił do Sejmu 23 września. Rozporządzenia nie ma. Ustawa nie weszła w życie. W ustawie nie ma koordynacji opieki ani osobnego finansowania ośrodków. W Senacie wiceminister zdrowia Tomasz Maciejewski na pytanie o leczenie dorosłych z NF odpowiedział: „Dzisiaj nie odpowiem w 100%”. Ministerstwo Zdrowia kieruje minister Jolanta Sobierańska-Grenda. #NF1 #neurofibromatoza #ChorobyRzadkie"
 ---
 
-Po zakończeniu pilotażu 30 kwietnia Ministerstwo Zdrowia odesłało pacjentów z neurofibromatozami do Ośrodków Eksperckich Chorób Rzadkich (OECR). Nowe zasady działania tych ośrodków miała wprowadzić ustawa. **<mark>Ministerstwo podało dla niej i dla rozporządzenia trzy terminy. Żaden nie został dotrzymany.</mark>**
+Po zakończeniu pilotażu 30 kwietnia Ministerstwo Zdrowia odesłało pacjentów z neurofibromatozami do Ośrodków Eksperckich Chorób Rzadkich (OECR). Nowe zasady działania tych ośrodków miała wprowadzić ustawa. **<mark>Ministerstwo podało dla niej i dla rozporządzenia trzy terminy. Dwa minęły, a trzeci, do końca roku, jest zagrożony.</mark>**
 
 To drugi z trzech wpisów o [Planie dla Chorób Rzadkich na 2026 r.]({% post_url 2026-11-16-plan-chorob-rzadkich-2026-zadania %}) W tym tygodniu, 17–19 listopada, Sejm może głosować nad poprawkami Senatu do ustawy o ośrodkach.
 
