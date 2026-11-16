@@ -1,0 +1,11 @@
+{
+  "uklad": "zestawienie",
+  "motyw": "ciemny",
+  "elementy": [
+    {"etykieta": "MZ, 26 marca 2026", "tekst": "„W połowie kwietnia”", "podpis": "projekt ustawy w Radzie Ministrów · do Sejmu trafił 23 września", "kolor": "niebieski"},
+    {"etykieta": "MZ, 26 marca 2026", "tekst": "„III kwartał 2026”", "podpis": "rozporządzenie o ośrodkach · nie zostało wydane", "kolor": "pomaranczowy"},
+    {"etykieta": "MZ, 15 kwietnia 2026", "tekst": "==„II półrocze 2026”==", "podpis": "wejście ustawy w życie · ustawa wciąż w parlamencie", "kolor": "czerwony"}
+  ],
+  "pytanie": "Pacjenci z NF są bez opieki koordynowanej od 30 kwietnia.",
+  "alt": "Trzy zapowiedzi Ministerstwa Zdrowia o ośrodkach eksperckich. 26 marca 2026: projekt ustawy w Radzie Ministrów „w połowie kwietnia”, do Sejmu trafił 23 września. 26 marca 2026: rozporządzenie „III kwartał 2026”, nie zostało wydane. 15 kwietnia 2026: wejście ustawy w życie „II półrocze 2026”, ustawa wciąż w parlamencie. Pacjenci z NF są bez opieki koordynowanej od 30 kwietnia."
+}

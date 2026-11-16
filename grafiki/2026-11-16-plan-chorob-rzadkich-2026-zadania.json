@@ -1,0 +1,12 @@
+{
+  "uklad": "liczby",
+  "motyw": "ciemny",
+  "etykieta": "Plan dla Chorób Rzadkich na 2026 r. · stan na 15 listopada",
+  "liczby": [
+    {"liczba": "6", "opis": "zadań z terminem w 2026 roku", "kolor": "niebieski"},
+    {"liczba": "2", "opis": "terminy minęły 30 czerwca bez śladu realizacji", "kolor": "pomaranczowy"},
+    {"liczba": "6 mln zł", "opis": "==na kampanię, po której nie znaleźliśmy śladu==", "kolor": "czerwony"}
+  ],
+  "pytanie": "Sześć tygodni do końca roku. Co z Planem?",
+  "alt": "Plan dla Chorób Rzadkich na 2026 r., stan na 15 listopada: 6 zadań z terminem w 2026 roku. 2 terminy minęły 30 czerwca bez śladu realizacji. 6 mln zł na kampanię, po której nie znaleźliśmy śladu. Sześć tygodni do końca roku. Co z Planem?"
+}

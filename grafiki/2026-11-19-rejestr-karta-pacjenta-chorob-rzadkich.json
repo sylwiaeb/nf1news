@@ -1,0 +1,10 @@
+{
+  "uklad": "zestawienie",
+  "motyw": "ciemny",
+  "elementy": [
+    {"etykieta": "Maj 2025, wykaz prac rządu", "tekst": "„III kwartał 2025”", "podpis": "zapowiedziane przyjęcie projektu ustawy przez rząd", "kolor": "zielony"},
+    {"etykieta": "Listopad 2026", "tekst": "==Projekt wciąż w komitecie Rady Ministrów==", "podpis": "do Sejmu nie trafił", "kolor": "czerwony"}
+  ],
+  "pytanie": "Rejestr i Karta Pacjenta z Chorobą Rzadką miały ruszyć w 2026 roku.",
+  "alt": "Maj 2025, wykaz prac rządu: przyjęcie projektu ustawy przez rząd zapowiedziane na „III kwartał 2025”. Listopad 2026: projekt wciąż w komitecie Rady Ministrów, do Sejmu nie trafił. Rejestr i Karta Pacjenta z Chorobą Rzadką miały ruszyć w 2026 roku."
+}
