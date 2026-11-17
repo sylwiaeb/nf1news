@@ -80,6 +80,6 @@ Dzisiaj nie odpowiem w 100%, ale wydaje się, że tak jak mamy chociażby w zakr
 
 Na tym wymiana o chorobach rzadkich się zakończyła: wicemarszałek oddał głos kolejnemu senatorowi, który pytał o inną sprawę.
 
-Wcześniej pisaliśmy, czego w tej ustawie brakuje: [Ministerstwo odsyła pacjentów z NF do ośrodków eksperckich. Ustawa o tych ośrodkach nie mówi ani słowa o opiece koordynowanej]({% post_url 2026-11-03-osrodki-eksperckie-w-senacie %}), oraz [apelowaliśmy do senatorów przed głosowaniem]({% post_url 2026-11-04-apel-do-senatorow-oecr %}).
+Wcześniej pisaliśmy, czego w tej ustawie brakuje: [Ministerstwo odsyła pacjentów z NF do ośrodków eksperckich. Ustawa o tych ośrodkach nie mówi ani słowa o opiece koordynowanej]({% post_url 2026-11-03-osrodki-eksperckie-w-senacie %}). Przed głosowaniem [pacjenci z NF i ich rodziny napisali do senatorów]({% post_url 2026-11-04-apel-do-senatorow-oecr %}).
 
 <p class="source">Źródło: <a href="https://www.senat.gov.pl/prace/posiedzenia/przebieg,670,1,opis.html">stenogram 68. posiedzenia Senatu, 4 listopada 2026 r. (senat.gov.pl)</a>, <a href="https://www.senat.gov.pl/prace/posiedzenia/tematy,670,1.html">porządek obrad i druk nr 895</a>.</p>

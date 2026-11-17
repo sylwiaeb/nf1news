@@ -55,7 +55,7 @@ Liczbę dni bez skoordynowanej opieki pokazuje [licznik](https://czekamy.nf1news
 
 ## Co można zrobić teraz
 
-Pisanie do senatorów jest już nieaktualne. Nadal można:
+Przed głosowaniem pacjenci z NF i ich rodziny [napisali do senatorów]({% post_url 2026-11-04-apel-do-senatorow-oecr %}). Nadal można:
 
 - napisać do Ministerstwa Zdrowia (kancelaria@mz.gov.pl) i do sejmowej Komisji Zdrowia,
 - zgłosić swoją sytuację Rzecznikowi Praw Pacjenta,

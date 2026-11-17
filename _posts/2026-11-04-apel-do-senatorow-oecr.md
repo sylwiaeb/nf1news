@@ -1,39 +1,19 @@
 ---
 image: /assets/grafiki/2026-11-04-apel-do-senatorow-oecr.png
-grafika_alt: "Pilne, Senat 4–5 listopada: o koordynacji opieki nad pacjentami z NF nie padło ani słowo. Napisz do senatorów przed głosowaniem."
+grafika_alt: "Senat, listopad 2026: pacjenci z NF napisali do senatorów. Prośba o koordynację opieki w ustawie o ośrodkach eksperckich."
 date: 2026-11-04 10:10:00 +0100
-title: "Pilne: Senat zajmuje się ustawą o ośrodkach eksperckich. Napisz do senatorów przed głosowaniem"
-description: "Senat zajmuje się na obecnym posiedzeniu ustawą o Ośrodkach Eksperckich Chorób Rzadkich (druk 895). Głosowanie może być 4 albo 5 listopada. Wczoraj na komisji nikt nie poruszył koordynacji opieki nad pacjentami z NF. Gotowe pismo i adresy wszystkich senatorów do skopiowania."
-tweet: "Dziś od 11:00 Senat zajmuje się ustawą o ośrodkach eksperckich chorób rzadkich. Wczoraj na komisji o koordynacji opieki nad pacjentami z NF nie padło ani słowo. Napisz do senatorów: gotowe pismo i adresy. @MZ_GOV_PL @DkorycinskaK #NF1 #ChorobyRzadkie"
-fb: "Dziś od 11:00 Senat zajmuje się ustawą o Ośrodkach Eksperckich Chorób Rzadkich, do których Ministerstwo Zdrowia odesłało pacjentów z neurofibromatozami po końcu pilotażu. Wczoraj na posiedzeniu komisji temat koordynacji opieki nie był omawiany. Zostało kilka godzin: napisz do senatorów. Gotowe pismo i adresy wszystkich senatorów są do skopiowania na stronie. #NF1 #neurofibromatoza #ChorobyRzadkie"
+title: "Pacjenci z NF napisali do senatorów przed głosowaniem nad ustawą o ośrodkach eksperckich"
+description: "Przed głosowaniem w Senacie nad ustawą o Ośrodkach Eksperckich Chorób Rzadkich (druk senacki nr 895) pacjenci z neurofibromatozami i ich rodziny wysłali do senatorów prośbę o uwzględnienie w ustawie koordynacji opieki."
+tweet: "Przed głosowaniem nad ustawą o ośrodkach eksperckich chorób rzadkich pacjenci z NF i ich rodziny napisali do senatorów z prośbą o koordynację opieki w ustawie. @MZ_GOV_PL @DkorycinskaK #NF1 #ChorobyRzadkie"
+fb: "Przed głosowaniem w Senacie nad ustawą o Ośrodkach Eksperckich Chorób Rzadkich pacjenci z neurofibromatozami i ich rodziny napisali do senatorów. Prosili o uwzględnienie w ustawie koordynacji opieki. To do tych ośrodków Ministerstwo Zdrowia odesłało pacjentów z NF po zakończeniu pilotażu. #NF1 #neurofibromatoza #ChorobyRzadkie"
 ---
 
-**Senat zajmuje się na 68. posiedzeniu ustawą o Ośrodkach Eksperckich Chorób Rzadkich (OECR), druk senacki nr 895.** Posiedzenie rozpoczęło się 4 listopada i może potrwać do 5 listopada. Ustawa jest 12. punktem porządku obrad, więc nie wiadomo, czy głosowanie odbędzie się 4, czy 5 listopada. To do tych ośrodków Ministerstwo Zdrowia odesłało pacjentów z neurofibromatozami po zakończeniu pilotażu. Wczoraj na posiedzeniu senackiej komisji temat koordynacji opieki nad pacjentami z NF nie był omawiany.
+**Na początku listopada 2026 r., przed głosowaniem w Senacie nad ustawą o Ośrodkach Eksperckich Chorób Rzadkich (OECR, druk senacki nr 895), pacjenci z neurofibromatozami i ich rodziny wysłali do senatorów prośbę o pomoc.** Prosili o uwzględnienie w ustawie koordynacji opieki nad pacjentami z NF. To do tych ośrodków Ministerstwo Zdrowia odesłało pacjentów po zakończeniu pilotażu.
 
-Poprawkę może zgłosić każdy senator w czasie debaty nad ustawą, dlatego prosimy: napisz do senatorów teraz, zanim Senat dojdzie do tego punktu. Zajmie to pięć minut.
+Dziękujemy wszystkim, którzy napisali.
 
-## Krok 1. Skopiuj pismo
+4 listopada w Senacie dwoje senatorów zapytało o pacjentów z NF: [Senatorowie pytali o pacjentów z NF (stenogram)]({% post_url 2026-11-05-senat-pytania-o-nf-stenogram %}). 6 listopada Senat przyjął ustawę: [Senat jednogłośnie za ustawą o ośrodkach eksperckich]({% post_url 2026-11-10-senat-przyjal-ustawe-oecr-co-dalej %}).
 
-{% include mail.html id="apel-senat" body="wnioski/apel-senat-OECR-2026-11-04.txt" button="Kopiuj pismo" note="Na końcu pisma wpisz swoje imię i nazwisko w miejsce tekstu w nawiasach [ ]. Podpisane pismo jest traktowane poważniej." label="Treść pisma (pierwsza linia to temat maila)" rows="12" %}
+Więcej o ustawie: [Ministerstwo odsyła pacjentów z NF do ośrodków eksperckich]({% post_url 2026-11-03-osrodki-eksperckie-w-senacie %}).
 
-## Krok 2. Skopiuj adresy senatorów
-
-{% include mail.html id="adresy-senat" body="wnioski/adresy-senatorowie.txt" button="Kopiuj adresy" label="Adresy e-mail biur wszystkich senatorów" rows="5" %}
-
-## Krok 3. Wyślij
-
-1. Otwórz nowy e-mail w swojej poczcie.
-2. Wklej adresy w polu **UDW** (ukryte do wiadomości), a nie w polu „Do” ani „DW”. Wtedy senatorowie nie widzą nawzajem swoich adresów, a Twój mail rzadziej trafia do spamu.
-3. W polu „Do” wpisz swój własny adres albo adres Komisji Zdrowia Senatu: **kz@senat.gov.pl**.
-4. Pierwszą linię pisma („Temat: …”) przenieś do tematu maila, a resztę wklej jako treść.
-5. Podpisz się na końcu i wyślij.
-
-Jeśli możesz, dopisz przed podpisem dwa, trzy zdania o własnej sytuacji po zakończeniu pilotażu. Jedna konkretna historia waży więcej niż ogólny apel.
-
-## Krok 4. Przekaż dalej
-
-Udostępnij ten wpis rodzinom pacjentów z NF, grupom wsparcia i znajomym. Im więcej maili przyjdzie przed głosowaniem, tym trudniej będzie pominąć tę sprawę.
-
-Więcej o ustawie i o tym, czego w niej brakuje: [Ministerstwo odsyła pacjentów z NF do ośrodków eksperckich]({% post_url 2026-11-03-osrodki-eksperckie-w-senacie %}) i [Napisz do Senatu w sprawie ośrodków eksperckich]({% post_url 2026-11-03-senat-uwagi-oecr %}).
-
-<p class="source">Źródła: <a href="https://www.senat.gov.pl/prace/posiedzenia/tematy,670,1.html">porządek 68. posiedzenia Senatu i druk nr 895</a>, <a href="https://bip.aotm.gov.pl/zlecenia-mz-2026/1125-materialy-2026/9760-145-2026-zlc">rekomendacja Prezesa AOTMiT nr 151/2026 i raport</a>, <a href="https://www.senat.gov.pl/sklad/senatorowie/">wykaz senatorów</a>.</p>
+<p class="source">Źródła: <a href="https://www.senat.gov.pl/prace/posiedzenia/tematy,670,1.html">porządek 68. posiedzenia Senatu i druk nr 895</a>.</p>

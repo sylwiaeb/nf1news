@@ -56,7 +56,7 @@ Odesłanie pacjentów do OECR nie rozwiązuje tego problemu, dopóki ośrodki ni
 - Z jakich pieniędzy OECR ma finansować koordynację, skoro ustawa nie przewiduje osobnego finansowania?
 - Dlaczego Ministerstwo nie przywróci pilotażu do czasu uruchomienia OECR, skoro może to zrobić bez zmiany ustawy?
 
-Każdy może napisać do senatorów i poprosić o poprawki. Gotowy tekst i instrukcję przygotowaliśmy we wpisie [Napisz do Senatu w sprawie ośrodków eksperckich]({% post_url 2026-11-03-senat-uwagi-oecr %}). Gotowe wnioski o informację publiczną są na stronie [Do pobrania]({{ '/do-pobrania/' | relative_url }}).
+Przed głosowaniem pacjenci z NF i ich rodziny pisali do senatorów z prośbą o poprawki: [Prośba do Senatu w sprawie ośrodków eksperckich]({% post_url 2026-11-03-senat-uwagi-oecr %}). Gotowe wnioski o informację publiczną są na stronie [Do pobrania]({{ '/do-pobrania/' | relative_url }}).
 
 ## Źródła
 

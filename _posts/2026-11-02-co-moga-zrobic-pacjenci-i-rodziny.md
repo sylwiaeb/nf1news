@@ -5,7 +5,7 @@ short: "Co możesz zrobić: adresy, telefony i gotowe wzory pism"
 title: "Pilotaż się skończył, sprawa nie. Co mogą teraz zrobić pacjenci z NF i ich rodziny"
 description: "Gdzie pisać, do kogo dzwonić i jakie wnioski wysłać, żeby sprawa opieki koordynowanej w NF nie zniknęła z biurek Ministerstwa Zdrowia, NFZ i posłów. Adresy i gotowe wzory."
 tweet: "MZ zamknęło sprawę opieki koordynowanej w NF. Pacjenci i rodziny nie muszą się z tym godzić. Gdzie pisać, do kogo dzwonić i jakie wnioski wysłać: adresy i gotowe wzory. @MZ_GOV_PL @NFZ_GOV_PL #NF1 #neurofibromatoza #ChorobyRzadkie"
-fb: "Ministerstwo Zdrowia zamknęło sprawę opieki koordynowanej w NF. Pacjenci i rodziny nie muszą się z tym godzić. Gdzie pisać, do kogo dzwonić i jakie wnioski wysłać: adresy Rzecznika Praw Pacjenta, Ministerstwa Zdrowia i sejmowej Komisji Zdrowia oraz gotowe wzory pism. Udostępnij, niech dotrze do każdej rodziny z NF. #NF1 #neurofibromatoza #ChorobyRzadkie"
+fb: "Ministerstwo Zdrowia zamknęło sprawę opieki koordynowanej w NF. Pacjenci i rodziny nie muszą się z tym godzić. Gdzie pisać, do kogo dzwonić i jakie wnioski wysłać: adresy Rzecznika Praw Pacjenta i Ministerstwa Zdrowia oraz gotowe wzory pism. Udostępnij, niech dotrze do każdej rodziny z NF. #NF1 #neurofibromatoza #ChorobyRzadkie"
 ---
 
 30 kwietnia 2026 r. skończył się pilotaż koordynowanej opieki nad pacjentami z neurofibromatozami i rasopatiami, z którego skorzystało 2 830 osób. 23 października Ministerstwo Zdrowia poinformowało, że zakończyło prace nad stałym świadczeniem i odsyła pacjentów do Ośrodków Eksperckich Chorób Rzadkich (OECR). Zrobiło to, choć dane AOTMiT pokazują lepszą opiekę i oszczędności dla systemu.
@@ -63,18 +63,11 @@ W temacie maila wpisz, do kogo jest pismo, np. „Do Minister Zdrowia Jolanty So
 
 Krótko i rzeczowo: kim jesteś, co się zmieniło w Twojej opiece po 30 kwietnia i o co prosisz, czyli o wznowienie prac nad świadczeniem opieki koordynowanej dla dzieci i dorosłych z NF.
 
-## 6. Napisz do posła ze swojego okręgu
+## 6. Posłowie
 
-Poseł może złożyć interpelację albo zapytanie poselskie. Ministerstwo musi na nie odpowiedzieć, a odpowiedź jest publikowana na stronie Sejmu. To jeden z najskuteczniejszych sposobów, żeby sprawa wróciła na biurko Ministra.
+W listopadzie 2026 r. pacjenci z NF i ich rodziny wysłali do wszystkich posłów na Sejm prośbę o pomoc. Więcej: [Pacjenci z NF napisali do posłów]({{ '/napisz-do-posla/' | relative_url }}).
 
-- Listę posłów z Twojego okręgu i ich adresy e-mail znajdziesz na [sejm.gov.pl](https://www.sejm.gov.pl), w zakładce Posłowie. Pisz do biura poselskiego w swoim mieście albo e-mailem.
-- Poproś wprost o złożenie interpelacji w sprawie zakończenia prac nad opieką koordynowaną w NF i dołącz link do tego serwisu.
-- Możesz też napisać do posłanki Marty Golbik, przewodniczącej sejmowej Komisji Zdrowia, z prośbą o zajęcie się tematem na posiedzeniu komisji:
-  - e-mail: `biuro@golbik.pl`
-  - poczta: Biuro Poselskie Marty Golbik, ul. Zwycięstwa 26 lok. 1, 44-100 Gliwice
-  - telefon do biura: 505 508 043
-
-Napisz do kilku posłów z różnych klubów. Zdrowie dzieci i młodych dorosłych z NF nie powinno mieć barw partyjnych.
+Posłowie mogą zwracać się do Ministerstwa Zdrowia z interpelacjami i zapytaniami. Ministerstwo musi na nie odpowiedzieć, a odpowiedzi są publikowane na stronie Sejmu.
 
 ## 7. Opowiedz swoją historię mediom
 
