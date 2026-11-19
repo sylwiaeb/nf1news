@@ -41,6 +41,14 @@ Ustawa wprowadza ośrodki genetyczne i kliniczne. Status nadaje minister zdrowia
 
 Wśród zadań ośrodka nie ma koordynatora, indywidualnego planu leczenia ani planu badań kontrolnych. Ustawa nie przewiduje też osobnego finansowania ośrodków ani przepisów przejściowych dla pacjentów. Pilotaż dla pacjentów z NF zawierał koordynatora, plan opieki i osobny ryczałt.
 
+## Pytania posłów w drugim czytaniu
+
+W drugim czytaniu, 20 października, o finansowanie ośrodków pytało czworo posłów. Lidia Czechak zapytała, gdzie w projekcie są „konkretne gwarancje finansowania diagnostyki i leczenia”. Wioletta Kulpa i Marcin Józefaciuk wskazali, że ocena skutków regulacji nie przewiduje dodatkowych środków dla NFZ w związku z powoływaniem ośrodków. Jarosław Sachajko mówił o „certyfikatach ośrodków chorób rzadkich, ale bez ustawowej gwarancji dodatkowych pieniędzy na diagnostykę i leczenie”.
+
+Wiceminister zdrowia Tomasz Maciejewski odpowiedział, że nowe ośrodki „będą korzystały z takich samych zasad funkcjonowania i finansowania jak dotychczas obowiązujące”. Zapowiedział też wykorzystanie platformy e-konsylium w opiece nad pacjentami z chorobami rzadkimi.
+
+W Sejmie nikt nie wspomniał o neurofibromatozach. O pacjentów z NF pytali senatorowie 6 listopada.
+
 ## Tego samego dnia: refundacja i prawa pacjenta
 
 - **Nowelizacja ustawy o refundacji** (druk 3281): 417 posłów za, nikt przeciw, 17 wstrzymało się. Ustawa trafi do Senatu. Wprowadza m.in. wielokryterialną ocenę leków w chorobach rzadkich (MCDA) i elektroniczne wnioski o import docelowy. Plan dla Chorób Rzadkich przewidywał tę nowelizację do 31 lipca 2026 r.
@@ -55,5 +63,6 @@ Więcej o terminach z Planu: [Plan dla Chorób Rzadkich na 2026 rok: sześć zad
 - [Sejm: przebieg prac nad ustawą o ośrodkach eksperckich (druk 3141)](https://www.sejm.gov.pl/Sejm10.nsf/PrzebiegProc.xsp?nr=3141)
 - [Sejm: głosowania 69. posiedzenia, 19.11.2026 (nr 101–105, poprawki Senatu; nr 39, refundacja; nr 24, prawa pacjenta)](https://api.sejm.gov.pl/sejm/term10/votings/69)
 - [Sejm: przebieg prac nad nowelizacją ustawy o refundacji (druk 3281)](https://www.sejm.gov.pl/Sejm10.nsf/PrzebiegProc.xsp?nr=3281)
+- [Stenogram 67. posiedzenia Sejmu, 20.10.2026 (drugie czytanie)](https://api.sejm.gov.pl/sejm/term10/proceedings/67/2026-10-20/transcripts/pdf)
 - [Uchwała Senatu z poprawkami (druk 3338)](https://api.sejm.gov.pl/sejm/term10/prints/3338)
 - [Pismo Ministerstwa Zdrowia do Rzecznika Praw Obywatelskich, 15.04.2026](https://bip.brpo.gov.pl/sites/default/files/2026-04/Odpowiedz_MZ_choroby_rzadkie_plan_15_04_2026.pdf)
