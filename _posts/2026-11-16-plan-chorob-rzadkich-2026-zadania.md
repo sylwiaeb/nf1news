@@ -10,17 +10,19 @@ fb: "Rząd przyjął Plan dla Chorób Rzadkich na 2026 r. 23 grudnia 2025 r. Zap
 
 23 grudnia 2025 r. Rada Ministrów przyjęła [Plan dla Chorób Rzadkich na 2026 r.](https://chorobyrzadkie.gov.pl/pl/choroby-rzadkie/plan-dla-chorob-rzadkich) To trzeci taki plan, po planach na lata 2021–2023 i 2024–2025. Zapisano w nim sześć zadań z terminem w tym roku i 6,35 mln zł. **<mark>Do końca roku zostało sześć tygodni. Jedno zadanie jest wykonane, jedno jest spóźnione, a po czterech nie ma publicznego śladu.</mark>**
 
+*Aktualizacja 19 listopada 2026 r.: Sejm uchwalił nowelizację ustawy o refundacji (druk 3281) i przyjął poprawki Senatu do ustawy o ośrodkach eksperckich. Zmiany naniesiono w tekście.*
+
 To pierwszy z trzech wpisów o Planie. Jutro: ośrodki eksperckie, do których Ministerstwo Zdrowia odesłało pacjentów z neurofibromatozami. W czwartek: rejestr chorób rzadkich i Karta Pacjenta.
 
 Każde zadanie sprawdziliśmy w dokumentach Sejmu, Senatu, Rządowego Centrum Legislacji i w odpowiedziach Ministerstwa Zdrowia. „Nie znaleźliśmy” oznacza brak informacji w publicznych źródłach. Jeśli ministerstwo ją ma, chętnie ją opublikujemy.
 
 ## Sześć zadań w skrócie
 
-| Obietnica z Planu | Termin | Koszt | Stan na 15 listopada |
+| Obietnica z Planu | Termin | Koszt | Stan na 19 listopada |
 | --- | --- | --- | --- |
 | Zalecenia do oceny ośrodków, które chcą zostać Ośrodkami Eksperckimi Chorób Rzadkich | 30 czerwca | 100 tys. zł | **Termin minął.** Nie znaleźliśmy zaleceń. |
 | Przegląd sprzętu w szpitalach dziecięcych i wykaz możliwości diagnostycznych ośrodków | 30 czerwca | nie podano | **Termin minął.** Nie znaleźliśmy wyników. |
-| Nowelizacja ustawy o refundacji: finansowanie leków z importu docelowego | 31 lipca | nie podano | **Spóźnione o trzy miesiące.** W Sejmie od 30 października. |
+| Nowelizacja ustawy o refundacji: finansowanie leków z importu docelowego | 31 lipca | nie podano | **Spóźnione.** Sejm uchwalił 19 listopada, teraz Senat. |
 | Osobne rozliczanie przez NFZ leków z importu docelowego w szpitalach | 31 grudnia | nie podano | Nie znaleźliśmy zarządzenia ani projektu. |
 | Ogólnopolska kampania społeczna o chorobach rzadkich | 31 grudnia | 6 mln zł | Nie znaleźliśmy żadnej informacji. |
 | Działalność Rady do spraw Chorób Rzadkich | 31 grudnia | 250 tys. zł | **Wykonane.** Rada działa do końca roku. |
@@ -43,9 +45,9 @@ Osobno ministerstwo zapowiadało rozszerzenie badań genetycznych w poradniach s
 
 Plan zapowiadał do 31 lipca nowelizację ustawy o refundacji, która pozwoli ministrowi finansować leczenie pacjentów sprowadzających leki z zagranicy w imporcie docelowym.
 
-Rząd skierował projekt do Sejmu 30 października (druk 3281). Komisja Zdrowia przeprowadziła pierwsze czytanie 5 listopada. Projekt wprowadza m.in. wielokryterialną ocenę leków w chorobach rzadkich (MCDA) i elektroniczne wnioski o import docelowy przez Internetowe Konto Pacjenta. Większość przepisów ma wejść w życie 1 stycznia 2027 r.
+Rząd skierował projekt do Sejmu 30 października (druk 3281). Komisja Zdrowia przeprowadziła pierwsze czytanie 5 listopada. 19 listopada Sejm uchwalił nowelizację: 417 posłów za, nikt przeciw, 17 wstrzymało się. Ustawa trafi teraz do Senatu. Projekt wprowadza m.in. wielokryterialną ocenę leków w chorobach rzadkich (MCDA) i elektroniczne wnioski o import docelowy przez Internetowe Konto Pacjenta. Większość przepisów ma wejść w życie 1 stycznia 2027 r.
 
-**<mark>Projekt jest w Sejmie trzy miesiące po terminie z Planu. Pacjenci odczują zmiany najwcześniej w 2027 roku.</mark>**
+**<mark>Sejm uchwalił nowelizację ponad trzy i pół miesiąca po terminie z Planu. Pacjenci odczują zmiany najwcześniej w 2027 roku.</mark>**
 
 ## Leki z importu docelowego w szpitalach: termin 31 grudnia
 

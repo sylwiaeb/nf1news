@@ -10,7 +10,9 @@ fb: "Po zakończeniu pilotażu 30 kwietnia Ministerstwo Zdrowia odesłało pacje
 
 Po zakończeniu pilotażu 30 kwietnia Ministerstwo Zdrowia odesłało pacjentów z neurofibromatozami do Ośrodków Eksperckich Chorób Rzadkich (OECR). Nowe zasady działania tych ośrodków miała wprowadzić ustawa. **<mark>Ministerstwo podało dla niej i dla rozporządzenia trzy terminy. Dwa minęły, a trzeci, do końca roku, jest zagrożony.</mark>**
 
-To drugi z trzech wpisów o [Planie dla Chorób Rzadkich na 2026 r.]({% post_url 2026-11-16-plan-chorob-rzadkich-2026-zadania %}) W tym tygodniu, 17–19 listopada, Sejm może głosować nad poprawkami Senatu do ustawy o ośrodkach.
+To drugi z trzech wpisów o [Planie dla Chorób Rzadkich na 2026 r.]({% post_url 2026-11-16-plan-chorob-rzadkich-2026-zadania %})
+
+*Aktualizacja 19 listopada 2026 r.: Sejm przyjął wszystkie poprawki Senatu do ustawy o ośrodkach eksperckich. Ustawa trafi do Prezydenta. Zmiany naniesiono w tekście.*
 
 ## Trzy terminy ministerstwa
 
@@ -18,7 +20,7 @@ To drugi z trzech wpisów o [Planie dla Chorób Rzadkich na 2026 r.]({% post_url
 | --- | --- | --- |
 | 26 marca 2026, odpowiedź na interpelację nr 15720 | Projekt ustawy trafi do Rady Ministrów „w połowie kwietnia 2026 r.” | Rząd skierował projekt do Sejmu 23 września, ponad pięć miesięcy później. |
 | 26 marca 2026, ta sama odpowiedź | Rozporządzenie o warunkach dla ośrodków: „III kwartał 2026 r.” | III kwartał minął. Projekt rozporządzenia jest tylko załącznikiem do materiałów ustawy, bez konsultacji publicznych. |
-| 15 kwietnia 2026, pismo do Rzecznika Praw Obywatelskich | „Zakłada się, że ustawa wejdzie w życie [w] II półroczu 2026 roku” | Do końca półrocza zostało sześć tygodni. Ustawa czeka na głosowanie w Sejmie i podpis prezydenta. |
+| 15 kwietnia 2026, pismo do Rzecznika Praw Obywatelskich | „Zakłada się, że ustawa wejdzie w życie [w] II półroczu 2026 roku” | Sejm zakończył prace 19 listopada. Ustawa czeka na decyzję Prezydenta, który ma na nią 21 dni. Przepisy o ośrodkach wejdą w życie 14 dni po ogłoszeniu. |
 
 Nawet jeśli ustawa wejdzie w życie przed końcem roku, nowe ośrodki spoza europejskich sieci referencyjnych powstaną dopiero po wydaniu rozporządzenia i ocenie wniosków. Zalecenia do tej oceny Rada do spraw Chorób Rzadkich miała przygotować do 30 czerwca. Nie znaleźliśmy ich.
 
@@ -29,7 +31,7 @@ Nawet jeśli ustawa wejdzie w życie przed końcem roku, nowe ośrodki spoza eur
 - **22 października:** Sejm uchwala ustawę, 439 głosów za.
 - **3 listopada:** senacka Komisja Zdrowia popiera ustawę z poprawkami legislacyjnymi.
 - **6 listopada:** Senat przyjmuje ustawę z pięcioma poprawkami, 96 głosów za, nikt przeciw.
-- **17–19 listopada:** Sejm może głosować nad poprawkami Senatu. Ten punkt jest w części porządku obrad, o którą posiedzenie „może być uzupełnione”.
+- **19 listopada:** Sejm przyjmuje wszystkie pięć poprawek Senatu. Wnioski o ich odrzucenie poparło od 1 do 3 posłów, przeciw było od 420 do 436. Ustawa trafia do Prezydenta.
 
 Wszystkie pięć poprawek Senatu ma charakter techniczny. Dotyczą m.in. słowa „bankowego” przy zwrocie kosztów leczenia za granicą i korekt składek w ZUS. Żadna nie dotyczy ośrodków eksperckich. Biuro Legislacyjne Senatu w opinii z 2 listopada nie zgłosiło żadnej uwagi do przepisów o ośrodkach.
 
@@ -66,7 +68,7 @@ Więcej o debacie: [Senat jednogłośnie za ustawą o ośrodkach eksperckich]({%
 
 ## Co dalej
 
-Sejm może już tylko przyjąć albo odrzucić poprawki Senatu. Przepisów o koordynacji nie da się do tej ustawy dodać. Przywrócenie pilotażu nie wymaga zmiany prawa: o programach pilotażowych decyduje minister zdrowia (art. 48e ustawy o świadczeniach).
+Prace w parlamencie zakończyły się 19 listopada. Przepisów o koordynacji w uchwalonej ustawie nie ma. Przywrócenie pilotażu nie wymaga zmiany prawa: o programach pilotażowych decyduje minister zdrowia (art. 48e ustawy o świadczeniach).
 
 **<mark>Pacjenci z neurofibromatozami są bez opieki koordynowanej od 30 kwietnia. Czekają na zmianę decyzji i na dialog.</mark>**
 
