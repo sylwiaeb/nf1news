@@ -1,0 +1,12 @@
+{
+  "uklad": "liczby",
+  "motyw": "ciemny",
+  "etykieta": "Sejm, 19 listopada 2026 · ustawa o ośrodkach eksperckich chorób rzadkich",
+  "liczby": [
+    {"liczba": "5 z 5", "opis": "poprawek Senatu przyjętych", "kolor": "niebieski"},
+    {"liczba": "21 dni", "opis": "ma Prezydent na decyzję", "kolor": "pomaranczowy"},
+    {"liczba": "0", "opis": "==koordynatorów dla pacjentów w ustawie==", "kolor": "czerwony"}
+  ],
+  "pytanie": "Pacjenci z NF są bez opieki koordynowanej od 30 kwietnia.",
+  "alt": "Sejm, 19 listopada 2026, ustawa o ośrodkach eksperckich chorób rzadkich: 5 z 5 poprawek Senatu przyjętych. 21 dni ma Prezydent na decyzję. 0 koordynatorów dla pacjentów w ustawie. Pacjenci z NF są bez opieki koordynowanej od 30 kwietnia."
+}
