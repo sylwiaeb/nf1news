@@ -1,10 +1,12 @@
 ---
-date: 2026-11-21 10:00:00 +0100
+date: 2026-11-20 19:00:00 +0100
 title: "Cztery interpelacje w sprawie pacjentów z NF. Posłowie z trzech klubów pytają Ministerstwo Zdrowia"
 description: "18 i 19 listopada 2026 r. posłowie złożyli cztery interpelacje do Ministra Zdrowia w sprawie koordynowanej opieki nad pacjentami z neurofibromatozami po zakończeniu pilotażu. Podpisało je 14 posłów z PiS, KO i Polski 2050. Wyjaśniamy, co dalej dzieje się z interpelacją i ile czasu ma ministerstwo na odpowiedź."
-image: /assets/grafiki/2026-11-21-cztery-interpelacje-w-sprawie-nf.png
+image: /assets/grafiki/2026-11-20-cztery-interpelacje-w-sprawie-nf.png
 grafika_alt: "Sejm, 18–19 listopada 2026: 4 interpelacje w sprawie opieki nad pacjentami z NF. 14 posłów z 3 klubów. 21 dni ma Ministerstwo Zdrowia na odpowiedź. Głos pacjentów z NF dotarł do Sejmu."
-tweet: "18–19.11 posłowie złożyli 4 interpelacje do Ministra Zdrowia w sprawie opieki nad pacjentami z neurofibromatozami po końcu pilotażu. Podpisało je 14 posłów z PiS, KO i Polski 2050. MZ ma 21 dni na odpowiedź od otrzymania. @MZ_GOV_PL #NF1 #neurofibromatoza #ChorobyRzadkie"
+tweet: false
+# Na X w poniedziałek 23.11 (8–10): wtedy zamienić tweet: false na ten tekst i uruchomić x-post.yml ręcznie.
+tweet_poniedzialek: "18–19.11 posłowie złożyli 4 interpelacje do Ministra Zdrowia w sprawie opieki nad pacjentami z neurofibromatozami po końcu pilotażu. Podpisało je 14 posłów z PiS, KO i Polski 2050. MZ ma 21 dni na odpowiedź od otrzymania. @MZ_GOV_PL #NF1 #neurofibromatoza #ChorobyRzadkie"
 fb: "18 i 19 listopada 2026 r. w Sejmie złożono cztery interpelacje do Ministra Zdrowia w sprawie koordynowanej opieki nad pacjentami z neurofibromatozami po zakończeniu programu pilotażowego 30 kwietnia. Podpisało je 14 posłów z trzech klubów: PiS, KO i Polski 2050. Od 14 listopada pacjenci i rodziny pisali do posłów z prośbą o pomoc. Dziękujemy wszystkim, którzy napisali. Ministerstwo Zdrowia ma 21 dni na odpowiedź od dnia otrzymania interpelacji. Ministerstwo Zdrowia kieruje minister Jolanta Sobierańska-Grenda. #NF1 #neurofibromatoza #ChorobyRzadkie"
 ---
 
