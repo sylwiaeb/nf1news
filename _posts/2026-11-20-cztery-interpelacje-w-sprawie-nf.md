@@ -25,8 +25,6 @@ Od 14 listopada pacjenci z NF i ich rodziny [pisali do posłów]({{ '/napisz-do-
 
 Wszystkie cztery są skierowane do Ministra Zdrowia. 20 listopada ich treść nie była jeszcze opublikowana w systemie Sejmu. Gdy się pojawi, opiszemy pytania posłów.
 
-Wcześniej sprawą NF w tej kadencji zajmowała się jedna interpelacja: [nr 10154](https://sejm.gov.pl/sejm10.nsf/interpelacja.xsp?typ=int&nr=10154) z 9 czerwca 2025 r. w sprawie rozszerzenia opieki koordynowanej na osoby dorosłe. Odpowiedź Ministerstwa Zdrowia przyszła 8 lipca 2025 r.
-
 ## Co dalej dzieje się z interpelacją
 
 Zasady opisuje [Regulamin Sejmu](https://api.sejm.gov.pl/eli/acts/MP/2026/573/text.pdf) (art. 192 i 193):
@@ -55,5 +53,4 @@ Część rodzin dostaje odpowiedzi od posłów. Jeśli poseł pyta o szczegóły
 - [Interpelacja nr 21131](https://sejm.gov.pl/sejm10.nsf/interpelacja.xsp?typ=int&nr=21131)
 - [Interpelacja nr 21168](https://sejm.gov.pl/sejm10.nsf/interpelacja.xsp?typ=int&nr=21168)
 - [Interpelacja nr 21169](https://sejm.gov.pl/sejm10.nsf/interpelacja.xsp?typ=int&nr=21169)
-- [Interpelacja nr 10154 (2025) z odpowiedzią MZ](https://sejm.gov.pl/sejm10.nsf/interpelacja.xsp?typ=int&nr=10154)
 - [Regulamin Sejmu, tekst jednolity M.P. 2026 poz. 573, art. 192–193](https://api.sejm.gov.pl/eli/acts/MP/2026/573/text.pdf)
