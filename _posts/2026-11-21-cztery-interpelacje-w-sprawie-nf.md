@@ -42,7 +42,7 @@ Będziemy codziennie sprawdzać stan wszystkich czterech interpelacji i opiszemy
 Część rodzin dostaje odpowiedzi od posłów. Jeśli poseł pyta o szczegóły albo chce pomóc, w odpowiedzi można:
 
 - napisać, że wiadomość zostanie przekazana do Doroty Korycińskiej ze Stowarzyszenia Neurofibromatozy Polska, i dodać jej adres do wiadomości: [dorota.korycinska@neurofibromatozy.pl](mailto:dorota.korycinska@neurofibromatozy.pl),
-- dołączyć link do [kalendarium pilotażu NF](https://neurofibromatozy.pl/pacjent/ckom/), gdzie są zebrane wszystkie dokumenty: rozporządzenia, pisma Ministerstwa Zdrowia, raporty i interpelacje,
+- dołączyć link do [kalendarium pilotażu NF](https://neurofibromatozy.pl/pacjent/kalendarium-pilotazu/), gdzie są zebrane wszystkie dokumenty: rozporządzenia, pisma Ministerstwa Zdrowia, raporty i interpelacje,
 - dołączyć link do [NF1 News]({{ '/' | relative_url }}), gdzie sprawa jest opisywana na bieżąco.
 
 **<mark>Pacjenci z neurofibromatozami są bez opieki koordynowanej od 30 kwietnia. Czekają na zmianę decyzji i na dialog.</mark>**
