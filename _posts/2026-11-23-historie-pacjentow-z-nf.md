@@ -24,7 +24,7 @@ Rodzice dzieci z NF1 i dorośli z tą chorobą opisali nam, co słyszą w przych
 
 ## Specjaliści w poradniach
 
-**Okulista: kontrola za dwa lata.** Dziecko z NF1 po wizycie u okulisty zostaje zapisane na kolejną na najbliższy wolny termin w poradni ogólnej, czyli za rok albo za dwa lata. Następnym razem trafia do okulisty, który zajmuje się leczeniem zeza. Dziecko zeza nie ma. Lekarz nie wie, co konkretnie ma zbadać i czego szukać. O NF1 wie tyle, że taka choroba istnieje. **<mark>Kolejną kontrolę wyznacza za dwa lata, bo dziecko nie ma zeza.</mark>**
+**Okulista: kontrola za rok.** Dziecko z NF1 po wizycie u okulisty zostaje zapisane na kolejną na najbliższy wolny termin w poradni ogólnej, czyli za rok. Następnym razem trafia do okulisty, który zajmuje się leczeniem zeza. Dziecko zeza nie ma. Lekarz nie wie, co konkretnie ma zbadać i czego szukać. O NF1 wie tyle, że taka choroba istnieje. **<mark>Kolejną kontrolę wyznacza za rok, bo dziecko nie ma zeza.</mark>**
 
 **Okulista: informacje z internetu.** Dorosła pacjentka z NF1, która nie ma opieki w ośrodku, robi badania na własną rękę. **<mark>Okulista w czasie wizyty szukał w internecie informacji o chorobie, z którą przyszła.</mark>**
 
@@ -52,7 +52,7 @@ Rodzice dzieci z NF1 i dorośli z tą chorobą opisali nam, co słyszą w przych
 | POZ | lekarze przez lata | „taka uroda”, diagnoza NF1 po trzydziestce, na własny koszt |
 | POZ | lekarz przy szczepieniu | „jak nie wiedzą, co dziecku dolega, to wpisują NF1” |
 | POZ | lekarz rodzinny | tłumaczenie choroby przy każdej wizycie; „udaje ból” |
-| poradnia | okulista | kontrola za 1–2 lata, lekarz nie wiedział, czego szukać |
+| poradnia | okulista | kontrola za rok, lekarz nie wiedział, czego szukać |
 | poradnia | okulista | szukał informacji o chorobie w internecie |
 | poradnia | neurolog | brak skierowania na rezonans, rezonans prywatnie |
 | poradnia | genetyk | brak badań; „nie przesadzać” |
