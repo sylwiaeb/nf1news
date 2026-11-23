@@ -16,7 +16,7 @@ Rodzice dzieci z NF1 i dorośli z tą chorobą opisali nam, co słyszą w przych
 
 **„Taki będzie jego typ urody”.** Mama dziecka z NF1 zapytała pediatrę o plamy na skórze syna. Usłyszała, że to będzie jego typ urody.
 
-**„Taka uroda”.** Dorosła pacjentka miała plamy na skórze i nerwiakowłókniaki od dziecka. Przez lata słyszała od lekarzy, że to „taka uroda” i że nie powinna się opalać. Nikt nie skierował jej na diagnostykę. NF1 rozpoznano u niej po trzydziestce, przypadkiem i na własny koszt, przy diagnozie jej syna. Syn urodził się z dużymi plamami w tym samym miejscu, w którym ma je mama.
+**„Taka uroda”.** Dorosła pacjentka miała plamy na skórze i nerwiakowłókniaki od dziecka. Przez lata słyszała od lekarzy, że to „taka uroda” i że nie powinna się opalać. Nikt nie skierował jej na diagnostykę. Jej syn urodził się z dużymi plamami w tym samym miejscu, w którym ma je mama. **NF1 rozpoznano u niej po trzydziestce, dlatego że chorobę zdiagnozowano u syna.** Diagnostykę zrobiła na własny koszt.
 
 **Przy szczepieniu.** Pielęgniarka powiedziała lekarzowi, że dziecko choruje na NF1. Lekarz odpowiedział: **<mark>„teraz jak nie wiedzą, co dziecku dolega, to wpisują NF1”</mark>**.
 
@@ -49,7 +49,7 @@ Rodzice dzieci z NF1 i dorośli z tą chorobą opisali nam, co słyszą w przych
 | Gdzie | Lekarz | Co się stało |
 | --- | --- | --- |
 | POZ | pediatra | plamy na skórze: „taki będzie jego typ urody” |
-| POZ | lekarze przez lata | „taka uroda”, diagnoza NF1 po trzydziestce, na własny koszt |
+| POZ | lekarze przez lata | „taka uroda”; diagnoza NF1 po trzydziestce, bo zdiagnozowano syna |
 | POZ | lekarz przy szczepieniu | „jak nie wiedzą, co dziecku dolega, to wpisują NF1” |
 | POZ | lekarz rodzinny | tłumaczenie choroby przy każdej wizycie; „udaje ból” |
 | poradnia | okulista | wizyta za rok u lekarza od zeza, który nie wiedział, co zbadać; kolejna za 2 lata |
