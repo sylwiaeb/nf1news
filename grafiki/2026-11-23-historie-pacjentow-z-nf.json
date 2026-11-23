@@ -1,12 +1,12 @@
 {
   "uklad": "zestawienie",
   "motyw": "ciemny",
-  "etykieta": "Pacjenci z NF1 poza pilotażem · cztery historie",
+  "etykieta": "Pacjenci z NF1 poza ośrodkami specjalistycznymi",
   "elementy": [
-    {"etykieta": "Dorosła pacjentka, przez lata", "tekst": "„Taka uroda”", "podpis": "diagnoza NF1 dopiero po trzydziestce", "kolor": "pomaranczowy"},
-    {"etykieta": "Mama dziecka, u genetyka", "tekst": "„Proszę nie przesadzać”", "podpis": "bez skierowania na badania", "kolor": "czerwony"},
-    {"etykieta": "Dorosły pacjent, w przychodni POZ", "tekst": "„Udaje ból”", "podpis": "przy każdej wizycie tłumaczy, czym jest NF1", "kolor": "niebieski"}
+    {"etykieta": "Przychodnia POZ, pediatra", "tekst": "„Taki będzie jego typ urody”", "podpis": "o plamach na skórze dziecka z NF1", "kolor": "pomaranczowy"},
+    {"etykieta": "Poradnia, genetyk", "tekst": "„Proszę nie przesadzać”", "podpis": "bez skierowania na badania", "kolor": "czerwony"},
+    {"etykieta": "Szpital, neurolog", "tekst": "„Po co rezonans głowy?”", "podpis": "do pacjentki z NF1", "kolor": "niebieski"}
   ],
   "pytanie": "==Pacjenci z NF czekają na opiekę koordynowaną.==",
-  "alt": "Cztery historie pacjentów z NF1 poza pilotażem. „Taka uroda” – latami słyszała dorosła pacjentka, diagnoza NF1 dopiero po trzydziestce. „Proszę nie przesadzać” – usłyszała mama dziecka u genetyka, bez skierowania na badania. „Udaje ból” – usłyszał dorosły pacjent w przychodni POZ, gdzie przy każdej wizycie tłumaczy, czym jest NF1. Pacjenci z NF czekają na opiekę koordynowaną."
+  "alt": "Pacjenci z NF1 poza ośrodkami specjalistycznymi. Przychodnia POZ, pediatra: „Taki będzie jego typ urody” o plamach na skórze dziecka z NF1. Poradnia, genetyk: „Proszę nie przesadzać”, bez skierowania na badania. Szpital, neurolog: „Po co rezonans głowy?” do pacjentki z NF1. Pacjenci z NF czekają na opiekę koordynowaną."
 }
