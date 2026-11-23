@@ -40,7 +40,7 @@ Rodzice dzieci z NF1 i dorośli z tą chorobą opisali nam, co słyszą w przych
 
 ## W ośrodku specjalistycznym
 
-**Syn pacjentki zdiagnozowanej po trzydziestce.** Po urodzeniu chłopiec dostał skierowania do sześciu specjalistów: rehabilitanta, neurologa, okulisty, laryngologa, neurochirurga i chirurga. W wieku dwóch lat trafił do programu pilotażowego. Mama opisuje, że wtedy jego opieka zdrowotna została uporządkowana. Dziś syn przyjmuje lek. Mama takiej opieki nie ma.
+**Syn pacjentki zdiagnozowanej po trzydziestce.** Po urodzeniu chłopiec dostał skierowania do sześciu specjalistów: rehabilitanta, neurologa, okulisty, laryngologa, neurochirurga i chirurga. W wieku dwóch lat trafił do programu pilotażowego. Mama opisuje, że wtedy jego opieka zdrowotna została uporządkowana. Mama takiej opieki nie ma.
 
 **Chłopiec z guzkami w mosznie.** Z guzkami w mosznie mama pojechała z synem do ośrodka specjalistycznego. Tam od razu dostali skierowanie na USG i wizytę u chirurga onkologa, a syn trafił pod stałą kontrolę lekarki znającej NF1. Mama opisuje, że wtedy czuła, że syn jest pod opieką. Dziś, jak pisze, już pod nią nie są.
 
