@@ -1,0 +1,11 @@
+{
+  "uklad": "liczby",
+  "motyw": "ciemny",
+  "etykieta": "Sejm, 17 listopada 2026 · odpowiedź Ministerstwa Zdrowia",
+  "liczby": [
+    {"liczba": "16 minut", "opis": "odpowiedzi wiceminister zdrowia na pytania posłów", "kolor": "niebieski"},
+    {"liczba": "0 słów", "opis": "o neurofibromatozie", "kolor": "czerwony"}
+  ],
+  "pytanie": "Posłanka Józefa Szczurek-Żelazko pytała, ==gdzie mają się teraz leczyć pacjenci z NF.==",
+  "alt": "Sejm, 17 listopada 2026, odpowiedź Ministerstwa Zdrowia: 16 minut odpowiedzi wiceminister zdrowia na pytania posłów. 0 słów o neurofibromatozie. Posłanka Józefa Szczurek-Żelazko pytała, gdzie mają się teraz leczyć pacjenci z NF."
+}
