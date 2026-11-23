@@ -20,7 +20,7 @@ Rodzice dzieci z NF1 i dorośli z tą chorobą opisali nam, co słyszą w przych
 
 **Przy szczepieniu.** Pielęgniarka powiedziała lekarzowi, że dziecko choruje na NF1. Lekarz odpowiedział: **<mark>„teraz jak nie wiedzą, co dziecku dolega, to wpisują NF1”</mark>**.
 
-**Dorosły pacjent w przychodni.** Mężczyzna z NF1, z przewlekłym bólem i zwężonym kanałem kręgowym. **<mark>W przychodni POZ przy każdej wizycie musi tłumaczyć, na czym polega jego choroba.</mark>** Gdy szukał tam leczenia bólu, usłyszał, że udaje ból. Jak pisze, ze skierowaniami i badaniami nie ma większego problemu, a fizjoterapeuci znają jego chorobę.
+**Dorosły pacjent w przychodni.** Mężczyzna z NF1, z przewlekłym bólem i zwężonym kanałem kręgowym. **<mark>W przychodni POZ przy każdej wizycie musi tłumaczyć, na czym polega jego choroba.</mark>** Gdy szukał tam leczenia bólu, usłyszał, że udaje ból. **<mark>Mówi, że u lekarzy czuje się jak hipochondryk.</mark>** Jak pisze, ze skierowaniami i badaniami nie ma większego problemu, a fizjoterapeuci znają jego chorobę.
 
 ## Specjaliści w poradniach
 
