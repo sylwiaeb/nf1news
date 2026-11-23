@@ -1,10 +1,12 @@
 ---
-date: 2026-11-23 10:00:00 +0100
+date: 2026-11-24 10:00:00 +0100
 title: "„Taka uroda”, „proszę nie przesadzać”. Co pacjenci z NF1 słyszą u lekarzy poza ośrodkami specjalistycznymi"
 description: "Rodzice dzieci z NF1 i dorośli z tą chorobą opisują wizyty w przychodniach POZ, u specjalistów i w szpitalu, poza ośrodkami, które znają NF1. Relacje bez imion i nazw miejscowości."
 image: /assets/grafiki/2026-11-23-historie-pacjentow-z-nf.png
 grafika_alt: "Pacjenci z NF1 poza ośrodkami specjalistycznymi. Przychodnia POZ, pediatra: „Taki będzie jego typ urody” o plamach na skórze dziecka z NF1. Poradnia, genetyk: „Proszę nie przesadzać”, bez skierowania na badania. Szpital, neurolog: „Po co rezonans głowy?” do pacjentki z NF1. Pacjenci z NF czekają na opiekę koordynowaną."
-tweet: "„Taka uroda”. „Proszę nie przesadzać”. „Udaje ból”. To słyszeli pacjenci z NF1 i rodzice dzieci z NF1 w przychodniach POZ, u specjalistów i w szpitalu, poza ośrodkami znającymi NF1. @MZ_GOV_PL #NF1 #neurofibromatoza #ChorobyRzadkie"
+tweet: false
+# Na X na razie nie (Sylwia, 23.11). Tekst na później:
+tweet_pozniej: "„Taka uroda”. „Proszę nie przesadzać”. „Udaje ból”. To słyszeli pacjenci z NF1 i rodzice dzieci z NF1 w przychodniach POZ, u specjalistów i w szpitalu, poza ośrodkami znającymi NF1. @MZ_GOV_PL #NF1 #neurofibromatoza #ChorobyRzadkie"
 fb: "„Taka uroda”. „Proszę nie przesadzać”. „Udaje ból”. Rodzice dzieci z NF1 i dorośli z tą chorobą opisali, co słyszą w przychodniach POZ, u pediatry, okulisty, neurologa, genetyka, urologa i w szpitalu, poza ośrodkami specjalistycznymi, które znają NF1. Pilotaż opieki koordynowanej dla pacjentów z neurofibromatozami zakończył się 30 kwietnia 2026 r. Ministerstwo Zdrowia kieruje minister Jolanta Sobierańska-Grenda. #NF1 #neurofibromatoza #ChorobyRzadkie"
 ---
 
