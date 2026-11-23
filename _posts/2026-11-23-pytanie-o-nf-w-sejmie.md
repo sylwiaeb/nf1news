@@ -3,9 +3,9 @@ date: 2026-11-23 22:30:00 +0100
 title: "Pytanie o pacjentów z NF na sali Sejmu. Posłanka pytała, gdzie mają się teraz leczyć"
 description: "17 listopada 2026 r., w debacie nad nowelizacją ustawy refundacyjnej, posłanka Józefa Szczurek-Żelazko zapytała Ministerstwo Zdrowia, dlaczego nie zapewniono ciągłości opieki po zakończeniu pilotażu NF i w których placówkach pacjenci z neurofibromatozami mogą teraz uzyskać opiekę koordynowaną. Przytaczamy pytanie i odpowiedź wiceminister zdrowia Katarzyny Kacperczyk ze stenogramu Sejmu."
 image: /assets/grafiki/2026-11-23-pytanie-o-nf-w-sejmie.png
-grafika_alt: "Sejm, 17 listopada 2026. Pytanie posłanki Józefy Szczurek-Żelazko: W których konkretnie placówkach pacjenci z neurofibromatozami będą obecnie mogli uzyskać kompleksową opiekę koordynowaną? Pacjenci z NF czekają na odpowiedź."
+grafika_alt: "Sejm, 17 listopada 2026, odpowiedź Ministerstwa Zdrowia: 16 minut odpowiedzi wiceminister zdrowia na pytania posłów. 0 słów o neurofibromatozie. Posłanka Józefa Szczurek-Żelazko pytała, gdzie mają się teraz leczyć pacjenci z NF."
 tweet: false
-tweet_jutro: "17.11 w Sejmie posłanka Józefa Szczurek-Żelazko zapytała MZ, w których placówkach pacjenci z NF mogą teraz uzyskać opiekę koordynowaną. W stenogramie odpowiedzi wiceminister zdrowia nie ma słów „neurofibromatoza” ani „pilotaż”. @MZ_GOV_PL #NF1 #neurofibromatoza"
+tweet_jutro: "16 minut odpowiedzi wiceminister zdrowia w Sejmie. 0 słów o neurofibromatozie. A posłanka @SzczurekZelazko (PiS) pytała wprost: gdzie mają się teraz leczyć pacjenci z NF po końcu pilotażu? Bez opieki koordynowanej są od 30 kwietnia. @MZ_GOV_PL #NF1 #ChorobyRzadkie"
 fb: "17 listopada 2026 r. w Sejmie, w debacie nad nowelizacją ustawy refundacyjnej, posłanka Józefa Szczurek-Żelazko zapytała Ministerstwo Zdrowia: „Dlaczego nie zapewniono ciągłości opieki po zakończeniu tego pilotażu? W których konkretnie placówkach pacjenci z neurofibromatozami będą obecnie mogli uzyskać kompleksową opiekę koordynowaną, finansowaną w ramach Narodowego Funduszu Zdrowia?”. Na pytania posłów odpowiadała wiceminister zdrowia Katarzyna Kacperczyk. Przytaczamy pytanie i odpowiedź ze stenogramu. Pacjenci z NF czekają na odpowiedź. #NF1 #neurofibromatoza #ChorobyRzadkie"
 ---
 
