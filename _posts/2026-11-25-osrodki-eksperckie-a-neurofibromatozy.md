@@ -1,10 +1,10 @@
 ---
-date: 2026-11-25 08:00:00 +0100
+date: 2026-11-25 10:00:00 +0100
 title: "Ośrodki eksperckie chorób rzadkich: w jakich chorobach mają status szpitale z pilotażu NF"
 description: "Ministerstwo Zdrowia odesłało pacjentów z neurofibromatozami do Ośrodków Eksperckich Chorób Rzadkich. Pięć z siedmiu szpitali z pilotażu NF ma taki status. Sprawdziliśmy, w jakich chorobach: nerki, wątroba, nowotwory dziecięce, wady twarzoczaszki. Neurofibromatoz nie ma wśród nich."
 image: /assets/grafiki/2026-11-25-osrodki-eksperckie-a-neurofibromatozy.png
 grafika_alt: "Ośrodki eksperckie chorób rzadkich a neurofibromatozy. 5 z 7 szpitali z pilotażu NF ma status ośrodka eksperckiego. 0 z tych statusów dotyczy neurofibromatoz. 2 830 pacjentów było w pilotażu. Pacjenci z NF są bez opieki koordynowanej od 30 kwietnia."
-tweet: "5 z 7 szpitali z pilotażu NF ma status ośrodka eksperckiego chorób rzadkich. W chorobach nerek, wątroby, nowotworach dzieci, wadach twarzoczaszki. W neurofibromatozach żaden. Jedyny polski członek sieci ERN GENTURIS nie ma w niej ekspertyzy w NF. @MZ_GOV_PL #NF1 #ChorobyRzadkie"
+tweet: "5 z 7 szpitali z pilotażu NF ma status ośrodka eksperckiego chorób rzadkich: w chorobach nerek, wątroby, nowotworach dzieci, wadach twarzoczaszki. W neurofibromatozach żaden. Jedyny polski członek sieci ERN GENTURIS nie ma w niej ekspertyzy w NF. @PremierRP @MZ_GOV_PL #NF1"
 fb: "Po zakończeniu pilotażu Ministerstwo Zdrowia odesłało pacjentów z neurofibromatozami do Ośrodków Eksperckich Chorób Rzadkich. Sprawdziliśmy, w jakich chorobach mają ten status szpitale, które prowadziły pilotaż. Pięć z siedmiu jest na liście ośrodków eksperckich: w chorobach nerek, wątroby, nowotworach dziecięcych, chorobach metabolicznych, wadach twarzoczaszki. Żaden status nie dotyczy neurofibromatoz. Europejska sieć, w której są ośrodki od NF, to ERN GENTURIS. Jej jedyny polski członek, szpital w Szczecinie, ma w niej ekspertyzę w dziedzicznych nowotworach, nie w NF. Ministerstwo Zdrowia kieruje minister Jolanta Sobierańska-Grenda. #NF1 #neurofibromatoza #ChorobyRzadkie"
 ---
 
