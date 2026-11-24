@@ -73,7 +73,7 @@ Dotyczy dalszej opieki nad pacjentami, którzy do 30 kwietnia 2026 r. byli w pil
 
 <p class="to">Do: Ministerstwo Zdrowia · <code>kancelaria@mz.gov.pl</code></p>
 
-Druga część, przygotowana po odpowiedzi Ministerstwa z 18 listopada 2026 r. na część 1. Pyta, które OECR przyjmują pacjentów z NF (dzieci i dorosłych), czy któryś z nich należy do europejskiej sieci ERN GENTURIS w zakresie NF, który przepis wskazuje, kto koordynuje opiekę, czy jest świadczenie za koordynację, oraz o dokumenty i wytyczne. Na każde pytanie trzeba odpowiedzieć „tak” (z dokumentem lub przepisem) albo „nie”. Można ją wysłać także bez części 1.
+Druga część wniosku. Pyta, które OECR przyjmują pacjentów z NF (dzieci i dorosłych), czy któryś z nich należy do europejskiej sieci ERN GENTURIS w zakresie NF, który przepis wskazuje, kto koordynuje opiekę, czy jest świadczenie za koordynację, oraz o dokumenty i wytyczne. Na każde pytanie trzeba odpowiedzieć „tak” (z dokumentem lub przepisem) albo „nie”. Można ją wysłać także bez części 1.
 
 <p class="files">Pobierz: <a href="{{ '/pliki/wniosek-MZ-gdzie-pacjent-po-pilotazu-cz2.docx' | relative_url }}">Word (.docx)</a> · <a href="{{ '/pliki/wniosek-MZ-gdzie-pacjent-po-pilotazu-cz2.txt' | relative_url }}">tekst (.txt)</a></p>
 
