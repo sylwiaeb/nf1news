@@ -1,5 +1,5 @@
 ---
-date: 2026-11-25 10:00:00 +0100
+date: 2026-11-25 09:55:00 +0100
 title: "Ośrodki eksperckie chorób rzadkich: w jakich chorobach mają status szpitale z pilotażu NF"
 description: "Ministerstwo Zdrowia odesłało pacjentów z neurofibromatozami do Ośrodków Eksperckich Chorób Rzadkich. Pięć z siedmiu szpitali z pilotażu NF ma taki status. Sprawdziliśmy, w jakich chorobach: nerki, wątroba, nowotwory dziecięce, wady twarzoczaszki. Neurofibromatoz nie ma wśród nich."
 image: /assets/grafiki/2026-11-25-osrodki-eksperckie-a-neurofibromatozy.png
