@@ -1,0 +1,12 @@
+{
+  "uklad": "liczby",
+  "motyw": "ciemny",
+  "etykieta": "Ośrodki eksperckie chorób rzadkich a neurofibromatozy",
+  "liczby": [
+    {"liczba": "5 z 7", "opis": "szpitali z pilotażu NF ma status ośrodka eksperckiego", "kolor": "niebieski"},
+    {"liczba": "0", "opis": "==z tych statusów dotyczy neurofibromatoz==", "kolor": "czerwony"},
+    {"liczba": "2 830", "opis": "pacjentów było w pilotażu", "kolor": "pomaranczowy"}
+  ],
+  "pytanie": "Pacjenci z NF są bez opieki koordynowanej od 30\u00a0kwietnia.",
+  "alt": "Ośrodki eksperckie chorób rzadkich a neurofibromatozy. 5 z 7 szpitali z pilotażu NF ma status ośrodka eksperckiego. 0 z tych statusów dotyczy neurofibromatoz. 2 830 pacjentów było w pilotażu. Pacjenci z NF są bez opieki koordynowanej od 30\u00a0kwietnia."
+}
