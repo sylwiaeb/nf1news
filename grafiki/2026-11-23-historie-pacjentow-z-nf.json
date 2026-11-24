@@ -1,0 +1,12 @@
+{
+  "uklad": "zestawienie",
+  "motyw": "ciemny",
+  "etykieta": "Pacjenci z NF1 poza ośrodkami specjalistycznymi",
+  "elementy": [
+    {"etykieta": "Przychodnia POZ, pediatra", "tekst": "„Taki będzie jego typ urody”", "podpis": "o plamach na skórze dziecka z NF1", "kolor": "pomaranczowy"},
+    {"etykieta": "Poradnia, genetyk", "tekst": "„Proszę nie przesadzać”", "podpis": "bez skierowania na badania", "kolor": "czerwony"},
+    {"etykieta": "Szpital, neurolog", "tekst": "„Po co rezonans głowy?”", "podpis": "do pacjentki z NF1", "kolor": "niebieski"}
+  ],
+  "pytanie": "==Pacjenci z NF czekają na opiekę koordynowaną.==",
+  "alt": "Pacjenci z NF1 poza ośrodkami specjalistycznymi. Przychodnia POZ, pediatra: „Taki będzie jego typ urody” o plamach na skórze dziecka z NF1. Poradnia, genetyk: „Proszę nie przesadzać”, bez skierowania na badania. Szpital, neurolog: „Po co rezonans głowy?” do pacjentki z NF1. Pacjenci z NF czekają na opiekę koordynowaną."
+}
