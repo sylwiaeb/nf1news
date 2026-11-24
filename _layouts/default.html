@@ -123,6 +123,49 @@
     @media (prefers-color-scheme: dark) { .pasek .karty span { box-shadow: 0 0 0 1px #3a3a3a; } .pasek .karty span::after { background: #222; } }
     .pasek .wiecej { color: #1a5fb4; white-space: nowrap; }
     @media (prefers-color-scheme: dark) { .pasek .wiecej { color: #8ab4f8; } }
+    /* Wygląd „Spokojny” (24.11.2026): krój bezszeryfowy, karty, jasny i ciemny motyw przez zmienne. */
+    :root { --bg: #f6f7f9; --surface: #ffffff; --surface2: #eef1f5; --line: #dde2e8; --ink: #1d2127; --muted: #5f6773; --link: #1a5fb4; --link-line: rgba(26,95,180,.35); --teaser: #3b424c; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #111418; --surface: #1a1f26; --surface2: #212831; --line: #2a313b; --ink: #e8eaed; --muted: #98a1ad; --link: #8ab4f8; --link-line: rgba(138,180,248,.4); --teaser: #c3c9d1; } }
+    body { max-width: 44rem; padding: 0 1.25rem 2rem; background: var(--bg); color: var(--ink); font: 17.5px/1.7 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+    a { color: var(--link); text-decoration: none; }
+    main a:not(.btn) { text-decoration: underline; text-decoration-color: var(--link-line); text-underline-offset: 3px; }
+    main a:not(.btn):hover { text-decoration-color: currentColor; }
+    h1, h2, h3 { letter-spacing: -0.01em; }
+    header { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.6rem 1rem; padding: 1.2rem 0; margin: 0 0 1.2rem; }
+    header a.title { font-size: 1.3rem; }
+    header nav { display: flex !important; flex-wrap: wrap; gap: 0 0.3rem; }
+    header nav a { margin: 0; padding: 0.3rem 0.7rem; border-radius: 999px; color: var(--muted); font-size: 0.85rem; }
+    header nav a:hover { background: var(--surface2); color: var(--ink); }
+    .date, .source, .card .to, .card dt, .mail-box label, .chart .legend, .share, footer { color: var(--muted); }
+    .pasek { margin: 0 0 1.8rem; padding: 0.75rem 1rem; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; }
+    .pasek .wiecej { color: var(--link); }
+    .pasek .karty span::after { background: var(--surface) !important; }
+    .start { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 1.1rem 1.3rem; }
+    .start h2 { font-size: 1.15rem; }
+    .start p { color: var(--muted); font-size: 0.95rem; }
+    .start ul { list-style: none; padding: 0; margin: 0.6rem 0 0; display: grid; gap: 0.5rem; }
+    .start li { margin: 0; }
+    main .start li a { display: block; padding: 0.65rem 0.9rem; background: var(--surface2); border-radius: 10px; color: var(--ink); text-decoration: none; font-weight: 600; font-size: 0.95rem; }
+    .start li a::after { content: " →"; color: var(--link); }
+    .feed-head { font-size: 1rem; color: var(--muted); font-weight: 600; margin: 2rem 0 0.8rem; }
+    article.teaser { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 1.1rem 1.3rem; margin-bottom: 1rem; }
+    article.teaser h3 { font-size: 1.2rem; line-height: 1.35; }
+    main article.teaser h3 a { color: var(--ink); text-decoration: none; }
+    main article.teaser h3 a:hover { color: var(--link); }
+    article.teaser p { color: var(--teaser); font-size: 0.97rem; }
+    article.teaser p.date { color: var(--muted); }
+    article.teaser .more { margin: 0; }
+    .date { font-size: 0.8rem; }
+    article h1 { font-size: 2.1rem; line-height: 1.2; margin: 0.5rem 0 0.6rem; }
+    article h2 { font-size: 1.4rem; margin-top: 2.2rem; }
+    main .share a { display: inline-block; padding: 0.15rem 0.65rem; border: 1px solid var(--line); border-radius: 999px; text-decoration: none; }
+    .toc { background: var(--surface); border-radius: 0 10px 10px 0; }
+    .toc a { display: inline; padding: 0; white-space: normal; }
+    .card { background: var(--surface); border-color: var(--line); border-radius: 14px; }
+    th, td { border-color: var(--line); }
+    .btn { border-radius: 999px; }
+    footer { border-top: 1px solid var(--line); padding-top: 1rem; }
+    @media (max-width: 600px) { body { font-size: 17px; } header { display: block; } header a.title { display: inline-flex; margin-bottom: 0.5rem; } header nav { margin-left: -0.7rem; } article h1 { font-size: 1.75rem; } }
   </style>
 </head>
 <body>
