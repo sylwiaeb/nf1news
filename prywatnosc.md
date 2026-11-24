@@ -14,3 +14,5 @@ permalink: /prywatnosc/
 
 **Kanał RSS** to zwykły plik z listą wpisów. Twój czytnik RSS pobiera go tak samo jak każdą inną stronę.
 
+
+**Motyw jasny/ciemny.** Jeśli wybierzesz motyw przyciskiem w nagłówku, Twoja przeglądarka zapamięta ten wybór u siebie (w pamięci lokalnej przeglądarki). Ta informacja nie jest nigdzie wysyłana. Gdy wrócisz do ustawienia „Auto”, zostaje usunięta.
