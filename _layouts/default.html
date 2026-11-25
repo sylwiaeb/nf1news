@@ -210,7 +210,7 @@
   </header>
   {% unless page.url == '/licznik/' %}{% assign dni_bez = "now" | date: "%s" | minus: 1777586400 | divided_by: 86400 %}
   <a class="pasek" href="https://czekamy.nf1news.pl/"><span class="karty" data-dni-bez>{% assign cyfry = dni_bez | append: "" | split: "" %}{% for c in cyfry %}<span>{{ c }}</span>{% endfor %}</span><span><strong data-dni-bez-slowo>dni</strong> bez skoordynowanej opieki dla pacjentów z NF. <span class="wiecej">Czekamy →</span></span></a>
-  <script>(function () { var d = Math.floor((Date.now() - Date.parse('2026-05-01T00:00:00+02:00')) / 86400000), el = document.querySelector('[data-dni-bez]'); if (!el || d < 0) return; el.innerHTML = String(d).split('').map(function (c) { return '<span>' + c + '</span>'; }).join(''); })();</script>
+  <script>(function () { var p = {}; new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Warsaw', year: 'numeric', month: '2-digit', day: '2-digit' }).formatToParts(new Date()).forEach(function (x) { p[x.type] = +x.value; }); var d = Math.round((Date.UTC(p.year, p.month - 1, p.day) - Date.UTC(2026, 4, 1)) / 86400000), el = document.querySelector('[data-dni-bez]'); if (!el || d < 0) return; el.innerHTML = String(d).split('').map(function (c) { return '<span>' + c + '</span>'; }).join(''); })();</script>
   {% endunless %}
   <main>
 {{ content }}

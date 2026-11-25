@@ -101,18 +101,20 @@ fb: "Pacjenci z neurofibromatozami są bez skoordynowanej opieki od 30 kwietnia 
       dni.setAttribute('aria-label', dni.textContent.trim() + ' dni');
       var opis = b.querySelector('[data-zegar-opis]'); if (opis) opis.hidden = false;
     });
+    function warszawa(t) { var p = {}; new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Warsaw', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit', hourCycle: 'h23' }).formatToParts(t).forEach(function (x) { p[x.type] = +x.value; }); return p; }
+    // Pełne dni liczone po kalendarzu w czasie polskim (zmiana czasu nie przesuwa licznika o godzinę).
+    function dniOd(od, w) { var s = od.slice(0, 10).split('-'); return Math.max(0, Math.round((Date.UTC(w.year, w.month - 1, w.day) - Date.UTC(+s[0], s[1] - 1, +s[2])) / 86400000)); }
     function tick() {
-      var teraz = Date.now();
+      var w = warszawa(new Date());
       bloki.forEach(function (b) {
-        var ms = Math.max(0, teraz - new Date(b.dataset.od).getTime());
-        var dni = Math.floor(ms / 86400000), r = ms % 86400000;
+        var dni = dniOd(b.dataset.od, w);
         var el = b.querySelector('[data-dni]');
         pokaz(el, String(dni));
         el.setAttribute('aria-label', dni + (dni === 1 ? ' dzień' : ' dni'));
         var j = b.querySelector('[data-jedn]');
         j.textContent = (dni === 1 ? 'dzień' : 'dni') + (b.dataset.czas ? '' : ' temu');
         var zeg = b.querySelector('[data-zegar]');
-        if (zeg) pokaz(zeg, dwa(Math.floor(r / 3600000)) + ':' + dwa(Math.floor(r % 3600000 / 60000)) + ':' + dwa(Math.floor(r % 60000 / 1000)));
+        if (zeg) pokaz(zeg, dwa(w.hour) + ':' + dwa(w.minute) + ':' + dwa(w.second));
       });
     }
     tick();
