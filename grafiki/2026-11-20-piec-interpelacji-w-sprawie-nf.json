@@ -1,0 +1,12 @@
+{
+  "uklad": "liczby",
+  "motyw": "ciemny",
+  "etykieta": "Sejm, 18–24 listopada 2026 · opieka nad pacjentami z NF",
+  "liczby": [
+    {"liczba": "5", "opis": "interpelacji do Ministra Zdrowia", "kolor": "niebieski"},
+    {"liczba": "15", "opis": "posłów z 3 klubów", "kolor": "zielony"},
+    {"liczba": "21 dni", "opis": "na odpowiedź ministerstwa", "kolor": "pomaranczowy"}
+  ],
+  "pytanie": "==Głos pacjentów z NF dotarł do Sejmu.==",
+  "alt": "Sejm, 18–24 listopada 2026: 5 interpelacji w sprawie opieki nad pacjentami z NF. 15 posłów z 3 klubów. 21 dni ma Ministerstwo Zdrowia na odpowiedź. Głos pacjentów z NF dotarł do Sejmu."
+}
