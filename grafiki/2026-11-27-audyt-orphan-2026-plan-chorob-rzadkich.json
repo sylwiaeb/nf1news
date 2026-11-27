@@ -1,0 +1,12 @@
+{
+  "uklad": "liczby",
+  "motyw": "ciemny",
+  "etykieta": "Audyt pacjencki ORPHAN 2026: 68 organizacji pacjentów",
+  "liczby": [
+    {"liczba": "57%", "opis": "sytuacja pacjentów nie poprawiła się od wejścia w życie Planu dla Chorób Rzadkich", "kolor": "pomaranczowy"},
+    {"liczba": "80%", "opis": "==Karta Pacjenta z Chorobą Rzadką nie została zrealizowana==", "kolor": "czerwony"},
+    {"liczba": "22%", "opis": "żaden ośrodek nie spełnia kryteriów ośrodka eksperckiego dla ich choroby", "kolor": "niebieski"}
+  ],
+  "pytanie": "Źródło: Audyt Pacjencki Krajowego Forum ORPHAN 2026",
+  "alt": "Audyt pacjencki Krajowego Forum ORPHAN 2026, 68 organizacji pacjentów. 57% organizacji: sytuacja pacjentów nie poprawiła się od wejścia w życie Planu dla Chorób Rzadkich. 80%: Karta Pacjenta z Chorobą Rzadką nie została zrealizowana. 22%: żaden ośrodek nie spełnia kryteriów ośrodka eksperckiego dla ich choroby."
+}
